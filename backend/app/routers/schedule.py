@@ -195,6 +195,7 @@ def simulate_rsvp(assignment_id: str, payload: schemas.RsvpSimulateRequest, db: 
             a.status = models.AssignmentStatus.UNFILLED.value
             a.flags = ["no_replacement_accepted"]
             a.sme_id = None
+            a.reason = f"{MAX_REPLACEMENT_ATTEMPTS} replacement invitation(s) sent, none accepted. No qualified SME remains available."
             db.commit()
             log(db, a.assignment_id, "System", "Maximum replacement attempts reached. No replacement accepted.")
         else:

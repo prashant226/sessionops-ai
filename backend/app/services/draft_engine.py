@@ -80,10 +80,12 @@ def run_reassignment(db: DbSession, assignment: models.Assignment, declining_sme
     the declining SME plus any prior failed replacement attempts) so Ops has
     a ranked recommendation ready to act on. Never auto-sends the invite."""
     session = assignment.session or db.get(models.Session, assignment.session_id)
+    declining_sme = db.get(models.Sme, declining_sme_id)
     assignment.original_sme_id = assignment.original_sme_id or declining_sme_id
     assignment.sme_id = None
     assignment.status = models.AssignmentStatus.REASSIGNMENT_REQUIRED.value
     assignment.flags = ["reassignment_required"]
+    assignment.reason = f"{declining_sme.name if declining_sme else 'The invited SME'} declined the calendar invitation. Reassignment required."
 
     exclude = {declining_sme_id}
     if assignment.original_sme_id:
