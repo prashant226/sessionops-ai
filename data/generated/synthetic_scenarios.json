@@ -1,0 +1,80 @@
+[
+  {
+    "scenario_id": "SCN_NORMAL_01",
+    "name": "Normal assignment, many candidates",
+    "session_id": "S015",
+    "expected_behavior": "Multiple qualified, available SMEs exist; agent ranks and selects the highest-scoring one."
+  },
+  {
+    "scenario_id": "SCN_AVAILABILITY_01",
+    "name": "Qualified SME busy, runner-up available",
+    "session_id": "S002",
+    "expected_behavior": "Busy top candidate excluded by the hard calendar-conflict rule; next eligible candidate recommended."
+  },
+  {
+    "scenario_id": "SCN_AVAILABILITY_02",
+    "name": "Qualified SME busy, runner-up available",
+    "session_id": "S003",
+    "expected_behavior": "Busy top candidate excluded by the hard calendar-conflict rule; next eligible candidate recommended."
+  },
+  {
+    "scenario_id": "SCN_NO_QUALIFIED_01",
+    "name": "No qualified SME",
+    "session_id": "S001",
+    "expected_behavior": "No active SME holds Advanced Cloud Computing; session is UNFILLED with a Critical, no-qualified-SME exception."
+  },
+  {
+    "scenario_id": "SCN_QUALIFIED_UNAVAILABLE_01",
+    "name": "Qualified but unavailable",
+    "session_id": "S004",
+    "expected_behavior": "Every qualified Career Coaching SME has a calendar conflict at this time; session is UNFILLED with a Critical, qualified-but-unavailable exception."
+  },
+  {
+    "scenario_id": "SCN_FAIRNESS_01",
+    "name": "Expertise vs. workload tradeoff",
+    "session_id": "S005",
+    "expected_behavior": "SME004 scores highest on expertise/performance but carries a heavy rolling workload; SME005 is close behind with a much lighter workload. Fairness narrows the gap without automatically winning."
+  },
+  {
+    "scenario_id": "SCN_TIE_01",
+    "name": "Exact scoring tie",
+    "session_id": "S006",
+    "expected_behavior": "SME001 and SME002 are identical on expertise, performance, fairness and preference; deterministic tie-break order resolves it."
+  },
+  {
+    "scenario_id": "SCN_TIMEZONE_01",
+    "name": "Cross-timezone hard exclusion",
+    "session_id": "S007",
+    "expected_behavior": "SME008 would be qualified, but the session falls outside working hours in their local timezone; hard-excluded."
+  },
+  {
+    "scenario_id": "SCN_TIMEZONE_02",
+    "name": "Free but outside preferred hours",
+    "session_id": "S008",
+    "expected_behavior": "SME008 is technically available (within working hours) but the session falls outside their stated preference window; preference score reduced, not excluded."
+  },
+  {
+    "scenario_id": "SCN_CAPACITY_01",
+    "name": "Daily capacity reached",
+    "session_id": "S010",
+    "expected_behavior": "SME006 has max_sessions_per_day=1 and is already assigned S009 earlier that day; excluded from S010 by the hard capacity rule."
+  },
+  {
+    "scenario_id": "SCN_OFFLINE_LOCATION_01",
+    "name": "Offline location mismatch",
+    "session_id": "S011",
+    "expected_behavior": "SME007 is the only qualified SME but is based in Bangalore while the session is Offline in Singapore; hard-excluded on location."
+  },
+  {
+    "scenario_id": "SCN_DROPOUT_01",
+    "name": "Original SME declines, replacement accepts",
+    "session_id": "S012",
+    "expected_behavior": "Approve the AI recommendation, simulate an RSVP decline, confirm a replacement is recommended and can be invited and accepted."
+  },
+  {
+    "scenario_id": "SCN_NO_REPLACEMENT_01",
+    "name": "Decline with no available replacement",
+    "session_id": "S013",
+    "expected_behavior": "SME009 is the sole qualified+available Career Coaching SME; simulating a decline leaves zero replacement candidates, producing a Critical unfilled exception."
+  }
+]

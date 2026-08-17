@@ -1,0 +1,101 @@
+sme_id,preferred_topics,preferred_class_types,preferred_start_time,preferred_end_time
+SME001,"[""Resume Review"", ""Behavioral Interviews""]","[""Doubt Clearing"", ""Mock Interview""]",09:00,19:00
+SME002,"[""Resume Review""]","[""Mock Interview""]",14:00,18:00
+SME003,"[""Cloud Computing"", ""Data Structures & Algorithms""]","[""Doubt Clearing"", ""Mock Interview""]",09:00,19:00
+SME004,"[""Behavioral Interviews""]","[""Office Hours""]",10:00,14:00
+SME005,"[""Behavioral Interviews""]","[""Doubt Clearing""]",10:00,14:00
+SME006,"[""Aptitude""]","[""Mock Interview""]",14:00,18:00
+SME007,"[""Product Management""]","[""Assessment Review""]",14:00,18:00
+SME008,"[""Data Analytics""]","[""Workshop""]",10:00,18:00
+SME009,"[""Career Coaching""]","[""Doubt Clearing"", ""Cohort Class""]",09:00,19:00
+SME010,"[""JavaScript""]","[""Assessment Review""]",09:00,13:00
+SME011,"[""DevOps""]","[""Cohort Class""]",09:00,13:00
+SME012,"[""JavaScript""]","[""Doubt Clearing""]",10:00,14:00
+SME013,"[""Python"", ""Java""]","[""Mock Interview"", ""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
+SME014,"[""Python"", ""Product Management"", ""SQL""]","[""Workshop"", ""Office Hours""]",09:00,19:00
+SME015,"[""Python""]","[""Assessment Review""]",14:00,18:00
+SME016,"[""Machine Learning""]","[""Mock Interview""]",10:00,14:00
+SME017,"[""Product Strategy"", ""Data Analytics""]","[""Doubt Clearing"", ""Assessment Review"", ""Office Hours""]",09:00,19:00
+SME018,"[""Product Management""]","[""Workshop"", ""Doubt Clearing"", ""Mock Interview""]",09:00,19:00
+SME019,"[""Mock Interviews"", ""Python""]","[""Workshop"", ""Cohort Class"", ""Office Hours""]",09:00,19:00
+SME020,"[""Python""]","[""Mock Interview""]",14:00,18:00
+SME021,"[""SQL""]","[""Doubt Clearing""]",14:00,18:00
+SME022,"[""Python"", ""System Design"", ""Machine Learning""]","[""Office Hours"", ""Cohort Class""]",09:00,19:00
+SME023,"[""React""]","[""Assessment Review""]",09:00,13:00
+SME024,"[""Behavioral Interviews""]","[""Assessment Review""]",09:00,13:00
+SME025,"[""Cloud Computing""]","[""Office Hours"", ""Workshop"", ""Doubt Clearing""]",09:00,19:00
+SME026,"[""Python""]","[""Workshop"", ""Cohort Class"", ""Mock Interview""]",09:00,19:00
+SME027,"[""SQL""]","[""Assessment Review""]",10:00,14:00
+SME028,"[""Resume Review""]","[""Workshop""]",10:00,14:00
+SME029,"[""Resume Review"", ""Data Structures & Algorithms"", ""SQL""]","[""Doubt Clearing"", ""Cohort Class""]",09:00,19:00
+SME030,"[""Product Management""]","[""Office Hours"", ""Assessment Review""]",09:00,19:00
+SME031,"[""Product Strategy""]","[""Office Hours""]",09:00,13:00
+SME032,"[""Data Analytics""]","[""Workshop"", ""Cohort Class"", ""Office Hours""]",09:00,19:00
+SME033,"[""Data Analytics"", ""Cloud Computing"", ""Data Structures & Algorithms""]","[""Mock Interview"", ""Workshop"", ""Cohort Class""]",09:00,19:00
+SME034,"[""SQL""]","[""Doubt Clearing""]",10:00,14:00
+SME035,"[""Machine Learning""]","[""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
+SME036,"[""Data Structures & Algorithms""]","[""Mock Interview""]",14:00,18:00
+SME037,"[""Data Structures & Algorithms"", ""Data Analytics""]","[""Doubt Clearing"", ""Mock Interview""]",09:00,19:00
+SME038,"[""React""]","[""Assessment Review""]",14:00,18:00
+SME039,"[""Java"", ""Machine Learning""]","[""Cohort Class"", ""Office Hours"", ""Assessment Review""]",09:00,19:00
+SME040,"[""Machine Learning"", ""Statistics"", ""Mock Interviews""]","[""Doubt Clearing"", ""Mock Interview"", ""Cohort Class""]",09:00,19:00
+SME041,"[""React""]","[""Office Hours""]",09:00,13:00
+SME042,"[""Resume Review""]","[""Office Hours""]",14:00,18:00
+SME043,"[""React""]","[""Mock Interview""]",09:00,13:00
+SME044,"[""Python""]","[""Assessment Review""]",10:00,14:00
+SME045,"[""Product Strategy""]","[""Mock Interview""]",10:00,14:00
+SME046,"[""Python""]","[""Workshop""]",14:00,18:00
+SME047,"[""Mock Interviews""]","[""Assessment Review""]",09:00,13:00
+SME048,"[""Aptitude""]","[""Doubt Clearing""]",10:00,14:00
+SME049,"[""JavaScript""]","[""Mock Interview""]",14:00,18:00
+SME050,"[""React""]","[""Assessment Review""]",09:00,13:00
+SME051,"[""Java""]","[""Cohort Class""]",10:00,14:00
+SME052,"[""Python""]","[""Assessment Review""]",14:00,18:00
+SME053,"[""Aptitude""]","[""Doubt Clearing"", ""Workshop""]",09:00,19:00
+SME054,"[""DevOps"", ""SQL""]","[""Workshop"", ""Office Hours""]",09:00,19:00
+SME055,"[""SQL""]","[""Workshop""]",14:00,18:00
+SME056,"[""Python""]","[""Doubt Clearing""]",14:00,18:00
+SME057,"[""JavaScript""]","[""Assessment Review"", ""Office Hours""]",09:00,19:00
+SME058,"[""Mock Interviews""]","[""Office Hours""]",10:00,14:00
+SME059,"[""Java""]","[""Cohort Class""]",10:00,14:00
+SME060,"[""Java""]","[""Mock Interview""]",09:00,13:00
+SME061,"[""Statistics"", ""Resume Review"", ""Machine Learning""]","[""Doubt Clearing"", ""Office Hours""]",09:00,19:00
+SME062,"[""Product Management"", ""Cloud Computing""]","[""Office Hours"", ""Cohort Class"", ""Assessment Review""]",09:00,19:00
+SME063,"[""System Design""]","[""Assessment Review""]",10:00,14:00
+SME064,"[""Machine Learning""]","[""Office Hours"", ""Cohort Class"", ""Mock Interview""]",09:00,19:00
+SME065,"[""Machine Learning""]","[""Cohort Class""]",14:00,18:00
+SME066,"[""Data Structures & Algorithms""]","[""Workshop""]",10:00,14:00
+SME067,"[""Aptitude"", ""Product Management""]","[""Mock Interview"", ""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
+SME068,"[""Python""]","[""Office Hours""]",10:00,14:00
+SME069,"[""System Design""]","[""Office Hours""]",14:00,18:00
+SME070,"[""Python""]","[""Workshop""]",10:00,14:00
+SME071,"[""Python""]","[""Cohort Class""]",10:00,14:00
+SME072,"[""DevOps""]","[""Workshop"", ""Cohort Class"", ""Doubt Clearing""]",09:00,19:00
+SME073,"[""Product Strategy""]","[""Mock Interview""]",14:00,18:00
+SME074,"[""Data Analytics""]","[""Mock Interview""]",14:00,18:00
+SME075,"[""JavaScript""]","[""Office Hours"", ""Doubt Clearing""]",09:00,19:00
+SME076,"[""Mock Interviews"", ""React"", ""Aptitude""]","[""Assessment Review"", ""Workshop""]",09:00,19:00
+SME077,"[""System Design""]","[""Doubt Clearing""]",14:00,18:00
+SME078,"[""Statistics""]","[""Doubt Clearing"", ""Office Hours"", ""Cohort Class""]",09:00,19:00
+SME079,"[""JavaScript""]","[""Cohort Class""]",09:00,13:00
+SME080,"[""Machine Learning""]","[""Workshop"", ""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
+SME081,"[""React""]","[""Office Hours"", ""Mock Interview""]",09:00,19:00
+SME082,"[""JavaScript""]","[""Mock Interview""]",09:00,13:00
+SME083,"[""Behavioral Interviews""]","[""Workshop""]",14:00,18:00
+SME084,"[""JavaScript""]","[""Workshop""]",10:00,14:00
+SME085,"[""Statistics"", ""Product Strategy"", ""Aptitude""]","[""Workshop"", ""Assessment Review""]",09:00,19:00
+SME086,"[""Python""]","[""Doubt Clearing""]",10:00,14:00
+SME087,"[""Python""]","[""Workshop"", ""Assessment Review"", ""Mock Interview""]",09:00,19:00
+SME088,"[""Data Structures & Algorithms""]","[""Office Hours"", ""Mock Interview""]",09:00,19:00
+SME089,"[""Mock Interviews"", ""Product Strategy""]","[""Mock Interview"", ""Assessment Review"", ""Office Hours""]",09:00,19:00
+SME090,"[""Cloud Computing"", ""Career Coaching""]","[""Workshop"", ""Doubt Clearing"", ""Office Hours""]",09:00,19:00
+SME091,"[""DevOps""]","[""Assessment Review""]",10:00,14:00
+SME092,"[""SQL"", ""Python""]","[""Assessment Review"", ""Cohort Class""]",09:00,19:00
+SME093,"[""Python""]","[""Cohort Class"", ""Office Hours"", ""Assessment Review""]",09:00,19:00
+SME094,"[""Java"", ""Machine Learning""]","[""Assessment Review"", ""Mock Interview""]",09:00,19:00
+SME095,"[""Data Analytics""]","[""Cohort Class""]",09:00,13:00
+SME096,"[""JavaScript""]","[""Office Hours"", ""Cohort Class""]",09:00,19:00
+SME097,"[""DevOps""]","[""Office Hours"", ""Doubt Clearing""]",09:00,19:00
+SME098,"[""Data Structures & Algorithms""]","[""Assessment Review""]",10:00,14:00
+SME099,"[""Resume Review""]","[""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
+SME100,"[""Mock Interviews""]","[""Workshop""]",10:00,14:00

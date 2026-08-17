@@ -1,0 +1,2002 @@
+[
+  {
+    "sme_id": "SME001",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME001",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME001",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME001",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME002",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME002",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME002",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME002",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME003",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME003",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME003",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME003",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME004",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 8
+  },
+  {
+    "sme_id": "SME004",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME004",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME004",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 7
+  },
+  {
+    "sme_id": "SME005",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME005",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME005",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME005",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME006",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME006",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME006",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME006",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME007",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME007",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME007",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME007",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME008",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME008",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME008",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME008",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME009",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME009",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME009",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME009",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME010",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME010",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME010",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME010",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME011",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME011",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME011",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME011",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME012",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME012",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME012",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME012",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME013",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME013",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME013",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME013",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME014",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME014",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME014",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME014",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME015",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME015",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME015",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME015",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME016",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME016",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME016",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME016",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME017",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME017",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME017",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME017",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME018",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME018",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME018",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME018",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME019",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 7
+  },
+  {
+    "sme_id": "SME019",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME019",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME019",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 9
+  },
+  {
+    "sme_id": "SME020",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME020",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME020",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME020",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 8
+  },
+  {
+    "sme_id": "SME021",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME021",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME021",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME021",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME022",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME022",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME022",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME022",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME023",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME023",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME023",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME023",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME024",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME024",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME024",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME024",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME025",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME025",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME025",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME025",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME026",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME026",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME026",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME026",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME027",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME027",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME027",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME027",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME028",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME028",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME028",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME028",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME029",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME029",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME029",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME029",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME030",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME030",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME030",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME030",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME031",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME031",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME031",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 8
+  },
+  {
+    "sme_id": "SME031",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME032",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME032",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME032",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME032",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME033",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME033",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME033",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME033",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME034",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME034",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME034",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME034",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME035",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME035",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME035",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME035",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME036",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME036",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME036",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME036",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME037",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME037",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME037",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME037",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME038",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME038",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME038",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME038",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME039",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME039",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME039",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME039",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME040",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME040",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME040",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME040",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME041",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME041",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME041",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME041",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME042",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME042",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME042",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME042",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME043",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME043",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME043",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME043",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME044",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME044",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME044",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME044",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME045",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME045",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME045",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME045",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME046",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME046",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME046",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME046",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME047",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME047",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME047",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME047",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME048",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME048",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME048",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME048",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME049",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME049",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME049",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME049",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME050",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME050",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME050",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME050",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME051",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME051",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME051",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME051",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME052",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME052",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME052",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME052",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME053",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME053",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME053",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME053",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME054",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME054",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME054",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME054",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME055",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME055",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME055",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME055",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME056",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME056",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME056",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME056",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME057",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME057",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME057",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME057",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME058",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME058",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME058",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME058",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME059",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME059",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME059",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME059",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME060",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME060",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME060",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME060",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME061",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME061",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 8
+  },
+  {
+    "sme_id": "SME061",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME061",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 8
+  },
+  {
+    "sme_id": "SME062",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME062",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME062",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME062",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME063",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME063",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME063",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME063",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME064",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME064",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME064",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME064",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME065",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME065",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME065",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME065",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME066",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME066",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME066",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 7
+  },
+  {
+    "sme_id": "SME066",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME067",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME067",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME067",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME067",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME068",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME068",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME068",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME068",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME069",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME069",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME069",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME069",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME070",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME070",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 7
+  },
+  {
+    "sme_id": "SME070",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME070",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME071",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME071",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 9
+  },
+  {
+    "sme_id": "SME071",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME071",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 7
+  },
+  {
+    "sme_id": "SME072",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME072",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME072",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME072",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME073",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME073",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME073",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME073",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME074",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME074",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME074",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME074",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME075",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME075",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME075",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME075",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME076",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME076",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME076",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME076",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME077",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME077",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME077",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME077",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME078",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME078",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME078",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME078",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME079",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME079",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME079",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME079",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME080",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME080",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME080",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME080",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME081",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME081",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME081",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME081",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME082",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME082",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME082",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME082",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME083",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME083",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME083",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME083",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME084",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME084",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME084",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME084",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME085",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME085",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME085",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME085",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME086",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME086",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME086",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME086",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME087",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 8
+  },
+  {
+    "sme_id": "SME087",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME087",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME087",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME088",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME088",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 6
+  },
+  {
+    "sme_id": "SME088",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME088",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME089",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME089",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME089",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME089",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME090",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME090",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME090",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME090",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME091",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME091",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME091",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME091",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME092",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME092",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME092",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME092",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME093",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 4
+  },
+  {
+    "sme_id": "SME093",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME093",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME093",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME094",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME094",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME094",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME094",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME095",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME095",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME095",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME095",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME096",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 7
+  },
+  {
+    "sme_id": "SME096",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 5
+  },
+  {
+    "sme_id": "SME096",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 7
+  },
+  {
+    "sme_id": "SME096",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME097",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 0
+  },
+  {
+    "sme_id": "SME097",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME097",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME097",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME098",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME098",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 3
+  },
+  {
+    "sme_id": "SME098",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME098",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME099",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME099",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME099",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 1
+  },
+  {
+    "sme_id": "SME099",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME100",
+    "week_start": "2026-07-27",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME100",
+    "week_start": "2026-08-03",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME100",
+    "week_start": "2026-08-10",
+    "sessions_assigned": 2
+  },
+  {
+    "sme_id": "SME100",
+    "week_start": "2026-08-17",
+    "sessions_assigned": 2
+  }
+]

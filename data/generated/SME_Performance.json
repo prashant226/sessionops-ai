@@ -1,0 +1,4502 @@
+[
+  {
+    "sme_id": "SME001",
+    "topic": "Resume Review",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.61,
+    "avg_quality_score": 88.8,
+    "reliability_score": 73.4
+  },
+  {
+    "sme_id": "SME001",
+    "topic": "Behavioral Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.96,
+    "avg_quality_score": 73.4,
+    "reliability_score": 76.7
+  },
+  {
+    "sme_id": "SME002",
+    "topic": "Resume Review",
+    "class_type": "Workshop",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 100,
+    "reliability_score": 73.5
+  },
+  {
+    "sme_id": "SME002",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.94,
+    "avg_quality_score": 83.6,
+    "reliability_score": 82.3
+  },
+  {
+    "sme_id": "SME002",
+    "topic": "SQL",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.32,
+    "avg_quality_score": 70.6,
+    "reliability_score": 76.2
+  },
+  {
+    "sme_id": "SME002",
+    "topic": "SQL",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 84.2,
+    "reliability_score": 76.1
+  },
+  {
+    "sme_id": "SME003",
+    "topic": "Cloud Computing",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.08,
+    "avg_quality_score": 76.5,
+    "reliability_score": 81.1
+  },
+  {
+    "sme_id": "SME003",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.22,
+    "avg_quality_score": 64.8,
+    "reliability_score": 81.3
+  },
+  {
+    "sme_id": "SME004",
+    "topic": "Behavioral Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.24,
+    "avg_quality_score": 69.1,
+    "reliability_score": 83.1
+  },
+  {
+    "sme_id": "SME004",
+    "topic": "Behavioral Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.53,
+    "avg_quality_score": 73.0,
+    "reliability_score": 72.3
+  },
+  {
+    "sme_id": "SME004",
+    "topic": "Statistics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.28,
+    "avg_quality_score": 65.6,
+    "reliability_score": 78.3
+  },
+  {
+    "sme_id": "SME005",
+    "topic": "Behavioral Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.04,
+    "avg_quality_score": 83.8,
+    "reliability_score": 76.7
+  },
+  {
+    "sme_id": "SME005",
+    "topic": "Behavioral Interviews",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.46,
+    "avg_quality_score": 83.9,
+    "reliability_score": 77.9
+  },
+  {
+    "sme_id": "SME006",
+    "topic": "Aptitude",
+    "class_type": "Office Hours",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.45,
+    "avg_quality_score": 70.6,
+    "reliability_score": 80.0
+  },
+  {
+    "sme_id": "SME006",
+    "topic": "Aptitude",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.18,
+    "avg_quality_score": 82.0,
+    "reliability_score": 80.9
+  },
+  {
+    "sme_id": "SME007",
+    "topic": "Product Management",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.24,
+    "avg_quality_score": 80.8,
+    "reliability_score": 79.4
+  },
+  {
+    "sme_id": "SME007",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 31,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 94.7,
+    "reliability_score": 85.3
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "Data Analytics",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.52,
+    "avg_quality_score": 92.6,
+    "reliability_score": 75.3
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "Data Analytics",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 31,
+    "avg_learner_rating": 4.02,
+    "avg_quality_score": 84.0,
+    "reliability_score": 79.8
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "Product Strategy",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.09,
+    "avg_quality_score": 82.5,
+    "reliability_score": 83.9
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "Product Strategy",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 84.4,
+    "reliability_score": 77.8
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "SQL",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.56,
+    "avg_quality_score": 75.1,
+    "reliability_score": 74.2
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "SQL",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.07,
+    "avg_quality_score": 63.6,
+    "reliability_score": 78.2
+  },
+  {
+    "sme_id": "SME009",
+    "topic": "Career Coaching",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 3.71,
+    "avg_quality_score": 75.9,
+    "reliability_score": 84.8
+  },
+  {
+    "sme_id": "SME010",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.23,
+    "avg_quality_score": 81.6,
+    "reliability_score": 72.6
+  },
+  {
+    "sme_id": "SME011",
+    "topic": "DevOps",
+    "class_type": "Office Hours",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 3.63,
+    "avg_quality_score": 69.3,
+    "reliability_score": 76.6
+  },
+  {
+    "sme_id": "SME012",
+    "topic": "JavaScript",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.53,
+    "avg_quality_score": 92.1,
+    "reliability_score": 80.1
+  },
+  {
+    "sme_id": "SME012",
+    "topic": "Product Management",
+    "class_type": "Office Hours",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.46,
+    "avg_quality_score": 72.1,
+    "reliability_score": 72.5
+  },
+  {
+    "sme_id": "SME013",
+    "topic": "Python",
+    "class_type": "Workshop",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 77.4,
+    "reliability_score": 74.8
+  },
+  {
+    "sme_id": "SME013",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 4.63,
+    "avg_quality_score": 97.2,
+    "reliability_score": 83.6
+  },
+  {
+    "sme_id": "SME013",
+    "topic": "Java",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.72,
+    "avg_quality_score": 88.7,
+    "reliability_score": 84.2
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 98.2,
+    "reliability_score": 83.4
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.93,
+    "avg_quality_score": 82.2,
+    "reliability_score": 73.3
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Product Management",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.18,
+    "avg_quality_score": 88.0,
+    "reliability_score": 83.0
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Product Management",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.97,
+    "avg_quality_score": 99.1,
+    "reliability_score": 80.3
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "SQL",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.94,
+    "avg_quality_score": 76.7,
+    "reliability_score": 75.5
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 76.7,
+    "reliability_score": 81.8
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Statistics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.3,
+    "avg_quality_score": 63.5,
+    "reliability_score": 75.3
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Statistics",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.08,
+    "avg_quality_score": 80.0,
+    "reliability_score": 78.0
+  },
+  {
+    "sme_id": "SME015",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.35,
+    "avg_quality_score": 81.8,
+    "reliability_score": 72.8
+  },
+  {
+    "sme_id": "SME015",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 3.56,
+    "avg_quality_score": 76.2,
+    "reliability_score": 84.5
+  },
+  {
+    "sme_id": "SME015",
+    "topic": "Mock Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 24,
+    "avg_learner_rating": 4.64,
+    "avg_quality_score": 93.7,
+    "reliability_score": 82.3
+  },
+  {
+    "sme_id": "SME015",
+    "topic": "Resume Review",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.45,
+    "avg_quality_score": 86.8,
+    "reliability_score": 75.2
+  },
+  {
+    "sme_id": "SME015",
+    "topic": "Resume Review",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.67,
+    "avg_quality_score": 73.8,
+    "reliability_score": 74.6
+  },
+  {
+    "sme_id": "SME016",
+    "topic": "Machine Learning",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.67,
+    "avg_quality_score": 94.9,
+    "reliability_score": 78.8
+  },
+  {
+    "sme_id": "SME016",
+    "topic": "Java",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.56,
+    "avg_quality_score": 73.8,
+    "reliability_score": 75.3
+  },
+  {
+    "sme_id": "SME016",
+    "topic": "Resume Review",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.35,
+    "avg_quality_score": 84.3,
+    "reliability_score": 73.0
+  },
+  {
+    "sme_id": "SME017",
+    "topic": "Product Strategy",
+    "class_type": "Office Hours",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.01,
+    "avg_quality_score": 81.5,
+    "reliability_score": 77.3
+  },
+  {
+    "sme_id": "SME017",
+    "topic": "Data Analytics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.16,
+    "avg_quality_score": 79.0,
+    "reliability_score": 79.4
+  },
+  {
+    "sme_id": "SME017",
+    "topic": "DevOps",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 29,
+    "avg_learner_rating": 3.75,
+    "avg_quality_score": 76.6,
+    "reliability_score": 80.1
+  },
+  {
+    "sme_id": "SME017",
+    "topic": "Mock Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.33,
+    "avg_quality_score": 68.0,
+    "reliability_score": 76.5
+  },
+  {
+    "sme_id": "SME018",
+    "topic": "Product Management",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.06,
+    "avg_quality_score": 83.2,
+    "reliability_score": 82.4
+  },
+  {
+    "sme_id": "SME018",
+    "topic": "Product Management",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 22,
+    "avg_learner_rating": 4.18,
+    "avg_quality_score": 89.1,
+    "reliability_score": 74.2
+  },
+  {
+    "sme_id": "SME019",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.93,
+    "avg_quality_score": 93.4,
+    "reliability_score": 76.3
+  },
+  {
+    "sme_id": "SME019",
+    "topic": "Mock Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.43,
+    "avg_quality_score": 90.5,
+    "reliability_score": 82.9
+  },
+  {
+    "sme_id": "SME019",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.39,
+    "avg_quality_score": 82.0,
+    "reliability_score": 78.3
+  },
+  {
+    "sme_id": "SME019",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 39,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 100,
+    "reliability_score": 79.5
+  },
+  {
+    "sme_id": "SME020",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.24,
+    "avg_quality_score": 83.3,
+    "reliability_score": 78.2
+  },
+  {
+    "sme_id": "SME020",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 20,
+    "avg_learner_rating": 4.72,
+    "avg_quality_score": 93.5,
+    "reliability_score": 82.4
+  },
+  {
+    "sme_id": "SME020",
+    "topic": "SQL",
+    "class_type": "Workshop",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 79.8,
+    "reliability_score": 78.9
+  },
+  {
+    "sme_id": "SME020",
+    "topic": "Cloud Computing",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.93,
+    "avg_quality_score": 78.0,
+    "reliability_score": 83.1
+  },
+  {
+    "sme_id": "SME021",
+    "topic": "SQL",
+    "class_type": "Workshop",
+    "sessions_delivered": 30,
+    "avg_learner_rating": 4.83,
+    "avg_quality_score": 98.4,
+    "reliability_score": 85.0
+  },
+  {
+    "sme_id": "SME021",
+    "topic": "SQL",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.6,
+    "avg_quality_score": 92.1,
+    "reliability_score": 84.8
+  },
+  {
+    "sme_id": "SME021",
+    "topic": "JavaScript",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.57,
+    "avg_quality_score": 88.1,
+    "reliability_score": 79.8
+  },
+  {
+    "sme_id": "SME022",
+    "topic": "Python",
+    "class_type": "Workshop",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 4.84,
+    "avg_quality_score": 99.6,
+    "reliability_score": 73.6
+  },
+  {
+    "sme_id": "SME022",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.66,
+    "avg_quality_score": 95.0,
+    "reliability_score": 81.7
+  },
+  {
+    "sme_id": "SME022",
+    "topic": "System Design",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 78.0,
+    "reliability_score": 82.2
+  },
+  {
+    "sme_id": "SME022",
+    "topic": "Machine Learning",
+    "class_type": "Office Hours",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.07,
+    "avg_quality_score": 85.7,
+    "reliability_score": 78.8
+  },
+  {
+    "sme_id": "SME023",
+    "topic": "React",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 3.56,
+    "avg_quality_score": 76.0,
+    "reliability_score": 76.3
+  },
+  {
+    "sme_id": "SME023",
+    "topic": "React",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.49,
+    "avg_quality_score": 89.2,
+    "reliability_score": 84.4
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Behavioral Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.36,
+    "avg_quality_score": 89.9,
+    "reliability_score": 71.9
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.92,
+    "avg_quality_score": 93.5,
+    "reliability_score": 72.8
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 21,
+    "avg_learner_rating": 4.95,
+    "avg_quality_score": 95.0,
+    "reliability_score": 83.7
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Statistics",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.98,
+    "avg_quality_score": 78.8,
+    "reliability_score": 72.2
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Resume Review",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.03,
+    "avg_quality_score": 80.6,
+    "reliability_score": 74.9
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Resume Review",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.61,
+    "avg_quality_score": 70.4,
+    "reliability_score": 79.7
+  },
+  {
+    "sme_id": "SME025",
+    "topic": "Cloud Computing",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 34,
+    "avg_learner_rating": 4.64,
+    "avg_quality_score": 91.4,
+    "reliability_score": 84.0
+  },
+  {
+    "sme_id": "SME026",
+    "topic": "Python",
+    "class_type": "Workshop",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.21,
+    "avg_quality_score": 78.4,
+    "reliability_score": 77.0
+  },
+  {
+    "sme_id": "SME026",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.86,
+    "avg_quality_score": 94.5,
+    "reliability_score": 70.5
+  },
+  {
+    "sme_id": "SME026",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 80.2,
+    "reliability_score": 74.6
+  },
+  {
+    "sme_id": "SME026",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Workshop",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 4.82,
+    "avg_quality_score": 94.8,
+    "reliability_score": 84.7
+  },
+  {
+    "sme_id": "SME027",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.43,
+    "avg_quality_score": 82.7,
+    "reliability_score": 75.0
+  },
+  {
+    "sme_id": "SME027",
+    "topic": "Aptitude",
+    "class_type": "Workshop",
+    "sessions_delivered": 22,
+    "avg_learner_rating": 4.84,
+    "avg_quality_score": 95.7,
+    "reliability_score": 83.9
+  },
+  {
+    "sme_id": "SME027",
+    "topic": "Aptitude",
+    "class_type": "Office Hours",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 4.42,
+    "avg_quality_score": 87.6,
+    "reliability_score": 72.8
+  },
+  {
+    "sme_id": "SME027",
+    "topic": "Machine Learning",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.51,
+    "avg_quality_score": 72.2,
+    "reliability_score": 77.4
+  },
+  {
+    "sme_id": "SME028",
+    "topic": "Resume Review",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 3.9,
+    "avg_quality_score": 74.4,
+    "reliability_score": 77.7
+  },
+  {
+    "sme_id": "SME028",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.66,
+    "avg_quality_score": 75.5,
+    "reliability_score": 70.4
+  },
+  {
+    "sme_id": "SME029",
+    "topic": "Resume Review",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 3.8,
+    "avg_quality_score": 73.5,
+    "reliability_score": 79.2
+  },
+  {
+    "sme_id": "SME029",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 31,
+    "avg_learner_rating": 3.93,
+    "avg_quality_score": 75.3,
+    "reliability_score": 85.1
+  },
+  {
+    "sme_id": "SME029",
+    "topic": "SQL",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 84.9,
+    "reliability_score": 82.8
+  },
+  {
+    "sme_id": "SME029",
+    "topic": "SQL",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.57,
+    "avg_quality_score": 66.9,
+    "reliability_score": 72.9
+  },
+  {
+    "sme_id": "SME030",
+    "topic": "Product Management",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 100,
+    "reliability_score": 85.2
+  },
+  {
+    "sme_id": "SME030",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 4.57,
+    "avg_quality_score": 87.5,
+    "reliability_score": 75.7
+  },
+  {
+    "sme_id": "SME030",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.13,
+    "avg_quality_score": 79.4,
+    "reliability_score": 71.8
+  },
+  {
+    "sme_id": "SME031",
+    "topic": "Product Strategy",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.52,
+    "avg_quality_score": 69.2,
+    "reliability_score": 79.3
+  },
+  {
+    "sme_id": "SME031",
+    "topic": "Product Strategy",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.58,
+    "avg_quality_score": 71.2,
+    "reliability_score": 80.3
+  },
+  {
+    "sme_id": "SME032",
+    "topic": "Data Analytics",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 23,
+    "avg_learner_rating": 4.78,
+    "avg_quality_score": 97.7,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME032",
+    "topic": "Data Analytics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.34,
+    "avg_quality_score": 80.9,
+    "reliability_score": 78.3
+  },
+  {
+    "sme_id": "SME032",
+    "topic": "Mock Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.95,
+    "avg_quality_score": 97.5,
+    "reliability_score": 76.1
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Data Analytics",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 26,
+    "avg_learner_rating": 4.5,
+    "avg_quality_score": 92.4,
+    "reliability_score": 76.7
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Data Analytics",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.75,
+    "avg_quality_score": 92.5,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Cloud Computing",
+    "class_type": "Office Hours",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.87,
+    "avg_quality_score": 79.5,
+    "reliability_score": 72.0
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Cloud Computing",
+    "class_type": "Workshop",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.6,
+    "avg_quality_score": 75.8,
+    "reliability_score": 75.0
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Cloud Computing",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 3.67,
+    "avg_quality_score": 69.8,
+    "reliability_score": 79.8
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.92,
+    "avg_quality_score": 81.8,
+    "reliability_score": 72.8
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Workshop",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 4.81,
+    "avg_quality_score": 99.3,
+    "reliability_score": 80.4
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "React",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 79.4,
+    "reliability_score": 75.7
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Aptitude",
+    "class_type": "Office Hours",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.9,
+    "avg_quality_score": 75.4,
+    "reliability_score": 81.2
+  },
+  {
+    "sme_id": "SME034",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.94,
+    "avg_quality_score": 75.8,
+    "reliability_score": 71.9
+  },
+  {
+    "sme_id": "SME034",
+    "topic": "Product Management",
+    "class_type": "Office Hours",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.14,
+    "avg_quality_score": 66.1,
+    "reliability_score": 78.6
+  },
+  {
+    "sme_id": "SME035",
+    "topic": "Machine Learning",
+    "class_type": "Office Hours",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.17,
+    "avg_quality_score": 83.6,
+    "reliability_score": 81.7
+  },
+  {
+    "sme_id": "SME035",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.88,
+    "avg_quality_score": 77.8,
+    "reliability_score": 83.4
+  },
+  {
+    "sme_id": "SME035",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 98.4,
+    "reliability_score": 73.3
+  },
+  {
+    "sme_id": "SME036",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 3.72,
+    "avg_quality_score": 80.2,
+    "reliability_score": 78.9
+  },
+  {
+    "sme_id": "SME036",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.89,
+    "avg_quality_score": 92.9,
+    "reliability_score": 80.7
+  },
+  {
+    "sme_id": "SME036",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.67,
+    "avg_quality_score": 72.9,
+    "reliability_score": 74.4
+  },
+  {
+    "sme_id": "SME036",
+    "topic": "Java",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 84.6,
+    "reliability_score": 72.4
+  },
+  {
+    "sme_id": "SME037",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.51,
+    "avg_quality_score": 91.5,
+    "reliability_score": 76.2
+  },
+  {
+    "sme_id": "SME037",
+    "topic": "Data Analytics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.27,
+    "avg_quality_score": 83.2,
+    "reliability_score": 81.7
+  },
+  {
+    "sme_id": "SME038",
+    "topic": "React",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.1,
+    "avg_quality_score": 80.3,
+    "reliability_score": 79.5
+  },
+  {
+    "sme_id": "SME038",
+    "topic": "React",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.61,
+    "avg_quality_score": 86.4,
+    "reliability_score": 83.0
+  },
+  {
+    "sme_id": "SME039",
+    "topic": "Java",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 38,
+    "avg_learner_rating": 4.72,
+    "avg_quality_score": 99.8,
+    "reliability_score": 77.0
+  },
+  {
+    "sme_id": "SME039",
+    "topic": "Java",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 33,
+    "avg_learner_rating": 4.61,
+    "avg_quality_score": 87.0,
+    "reliability_score": 79.6
+  },
+  {
+    "sme_id": "SME039",
+    "topic": "Java",
+    "class_type": "Office Hours",
+    "sessions_delivered": 34,
+    "avg_learner_rating": 4.3,
+    "avg_quality_score": 82.1,
+    "reliability_score": 87.7
+  },
+  {
+    "sme_id": "SME039",
+    "topic": "Machine Learning",
+    "class_type": "Office Hours",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.38,
+    "avg_quality_score": 88.9,
+    "reliability_score": 80.0
+  },
+  {
+    "sme_id": "SME039",
+    "topic": "Behavioral Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.3,
+    "avg_quality_score": 61.8,
+    "reliability_score": 75.4
+  },
+  {
+    "sme_id": "SME039",
+    "topic": "Behavioral Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.28,
+    "avg_quality_score": 84.0,
+    "reliability_score": 81.4
+  },
+  {
+    "sme_id": "SME040",
+    "topic": "Machine Learning",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.33,
+    "avg_quality_score": 84.8,
+    "reliability_score": 72.8
+  },
+  {
+    "sme_id": "SME040",
+    "topic": "Machine Learning",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.15,
+    "avg_quality_score": 87.1,
+    "reliability_score": 80.4
+  },
+  {
+    "sme_id": "SME040",
+    "topic": "Statistics",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.81,
+    "avg_quality_score": 76.8,
+    "reliability_score": 80.7
+  },
+  {
+    "sme_id": "SME040",
+    "topic": "Statistics",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.77,
+    "avg_quality_score": 74.8,
+    "reliability_score": 75.5
+  },
+  {
+    "sme_id": "SME040",
+    "topic": "Mock Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.28,
+    "avg_quality_score": 86.9,
+    "reliability_score": 76.0
+  },
+  {
+    "sme_id": "SME041",
+    "topic": "React",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 100,
+    "reliability_score": 74.2
+  },
+  {
+    "sme_id": "SME041",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.15,
+    "avg_quality_score": 68.3,
+    "reliability_score": 76.5
+  },
+  {
+    "sme_id": "SME042",
+    "topic": "Resume Review",
+    "class_type": "Workshop",
+    "sessions_delivered": 27,
+    "avg_learner_rating": 4.04,
+    "avg_quality_score": 79.3,
+    "reliability_score": 82.2
+  },
+  {
+    "sme_id": "SME042",
+    "topic": "Product Management",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.79,
+    "avg_quality_score": 94.4,
+    "reliability_score": 80.6
+  },
+  {
+    "sme_id": "SME042",
+    "topic": "Machine Learning",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.68,
+    "avg_quality_score": 95.7,
+    "reliability_score": 84.6
+  },
+  {
+    "sme_id": "SME042",
+    "topic": "Cloud Computing",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.29,
+    "avg_quality_score": 88.4,
+    "reliability_score": 79.5
+  },
+  {
+    "sme_id": "SME042",
+    "topic": "Java",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.52,
+    "avg_quality_score": 67.1,
+    "reliability_score": 75.4
+  },
+  {
+    "sme_id": "SME043",
+    "topic": "React",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 74.5,
+    "reliability_score": 74.7
+  },
+  {
+    "sme_id": "SME043",
+    "topic": "React",
+    "class_type": "Office Hours",
+    "sessions_delivered": 38,
+    "avg_learner_rating": 4.21,
+    "avg_quality_score": 80.6,
+    "reliability_score": 84.7
+  },
+  {
+    "sme_id": "SME043",
+    "topic": "React",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.04,
+    "avg_quality_score": 78.1,
+    "reliability_score": 80.6
+  },
+  {
+    "sme_id": "SME043",
+    "topic": "System Design",
+    "class_type": "Office Hours",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.7,
+    "avg_quality_score": 89.5,
+    "reliability_score": 77.1
+  },
+  {
+    "sme_id": "SME044",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 4.33,
+    "avg_quality_score": 91.3,
+    "reliability_score": 75.2
+  },
+  {
+    "sme_id": "SME044",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.86,
+    "avg_quality_score": 75.4,
+    "reliability_score": 82.7
+  },
+  {
+    "sme_id": "SME045",
+    "topic": "Product Strategy",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.87,
+    "avg_quality_score": 77.2,
+    "reliability_score": 77.7
+  },
+  {
+    "sme_id": "SME045",
+    "topic": "Machine Learning",
+    "class_type": "Workshop",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.7,
+    "avg_quality_score": 73.0,
+    "reliability_score": 77.5
+  },
+  {
+    "sme_id": "SME046",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.08,
+    "avg_quality_score": 86.3,
+    "reliability_score": 83.6
+  },
+  {
+    "sme_id": "SME046",
+    "topic": "Machine Learning",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.96,
+    "avg_quality_score": 84.0,
+    "reliability_score": 80.6
+  },
+  {
+    "sme_id": "SME046",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.91,
+    "avg_quality_score": 76.4,
+    "reliability_score": 79.3
+  },
+  {
+    "sme_id": "SME046",
+    "topic": "JavaScript",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.52,
+    "avg_quality_score": 74.5,
+    "reliability_score": 77.8
+  },
+  {
+    "sme_id": "SME047",
+    "topic": "Mock Interviews",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 78.4,
+    "reliability_score": 73.1
+  },
+  {
+    "sme_id": "SME047",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.34,
+    "avg_quality_score": 69.5,
+    "reliability_score": 80.8
+  },
+  {
+    "sme_id": "SME047",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 34,
+    "avg_learner_rating": 3.88,
+    "avg_quality_score": 81.4,
+    "reliability_score": 79.9
+  },
+  {
+    "sme_id": "SME047",
+    "topic": "DevOps",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 75.6,
+    "reliability_score": 79.3
+  },
+  {
+    "sme_id": "SME048",
+    "topic": "Aptitude",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 35,
+    "avg_learner_rating": 4.27,
+    "avg_quality_score": 81.9,
+    "reliability_score": 87.8
+  },
+  {
+    "sme_id": "SME048",
+    "topic": "Aptitude",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 3.53,
+    "avg_quality_score": 72.9,
+    "reliability_score": 74.7
+  },
+  {
+    "sme_id": "SME048",
+    "topic": "Data Analytics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.29,
+    "avg_quality_score": 85.9,
+    "reliability_score": 78.0
+  },
+  {
+    "sme_id": "SME048",
+    "topic": "Data Analytics",
+    "class_type": "Workshop",
+    "sessions_delivered": 21,
+    "avg_learner_rating": 4.2,
+    "avg_quality_score": 88.4,
+    "reliability_score": 77.6
+  },
+  {
+    "sme_id": "SME048",
+    "topic": "Resume Review",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.05,
+    "avg_quality_score": 84.7,
+    "reliability_score": 76.0
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "JavaScript",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 4.28,
+    "avg_quality_score": 85.8,
+    "reliability_score": 72.9
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "JavaScript",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 76.3,
+    "reliability_score": 72.4
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "Machine Learning",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.25,
+    "avg_quality_score": 84.4,
+    "reliability_score": 83.7
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "Machine Learning",
+    "class_type": "Workshop",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.37,
+    "avg_quality_score": 90.7,
+    "reliability_score": 76.2
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "React",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.27,
+    "avg_quality_score": 81.6,
+    "reliability_score": 76.4
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "React",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 40,
+    "avg_learner_rating": 4.92,
+    "avg_quality_score": 95.6,
+    "reliability_score": 85.0
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "Product Management",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.1,
+    "avg_quality_score": 78.2,
+    "reliability_score": 81.0
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.56,
+    "avg_quality_score": 75.1,
+    "reliability_score": 83.7
+  },
+  {
+    "sme_id": "SME050",
+    "topic": "React",
+    "class_type": "Office Hours",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 4.76,
+    "avg_quality_score": 100,
+    "reliability_score": 84.5
+  },
+  {
+    "sme_id": "SME050",
+    "topic": "System Design",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 20,
+    "avg_learner_rating": 4.25,
+    "avg_quality_score": 89.3,
+    "reliability_score": 77.5
+  },
+  {
+    "sme_id": "SME050",
+    "topic": "System Design",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 78.2,
+    "reliability_score": 78.7
+  },
+  {
+    "sme_id": "SME050",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.74,
+    "avg_quality_score": 72.4,
+    "reliability_score": 81.7
+  },
+  {
+    "sme_id": "SME051",
+    "topic": "Java",
+    "class_type": "Workshop",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 4.02,
+    "avg_quality_score": 78.8,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME051",
+    "topic": "Java",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 33,
+    "avg_learner_rating": 4.69,
+    "avg_quality_score": 90.0,
+    "reliability_score": 81.9
+  },
+  {
+    "sme_id": "SME052",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.1,
+    "avg_quality_score": 78.5,
+    "reliability_score": 83.8
+  },
+  {
+    "sme_id": "SME052",
+    "topic": "Career Coaching",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.05,
+    "avg_quality_score": 65.2,
+    "reliability_score": 77.3
+  },
+  {
+    "sme_id": "SME052",
+    "topic": "Career Coaching",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.17,
+    "avg_quality_score": 67.7,
+    "reliability_score": 79.6
+  },
+  {
+    "sme_id": "SME053",
+    "topic": "Aptitude",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.05,
+    "avg_quality_score": 76.1,
+    "reliability_score": 72.5
+  },
+  {
+    "sme_id": "SME053",
+    "topic": "SQL",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.73,
+    "avg_quality_score": 79.5,
+    "reliability_score": 73.9
+  },
+  {
+    "sme_id": "SME054",
+    "topic": "DevOps",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 78.6,
+    "reliability_score": 72.1
+  },
+  {
+    "sme_id": "SME054",
+    "topic": "SQL",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.25,
+    "avg_quality_score": 62.2,
+    "reliability_score": 72.7
+  },
+  {
+    "sme_id": "SME054",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.36,
+    "avg_quality_score": 68.6,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "SQL",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.13,
+    "avg_quality_score": 84.5,
+    "reliability_score": 73.4
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.22,
+    "avg_quality_score": 87.8,
+    "reliability_score": 83.3
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "SQL",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.54,
+    "avg_quality_score": 85.2,
+    "reliability_score": 74.3
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.41,
+    "avg_quality_score": 86.9,
+    "reliability_score": 81.3
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "Java",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.19,
+    "avg_quality_score": 86.2,
+    "reliability_score": 71.2
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "Java",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 23,
+    "avg_learner_rating": 4.2,
+    "avg_quality_score": 84.1,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "Communication Skills",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.29,
+    "avg_quality_score": 81.4,
+    "reliability_score": 78.4
+  },
+  {
+    "sme_id": "SME056",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.62,
+    "avg_quality_score": 98.3,
+    "reliability_score": 71.2
+  },
+  {
+    "sme_id": "SME056",
+    "topic": "Mock Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 28,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 89.4,
+    "reliability_score": 80.1
+  },
+  {
+    "sme_id": "SME056",
+    "topic": "System Design",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.3,
+    "avg_quality_score": 65.9,
+    "reliability_score": 73.1
+  },
+  {
+    "sme_id": "SME056",
+    "topic": "System Design",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.73,
+    "avg_quality_score": 73.0,
+    "reliability_score": 81.3
+  },
+  {
+    "sme_id": "SME056",
+    "topic": "SQL",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.21,
+    "avg_quality_score": 80.1,
+    "reliability_score": 71.6
+  },
+  {
+    "sme_id": "SME057",
+    "topic": "JavaScript",
+    "class_type": "Workshop",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.42,
+    "avg_quality_score": 85.4,
+    "reliability_score": 80.1
+  },
+  {
+    "sme_id": "SME058",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.92,
+    "avg_quality_score": 78.2,
+    "reliability_score": 80.3
+  },
+  {
+    "sme_id": "SME058",
+    "topic": "Cloud Computing",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.59,
+    "avg_quality_score": 87.1,
+    "reliability_score": 74.7
+  },
+  {
+    "sme_id": "SME058",
+    "topic": "Cloud Computing",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 3.82,
+    "avg_quality_score": 75.4,
+    "reliability_score": 73.0
+  },
+  {
+    "sme_id": "SME058",
+    "topic": "DevOps",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.58,
+    "avg_quality_score": 73.2,
+    "reliability_score": 73.5
+  },
+  {
+    "sme_id": "SME059",
+    "topic": "Java",
+    "class_type": "Office Hours",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.58,
+    "avg_quality_score": 77.1,
+    "reliability_score": 82.1
+  },
+  {
+    "sme_id": "SME059",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.7,
+    "avg_quality_score": 79.5,
+    "reliability_score": 81.4
+  },
+  {
+    "sme_id": "SME060",
+    "topic": "Java",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.02,
+    "avg_quality_score": 83.2,
+    "reliability_score": 71.2
+  },
+  {
+    "sme_id": "SME060",
+    "topic": "Java",
+    "class_type": "Workshop",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 4.16,
+    "avg_quality_score": 86.6,
+    "reliability_score": 78.7
+  },
+  {
+    "sme_id": "SME060",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.42,
+    "avg_quality_score": 85.2,
+    "reliability_score": 74.4
+  },
+  {
+    "sme_id": "SME061",
+    "topic": "Statistics",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.16,
+    "avg_quality_score": 80.3,
+    "reliability_score": 73.3
+  },
+  {
+    "sme_id": "SME061",
+    "topic": "Resume Review",
+    "class_type": "Workshop",
+    "sessions_delivered": 40,
+    "avg_learner_rating": 4.38,
+    "avg_quality_score": 84.5,
+    "reliability_score": 79.2
+  },
+  {
+    "sme_id": "SME061",
+    "topic": "Machine Learning",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.44,
+    "avg_quality_score": 64.8,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME062",
+    "topic": "Product Management",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 96.4,
+    "reliability_score": 83.1
+  },
+  {
+    "sme_id": "SME062",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.05,
+    "avg_quality_score": 76.2,
+    "reliability_score": 77.1
+  },
+  {
+    "sme_id": "SME062",
+    "topic": "Product Management",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.34,
+    "avg_quality_score": 85.9,
+    "reliability_score": 78.1
+  },
+  {
+    "sme_id": "SME062",
+    "topic": "Cloud Computing",
+    "class_type": "Workshop",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.15,
+    "avg_quality_score": 86.1,
+    "reliability_score": 74.1
+  },
+  {
+    "sme_id": "SME062",
+    "topic": "Cloud Computing",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.51,
+    "avg_quality_score": 92.5,
+    "reliability_score": 75.2
+  },
+  {
+    "sme_id": "SME062",
+    "topic": "Java",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.83,
+    "avg_quality_score": 80.7,
+    "reliability_score": 72.6
+  },
+  {
+    "sme_id": "SME063",
+    "topic": "System Design",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.37,
+    "avg_quality_score": 83.1,
+    "reliability_score": 72.3
+  },
+  {
+    "sme_id": "SME063",
+    "topic": "System Design",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 25,
+    "avg_learner_rating": 4.63,
+    "avg_quality_score": 98.1,
+    "reliability_score": 85.0
+  },
+  {
+    "sme_id": "SME063",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.93,
+    "avg_quality_score": 84.0,
+    "reliability_score": 74.6
+  },
+  {
+    "sme_id": "SME064",
+    "topic": "Machine Learning",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 30,
+    "avg_learner_rating": 4.28,
+    "avg_quality_score": 90.4,
+    "reliability_score": 76.3
+  },
+  {
+    "sme_id": "SME064",
+    "topic": "Machine Learning",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 19,
+    "avg_learner_rating": 4.1,
+    "avg_quality_score": 76.1,
+    "reliability_score": 74.9
+  },
+  {
+    "sme_id": "SME065",
+    "topic": "Machine Learning",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.93,
+    "avg_quality_score": 92.7,
+    "reliability_score": 73.9
+  },
+  {
+    "sme_id": "SME065",
+    "topic": "Machine Learning",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.0,
+    "avg_quality_score": 76.3,
+    "reliability_score": 72.6
+  },
+  {
+    "sme_id": "SME065",
+    "topic": "Product Management",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.76,
+    "avg_quality_score": 80.9,
+    "reliability_score": 80.0
+  },
+  {
+    "sme_id": "SME065",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.5,
+    "avg_quality_score": 72.6,
+    "reliability_score": 76.3
+  },
+  {
+    "sme_id": "SME066",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Office Hours",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.66,
+    "avg_quality_score": 88.6,
+    "reliability_score": 77.4
+  },
+  {
+    "sme_id": "SME067",
+    "topic": "Aptitude",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.34,
+    "avg_quality_score": 89.9,
+    "reliability_score": 83.1
+  },
+  {
+    "sme_id": "SME067",
+    "topic": "Product Management",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.01,
+    "avg_quality_score": 79.6,
+    "reliability_score": 77.5
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.09,
+    "avg_quality_score": 77.0,
+    "reliability_score": 80.8
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.64,
+    "avg_quality_score": 86.8,
+    "reliability_score": 83.0
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "Python",
+    "class_type": "Workshop",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.04,
+    "avg_quality_score": 77.3,
+    "reliability_score": 80.1
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "React",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 72.8,
+    "reliability_score": 73.5
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "React",
+    "class_type": "Office Hours",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.39,
+    "avg_quality_score": 82.7,
+    "reliability_score": 71.4
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "Mock Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.9,
+    "avg_quality_score": 72.1,
+    "reliability_score": 82.0
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.34,
+    "avg_quality_score": 72.3,
+    "reliability_score": 72.1
+  },
+  {
+    "sme_id": "SME069",
+    "topic": "System Design",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 93.9,
+    "reliability_score": 80.8
+  },
+  {
+    "sme_id": "SME069",
+    "topic": "System Design",
+    "class_type": "Office Hours",
+    "sessions_delivered": 26,
+    "avg_learner_rating": 3.78,
+    "avg_quality_score": 73.1,
+    "reliability_score": 76.2
+  },
+  {
+    "sme_id": "SME070",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 18,
+    "avg_learner_rating": 4.27,
+    "avg_quality_score": 86.6,
+    "reliability_score": 74.3
+  },
+  {
+    "sme_id": "SME071",
+    "topic": "Python",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 39,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 100,
+    "reliability_score": 84.4
+  },
+  {
+    "sme_id": "SME071",
+    "topic": "Product Strategy",
+    "class_type": "Office Hours",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.61,
+    "avg_quality_score": 91.2,
+    "reliability_score": 74.4
+  },
+  {
+    "sme_id": "SME071",
+    "topic": "Cloud Computing",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.98,
+    "avg_quality_score": 94.3,
+    "reliability_score": 76.1
+  },
+  {
+    "sme_id": "SME072",
+    "topic": "DevOps",
+    "class_type": "Office Hours",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.19,
+    "avg_quality_score": 78.7,
+    "reliability_score": 74.0
+  },
+  {
+    "sme_id": "SME072",
+    "topic": "DevOps",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.04,
+    "avg_quality_score": 79.1,
+    "reliability_score": 83.7
+  },
+  {
+    "sme_id": "SME072",
+    "topic": "DevOps",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 37,
+    "avg_learner_rating": 4.79,
+    "avg_quality_score": 96.3,
+    "reliability_score": 79.4
+  },
+  {
+    "sme_id": "SME072",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.0,
+    "avg_quality_score": 64.3,
+    "reliability_score": 76.0
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "Product Strategy",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.2,
+    "avg_quality_score": 80.2,
+    "reliability_score": 81.9
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "Product Strategy",
+    "class_type": "Workshop",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.08,
+    "avg_quality_score": 78.0,
+    "reliability_score": 72.8
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "System Design",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 18,
+    "avg_learner_rating": 4.06,
+    "avg_quality_score": 85.3,
+    "reliability_score": 74.0
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "Cloud Computing",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.96,
+    "avg_quality_score": 94.4,
+    "reliability_score": 73.7
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "Cloud Computing",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.82,
+    "avg_quality_score": 95.7,
+    "reliability_score": 82.2
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "Cloud Computing",
+    "class_type": "Workshop",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 3.62,
+    "avg_quality_score": 77.8,
+    "reliability_score": 79.8
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.08,
+    "avg_quality_score": 57.8,
+    "reliability_score": 79.1
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.0,
+    "avg_quality_score": 62.5,
+    "reliability_score": 75.1
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.25,
+    "avg_quality_score": 80.2,
+    "reliability_score": 74.3
+  },
+  {
+    "sme_id": "SME074",
+    "topic": "Data Analytics",
+    "class_type": "Workshop",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.92,
+    "avg_quality_score": 81.2,
+    "reliability_score": 77.7
+  },
+  {
+    "sme_id": "SME074",
+    "topic": "Data Analytics",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.26,
+    "avg_quality_score": 82.8,
+    "reliability_score": 71.6
+  },
+  {
+    "sme_id": "SME074",
+    "topic": "System Design",
+    "class_type": "Office Hours",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.34,
+    "avg_quality_score": 86.2,
+    "reliability_score": 82.1
+  },
+  {
+    "sme_id": "SME075",
+    "topic": "JavaScript",
+    "class_type": "Workshop",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 4.14,
+    "avg_quality_score": 85.2,
+    "reliability_score": 77.0
+  },
+  {
+    "sme_id": "SME075",
+    "topic": "JavaScript",
+    "class_type": "Office Hours",
+    "sessions_delivered": 17,
+    "avg_learner_rating": 4.66,
+    "avg_quality_score": 89.6,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME075",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.72,
+    "avg_quality_score": 98.9,
+    "reliability_score": 75.7
+  },
+  {
+    "sme_id": "SME075",
+    "topic": "Python",
+    "class_type": "Workshop",
+    "sessions_delivered": 29,
+    "avg_learner_rating": 3.93,
+    "avg_quality_score": 82.9,
+    "reliability_score": 82.6
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 18,
+    "avg_learner_rating": 3.82,
+    "avg_quality_score": 75.8,
+    "reliability_score": 84.1
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "React",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.64,
+    "avg_quality_score": 71.9,
+    "reliability_score": 79.2
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "React",
+    "class_type": "Office Hours",
+    "sessions_delivered": 19,
+    "avg_learner_rating": 4.69,
+    "avg_quality_score": 98.6,
+    "reliability_score": 76.9
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "Aptitude",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.04,
+    "avg_quality_score": 86.3,
+    "reliability_score": 75.9
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "Aptitude",
+    "class_type": "Workshop",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.34,
+    "avg_quality_score": 88.1,
+    "reliability_score": 81.9
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "System Design",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.09,
+    "avg_quality_score": 87.5,
+    "reliability_score": 82.0
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "Machine Learning",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.5,
+    "avg_quality_score": 84.3,
+    "reliability_score": 74.3
+  },
+  {
+    "sme_id": "SME077",
+    "topic": "System Design",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 78.1,
+    "reliability_score": 73.9
+  },
+  {
+    "sme_id": "SME077",
+    "topic": "Java",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.36,
+    "avg_quality_score": 83.3,
+    "reliability_score": 78.0
+  },
+  {
+    "sme_id": "SME078",
+    "topic": "Statistics",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.13,
+    "avg_quality_score": 78.1,
+    "reliability_score": 72.0
+  },
+  {
+    "sme_id": "SME078",
+    "topic": "DevOps",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 23,
+    "avg_learner_rating": 3.47,
+    "avg_quality_score": 71.1,
+    "reliability_score": 76.4
+  },
+  {
+    "sme_id": "SME078",
+    "topic": "Data Analytics",
+    "class_type": "Workshop",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.78,
+    "avg_quality_score": 98.7,
+    "reliability_score": 78.7
+  },
+  {
+    "sme_id": "SME078",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.47,
+    "avg_quality_score": 72.3,
+    "reliability_score": 81.8
+  },
+  {
+    "sme_id": "SME078",
+    "topic": "React",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.43,
+    "avg_quality_score": 65.2,
+    "reliability_score": 74.0
+  },
+  {
+    "sme_id": "SME079",
+    "topic": "JavaScript",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.67,
+    "avg_quality_score": 89.0,
+    "reliability_score": 83.9
+  },
+  {
+    "sme_id": "SME079",
+    "topic": "Cloud Computing",
+    "class_type": "Workshop",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.58,
+    "avg_quality_score": 77.5,
+    "reliability_score": 73.8
+  },
+  {
+    "sme_id": "SME079",
+    "topic": "React",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.29,
+    "avg_quality_score": 86.4,
+    "reliability_score": 74.0
+  },
+  {
+    "sme_id": "SME079",
+    "topic": "React",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.96,
+    "avg_quality_score": 80.4,
+    "reliability_score": 72.2
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "Machine Learning",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 4.11,
+    "avg_quality_score": 87.0,
+    "reliability_score": 73.0
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "Machine Learning",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 36,
+    "avg_learner_rating": 4.24,
+    "avg_quality_score": 83.0,
+    "reliability_score": 88.4
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "System Design",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 97.9,
+    "reliability_score": 79.0
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "System Design",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 3.61,
+    "avg_quality_score": 72.3,
+    "reliability_score": 76.2
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "Java",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.12,
+    "avg_quality_score": 78.7,
+    "reliability_score": 74.6
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "Java",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.93,
+    "avg_quality_score": 78.9,
+    "reliability_score": 82.9
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "Product Management",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.04,
+    "avg_quality_score": 84.5,
+    "reliability_score": 71.8
+  },
+  {
+    "sme_id": "SME081",
+    "topic": "React",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 4.61,
+    "avg_quality_score": 90.1,
+    "reliability_score": 76.4
+  },
+  {
+    "sme_id": "SME081",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.06,
+    "avg_quality_score": 77.7,
+    "reliability_score": 75.0
+  },
+  {
+    "sme_id": "SME082",
+    "topic": "JavaScript",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.37,
+    "avg_quality_score": 86.5,
+    "reliability_score": 83.1
+  },
+  {
+    "sme_id": "SME082",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 3.78,
+    "avg_quality_score": 81.0,
+    "reliability_score": 83.4
+  },
+  {
+    "sme_id": "SME082",
+    "topic": "Machine Learning",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.83,
+    "avg_quality_score": 71.8,
+    "reliability_score": 76.9
+  },
+  {
+    "sme_id": "SME083",
+    "topic": "Behavioral Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.03,
+    "avg_quality_score": 84.4,
+    "reliability_score": 78.4
+  },
+  {
+    "sme_id": "SME083",
+    "topic": "Mock Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.01,
+    "avg_quality_score": 77.0,
+    "reliability_score": 77.0
+  },
+  {
+    "sme_id": "SME084",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.15,
+    "avg_quality_score": 83.4,
+    "reliability_score": 72.4
+  },
+  {
+    "sme_id": "SME084",
+    "topic": "JavaScript",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 3.83,
+    "avg_quality_score": 78.7,
+    "reliability_score": 83.3
+  },
+  {
+    "sme_id": "SME084",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 78.8,
+    "reliability_score": 72.2
+  },
+  {
+    "sme_id": "SME084",
+    "topic": "Machine Learning",
+    "class_type": "Office Hours",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.45,
+    "avg_quality_score": 91.5,
+    "reliability_score": 80.3
+  },
+  {
+    "sme_id": "SME085",
+    "topic": "Statistics",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 20,
+    "avg_learner_rating": 4.21,
+    "avg_quality_score": 85.8,
+    "reliability_score": 75.8
+  },
+  {
+    "sme_id": "SME085",
+    "topic": "Statistics",
+    "class_type": "Workshop",
+    "sessions_delivered": 28,
+    "avg_learner_rating": 3.94,
+    "avg_quality_score": 73.0,
+    "reliability_score": 77.4
+  },
+  {
+    "sme_id": "SME085",
+    "topic": "Product Strategy",
+    "class_type": "Office Hours",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.52,
+    "avg_quality_score": 91.9,
+    "reliability_score": 78.7
+  },
+  {
+    "sme_id": "SME085",
+    "topic": "Aptitude",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.61,
+    "avg_quality_score": 77.9,
+    "reliability_score": 79.1
+  },
+  {
+    "sme_id": "SME085",
+    "topic": "Aptitude",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.31,
+    "avg_quality_score": 69.3,
+    "reliability_score": 80.3
+  },
+  {
+    "sme_id": "SME086",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 79.5,
+    "reliability_score": 79.4
+  },
+  {
+    "sme_id": "SME086",
+    "topic": "Product Strategy",
+    "class_type": "Workshop",
+    "sessions_delivered": 13,
+    "avg_learner_rating": 3.38,
+    "avg_quality_score": 72.3,
+    "reliability_score": 74.7
+  },
+  {
+    "sme_id": "SME086",
+    "topic": "Product Strategy",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.74,
+    "avg_quality_score": 96.6,
+    "reliability_score": 75.7
+  },
+  {
+    "sme_id": "SME086",
+    "topic": "Mock Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.27,
+    "avg_quality_score": 85.6,
+    "reliability_score": 74.4
+  },
+  {
+    "sme_id": "SME087",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 34,
+    "avg_learner_rating": 4.3,
+    "avg_quality_score": 90.9,
+    "reliability_score": 82.3
+  },
+  {
+    "sme_id": "SME087",
+    "topic": "React",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 4.82,
+    "avg_quality_score": 96.9,
+    "reliability_score": 73.1
+  },
+  {
+    "sme_id": "SME087",
+    "topic": "React",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.71,
+    "avg_quality_score": 92.1,
+    "reliability_score": 75.7
+  },
+  {
+    "sme_id": "SME088",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.19,
+    "avg_quality_score": 85.4,
+    "reliability_score": 75.9
+  },
+  {
+    "sme_id": "SME088",
+    "topic": "Cloud Computing",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.06,
+    "avg_quality_score": 75.6,
+    "reliability_score": 75.0
+  },
+  {
+    "sme_id": "SME088",
+    "topic": "Cloud Computing",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 4.91,
+    "avg_quality_score": 94.6,
+    "reliability_score": 73.3
+  },
+  {
+    "sme_id": "SME089",
+    "topic": "Mock Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.17,
+    "avg_quality_score": 84.1,
+    "reliability_score": 78.4
+  },
+  {
+    "sme_id": "SME089",
+    "topic": "Mock Interviews",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 35,
+    "avg_learner_rating": 4.11,
+    "avg_quality_score": 78.1,
+    "reliability_score": 88.5
+  },
+  {
+    "sme_id": "SME089",
+    "topic": "Product Strategy",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.03,
+    "avg_quality_score": 78.7,
+    "reliability_score": 70.5
+  },
+  {
+    "sme_id": "SME089",
+    "topic": "Statistics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.23,
+    "avg_quality_score": 86.5,
+    "reliability_score": 77.5
+  },
+  {
+    "sme_id": "SME089",
+    "topic": "Statistics",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.64,
+    "avg_quality_score": 73.0,
+    "reliability_score": 79.0
+  },
+  {
+    "sme_id": "SME089",
+    "topic": "Data Analytics",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.2,
+    "avg_quality_score": 63.9,
+    "reliability_score": 76.3
+  },
+  {
+    "sme_id": "SME090",
+    "topic": "Cloud Computing",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 26,
+    "avg_learner_rating": 3.96,
+    "avg_quality_score": 84.6,
+    "reliability_score": 77.2
+  },
+  {
+    "sme_id": "SME090",
+    "topic": "Cloud Computing",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.48,
+    "avg_quality_score": 90.4,
+    "reliability_score": 79.1
+  },
+  {
+    "sme_id": "SME090",
+    "topic": "Career Coaching",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.8,
+    "avg_quality_score": 73.1,
+    "reliability_score": 71.6
+  },
+  {
+    "sme_id": "SME090",
+    "topic": "Product Management",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.44,
+    "avg_quality_score": 83.1,
+    "reliability_score": 78.5
+  },
+  {
+    "sme_id": "SME091",
+    "topic": "DevOps",
+    "class_type": "Office Hours",
+    "sessions_delivered": 27,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 99.3,
+    "reliability_score": 78.8
+  },
+  {
+    "sme_id": "SME091",
+    "topic": "DevOps",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 35,
+    "avg_learner_rating": 4.62,
+    "avg_quality_score": 89.9,
+    "reliability_score": 77.3
+  },
+  {
+    "sme_id": "SME091",
+    "topic": "DevOps",
+    "class_type": "Workshop",
+    "sessions_delivered": 23,
+    "avg_learner_rating": 3.72,
+    "avg_quality_score": 72.7,
+    "reliability_score": 84.2
+  },
+  {
+    "sme_id": "SME091",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.0,
+    "avg_quality_score": 58.8,
+    "reliability_score": 79.7
+  },
+  {
+    "sme_id": "SME091",
+    "topic": "Mock Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.38,
+    "avg_quality_score": 68.8,
+    "reliability_score": 76.6
+  },
+  {
+    "sme_id": "SME091",
+    "topic": "Mock Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.72,
+    "avg_quality_score": 75.4,
+    "reliability_score": 82.7
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "SQL",
+    "class_type": "Office Hours",
+    "sessions_delivered": 30,
+    "avg_learner_rating": 4.41,
+    "avg_quality_score": 88.1,
+    "reliability_score": 87.5
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "SQL",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.97,
+    "avg_quality_score": 75.3,
+    "reliability_score": 76.8
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "Python",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.77,
+    "avg_quality_score": 74.2,
+    "reliability_score": 74.4
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 29,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 100,
+    "reliability_score": 78.4
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "DevOps",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.47,
+    "avg_quality_score": 64.8,
+    "reliability_score": 77.2
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "DevOps",
+    "class_type": "Workshop",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.19,
+    "avg_quality_score": 82.3,
+    "reliability_score": 73.6
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.18,
+    "avg_quality_score": 81.1,
+    "reliability_score": 83.7
+  },
+  {
+    "sme_id": "SME093",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.68,
+    "avg_quality_score": 92.8,
+    "reliability_score": 79.1
+  },
+  {
+    "sme_id": "SME093",
+    "topic": "Behavioral Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.82,
+    "avg_quality_score": 82.1,
+    "reliability_score": 72.2
+  },
+  {
+    "sme_id": "SME093",
+    "topic": "Behavioral Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.13,
+    "avg_quality_score": 66.2,
+    "reliability_score": 80.9
+  },
+  {
+    "sme_id": "SME093",
+    "topic": "DevOps",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.22,
+    "avg_quality_score": 61.0,
+    "reliability_score": 73.5
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "Java",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.81,
+    "avg_quality_score": 93.4,
+    "reliability_score": 77.8
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "Java",
+    "class_type": "Workshop",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.24,
+    "avg_quality_score": 79.6,
+    "reliability_score": 75.5
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "Machine Learning",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.15,
+    "avg_quality_score": 78.8,
+    "reliability_score": 76.1
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "Machine Learning",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.69,
+    "avg_quality_score": 90.7,
+    "reliability_score": 77.6
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "Machine Learning",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 15,
+    "avg_learner_rating": 4.65,
+    "avg_quality_score": 96.9,
+    "reliability_score": 81.4
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.49,
+    "avg_quality_score": 69.2,
+    "reliability_score": 72.0
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "JavaScript",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.3,
+    "avg_quality_score": 70.1,
+    "reliability_score": 72.2
+  },
+  {
+    "sme_id": "SME095",
+    "topic": "Data Analytics",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 36,
+    "avg_learner_rating": 4.69,
+    "avg_quality_score": 93.9,
+    "reliability_score": 83.4
+  },
+  {
+    "sme_id": "SME095",
+    "topic": "Communication Skills",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 97.2,
+    "reliability_score": 73.2
+  },
+  {
+    "sme_id": "SME095",
+    "topic": "Cloud Computing",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.26,
+    "avg_quality_score": 87.7,
+    "reliability_score": 83.5
+  },
+  {
+    "sme_id": "SME095",
+    "topic": "Cloud Computing",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 5.0,
+    "avg_quality_score": 100,
+    "reliability_score": 71.9
+  },
+  {
+    "sme_id": "SME096",
+    "topic": "JavaScript",
+    "class_type": "Workshop",
+    "sessions_delivered": 35,
+    "avg_learner_rating": 4.65,
+    "avg_quality_score": 98.6,
+    "reliability_score": 87.3
+  },
+  {
+    "sme_id": "SME096",
+    "topic": "JavaScript",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.95,
+    "avg_quality_score": 81.6,
+    "reliability_score": 82.7
+  },
+  {
+    "sme_id": "SME096",
+    "topic": "Behavioral Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 30,
+    "avg_learner_rating": 4.42,
+    "avg_quality_score": 86.5,
+    "reliability_score": 79.2
+  },
+  {
+    "sme_id": "SME096",
+    "topic": "Behavioral Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.94,
+    "avg_quality_score": 78.3,
+    "reliability_score": 70.3
+  },
+  {
+    "sme_id": "SME097",
+    "topic": "DevOps",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.46,
+    "avg_quality_score": 93.9,
+    "reliability_score": 78.2
+  },
+  {
+    "sme_id": "SME097",
+    "topic": "Product Management",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.39,
+    "avg_quality_score": 88.2,
+    "reliability_score": 75.1
+  },
+  {
+    "sme_id": "SME097",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.39,
+    "avg_quality_score": 73.0,
+    "reliability_score": 80.8
+  },
+  {
+    "sme_id": "SME097",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.54,
+    "avg_quality_score": 76.6,
+    "reliability_score": 80.1
+  },
+  {
+    "sme_id": "SME097",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.01,
+    "avg_quality_score": 77.1,
+    "reliability_score": 77.8
+  },
+  {
+    "sme_id": "SME098",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 19,
+    "avg_learner_rating": 4.19,
+    "avg_quality_score": 82.5,
+    "reliability_score": 76.8
+  },
+  {
+    "sme_id": "SME098",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 28,
+    "avg_learner_rating": 4.32,
+    "avg_quality_score": 86.6,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME099",
+    "topic": "Resume Review",
+    "class_type": "Workshop",
+    "sessions_delivered": 33,
+    "avg_learner_rating": 4.11,
+    "avg_quality_score": 84.5,
+    "reliability_score": 87.0
+  },
+  {
+    "sme_id": "SME099",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 12,
+    "avg_learner_rating": 3.65,
+    "avg_quality_score": 72.2,
+    "reliability_score": 77.1
+  },
+  {
+    "sme_id": "SME099",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.29,
+    "avg_quality_score": 81.0,
+    "reliability_score": 75.3
+  },
+  {
+    "sme_id": "SME099",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.43,
+    "avg_quality_score": 92.5,
+    "reliability_score": 80.4
+  },
+  {
+    "sme_id": "SME099",
+    "topic": "Machine Learning",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.62,
+    "avg_quality_score": 77.8,
+    "reliability_score": 80.3
+  },
+  {
+    "sme_id": "SME100",
+    "topic": "Mock Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.81,
+    "avg_quality_score": 75.2,
+    "reliability_score": 83.2
+  },
+  {
+    "sme_id": "SME100",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.41,
+    "avg_quality_score": 86.8,
+    "reliability_score": 84.0
+  },
+  {
+    "sme_id": "SME100",
+    "topic": "Mock Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 11,
+    "avg_learner_rating": 4.21,
+    "avg_quality_score": 82.0,
+    "reliability_score": 73.8
+  },
+  {
+    "sme_id": "SME100",
+    "topic": "Java",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.37,
+    "avg_quality_score": 63.9,
+    "reliability_score": 80.4
+  },
+  {
+    "sme_id": "SME100",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.54,
+    "avg_quality_score": 66.2,
+    "reliability_score": 77.0
+  },
+  {
+    "sme_id": "SME001",
+    "topic": "Resume Review",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.6,
+    "avg_quality_score": 87.0,
+    "reliability_score": 93.0
+  },
+  {
+    "sme_id": "SME002",
+    "topic": "Resume Review",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 14,
+    "avg_learner_rating": 4.6,
+    "avg_quality_score": 87.0,
+    "reliability_score": 93.0
+  },
+  {
+    "sme_id": "SME004",
+    "topic": "Behavioral Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 32,
+    "avg_learner_rating": 4.9,
+    "avg_quality_score": 95.0,
+    "reliability_score": 97.0
+  },
+  {
+    "sme_id": "SME005",
+    "topic": "Behavioral Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.5,
+    "avg_quality_score": 84.0,
+    "reliability_score": 90.0
+  },
+  {
+    "sme_id": "SME001",
+    "topic": "Resume Review",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.22,
+    "avg_quality_score": 73.9,
+    "reliability_score": 88.9
+  },
+  {
+    "sme_id": "SME002",
+    "topic": "Resume Review",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.76,
+    "avg_quality_score": 86.1,
+    "reliability_score": 89.3
+  },
+  {
+    "sme_id": "SME003",
+    "topic": "Cloud Computing",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.32,
+    "avg_quality_score": 87.9,
+    "reliability_score": 88.4
+  },
+  {
+    "sme_id": "SME004",
+    "topic": "Behavioral Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 89.7,
+    "reliability_score": 87.7
+  },
+  {
+    "sme_id": "SME005",
+    "topic": "Behavioral Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.79,
+    "avg_quality_score": 87.0,
+    "reliability_score": 91.2
+  },
+  {
+    "sme_id": "SME006",
+    "topic": "Aptitude",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.15,
+    "avg_quality_score": 72.0,
+    "reliability_score": 84.5
+  },
+  {
+    "sme_id": "SME007",
+    "topic": "Product Management",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.6,
+    "avg_quality_score": 87.7,
+    "reliability_score": 89.1
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "Data Analytics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.08,
+    "avg_quality_score": 73.9,
+    "reliability_score": 95.1
+  },
+  {
+    "sme_id": "SME009",
+    "topic": "Career Coaching",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.72,
+    "avg_quality_score": 70.9,
+    "reliability_score": 91.7
+  },
+  {
+    "sme_id": "SME010",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.98,
+    "avg_quality_score": 70.9,
+    "reliability_score": 81.7
+  },
+  {
+    "sme_id": "SME011",
+    "topic": "DevOps",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.69,
+    "avg_quality_score": 89.4,
+    "reliability_score": 78.7
+  },
+  {
+    "sme_id": "SME012",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.32,
+    "avg_quality_score": 76.0,
+    "reliability_score": 91.4
+  },
+  {
+    "sme_id": "SME013",
+    "topic": "Python",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.97,
+    "avg_quality_score": 84.4,
+    "reliability_score": 93.0
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.17,
+    "avg_quality_score": 77.8,
+    "reliability_score": 93.6
+  },
+  {
+    "sme_id": "SME015",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.51,
+    "avg_quality_score": 89.4,
+    "reliability_score": 85.9
+  },
+  {
+    "sme_id": "SME016",
+    "topic": "Machine Learning",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.34,
+    "avg_quality_score": 74.7,
+    "reliability_score": 81.4
+  },
+  {
+    "sme_id": "SME017",
+    "topic": "Data Analytics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.36,
+    "avg_quality_score": 79.1,
+    "reliability_score": 83.9
+  },
+  {
+    "sme_id": "SME018",
+    "topic": "Product Management",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.12,
+    "avg_quality_score": 83.0,
+    "reliability_score": 89.7
+  },
+  {
+    "sme_id": "SME019",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.56,
+    "avg_quality_score": 82.6,
+    "reliability_score": 80.9
+  },
+  {
+    "sme_id": "SME020",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.57,
+    "avg_quality_score": 75.7,
+    "reliability_score": 81.2
+  },
+  {
+    "sme_id": "SME021",
+    "topic": "SQL",
+    "class_type": "Office Hours",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.33,
+    "avg_quality_score": 89.3,
+    "reliability_score": 91.1
+  },
+  {
+    "sme_id": "SME022",
+    "topic": "System Design",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.08,
+    "avg_quality_score": 91.8,
+    "reliability_score": 93.6
+  },
+  {
+    "sme_id": "SME023",
+    "topic": "React",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.28,
+    "avg_quality_score": 87.5,
+    "reliability_score": 92.8
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Behavioral Interviews",
+    "class_type": "Office Hours",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 85.9,
+    "reliability_score": 84.2
+  },
+  {
+    "sme_id": "SME025",
+    "topic": "Cloud Computing",
+    "class_type": "Office Hours",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.59,
+    "avg_quality_score": 78.3,
+    "reliability_score": 80.4
+  },
+  {
+    "sme_id": "SME026",
+    "topic": "Python",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.62,
+    "avg_quality_score": 81.1,
+    "reliability_score": 85.6
+  },
+  {
+    "sme_id": "SME027",
+    "topic": "SQL",
+    "class_type": "Office Hours",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.73,
+    "avg_quality_score": 89.8,
+    "reliability_score": 88.8
+  },
+  {
+    "sme_id": "SME028",
+    "topic": "Resume Review",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.36,
+    "avg_quality_score": 89.8,
+    "reliability_score": 87.7
+  },
+  {
+    "sme_id": "SME029",
+    "topic": "Resume Review",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.18,
+    "avg_quality_score": 78.1,
+    "reliability_score": 78.8
+  },
+  {
+    "sme_id": "SME030",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.53,
+    "avg_quality_score": 78.4,
+    "reliability_score": 88.6
+  },
+  {
+    "sme_id": "SME031",
+    "topic": "Product Strategy",
+    "class_type": "Workshop",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.83,
+    "avg_quality_score": 86.8,
+    "reliability_score": 94.4
+  },
+  {
+    "sme_id": "SME032",
+    "topic": "Data Analytics",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.64,
+    "avg_quality_score": 79.0,
+    "reliability_score": 81.4
+  },
+  {
+    "sme_id": "SME033",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.25,
+    "avg_quality_score": 72.6,
+    "reliability_score": 78.1
+  },
+  {
+    "sme_id": "SME034",
+    "topic": "SQL",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.03,
+    "avg_quality_score": 72.3,
+    "reliability_score": 85.7
+  },
+  {
+    "sme_id": "SME035",
+    "topic": "Product Management",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.05,
+    "avg_quality_score": 78.0,
+    "reliability_score": 83.0
+  },
+  {
+    "sme_id": "SME036",
+    "topic": "Python",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.22,
+    "avg_quality_score": 82.3,
+    "reliability_score": 81.2
+  },
+  {
+    "sme_id": "SME037",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.25,
+    "avg_quality_score": 87.0,
+    "reliability_score": 85.2
+  },
+  {
+    "sme_id": "SME038",
+    "topic": "React",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 79.8,
+    "reliability_score": 90.6
+  },
+  {
+    "sme_id": "SME039",
+    "topic": "Java",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.16,
+    "avg_quality_score": 87.3,
+    "reliability_score": 92.4
+  },
+  {
+    "sme_id": "SME040",
+    "topic": "Mock Interviews",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.71,
+    "avg_quality_score": 91.2,
+    "reliability_score": 78.1
+  },
+  {
+    "sme_id": "SME041",
+    "topic": "React",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.7,
+    "avg_quality_score": 79.6,
+    "reliability_score": 79.2
+  },
+  {
+    "sme_id": "SME042",
+    "topic": "Resume Review",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.29,
+    "avg_quality_score": 85.9,
+    "reliability_score": 94.8
+  },
+  {
+    "sme_id": "SME043",
+    "topic": "System Design",
+    "class_type": "Office Hours",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.87,
+    "avg_quality_score": 91.2,
+    "reliability_score": 79.0
+  },
+  {
+    "sme_id": "SME044",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.07,
+    "avg_quality_score": 74.4,
+    "reliability_score": 89.8
+  },
+  {
+    "sme_id": "SME045",
+    "topic": "Product Strategy",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.52,
+    "avg_quality_score": 81.2,
+    "reliability_score": 90.6
+  },
+  {
+    "sme_id": "SME046",
+    "topic": "JavaScript",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.97,
+    "avg_quality_score": 84.4,
+    "reliability_score": 95.6
+  },
+  {
+    "sme_id": "SME047",
+    "topic": "Mock Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.96,
+    "avg_quality_score": 78.7,
+    "reliability_score": 88.5
+  },
+  {
+    "sme_id": "SME048",
+    "topic": "Aptitude",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.69,
+    "avg_quality_score": 82.1,
+    "reliability_score": 91.1
+  },
+  {
+    "sme_id": "SME049",
+    "topic": "React",
+    "class_type": "Office Hours",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.95,
+    "avg_quality_score": 87.9,
+    "reliability_score": 82.1
+  },
+  {
+    "sme_id": "SME050",
+    "topic": "React",
+    "class_type": "Workshop",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.25,
+    "avg_quality_score": 75.7,
+    "reliability_score": 85.3
+  },
+  {
+    "sme_id": "SME051",
+    "topic": "Java",
+    "class_type": "Office Hours",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.15,
+    "avg_quality_score": 77.5,
+    "reliability_score": 80.1
+  },
+  {
+    "sme_id": "SME052",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.83,
+    "avg_quality_score": 79.7,
+    "reliability_score": 84.8
+  },
+  {
+    "sme_id": "SME053",
+    "topic": "SQL",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.75,
+    "avg_quality_score": 80.1,
+    "reliability_score": 86.3
+  },
+  {
+    "sme_id": "SME054",
+    "topic": "DevOps",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.84,
+    "avg_quality_score": 78.4,
+    "reliability_score": 92.2
+  },
+  {
+    "sme_id": "SME055",
+    "topic": "SQL",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.54,
+    "avg_quality_score": 79.1,
+    "reliability_score": 84.4
+  },
+  {
+    "sme_id": "SME056",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.82,
+    "avg_quality_score": 72.0,
+    "reliability_score": 90.1
+  },
+  {
+    "sme_id": "SME057",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.71,
+    "avg_quality_score": 80.5,
+    "reliability_score": 84.4
+  },
+  {
+    "sme_id": "SME058",
+    "topic": "Cloud Computing",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.15,
+    "avg_quality_score": 74.4,
+    "reliability_score": 91.2
+  },
+  {
+    "sme_id": "SME059",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.76,
+    "avg_quality_score": 75.5,
+    "reliability_score": 89.1
+  },
+  {
+    "sme_id": "SME060",
+    "topic": "Java",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.7,
+    "avg_quality_score": 84.9,
+    "reliability_score": 89.9
+  },
+  {
+    "sme_id": "SME061",
+    "topic": "Statistics",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.6,
+    "avg_quality_score": 78.2,
+    "reliability_score": 83.7
+  },
+  {
+    "sme_id": "SME062",
+    "topic": "Cloud Computing",
+    "class_type": "Workshop",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.78,
+    "avg_quality_score": 90.2,
+    "reliability_score": 83.0
+  },
+  {
+    "sme_id": "SME063",
+    "topic": "System Design",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.57,
+    "avg_quality_score": 87.6,
+    "reliability_score": 86.6
+  },
+  {
+    "sme_id": "SME064",
+    "topic": "Machine Learning",
+    "class_type": "Office Hours",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.01,
+    "avg_quality_score": 85.1,
+    "reliability_score": 81.1
+  },
+  {
+    "sme_id": "SME065",
+    "topic": "Machine Learning",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.1,
+    "avg_quality_score": 85.2,
+    "reliability_score": 78.2
+  },
+  {
+    "sme_id": "SME066",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Workshop",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.63,
+    "avg_quality_score": 78.0,
+    "reliability_score": 93.5
+  },
+  {
+    "sme_id": "SME067",
+    "topic": "Aptitude",
+    "class_type": "Office Hours",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.81,
+    "avg_quality_score": 80.4,
+    "reliability_score": 89.0
+  },
+  {
+    "sme_id": "SME068",
+    "topic": "Python",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.05,
+    "avg_quality_score": 79.2,
+    "reliability_score": 91.5
+  },
+  {
+    "sme_id": "SME069",
+    "topic": "System Design",
+    "class_type": "Workshop",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.09,
+    "avg_quality_score": 82.6,
+    "reliability_score": 95.6
+  },
+  {
+    "sme_id": "SME070",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.55,
+    "avg_quality_score": 82.2,
+    "reliability_score": 93.4
+  },
+  {
+    "sme_id": "SME071",
+    "topic": "Python",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.11,
+    "avg_quality_score": 70.2,
+    "reliability_score": 85.6
+  },
+  {
+    "sme_id": "SME072",
+    "topic": "DevOps",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.19,
+    "avg_quality_score": 76.9,
+    "reliability_score": 86.8
+  },
+  {
+    "sme_id": "SME073",
+    "topic": "System Design",
+    "class_type": "Office Hours",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.56,
+    "avg_quality_score": 72.2,
+    "reliability_score": 80.9
+  },
+  {
+    "sme_id": "SME074",
+    "topic": "Data Analytics",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.59,
+    "avg_quality_score": 72.1,
+    "reliability_score": 91.4
+  },
+  {
+    "sme_id": "SME075",
+    "topic": "Python",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.23,
+    "avg_quality_score": 90.5,
+    "reliability_score": 82.6
+  },
+  {
+    "sme_id": "SME076",
+    "topic": "Mock Interviews",
+    "class_type": "Workshop",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 3.96,
+    "avg_quality_score": 85.0,
+    "reliability_score": 88.9
+  },
+  {
+    "sme_id": "SME077",
+    "topic": "System Design",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.92,
+    "avg_quality_score": 81.2,
+    "reliability_score": 91.9
+  },
+  {
+    "sme_id": "SME078",
+    "topic": "DevOps",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.3,
+    "avg_quality_score": 80.2,
+    "reliability_score": 95.2
+  },
+  {
+    "sme_id": "SME079",
+    "topic": "JavaScript",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.05,
+    "avg_quality_score": 83.5,
+    "reliability_score": 85.3
+  },
+  {
+    "sme_id": "SME080",
+    "topic": "Machine Learning",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.95,
+    "avg_quality_score": 76.9,
+    "reliability_score": 89.8
+  },
+  {
+    "sme_id": "SME081",
+    "topic": "React",
+    "class_type": "Office Hours",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 3.85,
+    "avg_quality_score": 79.8,
+    "reliability_score": 93.5
+  },
+  {
+    "sme_id": "SME082",
+    "topic": "Product Management",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.18,
+    "avg_quality_score": 79.9,
+    "reliability_score": 81.0
+  },
+  {
+    "sme_id": "SME083",
+    "topic": "Behavioral Interviews",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.36,
+    "avg_quality_score": 90.7,
+    "reliability_score": 90.6
+  },
+  {
+    "sme_id": "SME084",
+    "topic": "JavaScript",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.02,
+    "avg_quality_score": 72.1,
+    "reliability_score": 94.9
+  },
+  {
+    "sme_id": "SME085",
+    "topic": "Product Strategy",
+    "class_type": "Office Hours",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 3.53,
+    "avg_quality_score": 78.7,
+    "reliability_score": 91.8
+  },
+  {
+    "sme_id": "SME086",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.3,
+    "avg_quality_score": 71.9,
+    "reliability_score": 94.8
+  },
+  {
+    "sme_id": "SME087",
+    "topic": "React",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.82,
+    "avg_quality_score": 76.3,
+    "reliability_score": 89.3
+  },
+  {
+    "sme_id": "SME088",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.54,
+    "avg_quality_score": 84.6,
+    "reliability_score": 93.5
+  },
+  {
+    "sme_id": "SME089",
+    "topic": "Product Strategy",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.77,
+    "avg_quality_score": 81.9,
+    "reliability_score": 82.9
+  },
+  {
+    "sme_id": "SME090",
+    "topic": "Cloud Computing",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.73,
+    "avg_quality_score": 83.1,
+    "reliability_score": 89.4
+  },
+  {
+    "sme_id": "SME091",
+    "topic": "DevOps",
+    "class_type": "Office Hours",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.9,
+    "avg_quality_score": 77.6,
+    "reliability_score": 87.7
+  },
+  {
+    "sme_id": "SME092",
+    "topic": "SQL",
+    "class_type": "Workshop",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.98,
+    "avg_quality_score": 75.7,
+    "reliability_score": 83.5
+  },
+  {
+    "sme_id": "SME093",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.95,
+    "avg_quality_score": 80.3,
+    "reliability_score": 78.1
+  },
+  {
+    "sme_id": "SME094",
+    "topic": "Machine Learning",
+    "class_type": "Workshop",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.51,
+    "avg_quality_score": 79.5,
+    "reliability_score": 83.3
+  },
+  {
+    "sme_id": "SME095",
+    "topic": "Data Analytics",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.99,
+    "avg_quality_score": 79.1,
+    "reliability_score": 88.1
+  },
+  {
+    "sme_id": "SME096",
+    "topic": "Behavioral Interviews",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 4.43,
+    "avg_quality_score": 84.2,
+    "reliability_score": 92.9
+  },
+  {
+    "sme_id": "SME097",
+    "topic": "DevOps",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.05,
+    "avg_quality_score": 75.3,
+    "reliability_score": 91.8
+  },
+  {
+    "sme_id": "SME098",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.55,
+    "avg_quality_score": 79.1,
+    "reliability_score": 93.4
+  },
+  {
+    "sme_id": "SME099",
+    "topic": "Resume Review",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.64,
+    "avg_quality_score": 80.0,
+    "reliability_score": 86.1
+  },
+  {
+    "sme_id": "SME100",
+    "topic": "Mock Interviews",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.53,
+    "avg_quality_score": 71.1,
+    "reliability_score": 87.6
+  },
+  {
+    "sme_id": "SME001",
+    "topic": "Resume Review",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.85,
+    "avg_quality_score": 85.7,
+    "reliability_score": 91.1
+  },
+  {
+    "sme_id": "SME002",
+    "topic": "Resume Review",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.52,
+    "avg_quality_score": 74.8,
+    "reliability_score": 85.6
+  },
+  {
+    "sme_id": "SME003",
+    "topic": "Cloud Computing",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.41,
+    "avg_quality_score": 70.7,
+    "reliability_score": 79.4
+  },
+  {
+    "sme_id": "SME004",
+    "topic": "Behavioral Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 4.51,
+    "avg_quality_score": 71.6,
+    "reliability_score": 86.5
+  },
+  {
+    "sme_id": "SME005",
+    "topic": "Behavioral Interviews",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 7,
+    "avg_learner_rating": 4.58,
+    "avg_quality_score": 72.7,
+    "reliability_score": 91.8
+  },
+  {
+    "sme_id": "SME006",
+    "topic": "Aptitude",
+    "class_type": "Workshop",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 3.82,
+    "avg_quality_score": 91.9,
+    "reliability_score": 81.6
+  },
+  {
+    "sme_id": "SME007",
+    "topic": "Product Management",
+    "class_type": "Office Hours",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.11,
+    "avg_quality_score": 85.0,
+    "reliability_score": 83.6
+  },
+  {
+    "sme_id": "SME008",
+    "topic": "Product Strategy",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 82.1,
+    "reliability_score": 80.2
+  },
+  {
+    "sme_id": "SME009",
+    "topic": "Career Coaching",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.76,
+    "avg_quality_score": 89.5,
+    "reliability_score": 93.5
+  },
+  {
+    "sme_id": "SME010",
+    "topic": "JavaScript",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 4.32,
+    "avg_quality_score": 77.1,
+    "reliability_score": 81.0
+  },
+  {
+    "sme_id": "SME011",
+    "topic": "DevOps",
+    "class_type": "Office Hours",
+    "sessions_delivered": 2,
+    "avg_learner_rating": 4.01,
+    "avg_quality_score": 75.3,
+    "reliability_score": 95.4
+  },
+  {
+    "sme_id": "SME012",
+    "topic": "JavaScript",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.7,
+    "avg_quality_score": 87.0,
+    "reliability_score": 82.5
+  },
+  {
+    "sme_id": "SME013",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.94,
+    "avg_quality_score": 91.3,
+    "reliability_score": 91.7
+  },
+  {
+    "sme_id": "SME014",
+    "topic": "Python",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.34,
+    "avg_quality_score": 85.4,
+    "reliability_score": 92.2
+  },
+  {
+    "sme_id": "SME015",
+    "topic": "Python",
+    "class_type": "Workshop",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.91,
+    "avg_quality_score": 82.3,
+    "reliability_score": 89.6
+  },
+  {
+    "sme_id": "SME016",
+    "topic": "Java",
+    "class_type": "Workshop",
+    "sessions_delivered": 4,
+    "avg_learner_rating": 3.53,
+    "avg_quality_score": 78.3,
+    "reliability_score": 91.0
+  },
+  {
+    "sme_id": "SME017",
+    "topic": "Data Analytics",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.42,
+    "avg_quality_score": 82.3,
+    "reliability_score": 87.8
+  },
+  {
+    "sme_id": "SME018",
+    "topic": "Product Management",
+    "class_type": "Doubt Clearing",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 3.74,
+    "avg_quality_score": 77.6,
+    "reliability_score": 91.2
+  },
+  {
+    "sme_id": "SME019",
+    "topic": "Python",
+    "class_type": "Office Hours",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 3.71,
+    "avg_quality_score": 81.7,
+    "reliability_score": 86.1
+  },
+  {
+    "sme_id": "SME020",
+    "topic": "SQL",
+    "class_type": "Office Hours",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 4.09,
+    "avg_quality_score": 87.1,
+    "reliability_score": 87.1
+  },
+  {
+    "sme_id": "SME021",
+    "topic": "SQL",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 10,
+    "avg_learner_rating": 4.61,
+    "avg_quality_score": 87.1,
+    "reliability_score": 82.3
+  },
+  {
+    "sme_id": "SME022",
+    "topic": "Python",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.56,
+    "avg_quality_score": 74.2,
+    "reliability_score": 90.3
+  },
+  {
+    "sme_id": "SME023",
+    "topic": "React",
+    "class_type": "Office Hours",
+    "sessions_delivered": 5,
+    "avg_learner_rating": 3.92,
+    "avg_quality_score": 84.1,
+    "reliability_score": 80.0
+  },
+  {
+    "sme_id": "SME024",
+    "topic": "Behavioral Interviews",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 3,
+    "avg_learner_rating": 3.73,
+    "avg_quality_score": 70.7,
+    "reliability_score": 79.9
+  },
+  {
+    "sme_id": "SME025",
+    "topic": "Cloud Computing",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 1,
+    "avg_learner_rating": 4.24,
+    "avg_quality_score": 88.4,
+    "reliability_score": 89.8
+  },
+  {
+    "sme_id": "SME026",
+    "topic": "Data Structures & Algorithms",
+    "class_type": "Cohort Class",
+    "sessions_delivered": 6,
+    "avg_learner_rating": 3.79,
+    "avg_quality_score": 85.8,
+    "reliability_score": 78.2
+  },
+  {
+    "sme_id": "SME027",
+    "topic": "SQL",
+    "class_type": "Assessment Review",
+    "sessions_delivered": 8,
+    "avg_learner_rating": 4.71,
+    "avg_quality_score": 88.3,
+    "reliability_score": 86.4
+  },
+  {
+    "sme_id": "SME028",
+    "topic": "Resume Review",
+    "class_type": "Mock Interview",
+    "sessions_delivered": 9,
+    "avg_learner_rating": 4.47,
+    "avg_quality_score": 89.6,
+    "reliability_score": 92.8
+  }
+]

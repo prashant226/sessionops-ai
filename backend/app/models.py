@@ -1,0 +1,164 @@
+import enum
+import uuid
+from datetime import datetime, timezone
+
+from sqlalchemy import JSON, DateTime, Enum, Float, ForeignKey, Integer, String, Text
+from sqlalchemy.orm import Mapped, mapped_column, relationship
+
+from .db import Base
+
+
+def _uuid() -> str:
+    return uuid.uuid4().hex
+
+
+def _now() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+class SmeStatus(str, enum.Enum):
+    ACTIVE = "Active"
+    INACTIVE = "Inactive"
+    ON_LEAVE = "On Leave"
+
+
+class AssignmentStatus(str, enum.Enum):
+    DRAFT = "DRAFT"
+    PENDING_REVIEW = "PENDING_REVIEW"
+    APPROVED = "APPROVED"
+    CONFIRMED = "CONFIRMED"
+    EDITED = "EDITED"
+    OVERRIDDEN = "OVERRIDDEN"
+    REASSIGNMENT_REQUIRED = "REASSIGNMENT_REQUIRED"
+    REASSIGNED = "REASSIGNED"
+    UNFILLED = "UNFILLED"
+    FINALIZED = "FINALIZED"
+
+
+class RsvpStatus(str, enum.Enum):
+    NONE = "NONE"
+    PENDING = "PENDING"
+    ACCEPTED = "ACCEPTED"
+    TENTATIVE = "TENTATIVE"
+    DECLINED = "DECLINED"
+
+
+class Session(Base):
+    __tablename__ = "sessions"
+
+    session_id: Mapped[str] = mapped_column(String, primary_key=True)
+    topic: Mapped[str] = mapped_column(String)
+    class_type: Mapped[str] = mapped_column(String)
+    required_level: Mapped[str] = mapped_column(String)
+    start_datetime: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    duration_mins: Mapped[int] = mapped_column(Integer)
+    timezone: Mapped[str] = mapped_column(String)
+    mode: Mapped[str] = mapped_column(String, default="Online")
+    location: Mapped[str] = mapped_column(String, nullable=True)
+    week_start: Mapped[str] = mapped_column(String, index=True)
+
+    assignments: Mapped[list["Assignment"]] = relationship(back_populates="session")
+
+
+class Sme(Base):
+    __tablename__ = "smes"
+
+    sme_id: Mapped[str] = mapped_column(String, primary_key=True)
+    name: Mapped[str] = mapped_column(String)
+    primary_skills: Mapped[list] = mapped_column(JSON, default=list)
+    secondary_skills: Mapped[list] = mapped_column(JSON, default=list)
+    expertise_level: Mapped[str] = mapped_column(String)
+    timezone: Mapped[str] = mapped_column(String)
+    base_location: Mapped[str] = mapped_column(String)
+    status: Mapped[str] = mapped_column(String, default=SmeStatus.ACTIVE.value)
+    max_sessions_per_day: Mapped[int] = mapped_column(Integer, default=2)
+    email: Mapped[str] = mapped_column(String, nullable=True)
+
+
+class SmePerformance(Base):
+    __tablename__ = "sme_performance"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=_uuid)
+    sme_id: Mapped[str] = mapped_column(String, ForeignKey("smes.sme_id"), index=True)
+    topic: Mapped[str] = mapped_column(String)
+    class_type: Mapped[str] = mapped_column(String)
+    sessions_delivered: Mapped[int] = mapped_column(Integer, default=0)
+    avg_learner_rating: Mapped[float] = mapped_column(Float, default=0)
+    avg_quality_score: Mapped[float] = mapped_column(Float, default=0)
+    reliability_score: Mapped[float] = mapped_column(Float, default=0)
+
+
+class AssignmentHistory(Base):
+    __tablename__ = "assignment_history"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=_uuid)
+    sme_id: Mapped[str] = mapped_column(String, ForeignKey("smes.sme_id"), index=True)
+    week_start: Mapped[str] = mapped_column(String, index=True)
+    sessions_assigned: Mapped[int] = mapped_column(Integer, default=0)
+
+
+class SmePreference(Base):
+    __tablename__ = "sme_preferences"
+
+    sme_id: Mapped[str] = mapped_column(String, ForeignKey("smes.sme_id"), primary_key=True)
+    preferred_topics: Mapped[list] = mapped_column(JSON, default=list)
+    preferred_class_types: Mapped[list] = mapped_column(JSON, default=list)
+    preferred_start_time: Mapped[str] = mapped_column(String, nullable=True)
+    preferred_end_time: Mapped[str] = mapped_column(String, nullable=True)
+
+
+class CalendarBusyBlock(Base):
+    """Synthetic busy periods for mock mode. In live mode this is superseded by
+    real Google Calendar freebusy reads (see services/calendar_adapter.py)."""
+
+    __tablename__ = "calendar_events"
+
+    event_id: Mapped[str] = mapped_column(String, primary_key=True, default=_uuid)
+    sme_id: Mapped[str] = mapped_column(String, ForeignKey("smes.sme_id"), index=True)
+    title: Mapped[str] = mapped_column(String, default="Busy")
+    start_datetime: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    end_datetime: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+
+
+class Assignment(Base):
+    __tablename__ = "assignments"
+
+    assignment_id: Mapped[str] = mapped_column(String, primary_key=True, default=_uuid)
+    session_id: Mapped[str] = mapped_column(String, ForeignKey("sessions.session_id"), index=True)
+    sme_id: Mapped[str] = mapped_column(String, ForeignKey("smes.sme_id"), nullable=True)
+    match_score: Mapped[float] = mapped_column(Float, nullable=True)
+    status: Mapped[str] = mapped_column(String, default=AssignmentStatus.DRAFT.value)
+    rsvp_status: Mapped[str] = mapped_column(String, default=RsvpStatus.NONE.value)
+    reason: Mapped[str] = mapped_column(Text, nullable=True)
+    flags: Mapped[list] = mapped_column(JSON, default=list)
+    original_sme_id: Mapped[str] = mapped_column(String, nullable=True)
+    replacement_attempt_count: Mapped[int] = mapped_column(Integer, default=0)
+    calendar_event_id: Mapped[str] = mapped_column(String, nullable=True)
+    candidates_snapshot: Mapped[list] = mapped_column(JSON, default=list)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now, onupdate=_now)
+
+    session: Mapped["Session"] = relationship(back_populates="assignments")
+    activity: Mapped[list["AssignmentActivity"]] = relationship(
+        back_populates="assignment", order_by="AssignmentActivity.timestamp"
+    )
+
+
+class WeekMeta(Base):
+    __tablename__ = "week_meta"
+
+    week_start: Mapped[str] = mapped_column(String, primary_key=True)
+    finalized: Mapped[bool] = mapped_column(default=False)
+    finalized_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
+class AssignmentActivity(Base):
+    __tablename__ = "assignment_activity"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=_uuid)
+    assignment_id: Mapped[str] = mapped_column(String, ForeignKey("assignments.assignment_id"), index=True)
+    timestamp: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
+    actor: Mapped[str] = mapped_column(String)  # "AI" | "Ops" | "System"
+    message: Mapped[str] = mapped_column(String)
+
+    assignment: Mapped["Assignment"] = relationship(back_populates="activity")

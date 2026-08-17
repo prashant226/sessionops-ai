@@ -1,0 +1,33 @@
+{
+  "tie_pair": [
+    "SME001",
+    "SME002"
+  ],
+  "fairness_pair": [
+    "SME004",
+    "SME005"
+  ],
+  "capacity_sme": "SME006",
+  "offline_sme": "SME007",
+  "tz_pref_sme": "SME008",
+  "avail_conflict_pool_1": [
+    "SME036",
+    "SME044",
+    "SME055",
+    "SME056"
+  ],
+  "avail_conflict_pool_2": [
+    "SME015",
+    "SME032",
+    "SME047",
+    "SME056"
+  ],
+  "no_replacement_sme": "SME009",
+  "dropout_pool": [
+    "SME013",
+    "SME014",
+    "SME015",
+    "SME019",
+    "SME020"
+  ]
+}

@@ -1,0 +1,1613 @@
+[
+  {
+    "sme_id": "SME001",
+    "name": "Aarav Iyer",
+    "email": "aarav.iyer@sessionops-demo.com",
+    "primary_skills": [
+      "Resume Review"
+    ],
+    "secondary_skills": [
+      "Behavioral Interviews"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME002",
+    "name": "Ananya Rao",
+    "email": "ananya.rao@sessionops-demo.com",
+    "primary_skills": [
+      "Resume Review"
+    ],
+    "secondary_skills": [
+      "Data Structures & Algorithms",
+      "SQL"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME003",
+    "name": "Rohan Malhotra",
+    "email": "rohan.malhotra@sessionops-demo.com",
+    "primary_skills": [
+      "Cloud Computing"
+    ],
+    "secondary_skills": [
+      "Data Structures & Algorithms"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Delhi",
+    "status": "Inactive",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME004",
+    "name": "Priya Jones",
+    "email": "priya.jones@sessionops-demo.com",
+    "primary_skills": [
+      "Behavioral Interviews"
+    ],
+    "secondary_skills": [
+      "Statistics"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME005",
+    "name": "Vikram Thomas",
+    "email": "vikram.thomas@sessionops-demo.com",
+    "primary_skills": [
+      "Behavioral Interviews"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME006",
+    "name": "Neha Young",
+    "email": "neha.young@sessionops-demo.com",
+    "primary_skills": [
+      "Aptitude"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 1
+  },
+  {
+    "sme_id": "SME007",
+    "name": "Karan Huang",
+    "email": "karan.huang@sessionops-demo.com",
+    "primary_skills": [
+      "Product Management"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Singapore",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME008",
+    "name": "Divya Hernandez",
+    "email": "divya.hernandez@sessionops-demo.com",
+    "primary_skills": [
+      "Data Analytics",
+      "Product Strategy"
+    ],
+    "secondary_skills": [
+      "SQL"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Hyderabad",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME009",
+    "name": "Ishaan Flores",
+    "email": "ishaan.flores@sessionops-demo.com",
+    "primary_skills": [
+      "Career Coaching"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME010",
+    "name": "Meera Saleh",
+    "email": "meera.saleh@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Mumbai",
+    "status": "On Leave",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME011",
+    "name": "Arjun Osei",
+    "email": "arjun.osei@sessionops-demo.com",
+    "primary_skills": [
+      "DevOps"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME012",
+    "name": "Sneha Larsen",
+    "email": "sneha.larsen@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript"
+    ],
+    "secondary_skills": [
+      "Product Management"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Pune",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME013",
+    "name": "Aditi Karlsson",
+    "email": "aditi.karlsson@sessionops-demo.com",
+    "primary_skills": [
+      "Python"
+    ],
+    "secondary_skills": [
+      "Java"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Dubai",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME014",
+    "name": "Rahul Romano",
+    "email": "rahul.romano@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "Product Management"
+    ],
+    "secondary_skills": [
+      "SQL",
+      "Statistics"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Europe/London",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME015",
+    "name": "Kavya Verma",
+    "email": "kavya.verma@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "Mock Interviews",
+      "Resume Review"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "America/New_York",
+    "base_location": "Hyderabad",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME016",
+    "name": "Nikhil Krishnan",
+    "email": "nikhil.krishnan@sessionops-demo.com",
+    "primary_skills": [
+      "Machine Learning",
+      "Java"
+    ],
+    "secondary_skills": [
+      "Resume Review"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Singapore",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME017",
+    "name": "Pooja Pillai",
+    "email": "pooja.pillai@sessionops-demo.com",
+    "primary_skills": [
+      "Product Strategy",
+      "Data Analytics",
+      "DevOps"
+    ],
+    "secondary_skills": [
+      "Mock Interviews"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/New_York",
+    "base_location": "Hyderabad",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME018",
+    "name": "Siddharth Williams",
+    "email": "siddharth.williams@sessionops-demo.com",
+    "primary_skills": [
+      "Product Management"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Inactive",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME019",
+    "name": "Riya Taylor",
+    "email": "riya.taylor@sessionops-demo.com",
+    "primary_skills": [
+      "Mock Interviews",
+      "Python"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Singapore",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 5
+  },
+  {
+    "sme_id": "SME020",
+    "name": "Varun Walker",
+    "email": "varun.walker@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "SQL"
+    ],
+    "secondary_skills": [
+      "Cloud Computing"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME021",
+    "name": "Liam Liu",
+    "email": "liam.liu@sessionops-demo.com",
+    "primary_skills": [
+      "SQL"
+    ],
+    "secondary_skills": [
+      "JavaScript"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Dubai",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME022",
+    "name": "Emma Rodriguez",
+    "email": "emma.rodriguez@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "System Design"
+    ],
+    "secondary_skills": [
+      "Machine Learning"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME023",
+    "name": "Noah Ramirez",
+    "email": "noah.ramirez@sessionops-demo.com",
+    "primary_skills": [
+      "React"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Dubai",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME024",
+    "name": "Olivia Aziz",
+    "email": "olivia.aziz@sessionops-demo.com",
+    "primary_skills": [
+      "Behavioral Interviews",
+      "Python"
+    ],
+    "secondary_skills": [
+      "Statistics",
+      "Resume Review"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/New_York",
+    "base_location": "Bangalore",
+    "status": "Inactive",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME025",
+    "name": "Ethan Mensah",
+    "email": "ethan.mensah@sessionops-demo.com",
+    "primary_skills": [
+      "Cloud Computing"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Europe/London",
+    "base_location": "Dubai",
+    "status": "On Leave",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME026",
+    "name": "Sophia Adeyemi",
+    "email": "sophia.adeyemi@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "Data Structures & Algorithms"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Dubai",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME027",
+    "name": "Mason Berg",
+    "email": "mason.berg@sessionops-demo.com",
+    "primary_skills": [
+      "SQL",
+      "Aptitude"
+    ],
+    "secondary_skills": [
+      "Machine Learning"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Delhi",
+    "status": "On Leave",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME028",
+    "name": "Ava Esposito",
+    "email": "ava.esposito@sessionops-demo.com",
+    "primary_skills": [
+      "Resume Review"
+    ],
+    "secondary_skills": [
+      "Mock Interviews"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Singapore",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME029",
+    "name": "Lucas Bruno",
+    "email": "lucas.bruno@sessionops-demo.com",
+    "primary_skills": [
+      "Resume Review",
+      "Data Structures & Algorithms"
+    ],
+    "secondary_skills": [
+      "SQL"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Singapore",
+    "base_location": "Dubai",
+    "status": "On Leave",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME030",
+    "name": "Mia Mehta",
+    "email": "mia.mehta@sessionops-demo.com",
+    "primary_skills": [
+      "Product Management"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Singapore",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME031",
+    "name": "James Bhatt",
+    "email": "james.bhatt@sessionops-demo.com",
+    "primary_skills": [
+      "Product Strategy"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Singapore",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME032",
+    "name": "Charlotte Smith",
+    "email": "charlotte.smith@sessionops-demo.com",
+    "primary_skills": [
+      "Data Analytics",
+      "Mock Interviews"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME033",
+    "name": "Benjamin Garcia",
+    "email": "benjamin.garcia@sessionops-demo.com",
+    "primary_skills": [
+      "Data Analytics",
+      "Cloud Computing",
+      "Data Structures & Algorithms"
+    ],
+    "secondary_skills": [
+      "React",
+      "Aptitude"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "New York",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME034",
+    "name": "Amelia Clark",
+    "email": "amelia.clark@sessionops-demo.com",
+    "primary_skills": [
+      "SQL"
+    ],
+    "secondary_skills": [
+      "Product Management"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Pune",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME035",
+    "name": "William Wang",
+    "email": "william.wang@sessionops-demo.com",
+    "primary_skills": [
+      "Machine Learning",
+      "Product Management"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Hyderabad",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME036",
+    "name": "Isabella Kim",
+    "email": "isabella.kim@sessionops-demo.com",
+    "primary_skills": [
+      "Data Structures & Algorithms",
+      "Python"
+    ],
+    "secondary_skills": [
+      "Java"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME037",
+    "name": "Henry Perez",
+    "email": "henry.perez@sessionops-demo.com",
+    "primary_skills": [
+      "Data Structures & Algorithms"
+    ],
+    "secondary_skills": [
+      "Data Analytics"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Delhi",
+    "status": "Inactive",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME038",
+    "name": "Grace Khalid",
+    "email": "grace.khalid@sessionops-demo.com",
+    "primary_skills": [
+      "React"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME039",
+    "name": "Daniel Yousef",
+    "email": "daniel.yousef@sessionops-demo.com",
+    "primary_skills": [
+      "Java",
+      "Machine Learning"
+    ],
+    "secondary_skills": [
+      "Behavioral Interviews"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Bangalore",
+    "status": "On Leave",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME040",
+    "name": "Chloe Kamau",
+    "email": "chloe.kamau@sessionops-demo.com",
+    "primary_skills": [
+      "Machine Learning",
+      "Statistics",
+      "Mock Interviews"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "New York",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME041",
+    "name": "Wei Nilsson",
+    "email": "wei.nilsson@sessionops-demo.com",
+    "primary_skills": [
+      "React"
+    ],
+    "secondary_skills": [
+      "Data Structures & Algorithms"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME042",
+    "name": "Mei Rossi",
+    "email": "mei.rossi@sessionops-demo.com",
+    "primary_skills": [
+      "Resume Review",
+      "Product Management",
+      "Machine Learning"
+    ],
+    "secondary_skills": [
+      "Cloud Computing",
+      "Java"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Europe/London",
+    "base_location": "Dubai",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME043",
+    "name": "Hiroshi Marino",
+    "email": "hiroshi.marino@sessionops-demo.com",
+    "primary_skills": [
+      "React",
+      "System Design"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Beginner",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME044",
+    "name": "Yuki Reddy",
+    "email": "yuki.reddy@sessionops-demo.com",
+    "primary_skills": [
+      "Python"
+    ],
+    "secondary_skills": [
+      "SQL"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Singapore",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME045",
+    "name": "Jin Singh",
+    "email": "jin.singh@sessionops-demo.com",
+    "primary_skills": [
+      "Product Strategy"
+    ],
+    "secondary_skills": [
+      "Machine Learning"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME046",
+    "name": "Sooyoung Chawla",
+    "email": "sooyoung.chawla@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "Machine Learning",
+      "JavaScript"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME047",
+    "name": "Ling Miller",
+    "email": "ling.miller@sessionops-demo.com",
+    "primary_skills": [
+      "Mock Interviews"
+    ],
+    "secondary_skills": [
+      "DevOps"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME048",
+    "name": "Tao Moore",
+    "email": "tao.moore@sessionops-demo.com",
+    "primary_skills": [
+      "Aptitude",
+      "Data Analytics"
+    ],
+    "secondary_skills": [
+      "Resume Review"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Hyderabad",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME049",
+    "name": "Kenji King",
+    "email": "kenji.king@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript",
+      "Machine Learning",
+      "React"
+    ],
+    "secondary_skills": [
+      "Product Management"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "America/Los_Angeles",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME050",
+    "name": "Aiko Tanaka",
+    "email": "aiko.tanaka@sessionops-demo.com",
+    "primary_skills": [
+      "React",
+      "System Design"
+    ],
+    "secondary_skills": [
+      "Python"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Dubai",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME051",
+    "name": "Carlos Lopez",
+    "email": "carlos.lopez@sessionops-demo.com",
+    "primary_skills": [
+      "Java"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Mumbai",
+    "status": "Inactive",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME052",
+    "name": "Sofia Al-Farsi",
+    "email": "sofia.al-farsi@sessionops-demo.com",
+    "primary_skills": [
+      "Python"
+    ],
+    "secondary_skills": [
+      "Career Coaching"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME053",
+    "name": "Mateo Karim",
+    "email": "mateo.karim@sessionops-demo.com",
+    "primary_skills": [
+      "Aptitude",
+      "SQL"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME054",
+    "name": "Valentina Abara",
+    "email": "valentina.abara@sessionops-demo.com",
+    "primary_skills": [
+      "DevOps"
+    ],
+    "secondary_skills": [
+      "SQL"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/New_York",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME055",
+    "name": "Diego Johansson",
+    "email": "diego.johansson@sessionops-demo.com",
+    "primary_skills": [
+      "SQL",
+      "Python",
+      "Java"
+    ],
+    "secondary_skills": [
+      "Communication Skills"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME056",
+    "name": "Camila Hansen",
+    "email": "camila.hansen@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "Mock Interviews"
+    ],
+    "secondary_skills": [
+      "System Design",
+      "SQL"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Dubai",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME057",
+    "name": "Javier Colombo",
+    "email": "javier.colombo@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME058",
+    "name": "Elena Nair",
+    "email": "elena.nair@sessionops-demo.com",
+    "primary_skills": [
+      "Mock Interviews",
+      "Cloud Computing"
+    ],
+    "secondary_skills": [
+      "DevOps"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Dubai",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME059",
+    "name": "Andres Das",
+    "email": "andres.das@sessionops-demo.com",
+    "primary_skills": [
+      "Java",
+      "Product Management"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME060",
+    "name": "Lucia Joshi",
+    "email": "lucia.joshi@sessionops-demo.com",
+    "primary_skills": [
+      "Java"
+    ],
+    "secondary_skills": [
+      "Data Structures & Algorithms"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Singapore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME061",
+    "name": "Omar Brown",
+    "email": "omar.brown@sessionops-demo.com",
+    "primary_skills": [
+      "Statistics",
+      "Resume Review"
+    ],
+    "secondary_skills": [
+      "Machine Learning"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "New York",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME062",
+    "name": "Layla Anderson",
+    "email": "layla.anderson@sessionops-demo.com",
+    "primary_skills": [
+      "Product Management",
+      "Cloud Computing"
+    ],
+    "secondary_skills": [
+      "Java"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME063",
+    "name": "Yusuf Hall",
+    "email": "yusuf.hall@sessionops-demo.com",
+    "primary_skills": [
+      "System Design"
+    ],
+    "secondary_skills": [
+      "JavaScript"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME064",
+    "name": "Amara Yang",
+    "email": "amara.yang@sessionops-demo.com",
+    "primary_skills": [
+      "Machine Learning"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME065",
+    "name": "Karim Martinez",
+    "email": "karim.martinez@sessionops-demo.com",
+    "primary_skills": [
+      "Machine Learning"
+    ],
+    "secondary_skills": [
+      "Product Management"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Dubai",
+    "base_location": "Hyderabad",
+    "status": "On Leave",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME066",
+    "name": "Zainab Torres",
+    "email": "zainab.torres@sessionops-demo.com",
+    "primary_skills": [
+      "Data Structures & Algorithms"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "America/New_York",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME067",
+    "name": "Hassan Mansour",
+    "email": "hassan.mansour@sessionops-demo.com",
+    "primary_skills": [
+      "Aptitude"
+    ],
+    "secondary_skills": [
+      "Product Management"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "On Leave",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME068",
+    "name": "Farah Diallo",
+    "email": "farah.diallo@sessionops-demo.com",
+    "primary_skills": [
+      "Python"
+    ],
+    "secondary_skills": [
+      "React",
+      "Mock Interviews"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME069",
+    "name": "Tariq Balewa",
+    "email": "tariq.balewa@sessionops-demo.com",
+    "primary_skills": [
+      "System Design"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Dubai",
+    "base_location": "Bangalore",
+    "status": "On Leave",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME070",
+    "name": "Noor Lindqvist",
+    "email": "noor.lindqvist@sessionops-demo.com",
+    "primary_skills": [
+      "Python"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Europe/London",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME071",
+    "name": "Kwame Bianchi",
+    "email": "kwame.bianchi@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "Product Strategy",
+      "Cloud Computing"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME072",
+    "name": "Amina Sharma",
+    "email": "amina.sharma@sessionops-demo.com",
+    "primary_skills": [
+      "DevOps"
+    ],
+    "secondary_skills": [
+      "Python"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Mumbai",
+    "status": "Inactive",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME073",
+    "name": "Chidi Kapoor",
+    "email": "chidi.kapoor@sessionops-demo.com",
+    "primary_skills": [
+      "Product Strategy",
+      "System Design",
+      "Cloud Computing"
+    ],
+    "secondary_skills": [
+      "Data Structures & Algorithms",
+      "JavaScript"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/New_York",
+    "base_location": "Dubai",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME074",
+    "name": "Zola Menon",
+    "email": "zola.menon@sessionops-demo.com",
+    "primary_skills": [
+      "Data Analytics"
+    ],
+    "secondary_skills": [
+      "System Design"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Inactive",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME075",
+    "name": "Femi Johnson",
+    "email": "femi.johnson@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript",
+      "Python"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME076",
+    "name": "Aisha Wilson",
+    "email": "aisha.wilson@sessionops-demo.com",
+    "primary_skills": [
+      "Mock Interviews",
+      "React",
+      "Aptitude"
+    ],
+    "secondary_skills": [
+      "System Design",
+      "Machine Learning"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "London",
+    "status": "On Leave",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME077",
+    "name": "Kofi Lewis",
+    "email": "kofi.lewis@sessionops-demo.com",
+    "primary_skills": [
+      "System Design"
+    ],
+    "secondary_skills": [
+      "Java"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME078",
+    "name": "Nia Zhang",
+    "email": "nia.zhang@sessionops-demo.com",
+    "primary_skills": [
+      "Statistics",
+      "DevOps",
+      "Data Analytics"
+    ],
+    "secondary_skills": [
+      "Mock Interviews",
+      "React"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Europe/London",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME079",
+    "name": "Tunde Park",
+    "email": "tunde.park@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript"
+    ],
+    "secondary_skills": [
+      "Cloud Computing",
+      "React"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "On Leave",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME080",
+    "name": "Imani Sanchez",
+    "email": "imani.sanchez@sessionops-demo.com",
+    "primary_skills": [
+      "Machine Learning",
+      "System Design"
+    ],
+    "secondary_skills": [
+      "Java",
+      "Product Management"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "New York",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME081",
+    "name": "Erik Rahman",
+    "email": "erik.rahman@sessionops-demo.com",
+    "primary_skills": [
+      "React"
+    ],
+    "secondary_skills": [
+      "Python"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Dubai",
+    "base_location": "Dubai",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME082",
+    "name": "Freya Okafor",
+    "email": "freya.okafor@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript",
+      "Product Management"
+    ],
+    "secondary_skills": [
+      "Machine Learning"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "America/Los_Angeles",
+    "base_location": "New York",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME083",
+    "name": "Lars Mwangi",
+    "email": "lars.mwangi@sessionops-demo.com",
+    "primary_skills": [
+      "Behavioral Interviews"
+    ],
+    "secondary_skills": [
+      "Mock Interviews"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME084",
+    "name": "Astrid Andersen",
+    "email": "astrid.andersen@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript",
+      "Mock Interviews",
+      "Machine Learning"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Europe/London",
+    "base_location": "New York",
+    "status": "On Leave",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME085",
+    "name": "Magnus Ferrari",
+    "email": "magnus.ferrari@sessionops-demo.com",
+    "primary_skills": [
+      "Statistics",
+      "Product Strategy"
+    ],
+    "secondary_skills": [
+      "Aptitude"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "New York",
+    "status": "Inactive",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME086",
+    "name": "Ingrid Greco",
+    "email": "ingrid.greco@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "Product Strategy"
+    ],
+    "secondary_skills": [
+      "Mock Interviews"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME087",
+    "name": "Sven Gupta",
+    "email": "sven.gupta@sessionops-demo.com",
+    "primary_skills": [
+      "Python",
+      "React"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Singapore",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME088",
+    "name": "Elin Chatterjee",
+    "email": "elin.chatterjee@sessionops-demo.com",
+    "primary_skills": [
+      "Data Structures & Algorithms",
+      "Cloud Computing"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Europe/London",
+    "base_location": "New York",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME089",
+    "name": "Anders Bose",
+    "email": "anders.bose@sessionops-demo.com",
+    "primary_skills": [
+      "Mock Interviews",
+      "Product Strategy"
+    ],
+    "secondary_skills": [
+      "Statistics",
+      "Data Analytics"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "America/New_York",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME090",
+    "name": "Sigrid Davis",
+    "email": "sigrid.davis@sessionops-demo.com",
+    "primary_skills": [
+      "Cloud Computing"
+    ],
+    "secondary_skills": [
+      "Career Coaching",
+      "Product Management"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME091",
+    "name": "Marco Martin",
+    "email": "marco.martin@sessionops-demo.com",
+    "primary_skills": [
+      "DevOps"
+    ],
+    "secondary_skills": [
+      "Python",
+      "Mock Interviews"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Delhi",
+    "status": "On Leave",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME092",
+    "name": "Giulia Chen",
+    "email": "giulia.chen@sessionops-demo.com",
+    "primary_skills": [
+      "SQL",
+      "Python"
+    ],
+    "secondary_skills": [
+      "DevOps",
+      "Data Structures & Algorithms"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Singapore",
+    "base_location": "Bangalore",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME093",
+    "name": "Luca Suzuki",
+    "email": "luca.suzuki@sessionops-demo.com",
+    "primary_skills": [
+      "Python"
+    ],
+    "secondary_skills": [
+      "Behavioral Interviews",
+      "DevOps"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Delhi",
+    "status": "Active",
+    "max_sessions_per_day": 2
+  },
+  {
+    "sme_id": "SME094",
+    "name": "Chiara Gonzalez",
+    "email": "chiara.gonzalez@sessionops-demo.com",
+    "primary_skills": [
+      "Java",
+      "Machine Learning"
+    ],
+    "secondary_skills": [
+      "SQL",
+      "JavaScript"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "Europe/London",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME095",
+    "name": "Matteo Hassan",
+    "email": "matteo.hassan@sessionops-demo.com",
+    "primary_skills": [
+      "Data Analytics",
+      "Communication Skills",
+      "Cloud Computing"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Intermediate",
+    "timezone": "Europe/London",
+    "base_location": "London",
+    "status": "Active",
+    "max_sessions_per_day": 4
+  },
+  {
+    "sme_id": "SME096",
+    "name": "Alessia Nasser",
+    "email": "alessia.nasser@sessionops-demo.com",
+    "primary_skills": [
+      "JavaScript",
+      "Behavioral Interviews"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Beginner",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Pune",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME097",
+    "name": "Paolo Nwosu",
+    "email": "paolo.nwosu@sessionops-demo.com",
+    "primary_skills": [
+      "DevOps",
+      "Product Management"
+    ],
+    "secondary_skills": [
+      "Mock Interviews"
+    ],
+    "expertise_level": "Intermediate",
+    "timezone": "America/New_York",
+    "base_location": "Dubai",
+    "status": "Inactive",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME098",
+    "name": "Bianca Eriksson",
+    "email": "bianca.eriksson@sessionops-demo.com",
+    "primary_skills": [
+      "Data Structures & Algorithms"
+    ],
+    "secondary_skills": [],
+    "expertise_level": "Advanced",
+    "timezone": "Asia/Singapore",
+    "base_location": "Mumbai",
+    "status": "Active",
+    "max_sessions_per_day": 3
+  },
+  {
+    "sme_id": "SME099",
+    "name": "Fabio Olsen",
+    "email": "fabio.olsen@sessionops-demo.com",
+    "primary_skills": [
+      "Resume Review",
+      "Data Structures & Algorithms"
+    ],
+    "secondary_skills": [
+      "Machine Learning"
+    ],
+    "expertise_level": "Beginner",
+    "timezone": "Asia/Kolkata",
+    "base_location": "Dubai",
+    "status": "Active",
+    "max_sessions_per_day": 5
+  },
+  {
+    "sme_id": "SME100",
+    "name": "Rosa Ricci",
+    "email": "rosa.ricci@sessionops-demo.com",
+    "primary_skills": [
+      "Mock Interviews"
+    ],
+    "secondary_skills": [
+      "Java",
+      "Python"
+    ],
+    "expertise_level": "Advanced",
+    "timezone": "America/Los_Angeles",
+    "base_location": "Mumbai",
+    "status": "On Leave",
+    "max_sessions_per_day": 3
+  }
+]

@@ -1,0 +1,51 @@
+session_id,topic,class_type,required_level,start_datetime,duration_mins,timezone,mode,location,week_start
+S001,Cloud Computing,Workshop,Advanced,2026-08-25T10:30:00,90,Asia/Kolkata,Online,,2026-08-24
+S002,Python,Mock Interview,Advanced,2026-08-24T04:30:00,60,Asia/Kolkata,Online,,2026-08-24
+S003,Mock Interviews,Mock Interview,Intermediate,2026-08-26T05:30:00,45,Asia/Kolkata,Online,,2026-08-24
+S004,Career Coaching,Office Hours,Advanced,2026-08-27T09:30:00,45,Asia/Kolkata,Online,,2026-08-24
+S005,Behavioral Interviews,Cohort Class,Advanced,2026-08-25T04:30:00,90,Asia/Kolkata,Online,,2026-08-24
+S006,Resume Review,Mock Interview,Advanced,2026-08-26T08:30:00,60,Asia/Kolkata,Online,,2026-08-24
+S007,Data Analytics,Doubt Clearing,Advanced,2026-08-28T08:30:00,45,Asia/Kolkata,Online,,2026-08-24
+S008,Data Analytics,Workshop,Advanced,2026-08-26T15:30:00,60,Asia/Kolkata,Online,,2026-08-24
+S009,Aptitude,Assessment Review,Advanced,2026-08-24T05:30:00,60,Asia/Kolkata,Online,,2026-08-24
+S010,Aptitude,Assessment Review,Advanced,2026-08-24T09:30:00,60,Asia/Kolkata,Online,,2026-08-24
+S011,Product Management,Workshop,Advanced,2026-08-27T03:00:00,90,Asia/Singapore,Offline,Singapore,2026-08-24
+S012,Python,Mock Interview,Advanced,2026-08-24T08:30:00,60,Asia/Kolkata,Online,,2026-08-24
+S013,Career Coaching,Mock Interview,Advanced,2026-08-28T04:30:00,45,Asia/Kolkata,Online,,2026-08-24
+S014,Data Analytics,Assessment Review,Advanced,2026-08-25T11:15:00,60,Asia/Kolkata,Online,,2026-08-24
+S015,DevOps,Workshop,Beginner,2026-08-25T12:45:00,30,Asia/Kolkata,Online,,2026-08-24
+S016,Cloud Computing,Office Hours,Advanced,2026-08-25T13:00:00,60,Asia/Kolkata,Online,,2026-08-24
+S017,Python,Assessment Review,Beginner,2026-08-25T21:15:00,60,America/New_York,Offline,Delhi,2026-08-24
+S018,Mock Interviews,Workshop,Intermediate,2026-08-25T10:00:00,90,Asia/Kolkata,Online,,2026-08-24
+S019,SQL,Workshop,Beginner,2026-08-25T17:45:00,30,America/Los_Angeles,Online,,2026-08-24
+S020,Mock Interviews,Office Hours,Beginner,2026-08-26T13:30:00,90,Asia/Dubai,Online,,2026-08-24
+S021,Mock Interviews,Workshop,Advanced,2026-08-26T17:30:00,60,America/New_York,Online,,2026-08-24
+S022,Machine Learning,Assessment Review,Intermediate,2026-08-26T21:30:00,30,America/Los_Angeles,Online,,2026-08-24
+S023,Machine Learning,Workshop,Advanced,2026-08-26T14:00:00,60,Asia/Dubai,Online,,2026-08-24
+S024,DevOps,Cohort Class,Beginner,2026-08-26T17:30:00,60,America/New_York,Online,,2026-08-24
+S025,SQL,Assessment Review,Intermediate,2026-08-26T03:30:00,90,Asia/Kolkata,Online,,2026-08-24
+S026,Java,Mock Interview,Beginner,2026-08-26T08:30:00,90,Asia/Kolkata,Online,,2026-08-24
+S027,Product Management,Cohort Class,Intermediate,2026-08-26T10:15:00,60,Asia/Kolkata,Online,,2026-08-24
+S028,Machine Learning,Office Hours,Beginner,2026-08-26T08:15:00,60,Asia/Kolkata,Online,,2026-08-24
+S029,Machine Learning,Office Hours,Beginner,2026-08-27T06:45:00,90,Asia/Kolkata,Online,,2026-08-24
+S030,SQL,Workshop,Advanced,2026-08-27T09:45:00,60,Asia/Kolkata,Online,,2026-08-24
+S031,Mock Interviews,Cohort Class,Intermediate,2026-08-27T19:00:00,60,America/New_York,Online,,2026-08-24
+S032,Statistics,Workshop,Intermediate,2026-08-27T19:30:00,30,America/New_York,Online,,2026-08-24
+S033,Statistics,Office Hours,Intermediate,2026-08-27T18:00:00,60,America/New_York,Online,,2026-08-24
+S034,Java,Workshop,Intermediate,2026-08-27T08:00:00,45,Asia/Kolkata,Online,,2026-08-24
+S035,Python,Assessment Review,Beginner,2026-08-27T13:30:00,90,Europe/London,Online,,2026-08-24
+S036,Mock Interviews,Doubt Clearing,Beginner,2026-08-27T05:45:00,90,Asia/Kolkata,Online,,2026-08-24
+S037,SQL,Assessment Review,Intermediate,2026-08-28T01:45:00,90,America/Los_Angeles,Offline,Pune,2026-08-24
+S038,Career Coaching,Mock Interview,Advanced,2026-08-28T15:45:00,30,America/New_York,Online,,2026-08-24
+S039,Data Analytics,Mock Interview,Intermediate,2026-08-28T05:00:00,60,Asia/Kolkata,Online,,2026-08-24
+S040,Data Structures & Algorithms,Mock Interview,Beginner,2026-08-28T02:45:00,60,Asia/Singapore,Online,,2026-08-24
+S041,Mock Interviews,Cohort Class,Intermediate,2026-08-28T19:30:00,60,America/Los_Angeles,Online,,2026-08-24
+S042,Aptitude,Workshop,Beginner,2026-08-28T06:00:00,60,Asia/Singapore,Online,,2026-08-24
+S043,Machine Learning,Workshop,Advanced,2026-08-28T17:15:00,60,Europe/London,Offline,Delhi,2026-08-24
+S044,Product Strategy,Assessment Review,Intermediate,2026-08-28T21:00:00,45,America/Los_Angeles,Online,,2026-08-24
+S045,Data Structures & Algorithms,Mock Interview,Advanced,2026-08-28T22:15:00,45,America/New_York,Online,,2026-08-24
+S046,SQL,Mock Interview,Intermediate,2026-08-29T19:15:00,60,America/New_York,Offline,Mumbai,2026-08-24
+S047,Data Structures & Algorithms,Mock Interview,Advanced,2026-08-29T21:00:00,60,America/New_York,Online,,2026-08-24
+S048,Data Structures & Algorithms,Mock Interview,Intermediate,2026-08-29T10:45:00,45,Asia/Dubai,Offline,Bangalore,2026-08-24
+S049,Data Analytics,Cohort Class,Intermediate,2026-08-29T16:00:00,90,Europe/London,Offline,Pune,2026-08-24
+S050,System Design,Doubt Clearing,Beginner,2026-08-30T01:15:00,90,America/Los_Angeles,Online,,2026-08-24
