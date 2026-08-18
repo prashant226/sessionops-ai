@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session as DbSession
 
 from .. import models, schemas
 from ..db import get_db
+from ..services.period import assignments_in_range
 from ..services.serialize import serialize_assignment
 
 router = APIRouter(prefix="/exceptions", tags=["exceptions"])
@@ -25,13 +26,8 @@ URGENCY_ORDER = [
 
 
 @router.get("", response_model=list[schemas.AssignmentOut])
-def list_exceptions(week_start: str, filter: str = "All", db: DbSession = Depends(get_db)):
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .all()
-    )
+def list_exceptions(start_date: str, end_date: str, filter: str = "All", db: DbSession = Depends(get_db)):
+    rows = assignments_in_range(db, start_date, end_date).all()
 
     def has_exception(a: models.Assignment) -> bool:
         flags = set(a.flags or [])

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timedelta, timezone
 
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import StreamingResponse
@@ -9,9 +10,15 @@ from sqlalchemy.orm import Session as DbSession
 from .. import models, schemas
 from ..config import get_settings
 from ..db import get_db
-from ..services import draft_engine
+from ..services import draft_engine, period
 from ..services.activity_log import log
-from ..services.calendar_adapter import create_event_and_invite, CalendarNotConnectedError
+from ..services.calendar_adapter import (
+    CalendarNotConnectedError,
+    InviteAlreadySentError,
+    create_event_and_invite,
+    event_link,
+    resend_invite,
+)
 from ..services.matching_engine import evaluate_candidates
 from ..services.rsvp_poller import poll_all_pending_rsvps
 from ..services.serialize import serialize_assignment
@@ -28,51 +35,58 @@ def _get_assignment(db: DbSession, assignment_id: str) -> models.Assignment:
     return a
 
 
-@router.get("/weeks", response_model=list[schemas.WeekSummary])
-def list_weeks(db: DbSession = Depends(get_db)):
-    rows = db.query(models.Session.week_start).distinct().all()
-    return [schemas.WeekSummary(week_start=r[0], has_data=True) for r in rows]
+@router.get("/period-status", response_model=schemas.PeriodStatusOut)
+def period_status(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    return schemas.PeriodStatusOut(**period.get_period_status(db, start_date, end_date))
+
+
+@router.post("/check-overlap", response_model=schemas.OverlapCheckOut)
+def check_overlap(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    """Called before generating a draft for a new period, so the frontend
+    can warn about an overlapping existing schedule instead of silently
+    creating a confusing second draft over the same dates (product spec
+    sections 5 and 28)."""
+    conflict = period.find_overlapping_period(db, start_date, end_date)
+    if not conflict:
+        return schemas.OverlapCheckOut(overlap=None)
+    count = period.assignments_in_range(db, conflict.start_date, conflict.end_date).count()
+    return schemas.OverlapCheckOut(overlap=schemas.PeriodConflictOut(
+        start_date=conflict.start_date, end_date=conflict.end_date, status=conflict.status, assignment_count=count,
+    ))
 
 
 @router.get("/sessions", response_model=list[schemas.AssignmentOut])
-def list_sessions(week_start: str, db: DbSession = Depends(get_db)):
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .order_by(models.Session.start_datetime)
-        .all()
-    )
+def list_sessions(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    rows = period.assignments_in_range(db, start_date, end_date).order_by(models.Session.start_datetime).all()
     return [serialize_assignment(db, a, include_candidates=False) for a in rows]
 
 
 @router.post("/reset")
-def reset_week(week_start: str, db: DbSession = Depends(get_db)):
-    """Wipes every assignment (and its activity log) for the given week back
-    to a blank slate -- KPIs go to 0, the Review List goes empty, and
-    Generate Draft has to be run again to repopulate it. Source data
-    (Sessions, SMEs, performance, history, preferences, calendar busy
+def reset_period(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    """Wipes every assignment (and its activity log) for the given date
+    range back to a blank slate -- KPIs go to 0, the Review List goes
+    empty, and Generate Draft has to be run again to repopulate it. Source
+    data (Sessions, SMEs, performance, history, preferences, calendar busy
     blocks) is untouched -- this only clears the operational review state,
     not the underlying dataset. Does NOT delete any real Google Calendar
     events already created for approved assignments in live mode -- those
     stay on the calendar; only the app's own record of them is cleared."""
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .all()
-    )
+    rows = period.assignments_in_range(db, start_date, end_date).all()
     count = len(rows)
     for a in rows:
         db.query(models.AssignmentActivity).filter(models.AssignmentActivity.assignment_id == a.assignment_id).delete()
         db.delete(a)
 
-    meta = db.get(models.WeekMeta, week_start)
-    if meta:
-        db.delete(meta)
+    existing_period = (
+        db.query(models.SchedulePeriod)
+        .filter(models.SchedulePeriod.start_date == start_date, models.SchedulePeriod.end_date == end_date)
+        .first()
+    )
+    if existing_period:
+        db.delete(existing_period)
 
     db.commit()
-    return {"status": "ok", "week_start": week_start, "cleared": count}
+    return {"status": "ok", "start_date": start_date, "end_date": end_date, "cleared": count}
 
 
 @router.get("/assignments/{assignment_id}", response_model=schemas.AssignmentOut)
@@ -82,16 +96,18 @@ def get_assignment(assignment_id: str, db: DbSession = Depends(get_db)):
 
 
 @router.post("/generate")
-def generate_draft(week_start: str, db: DbSession = Depends(get_db)):
+def generate_draft(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
     """Streams real progress events (newline-delimited JSON) as the engine
-    actually completes each stage -- no artificial delays."""
+    actually completes each stage -- no artificial delays. Registers this
+    range as a SchedulePeriod so it shows up in the Draft/Finalized header
+    and participates in overlap detection for future periods."""
 
     def event_stream():
         def emit(stage: str, detail: dict | None = None):
             yield json.dumps({"stage": stage, **(detail or {})}) + "\n"
 
         yield from emit("loading_sessions")
-        sessions = draft_engine.sessions_needing_draft(db, week_start)
+        sessions = draft_engine.sessions_needing_draft(db, start_date, end_date)
         yield from emit("loading_sessions_done", {"count": len(sessions)})
 
         yield from emit("checking_availability")
@@ -99,7 +115,7 @@ def generate_draft(week_start: str, db: DbSession = Depends(get_db)):
         yield from emit("evaluating_expertise")
         yield from emit("optimizing_workload_fairness")
 
-        confirmed_count = pending_count = unfilled_count = 0
+        pending_count = unfilled_count = 0
         for session in sessions:
             match = evaluate_candidates(db, session)
             assignment = db.query(models.Assignment).filter(models.Assignment.session_id == session.session_id).first()
@@ -116,6 +132,9 @@ def generate_draft(week_start: str, db: DbSession = Depends(get_db)):
 
         yield from emit("detecting_conflicts")
         yield from emit("preparing_review_queue")
+
+        period.get_or_create_period(db, start_date, end_date)
+
         yield from emit("done", {
             "sessions_processed": len(sessions), "pending_review": pending_count, "unfilled": unfilled_count,
         })
@@ -132,11 +151,9 @@ def approve_assignment(assignment_id: str, db: DbSession = Depends(get_db)):
     session = a.session or db.get(models.Session, a.session_id)
 
     try:
-        result = create_event_and_invite(
-            db, session.topic,
-            f"{session.class_type} · {session.required_level} · scheduled via SessionOps AI",
-            sme.email, session.start_datetime, session.duration_mins, session.timezone,
-        )
+        result = create_event_and_invite(db, a, session, sme)
+    except InviteAlreadySentError:
+        raise HTTPException(status_code=409, detail="An invitation already exists for this assignment. Use Resend Invite or Open Event instead.")
     except CalendarNotConnectedError as e:
         raise HTTPException(status_code=503, detail=str(e))
     a.calendar_event_id = result.calendar_event_id
@@ -144,11 +161,36 @@ def approve_assignment(assignment_id: str, db: DbSession = Depends(get_db)):
     a.rsvp_status = models.RsvpStatus.PENDING.value
     db.commit()
 
+    from ..services.calendar_adapter import get_calendar_recipient
     log(db, a.assignment_id, "Ops", f"Ops approved {sme.name}")
-    log(db, a.assignment_id, "System", "Calendar invitation sent")
+    log(db, a.assignment_id, "System", f"Calendar invitation sent to {get_calendar_recipient(sme)}")
     db.commit()
     db.refresh(a)
     return serialize_assignment(db, a)
+
+
+@router.post("/assignments/{assignment_id}/resend-invite", response_model=schemas.AssignmentOut)
+def resend_assignment_invite(assignment_id: str, db: DbSession = Depends(get_db)):
+    a = _get_assignment(db, assignment_id)
+    if not a.calendar_event_id:
+        raise HTTPException(status_code=409, detail="No invitation has been sent for this assignment yet.")
+    sme = db.get(models.Sme, a.sme_id) if a.sme_id else None
+    try:
+        resend_invite(db, a.calendar_event_id, sme.email if sme else None)
+    except CalendarNotConnectedError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+    log(db, a.assignment_id, "Ops", "Calendar invitation resent")
+    db.commit()
+    db.refresh(a)
+    return serialize_assignment(db, a)
+
+
+@router.get("/assignments/{assignment_id}/event-link")
+def get_event_link(assignment_id: str, db: DbSession = Depends(get_db)):
+    a = _get_assignment(db, assignment_id)
+    if not a.calendar_event_id:
+        raise HTTPException(status_code=409, detail="No calendar event exists for this assignment.")
+    return {"url": event_link(a.calendar_event_id)}
 
 
 @router.post("/assignments/{assignment_id}/edit", response_model=schemas.AssignmentOut)
@@ -193,7 +235,6 @@ def edit_assignment(assignment_id: str, payload: schemas.EditRequest, db: DbSess
 def reject_recommendation(assignment_id: str, payload: schemas.RejectRequest, db: DbSession = Depends(get_db)):
     a = _get_assignment(db, assignment_id)
     session = a.session or db.get(models.Session, a.session_id)
-    rejected_sme = db.get(models.Sme, a.sme_id) if a.sme_id else None
 
     log(db, a.assignment_id, "Ops", f"Ops rejected the recommendation ({payload.reason})")
 
@@ -217,17 +258,18 @@ def simulate_rsvp(assignment_id: str, payload: schemas.RsvpSimulateRequest, db: 
 
 
 @router.post("/sync-rsvp")
-def sync_rsvp(week_start: str, db: DbSession = Depends(get_db)):
+def sync_rsvp(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
     """Live mode only: polls Google Calendar for every outstanding or
-    previously-accepted invite in this week and applies any RSVP change
-    found. A background loop (see services/rsvp_poller.py) also does this
-    automatically every 30s while the server is running -- this endpoint is
-    for an immediate manual check (the Re-check Availability button). In
-    mock mode this is a no-op -- use the drawer's simulate control instead."""
+    previously-accepted invite in this date range and applies any RSVP
+    change found. A background loop (see services/rsvp_poller.py) also does
+    this automatically every ~60s while the server is running -- this
+    endpoint is for an immediate manual check (the Re-check Availability
+    button). In mock mode this is a no-op -- use the drawer's simulate
+    control instead."""
     settings = get_settings()
     if not settings.is_live:
         return {"status": "skipped", "reason": "INTEGRATION_MODE is mock; use the RSVP simulate control instead.", "updated": []}
-    result = poll_all_pending_rsvps(db, week_start=week_start)
+    result = poll_all_pending_rsvps(db, start_date=start_date, end_date=end_date)
     return {"status": "ok", **result}
 
 
@@ -253,6 +295,8 @@ def send_replacement_invite(assignment_id: str, payload: schemas.EditRequest, db
     sme = db.get(models.Sme, payload.sme_id)
     if not sme:
         raise HTTPException(status_code=404, detail="SME not found.")
+    if a.replacement_attempt_count >= MAX_REPLACEMENT_ATTEMPTS:
+        raise HTTPException(status_code=409, detail=f"Maximum of {MAX_REPLACEMENT_ATTEMPTS} replacement invitation attempts already reached for this session.")
 
     match = evaluate_candidates(db, session, exclude_sme_ids={a.original_sme_id} if a.original_sme_id else set())
     candidate = next((c for c in match.candidates if c.sme_id == payload.sme_id), None)
@@ -261,12 +305,12 @@ def send_replacement_invite(assignment_id: str, payload: schemas.EditRequest, db
         if not payload.override_hard_constraint:
             raise HTTPException(status_code=409, detail=f"This assignment conflicts with a hard constraint. {reason}")
 
+    # A replacement is a fresh invite for a (now different) SME -- clear the
+    # prior event id first so create_event_and_invite's idempotency check
+    # doesn't mistake this for a duplicate of the original invite.
+    a.calendar_event_id = None
     try:
-        result = create_event_and_invite(
-            db, session.topic,
-            f"{session.class_type} · {session.required_level} · replacement invite via SessionOps AI",
-            sme.email, session.start_datetime, session.duration_mins, session.timezone,
-        )
+        result = create_event_and_invite(db, a, session, sme)
     except CalendarNotConnectedError as e:
         raise HTTPException(status_code=503, detail=str(e))
     a.sme_id = sme.sme_id
@@ -279,25 +323,21 @@ def send_replacement_invite(assignment_id: str, payload: schemas.EditRequest, db
     from ..services.draft_engine import _snapshot
     a.candidates_snapshot = _snapshot(match)
     db.commit()
-    log(db, a.assignment_id, "Ops", f"Replacement invitation sent to {sme.name}")
+    from ..services.calendar_adapter import get_calendar_recipient
+    log(db, a.assignment_id, "Ops", f"Replacement invitation sent to {sme.name} ({get_calendar_recipient(sme)})")
     db.commit()
     db.refresh(a)
     return serialize_assignment(db, a)
 
 
 @router.post("/recheck-availability")
-def recheck_availability(week_start: str, db: DbSession = Depends(get_db)):
+def recheck_availability(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
     active_statuses = {
         models.AssignmentStatus.APPROVED.value, models.AssignmentStatus.CONFIRMED.value,
         models.AssignmentStatus.EDITED.value, models.AssignmentStatus.REASSIGNED.value,
         models.AssignmentStatus.OVERRIDDEN.value,
     }
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start, models.Assignment.status.in_(active_statuses))
-        .all()
-    )
+    rows = period.assignments_in_range(db, start_date, end_date).filter(models.Assignment.status.in_(active_statuses)).all()
     new_conflicts = []
     for a in rows:
         if not a.sme_id:
@@ -325,7 +365,6 @@ def simulate_new_conflict(assignment_id: str, db: DbSession = Depends(get_db)):
     if not a.sme_id:
         raise HTTPException(status_code=409, detail="No SME assigned to simulate a conflict for.")
     session = a.session or db.get(models.Session, a.session_id)
-    from datetime import timedelta
     db.add(models.CalendarBusyBlock(
         sme_id=a.sme_id, title="New external meeting",
         start_datetime=session.start_datetime, end_datetime=session.start_datetime + timedelta(minutes=session.duration_mins),
@@ -335,13 +374,8 @@ def simulate_new_conflict(assignment_id: str, db: DbSession = Depends(get_db)):
 
 
 @router.get("/final-review", response_model=schemas.FinalReviewOut)
-def final_review(week_start: str, db: DbSession = Depends(get_db)):
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .all()
-    )
+def final_review(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    rows = period.assignments_in_range(db, start_date, end_date).all()
     confirmed = sum(1 for a in rows if a.status in (models.AssignmentStatus.CONFIRMED.value, models.AssignmentStatus.FINALIZED.value))
     edited = sum(1 for a in rows if a.status in (models.AssignmentStatus.EDITED.value, models.AssignmentStatus.OVERRIDDEN.value))
     pending = sum(1 for a in rows if a.status in (
@@ -352,22 +386,21 @@ def final_review(week_start: str, db: DbSession = Depends(get_db)):
     critical = sum(1 for a in rows if any(f in ("no_qualified_sme", "qualified_but_unavailable", "reassignment_required", "no_replacement_accepted", "new_conflict") for f in (a.flags or [])))
     warnings = sum(1 for a in rows if any(f in ("fairness_warning", "tentative_rsvp") for f in (a.flags or [])))
 
-    meta = db.get(models.WeekMeta, week_start)
+    existing_period = (
+        db.query(models.SchedulePeriod)
+        .filter(models.SchedulePeriod.start_date == start_date, models.SchedulePeriod.end_date == end_date)
+        .first()
+    )
     return schemas.FinalReviewOut(
-        week_start=week_start, total_sessions=len(rows), confirmed=confirmed, edited=edited,
+        start_date=start_date, end_date=end_date, total_sessions=len(rows), confirmed=confirmed, edited=edited,
         pending=pending, unfilled=unfilled, critical=critical, warnings=warnings,
-        finalized=bool(meta and meta.finalized),
+        finalized=bool(existing_period and existing_period.status == "FINALIZED"),
     )
 
 
 @router.post("/finalize")
-def finalize_week(week_start: str, payload: schemas.FinalizeRequest, db: DbSession = Depends(get_db)):
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .all()
-    )
+def finalize_period(start_date: str, end_date: str, payload: schemas.FinalizeRequest, db: DbSession = Depends(get_db)):
+    rows = period.assignments_in_range(db, start_date, end_date).all()
     unresolved = [a for a in rows if a.status in (
         models.AssignmentStatus.PENDING_REVIEW.value, models.AssignmentStatus.REASSIGNMENT_REQUIRED.value,
         models.AssignmentStatus.UNFILLED.value,
@@ -378,10 +411,10 @@ def finalize_week(week_start: str, payload: schemas.FinalizeRequest, db: DbSessi
     for a in rows:
         if a.status != models.AssignmentStatus.UNFILLED.value:
             a.status = models.AssignmentStatus.FINALIZED.value
-    from datetime import datetime, timezone
-    meta = db.get(models.WeekMeta, week_start) or models.WeekMeta(week_start=week_start)
-    meta.finalized = True
-    meta.finalized_at = datetime.now(timezone.utc)
-    db.add(meta)
+
+    sp = period.get_or_create_period(db, start_date, end_date)
+    sp.status = "FINALIZED"
+    sp.finalized_at = datetime.now(timezone.utc)
+    db.add(sp)
     db.commit()
-    return {"status": "finalized", "week_start": week_start, "sessions": len(rows)}
+    return {"status": "finalized", "start_date": start_date, "end_date": end_date, "sessions": len(rows)}

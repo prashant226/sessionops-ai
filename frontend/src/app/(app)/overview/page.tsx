@@ -11,6 +11,7 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { SeverityBadge } from "@/components/ui/SeverityBadge";
 import { ConfirmModal } from "@/components/ui/ConfirmModal";
 import { GenerateDraftModal } from "@/components/schedule/GenerateDraftModal";
+import { SchedulePeriodBar } from "@/components/schedule/SchedulePeriodBar";
 import { api, ApiError } from "@/lib/api";
 import { useApp } from "@/lib/app-context";
 import { useToast } from "@/lib/toast-context";
@@ -18,7 +19,7 @@ import type { KpiOut, NeedsAttentionItem } from "@/lib/types";
 import { CalendarCheck } from "lucide-react";
 
 export default function OverviewPage() {
-  const { weekStart, opsName } = useApp();
+  const { periodStart, periodEnd, opsName } = useApp();
   const { push } = useToast();
   const router = useRouter();
   const [kpis, setKpis] = useState<KpiOut | null>(null);
@@ -32,7 +33,7 @@ export default function OverviewPage() {
   const load = useCallback(async () => {
     setLoading(true);
     try {
-      const [k, a] = await Promise.all([api.kpis(weekStart), api.needsAttention(weekStart)]);
+      const [k, a] = await Promise.all([api.kpis(periodStart, periodEnd), api.needsAttention(periodStart, periodEnd)]);
       setKpis(k);
       setAttention(a);
     } catch (err) {
@@ -40,7 +41,7 @@ export default function OverviewPage() {
     } finally {
       setLoading(false);
     }
-  }, [weekStart, push]);
+  }, [periodStart, periodEnd, push]);
 
   useEffect(() => {
     load();
@@ -50,7 +51,7 @@ export default function OverviewPage() {
   // background poller (live mode) show up without a manual refresh.
   useEffect(() => {
     const interval = setInterval(() => {
-      Promise.all([api.kpis(weekStart), api.needsAttention(weekStart)])
+      Promise.all([api.kpis(periodStart, periodEnd), api.needsAttention(periodStart, periodEnd)])
         .then(([k, a]) => {
           setKpis(k);
           setAttention(a);
@@ -58,17 +59,17 @@ export default function OverviewPage() {
         .catch(() => {});
     }, 30000);
     return () => clearInterval(interval);
-  }, [weekStart]);
+  }, [periodStart, periodEnd]);
 
   async function onReset() {
     setResetting(true);
     try {
-      const res = await api.resetWeek(weekStart);
-      push("success", "Week reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0 -- run Generate Draft to repopulate.`);
+      const res = await api.resetPeriod(periodStart, periodEnd);
+      push("success", "Period reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0 -- run Generate Draft to repopulate.`);
       setResetOpen(false);
       await load();
     } catch (err) {
-      push("error", "Could not reset this week", err instanceof ApiError ? err.message : undefined);
+      push("error", "Could not reset this period", err instanceof ApiError ? err.message : undefined);
     } finally {
       setResetting(false);
     }
@@ -97,7 +98,6 @@ export default function OverviewPage() {
     <>
       <Topbar
         title={`${greeting}, ${opsName || "Ops Team"}`}
-        subtitle={`Weekly Schedule · ${weekStart}`}
         actions={
           <>
             <Button variant="secondary" size="sm" onClick={onSync} loading={syncing}>
@@ -115,6 +115,8 @@ export default function OverviewPage() {
         }
       />
       <div className="p-6">
+        <SchedulePeriodBar onPeriodChanged={load} />
+
         {loading ? (
           <div className="grid grid-cols-5 gap-4">
             {Array.from({ length: 5 }).map((_, i) => (
@@ -124,8 +126,8 @@ export default function OverviewPage() {
         ) : !kpis || kpis.total_sessions === 0 ? (
           <EmptyState
             icon={CalendarCheck}
-            title="No sessions found for this week"
-            description="Sync your session data to continue."
+            title="No sessions found for this period"
+            description="Sync your session data, then Generate Draft for this date range."
             action={
               <Button onClick={onSync} loading={syncing}>
                 <RefreshCw size={14} /> Sync Data
@@ -150,7 +152,7 @@ export default function OverviewPage() {
                 </button>
               </div>
               {attention.length === 0 ? (
-                <EmptyState title="No unresolved exceptions" description="This week's schedule is ready for review." className="py-8" />
+                <EmptyState title="No unresolved exceptions" description="This schedule is ready for review." className="py-8" />
               ) : (
                 <ul className="divide-y divide-slate-100">
                   {attention.slice(0, 5).map((item) => (
@@ -180,7 +182,7 @@ export default function OverviewPage() {
             </div>
 
             <div className="mt-6 rounded border border-slate-200 bg-white p-5 shadow-subtle">
-              <h2 className="mb-3 text-[14px] font-semibold text-slate-900">Weekly Review Progress</h2>
+              <h2 className="mb-3 text-[14px] font-semibold text-slate-900">Review Progress</h2>
               <ProgressBar value={progressPct} />
               <p className="mt-2 text-[12.5px] text-slate-500">
                 {kpis.confirmed} Confirmed · {kpis.pending_review} Pending · {kpis.need_attention} Exceptions
@@ -197,18 +199,18 @@ export default function OverviewPage() {
           </>
         )}
       </div>
-      <GenerateDraftModal open={genOpen} onClose={() => setGenOpen(false)} weekStart={weekStart} onComplete={load} />
+      <GenerateDraftModal open={genOpen} onClose={() => setGenOpen(false)} startDate={periodStart} endDate={periodEnd} onComplete={load} />
       <ConfirmModal
         open={resetOpen}
         onClose={() => setResetOpen(false)}
         onConfirm={onReset}
         loading={resetting}
         danger
-        title="Reset This Week"
+        title="Reset This Period"
         confirmLabel="Reset to 0"
         description={
           <>
-            This clears every assignment for {weekStart} back to a blank slate -- all counts go to 0, and
+            This clears every assignment for this period back to a blank slate -- all counts go to 0, and
             you&apos;ll need to run Generate Draft again to repopulate the schedule.
             <br />
             <br />

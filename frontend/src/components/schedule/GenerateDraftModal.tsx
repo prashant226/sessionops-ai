@@ -23,12 +23,14 @@ const STAGES = [
 export function GenerateDraftModal({
   open,
   onClose,
-  weekStart,
+  startDate,
+  endDate,
   onComplete,
 }: {
   open: boolean;
   onClose: () => void;
-  weekStart: string;
+  startDate: string;
+  endDate: string;
   onComplete: () => void;
 }) {
   const [running, setRunning] = useState(false);
@@ -46,7 +48,7 @@ export function GenerateDraftModal({
     setProcessed(0);
     setTotal(0);
     try {
-      await api.generateDraft(weekStart, (e: GenerateEvent) => {
+      await api.generateDraft(startDate, endDate, (e: GenerateEvent) => {
         if (e.stage === "loading_sessions_done") {
           setTotal(e.count || 0);
           setStageIndex(1);
@@ -77,12 +79,12 @@ export function GenerateDraftModal({
   }
 
   return (
-    <Modal open={open} onClose={handleClose} title="Generating Weekly Schedule" width="max-w-lg">
+    <Modal open={open} onClose={handleClose} title="Generating Schedule" width="max-w-lg">
       {stageIndex === -1 ? (
         <div className="space-y-4">
           <p className="text-[13px] text-slate-600">
-            The engine will load this week&apos;s sessions, apply hard constraints, score every eligible SME, and prepare
-            a draft recommendation for each session that still needs review.
+            The engine will load sessions in this date range, apply hard constraints, score every eligible SME, and
+            prepare a draft recommendation for each session that still needs review.
           </p>
           <div className="flex justify-end gap-2">
             <Button variant="secondary" onClick={onClose}>

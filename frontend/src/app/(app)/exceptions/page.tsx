@@ -7,6 +7,7 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { SeverityBadge } from "@/components/ui/SeverityBadge";
 import { StatusPill } from "@/components/ui/StatusPill";
 import { SessionDrawer } from "@/components/schedule/SessionDrawer";
+import { SchedulePeriodBar } from "@/components/schedule/SchedulePeriodBar";
 import { api, ApiError } from "@/lib/api";
 import { useApp } from "@/lib/app-context";
 import { useToast } from "@/lib/toast-context";
@@ -16,7 +17,7 @@ import type { AssignmentOut } from "@/lib/types";
 const FILTERS = ["All", "Critical", "Availability", "Expertise", "Fairness", "RSVP", "Unfilled"];
 
 export default function ExceptionsPage() {
-  const { weekStart } = useApp();
+  const { periodStart, periodEnd } = useApp();
   const { push } = useToast();
   const [filter, setFilter] = useState("All");
   const [rows, setRows] = useState<AssignmentOut[]>([]);
@@ -26,14 +27,14 @@ export default function ExceptionsPage() {
   const load = useCallback(async () => {
     setLoading(true);
     try {
-      const data = await api.exceptions(weekStart, filter);
+      const data = await api.exceptions(periodStart, periodEnd, filter);
       setRows(data);
     } catch (err) {
       push("error", "Could not load exceptions", err instanceof ApiError ? err.message : undefined);
     } finally {
       setLoading(false);
     }
-  }, [weekStart, filter, push]);
+  }, [periodStart, periodEnd, filter, push]);
 
   useEffect(() => {
     load();
@@ -43,6 +44,7 @@ export default function ExceptionsPage() {
     <>
       <Topbar title="Exceptions" subtitle="Sessions that need Ops attention, sorted by urgency" />
       <div className="p-6">
+        <SchedulePeriodBar onPeriodChanged={load} />
         <div className="mb-4 flex flex-wrap gap-1.5">
           {FILTERS.map((f) => (
             <button
@@ -61,7 +63,7 @@ export default function ExceptionsPage() {
         {loading ? (
           <div className="h-64 animate-pulse rounded border border-slate-200 bg-white" />
         ) : rows.length === 0 ? (
-          <EmptyState icon={ShieldCheck} title="No unresolved exceptions" description="This week's schedule is ready for review." />
+          <EmptyState icon={ShieldCheck} title="No unresolved exceptions" description="This schedule is ready for review." />
         ) : (
           <ul className="space-y-2">
             {rows.map((r) => (

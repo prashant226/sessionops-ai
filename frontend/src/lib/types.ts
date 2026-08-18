@@ -67,6 +67,7 @@ export interface AssignmentOut {
   original_sme_id: string | null;
   replacement_attempt_count: number;
   calendar_event_id: string | null;
+  calendar_recipient_email: string | null;
   breakdown: ScoreBreakdown | null;
   candidates: CandidateOut[];
   activity: ActivityOut[];
@@ -94,7 +95,8 @@ export interface NeedsAttentionItem {
 }
 
 export interface FinalReviewOut {
-  week_start: string;
+  start_date: string;
+  end_date: string;
   total_sessions: number;
   confirmed: number;
   edited: number;
@@ -103,6 +105,27 @@ export interface FinalReviewOut {
   critical: number;
   warnings: number;
   finalized: boolean;
+}
+
+export interface PeriodStatusOut {
+  status: "NONE" | "DRAFT" | "FINALIZED";
+  assignment_count: number;
+}
+
+export interface PeriodConflictOut {
+  start_date: string;
+  end_date: string;
+  status: "DRAFT" | "FINALIZED";
+  assignment_count: number;
+}
+
+export interface OverlapCheckOut {
+  overlap: PeriodConflictOut | null;
+}
+
+export interface DemoConfigOut {
+  demo_mode: boolean;
+  demo_calendar_email: string | null;
 }
 
 export interface Metric {
@@ -152,6 +175,8 @@ export interface PerformanceRow {
 export interface SmeDetailOut {
   sme_id: string;
   name: string;
+  email: string | null;
+  calendar_recipient_email: string | null;
   status: string;
   timezone: string;
   base_location: string;

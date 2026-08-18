@@ -3,6 +3,7 @@ from __future__ import annotations
 from sqlalchemy.orm import Session as DbSession
 
 from .. import models, schemas
+from .calendar_adapter import get_calendar_recipient
 
 
 def candidate_result_to_dict(c) -> dict:
@@ -54,9 +55,12 @@ def _exception_info(flags: list[str]) -> tuple[str | None, str | None]:
 def serialize_assignment(db: DbSession, a: models.Assignment, include_candidates: bool = True) -> schemas.AssignmentOut:
     session = a.session or db.get(models.Session, a.session_id)
     sme_name = None
+    calendar_recipient_email = None
     if a.sme_id:
         sme = db.get(models.Sme, a.sme_id)
         sme_name = sme.name if sme else a.sme_id
+        if sme:
+            calendar_recipient_email = get_calendar_recipient(sme)
 
     breakdown = None
     candidates: list[schemas.CandidateOut] = []
@@ -101,6 +105,7 @@ def serialize_assignment(db: DbSession, a: models.Assignment, include_candidates
         original_sme_id=a.original_sme_id,
         replacement_attempt_count=a.replacement_attempt_count,
         calendar_event_id=a.calendar_event_id,
+        calendar_recipient_email=calendar_recipient_email,
         breakdown=breakdown,
         candidates=candidates if include_candidates else [],
         activity=[schemas.ActivityOut.model_validate(x) for x in a.activity],

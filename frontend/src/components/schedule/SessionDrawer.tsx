@@ -4,7 +4,6 @@ import { useCallback, useEffect, useState } from "react";
 import { X, AlertCircle, AlertTriangle, MapPin, Video } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { StatusPill } from "@/components/ui/StatusPill";
-import { RsvpBadge } from "@/components/ui/RsvpBadge";
 import { ScoreBreakdown } from "./ScoreBreakdown";
 import { CandidateCard } from "./CandidateCard";
 import { ActivityTimeline } from "./ActivityTimeline";
@@ -12,11 +11,14 @@ import { ApprovalModal } from "./ApprovalModal";
 import { EditAssignmentModal } from "./EditAssignmentModal";
 import { RejectRecommendationModal } from "./RejectRecommendationModal";
 import { ReplacementPanel } from "./ReplacementPanel";
+import { AssignmentStatusPanel } from "./AssignmentStatusPanel";
 import { ConfirmModal } from "@/components/ui/ConfirmModal";
 import { api, ApiError } from "@/lib/api";
 import { formatDate, formatTime } from "@/lib/utils";
 import { useToast } from "@/lib/toast-context";
 import type { AssignmentOut } from "@/lib/types";
+
+const DECIDED_STATUSES = new Set(["APPROVED", "CONFIRMED", "EDITED", "OVERRIDDEN", "REASSIGNED", "FINALIZED"]);
 
 export function SessionDrawer({
   assignmentId,
@@ -162,6 +164,8 @@ export function SessionDrawer({
     }
   }
 
+  const isDecided = assignment ? DECIDED_STATUSES.has(assignment.status) : false;
+
   return (
     <div className="fixed inset-0 z-50 flex justify-end bg-slate-900/30" role="presentation" onClick={onClose}>
       <div
@@ -187,6 +191,7 @@ export function SessionDrawer({
         ) : (
           <>
             <div className="flex-1 overflow-y-auto px-5 py-4">
+              {/* SESSION */}
               <p className="text-[17px] font-semibold text-slate-900">
                 {assignment.session.topic} — {assignment.session.class_type}
               </p>
@@ -201,11 +206,23 @@ export function SessionDrawer({
                 {assignment.session.location ? ` · ${assignment.session.location}` : ""}
               </p>
 
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                <StatusPill status={assignment.status} />
-                <RsvpBadge status={assignment.rsvp_status} />
-              </div>
+              {!isDecided && (
+                <div className="mt-3">
+                  <StatusPill status={assignment.status} />
+                </div>
+              )}
 
+              {/* ASSIGNMENT / RSVP / CALENDAR STATE -- prominent once decided */}
+              <AssignmentStatusPanel assignment={assignment} onChanged={load} />
+
+              {assignment.rsvp_status === "TENTATIVE" && (
+                <div className="mt-3 rounded border border-amber-200 bg-amber-50 p-3.5 text-[13px] text-amber-800">
+                  <p className="font-medium">Tentative RSVP</p>
+                  <p className="mt-0.5">{assignment.sme_name} has not fully committed to this session.</p>
+                </div>
+              )}
+
+              {/* WHAT HAPPENED / WHY -- exception explanation */}
               {assignment.exception_severity && (
                 <div
                   className={`mt-4 flex items-start gap-2 rounded border px-3.5 py-3 text-[13px] ${
@@ -258,15 +275,16 @@ export function SessionDrawer({
                 </div>
               )}
 
+              {/* AI RECOMMENDATION -- primary focus pre-decision, secondary once decided */}
               {assignment.sme_id && assignment.status !== "REASSIGNMENT_REQUIRED" && (
-                <div className={`mt-4 rounded border p-4 ${assignment.status === "OVERRIDDEN" ? "border-amber-200 bg-amber-50" : "border-brand-200 bg-brand-50"}`}>
-                  <p className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : "text-brand-700"}`}>
-                    {assignment.status === "OVERRIDDEN" || assignment.status === "EDITED" ? "Current Assignment (Ops-selected)" : "AI Recommendation"}
+                <div className={`mt-4 rounded border p-4 ${assignment.status === "OVERRIDDEN" ? "border-amber-200 bg-amber-50" : isDecided ? "border-slate-200 bg-white" : "border-brand-200 bg-brand-50"}`}>
+                  <p className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : isDecided ? "text-slate-400" : "text-brand-700"}`}>
+                    {assignment.status === "OVERRIDDEN" || assignment.status === "EDITED" ? "Assignment Reason (Ops-selected)" : "AI Recommendation"}
                   </p>
                   <div className="flex items-baseline justify-between">
-                    <p className="text-[17px] font-semibold text-slate-900">{assignment.sme_name}</p>
+                    <p className={`font-semibold text-slate-900 ${isDecided ? "text-[14px]" : "text-[17px]"}`}>{assignment.sme_name}</p>
                     {assignment.match_score !== null && (
-                      <p className={`text-[15px] font-semibold ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : "text-brand-700"}`}>
+                      <p className={`font-semibold ${isDecided ? "text-[13px] text-slate-500" : "text-[15px]"} ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : !isDecided ? "text-brand-700" : ""}`}>
                         {assignment.match_score}<span className="text-[12px] font-normal opacity-70">/100</span>
                       </p>
                     )}
@@ -277,7 +295,7 @@ export function SessionDrawer({
 
               {assignment.breakdown && (
                 <div className="mt-4">
-                  <p className="mb-2 text-[12.5px] font-semibold uppercase tracking-wide text-slate-500">Score Breakdown</p>
+                  <p className="mb-2 text-[12.5px] font-semibold uppercase tracking-wide text-slate-500">Fit Breakdown</p>
                   <ScoreBreakdown breakdown={assignment.breakdown} />
                 </div>
               )}
@@ -306,7 +324,8 @@ export function SessionDrawer({
                 <div className="mt-4 rounded border border-dashed border-slate-300 bg-slate-50 p-3.5">
                   <p className="mb-2 text-[11.5px] font-semibold uppercase tracking-wide text-slate-500">Demo: Simulate SME Response</p>
                   <p className="mb-2 text-[12px] text-slate-500">
-                    Standing in for a real Calendar RSVP webhook. In production this updates automatically when the SME responds.
+                    Standing in for a real Calendar RSVP webhook/poll. In live mode this happens automatically within ~60s of the real
+                    response -- use this to test the flow immediately instead of waiting.
                   </p>
                   <div className="flex gap-1.5">
                     <Button size="sm" variant="secondary" onClick={() => doSimulateRsvp("ACCEPTED")} disabled={busy}>
@@ -319,13 +338,6 @@ export function SessionDrawer({
                       Declined
                     </Button>
                   </div>
-                </div>
-              )}
-
-              {assignment.rsvp_status === "TENTATIVE" && (
-                <div className="mt-4 rounded border border-amber-200 bg-amber-50 p-3.5 text-[13px] text-amber-800">
-                  <p className="font-medium">Tentative RSVP</p>
-                  <p className="mt-0.5">{assignment.sme_name} has not fully committed to this session.</p>
                 </div>
               )}
 
@@ -361,7 +373,15 @@ export function SessionDrawer({
 
       {assignment && (
         <>
-          <ApprovalModal open={approveOpen} onClose={() => setApproveOpen(false)} onConfirm={doApprove} smeName={assignment.sme_name || "this SME"} loading={busy} />
+          <ApprovalModal
+            open={approveOpen}
+            onClose={() => setApproveOpen(false)}
+            onConfirm={doApprove}
+            smeName={assignment.sme_name || "this SME"}
+            session={assignment.session}
+            recipientEmail={assignment.calendar_recipient_email}
+            loading={busy}
+          />
           <EditAssignmentModal
             open={editOpen}
             onClose={() => {

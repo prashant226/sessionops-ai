@@ -64,13 +64,21 @@ def generate_draft_for_session(db: DbSession, session: models.Session) -> models
     return apply_draft_to_assignment(db, session, match, existing)
 
 
-def sessions_needing_draft(db: DbSession, week_start: str) -> list[models.Session]:
-    sessions = db.query(models.Session).filter(models.Session.week_start == week_start).order_by(models.Session.start_datetime).all()
+def sessions_needing_draft(db: DbSession, start_date: str, end_date: str) -> list[models.Session]:
+    from .period import range_bounds
+
+    start_dt, end_dt = range_bounds(start_date, end_date)
+    sessions = (
+        db.query(models.Session)
+        .filter(models.Session.start_datetime >= start_dt, models.Session.start_datetime < end_dt)
+        .order_by(models.Session.start_datetime)
+        .all()
+    )
     existing_ids = {
         row[0]
         for row in db.query(models.Assignment.session_id)
         .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
+        .filter(models.Session.start_datetime >= start_dt, models.Session.start_datetime < end_dt)
         .all()
     }
     return [s for s in sessions if s.session_id not in existing_ids]

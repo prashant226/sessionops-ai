@@ -2,7 +2,7 @@
 
 import { Suspense, useCallback, useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { ChevronLeft, ChevronRight, RefreshCw, Sparkles, CalendarSearch, List, LayoutGrid, RotateCcw } from "lucide-react";
+import { RefreshCw, Sparkles, CalendarSearch, List, LayoutGrid, RotateCcw, ClipboardCheck, CalendarDays } from "lucide-react";
 import { Topbar } from "@/components/shell/Topbar";
 import { Button } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
@@ -12,22 +12,15 @@ import { CalendarView } from "@/components/schedule/CalendarView";
 import { SessionDrawer } from "@/components/schedule/SessionDrawer";
 import { GenerateDraftModal } from "@/components/schedule/GenerateDraftModal";
 import { FinalReviewModal } from "@/components/schedule/FinalReviewModal";
-import { ClipboardCheck } from "lucide-react";
+import { SchedulePeriodBar } from "@/components/schedule/SchedulePeriodBar";
 import { api, ApiError } from "@/lib/api";
 import { useApp } from "@/lib/app-context";
 import { useToast } from "@/lib/toast-context";
 import { cn } from "@/lib/utils";
 import type { AssignmentOut } from "@/lib/types";
-import { CalendarDays } from "lucide-react";
-
-function shiftWeek(weekStart: string, days: number): string {
-  const d = new Date(`${weekStart}T00:00:00Z`);
-  d.setUTCDate(d.getUTCDate() + days);
-  return d.toISOString().slice(0, 10);
-}
 
 function SchedulePageInner() {
-  const { weekStart, setWeekStart } = useApp();
+  const { periodStart, periodEnd } = useApp();
   const { push } = useToast();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -46,14 +39,14 @@ function SchedulePageInner() {
   const load = useCallback(async () => {
     setLoading(true);
     try {
-      const data = await api.listSessions(weekStart);
+      const data = await api.listSessions(periodStart, periodEnd);
       setRows(data);
     } catch (err) {
       push("error", "Could not load the schedule", err instanceof ApiError ? err.message : undefined);
     } finally {
       setLoading(false);
     }
-  }, [weekStart, push]);
+  }, [periodStart, periodEnd, push]);
 
   useEffect(() => {
     load();
@@ -64,10 +57,10 @@ function SchedulePageInner() {
   // without anyone clicking a button. Harmless no-op in mock mode.
   useEffect(() => {
     const interval = setInterval(() => {
-      api.listSessions(weekStart).then(setRows).catch(() => {});
+      api.listSessions(periodStart, periodEnd).then(setRows).catch(() => {});
     }, 30000);
     return () => clearInterval(interval);
-  }, [weekStart]);
+  }, [periodStart, periodEnd]);
 
   useEffect(() => {
     const sessionParam = searchParams.get("session");
@@ -84,12 +77,12 @@ function SchedulePageInner() {
   async function onReset() {
     setResetting(true);
     try {
-      const res = await api.resetWeek(weekStart);
-      push("success", "Week reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0.`);
+      const res = await api.resetPeriod(periodStart, periodEnd);
+      push("success", "Period reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0.`);
       setResetOpen(false);
       await load();
     } catch (err) {
-      push("error", "Could not reset this week", err instanceof ApiError ? err.message : undefined);
+      push("error", "Could not reset this period", err instanceof ApiError ? err.message : undefined);
     } finally {
       setResetting(false);
     }
@@ -111,11 +104,11 @@ function SchedulePageInner() {
   async function onRecheck() {
     setRechecking(true);
     try {
-      const rsvp = await api.syncRsvp(weekStart).catch(() => null);
+      const rsvp = await api.syncRsvp(periodStart, periodEnd).catch(() => null);
       if (rsvp && rsvp.updated.length > 0) {
         push("info", "RSVP updates found", `${rsvp.updated.length} SME(s) responded since last check.`);
       }
-      const res = await api.recheckAvailability(weekStart);
+      const res = await api.recheckAvailability(periodStart, periodEnd);
       if (res.new_conflicts.length > 0) {
         push("warning", "New conflicts found", `${res.new_conflicts.length} assignment(s) now have a calendar conflict.`);
       } else {
@@ -156,24 +149,9 @@ function SchedulePageInner() {
         }
       />
       <div className="p-6">
-        <div className="mb-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <button
-              aria-label="Previous week"
-              onClick={() => setWeekStart(shiftWeek(weekStart, -7))}
-              className="focus-ring flex h-8 w-8 items-center justify-center rounded border border-slate-300 bg-white text-slate-500 hover:bg-slate-50"
-            >
-              <ChevronLeft size={16} />
-            </button>
-            <span className="min-w-[180px] text-center text-[13.5px] font-medium text-slate-700">{weekStart}</span>
-            <button
-              aria-label="Next week"
-              onClick={() => setWeekStart(shiftWeek(weekStart, 7))}
-              className="focus-ring flex h-8 w-8 items-center justify-center rounded border border-slate-300 bg-white text-slate-500 hover:bg-slate-50"
-            >
-              <ChevronRight size={16} />
-            </button>
-          </div>
+        <SchedulePeriodBar onPeriodChanged={load} />
+
+        <div className="mb-4 flex items-center justify-end">
           <div className="flex rounded border border-slate-300 bg-white p-0.5">
             <button
               onClick={() => setView("list")}
@@ -195,8 +173,8 @@ function SchedulePageInner() {
         ) : rows.length === 0 ? (
           <EmptyState
             icon={CalendarDays}
-            title="No sessions found for this week"
-            description="Sync your session data to continue."
+            title="No sessions found for this period"
+            description="Sync your session data, then Generate Draft for this date range."
             action={
               <Button onClick={onSync} loading={syncing}>
                 <RefreshCw size={14} /> Sync Data
@@ -217,19 +195,19 @@ function SchedulePageInner() {
           onChanged={load}
         />
       )}
-      <GenerateDraftModal open={genOpen} onClose={() => setGenOpen(false)} weekStart={weekStart} onComplete={load} />
-      <FinalReviewModal open={finalReviewOpen} onClose={() => setFinalReviewOpen(false)} weekStart={weekStart} onFinalized={load} />
+      <GenerateDraftModal open={genOpen} onClose={() => setGenOpen(false)} startDate={periodStart} endDate={periodEnd} onComplete={load} />
+      <FinalReviewModal open={finalReviewOpen} onClose={() => setFinalReviewOpen(false)} startDate={periodStart} endDate={periodEnd} onFinalized={load} />
       <ConfirmModal
         open={resetOpen}
         onClose={() => setResetOpen(false)}
         onConfirm={onReset}
         loading={resetting}
         danger
-        title="Reset This Week"
+        title="Reset This Period"
         confirmLabel="Reset to 0"
         description={
           <>
-            This clears every assignment for {weekStart} back to a blank slate. Session, SME, and performance
+            This clears every assignment for this period back to a blank slate. Session, SME, and performance
             data is not affected. Any real Google Calendar invites already sent are not deleted -- only the
             app&apos;s own record of them is cleared.
           </>

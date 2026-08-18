@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from . import models
 from .config import get_settings
 from .db import Base, SessionLocal, engine
-from .routers import auth, exceptions, google_auth, insights, overview, schedule, search, smes, sync
+from .routers import auth, config as config_router, exceptions, google_auth, insights, overview, schedule, search, smes, sync
 from .services.rsvp_poller import rsvp_polling_loop
 from .services.seed import seed_source_data
 
@@ -44,6 +44,7 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
+app.include_router(config_router.router)
 app.include_router(google_auth.router)
 app.include_router(sync.router)
 app.include_router(overview.router)

@@ -85,6 +85,7 @@ class AssignmentOut(BaseModel):
     original_sme_id: Optional[str] = None
     replacement_attempt_count: int = 0
     calendar_event_id: Optional[str] = None
+    calendar_recipient_email: Optional[str] = None
     breakdown: Optional[ScoreBreakdown] = None
     candidates: list[CandidateOut] = []
     activity: list[ActivityOut] = []
@@ -123,7 +124,8 @@ class KpiOut(BaseModel):
 
 
 class FinalReviewOut(BaseModel):
-    week_start: str
+    start_date: str
+    end_date: str
     total_sessions: int
     confirmed: int
     edited: int
@@ -138,9 +140,25 @@ class FinalizeRequest(BaseModel):
     force: bool = False
 
 
-class WeekSummary(BaseModel):
-    week_start: str
-    has_data: bool
+class PeriodStatusOut(BaseModel):
+    status: str  # NONE | DRAFT | FINALIZED
+    assignment_count: int
+
+
+class PeriodConflictOut(BaseModel):
+    start_date: str
+    end_date: str
+    status: str
+    assignment_count: int
+
+
+class OverlapCheckOut(BaseModel):
+    overlap: Optional[PeriodConflictOut] = None
+
+
+class DemoConfigOut(BaseModel):
+    demo_mode: bool
+    demo_calendar_email: Optional[str] = None
 
 
 class NeedsAttentionItem(BaseModel):

@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session as DbSession
 
 from .. import models, schemas
 from ..db import get_db
+from ..services.period import assignments_in_range
 
 router = APIRouter(prefix="/overview", tags=["overview"])
 
@@ -31,13 +32,8 @@ def _starts_in(session: models.Session) -> str:
 
 
 @router.get("/kpis", response_model=schemas.KpiOut)
-def kpis(week_start: str, db: DbSession = Depends(get_db)):
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .all()
-    )
+def kpis(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    rows = assignments_in_range(db, start_date, end_date).all()
     total = len(rows)
     confirmed = sum(1 for a in rows if a.status in (models.AssignmentStatus.CONFIRMED.value, models.AssignmentStatus.FINALIZED.value))
     pending = sum(1 for a in rows if a.status in (models.AssignmentStatus.PENDING_REVIEW.value, models.AssignmentStatus.APPROVED.value))
@@ -47,14 +43,8 @@ def kpis(week_start: str, db: DbSession = Depends(get_db)):
 
 
 @router.get("/needs-attention", response_model=list[schemas.NeedsAttentionItem])
-def needs_attention(week_start: str, db: DbSession = Depends(get_db)):
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .order_by(models.Session.start_datetime)
-        .all()
-    )
+def needs_attention(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    rows = assignments_in_range(db, start_date, end_date).order_by(models.Session.start_datetime).all()
     items: list[schemas.NeedsAttentionItem] = []
     for a in rows:
         flags = a.flags or []

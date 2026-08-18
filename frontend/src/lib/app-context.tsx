@@ -2,12 +2,15 @@
 
 import { createContext, useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { CURRENT_WEEK } from "./api";
+import { DEFAULT_PERIOD_START, DEFAULT_PERIOD_END } from "./api";
 
 interface AppContextValue {
   opsName: string | null;
-  weekStart: string;
-  setWeekStart: (w: string) => void;
+  periodStart: string;
+  periodEnd: string;
+  /** Sets the active schedule period directly, no overlap check. Used after
+   * the caller has already resolved any overlap (see SchedulePeriodBar). */
+  setPeriod: (start: string, end: string) => void;
   login: (name: string, token: string) => void;
   logout: () => void;
   ready: boolean;
@@ -17,15 +20,30 @@ const AppContext = createContext<AppContextValue | null>(null);
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
   const [opsName, setOpsName] = useState<string | null>(null);
-  const [weekStart, setWeekStart] = useState<string>(CURRENT_WEEK);
+  const [periodStart, setPeriodStart] = useState<string>(DEFAULT_PERIOD_START);
+  const [periodEnd, setPeriodEnd] = useState<string>(DEFAULT_PERIOD_END);
   const [ready, setReady] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
-    const name = typeof window !== "undefined" ? window.localStorage.getItem("sessionops_ops_name") : null;
+    if (typeof window === "undefined") return;
+    const name = window.localStorage.getItem("sessionops_ops_name");
     setOpsName(name);
+    const savedStart = window.localStorage.getItem("sessionops_period_start");
+    const savedEnd = window.localStorage.getItem("sessionops_period_end");
+    if (savedStart && savedEnd) {
+      setPeriodStart(savedStart);
+      setPeriodEnd(savedEnd);
+    }
     setReady(true);
   }, []);
+
+  function setPeriod(start: string, end: string) {
+    setPeriodStart(start);
+    setPeriodEnd(end);
+    window.localStorage.setItem("sessionops_period_start", start);
+    window.localStorage.setItem("sessionops_period_end", end);
+  }
 
   function login(name: string, token: string) {
     window.localStorage.setItem("sessionops_ops_name", name);
@@ -41,7 +59,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <AppContext.Provider value={{ opsName, weekStart, setWeekStart, login, logout, ready }}>{children}</AppContext.Provider>
+    <AppContext.Provider value={{ opsName, periodStart, periodEnd, setPeriod, login, logout, ready }}>
+      {children}
+    </AppContext.Provider>
   );
 }
 

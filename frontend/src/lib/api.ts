@@ -1,10 +1,13 @@
 import type {
   AssignmentOut,
+  DemoConfigOut,
   FinalReviewOut,
   GenerateEvent,
   InsightsOut,
   KpiOut,
   NeedsAttentionItem,
+  OverlapCheckOut,
+  PeriodStatusOut,
   SearchResult,
   SmeDetailOut,
   SmeListItem,
@@ -44,6 +47,10 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   return (await res.json()) as T;
 }
 
+function rangeQS(start_date: string, end_date: string) {
+  return `start_date=${start_date}&end_date=${end_date}`;
+}
+
 export const api = {
   login: (ops_id: string, password: string) =>
     request<{ token: string; ops_name: string }>("/auth/login", {
@@ -53,17 +60,25 @@ export const api = {
 
   sync: () => request<{ status: string; smes: number; sessions: number }>("/sync", { method: "POST" }),
 
-  kpis: (week_start: string) => request<KpiOut>(`/overview/kpis?week_start=${week_start}`),
-  needsAttention: (week_start: string) =>
-    request<NeedsAttentionItem[]>(`/overview/needs-attention?week_start=${week_start}`),
+  demoConfig: () => request<DemoConfigOut>("/config/demo"),
 
-  listSessions: (week_start: string) => request<AssignmentOut[]>(`/schedule/sessions?week_start=${week_start}`),
-  resetWeek: (week_start: string) =>
-    request<{ status: string; cleared: number }>(`/schedule/reset?week_start=${week_start}`, { method: "POST" }),
+  kpis: (start_date: string, end_date: string) => request<KpiOut>(`/overview/kpis?${rangeQS(start_date, end_date)}`),
+  needsAttention: (start_date: string, end_date: string) =>
+    request<NeedsAttentionItem[]>(`/overview/needs-attention?${rangeQS(start_date, end_date)}`),
+
+  listSessions: (start_date: string, end_date: string) =>
+    request<AssignmentOut[]>(`/schedule/sessions?${rangeQS(start_date, end_date)}`),
+  resetPeriod: (start_date: string, end_date: string) =>
+    request<{ status: string; cleared: number }>(`/schedule/reset?${rangeQS(start_date, end_date)}`, { method: "POST" }),
   getAssignment: (id: string) => request<AssignmentOut>(`/schedule/assignments/${id}`),
 
-  async generateDraft(week_start: string, onEvent: (e: GenerateEvent) => void): Promise<void> {
-    const res = await fetch(`${BASE_URL}/schedule/generate?week_start=${week_start}`, { method: "POST" });
+  periodStatus: (start_date: string, end_date: string) =>
+    request<PeriodStatusOut>(`/schedule/period-status?${rangeQS(start_date, end_date)}`),
+  checkOverlap: (start_date: string, end_date: string) =>
+    request<OverlapCheckOut>(`/schedule/check-overlap?${rangeQS(start_date, end_date)}`, { method: "POST" }),
+
+  async generateDraft(start_date: string, end_date: string, onEvent: (e: GenerateEvent) => void): Promise<void> {
+    const res = await fetch(`${BASE_URL}/schedule/generate?${rangeQS(start_date, end_date)}`, { method: "POST" });
     if (!res.ok || !res.body) throw new ApiError("Draft generation failed to start.", res.status);
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
@@ -84,6 +99,9 @@ export const api = {
 
   approve: (assignmentId: string) =>
     request<AssignmentOut>(`/schedule/assignments/${assignmentId}/approve`, { method: "POST", body: JSON.stringify({}) }),
+  resendInvite: (assignmentId: string) =>
+    request<AssignmentOut>(`/schedule/assignments/${assignmentId}/resend-invite`, { method: "POST" }),
+  eventLink: (assignmentId: string) => request<{ url: string }>(`/schedule/assignments/${assignmentId}/event-link`),
   edit: (assignmentId: string, sme_id: string, override_hard_constraint = false) =>
     request<AssignmentOut>(`/schedule/assignments/${assignmentId}/edit`, {
       method: "POST",
@@ -109,24 +127,25 @@ export const api = {
       method: "POST",
       body: JSON.stringify({ sme_id, override_hard_constraint }),
     }),
-  recheckAvailability: (week_start: string) =>
-    request<{ checked: number; new_conflicts: string[] }>(`/schedule/recheck-availability?week_start=${week_start}`, {
+  recheckAvailability: (start_date: string, end_date: string) =>
+    request<{ checked: number; new_conflicts: string[] }>(`/schedule/recheck-availability?${rangeQS(start_date, end_date)}`, {
       method: "POST",
     }),
   simulateNewConflict: (assignmentId: string) =>
     request<{ status: string }>(`/schedule/assignments/${assignmentId}/simulate-new-conflict`, { method: "POST" }),
 
-  finalReview: (week_start: string) => request<FinalReviewOut>(`/schedule/final-review?week_start=${week_start}`),
-  finalize: (week_start: string, force: boolean) =>
-    request<{ status: string }>(`/schedule/finalize?week_start=${week_start}`, {
+  finalReview: (start_date: string, end_date: string) =>
+    request<FinalReviewOut>(`/schedule/final-review?${rangeQS(start_date, end_date)}`),
+  finalize: (start_date: string, end_date: string, force: boolean) =>
+    request<{ status: string }>(`/schedule/finalize?${rangeQS(start_date, end_date)}`, {
       method: "POST",
       body: JSON.stringify({ force }),
     }),
 
-  exceptions: (week_start: string, filter = "All") =>
-    request<AssignmentOut[]>(`/exceptions?week_start=${week_start}&filter=${encodeURIComponent(filter)}`),
+  exceptions: (start_date: string, end_date: string, filter = "All") =>
+    request<AssignmentOut[]>(`/exceptions?${rangeQS(start_date, end_date)}&filter=${encodeURIComponent(filter)}`),
 
-  insights: (week_start: string) => request<InsightsOut>(`/insights?week_start=${week_start}`),
+  insights: (start_date: string, end_date: string) => request<InsightsOut>(`/insights?${rangeQS(start_date, end_date)}`),
 
   smes: () => request<SmeListItem[]>("/smes"),
   sme: (id: string) => request<SmeDetailOut>(`/smes/${id}`),
@@ -136,8 +155,11 @@ export const api = {
   googleStatus: () => request<{ connected: boolean; account_email: string | null }>("/auth/google/status"),
   googleLogin: () => request<{ auth_url: string }>("/auth/google/login"),
   googleDisconnect: () => request<{ status: string }>("/auth/google/disconnect", { method: "POST" }),
-  syncRsvp: (week_start: string) =>
-    request<{ status: string; checked: number; updated: string[] }>(`/schedule/sync-rsvp?week_start=${week_start}`, { method: "POST" }),
+  syncRsvp: (start_date: string, end_date: string) =>
+    request<{ status: string; checked: number; updated: string[] }>(`/schedule/sync-rsvp?${rangeQS(start_date, end_date)}`, {
+      method: "POST",
+    }),
 };
 
-export const CURRENT_WEEK = "2026-08-24";
+export const DEFAULT_PERIOD_START = "2026-08-24";
+export const DEFAULT_PERIOD_END = "2026-08-30";

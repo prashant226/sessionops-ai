@@ -46,13 +46,10 @@ def _minutes_between(a_ts, b_ts) -> float:
 
 
 @router.get("", response_model=InsightsOut)
-def get_insights(week_start: str, db: DbSession = Depends(get_db)):
-    rows = (
-        db.query(models.Assignment)
-        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
-        .filter(models.Session.week_start == week_start)
-        .all()
-    )
+def get_insights(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    from ..services.period import assignments_in_range
+
+    rows = assignments_in_range(db, start_date, end_date).all()
     total = len(rows)
     recommended = [a for a in rows if a.candidates_snapshot]
     decided = [a for a in rows if a.status not in (models.AssignmentStatus.PENDING_REVIEW.value, models.AssignmentStatus.DRAFT.value)]
@@ -131,9 +128,15 @@ def get_insights(week_start: str, db: DbSession = Depends(get_db)):
                why_it_matters="A high decline rate signals either SME overcommitment or recommendations that don't fit SME availability well."),
     ]
 
+    # Workload is a rolling-history concept anchored to the data's own most
+    # recent known week, not whatever arbitrary date range Ops happens to be
+    # reviewing right now (product spec section 6) -- selecting a different
+    # schedule period must never change what "current" workload means.
+    reference_week = db.query(models.Session.week_start).order_by(models.Session.week_start.desc()).limit(1).scalar() or start_date
+
     active_smes = db.query(models.Sme).filter(models.Sme.status == models.SmeStatus.ACTIVE.value).all()
     workload_points = [
-        WorkloadPoint(sme_id=s.sme_id, name=s.name, rolling_workload=_rolling_workload(db, s.sme_id, week_start, {}))
+        WorkloadPoint(sme_id=s.sme_id, name=s.name, rolling_workload=_rolling_workload(db, s.sme_id, reference_week, {}))
         for s in active_smes
     ]
     team_avg = round(sum(w.rolling_workload for w in workload_points) / len(workload_points), 1) if workload_points else 0.0

@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { Topbar } from "@/components/shell/Topbar";
 import { Tooltip } from "@/components/ui/Tooltip";
+import { SchedulePeriodBar } from "@/components/schedule/SchedulePeriodBar";
 import { api, ApiError } from "@/lib/api";
 import { useApp } from "@/lib/app-context";
 import { useToast } from "@/lib/toast-context";
@@ -58,7 +59,7 @@ function Section({ title, metrics }: { title: string; metrics: Metric[] }) {
 }
 
 export default function InsightsPage() {
-  const { weekStart } = useApp();
+  const { periodStart, periodEnd } = useApp();
   const { push } = useToast();
   const [data, setData] = useState<InsightsOut | null>(null);
   const [loading, setLoading] = useState(true);
@@ -66,13 +67,13 @@ export default function InsightsPage() {
   const load = useCallback(async () => {
     setLoading(true);
     try {
-      setData(await api.insights(weekStart));
+      setData(await api.insights(periodStart, periodEnd));
     } catch (err) {
       push("error", "Could not load insights", err instanceof ApiError ? err.message : undefined);
     } finally {
       setLoading(false);
     }
-  }, [weekStart, push]);
+  }, [periodStart, periodEnd, push]);
 
   useEffect(() => {
     load();
@@ -84,6 +85,7 @@ export default function InsightsPage() {
     <>
       <Topbar title="Insights" subtitle="Is the system improving scheduling operations?" />
       <div className="p-6">
+        <SchedulePeriodBar onPeriodChanged={load} />
         {loading || !data ? (
           <div className="h-64 animate-pulse rounded border border-slate-200 bg-white" />
         ) : (

@@ -164,11 +164,23 @@ class GoogleAuthToken(Base):
     connected_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
 
 
-class WeekMeta(Base):
-    __tablename__ = "week_meta"
+class SchedulePeriod(Base):
+    """An Ops-selected scheduling date range (arbitrary start/end, not
+    assumed to be a calendar week). Created/updated whenever a draft is
+    generated for a range; used to show the Draft/Finalized state header and
+    to detect overlapping ranges before generating another schedule.
+    Deliberately independent of Session.week_start, which is a fixed
+    data-intrinsic tag used only for rolling fairness history -- selecting a
+    different period here never changes what "week" a session's workload
+    history is computed against."""
 
-    week_start: Mapped[str] = mapped_column(String, primary_key=True)
-    finalized: Mapped[bool] = mapped_column(default=False)
+    __tablename__ = "schedule_periods"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=_uuid)
+    start_date: Mapped[str] = mapped_column(String, index=True)
+    end_date: Mapped[str] = mapped_column(String, index=True)
+    status: Mapped[str] = mapped_column(String, default="DRAFT")  # DRAFT | FINALIZED
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
     finalized_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
 
 

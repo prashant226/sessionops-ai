@@ -9,12 +9,14 @@ import { Button } from "@/components/ui/Button";
 import { api, ApiError } from "@/lib/api";
 import { useApp } from "@/lib/app-context";
 import { useToast } from "@/lib/toast-context";
+import type { DemoConfigOut } from "@/lib/types";
 
 function SettingsInner() {
   const { opsName } = useApp();
   const { push } = useToast();
   const searchParams = useSearchParams();
   const [status, setStatus] = useState<{ connected: boolean; account_email: string | null } | null>(null);
+  const [demoConfig, setDemoConfig] = useState<DemoConfigOut | null>(null);
   const [loading, setLoading] = useState(false);
 
   async function load() {
@@ -22,6 +24,11 @@ function SettingsInner() {
       setStatus(await api.googleStatus());
     } catch {
       setStatus({ connected: false, account_email: null });
+    }
+    try {
+      setDemoConfig(await api.demoConfig());
+    } catch {
+      setDemoConfig(null);
     }
   }
 
@@ -116,6 +123,21 @@ function SettingsInner() {
           )}
         </div>
 
+        {demoConfig?.demo_mode && (
+          <div className="mb-4 rounded border border-amber-200 bg-amber-50 p-5">
+            <h2 className="mb-2 text-[13px] font-semibold uppercase tracking-wide text-amber-800">Demo Mode</h2>
+            <p className="text-[13px] text-amber-900">
+              Demo Calendar recipient: <span className="font-mono font-semibold">{demoConfig.demo_calendar_email || "not configured"}</span>
+            </p>
+            <p className="mt-1.5 text-[12.5px] text-amber-800">
+              Every real Calendar invite in this environment is redirected here instead of the SME&apos;s own (synthetic,
+              non-real) email, so a real person can receive and respond to invites while testing. Set{" "}
+              <span className="font-mono text-[11.5px]">DEMO_MODE=false</span> in the backend .env once SMEs have real
+              production emails.
+            </p>
+          </div>
+        )}
+
         <div className="rounded border border-slate-200 bg-white p-5 shadow-subtle">
           <h2 className="mb-3 text-[13px] font-semibold uppercase tracking-wide text-slate-500">Integrations</h2>
           <p className="mb-3 text-[13px] text-slate-600">
@@ -129,8 +151,8 @@ function SettingsInner() {
           <ul className="space-y-1.5 text-[13px] text-slate-600">
             <li>
               <span className="font-medium text-slate-800">Google Calendar</span> — live: creates a real event and sends a real
-              invite on Approve / Send Replacement Invite. RSVP updates via Schedule &rsquo;s Re-check Availability, which
-              polls Google in live mode.
+              invite on Approve / Send Replacement Invite. RSVP is picked up automatically by a background poll (~60s) and
+              also immediately via Schedule&rsquo;s Re-check Availability button.
             </li>
             <li>
               <span className="font-medium text-slate-800">Google Sheets</span> — live: &quot;Sync Data&quot; reads your connected Sheet

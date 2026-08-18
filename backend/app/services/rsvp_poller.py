@@ -21,10 +21,11 @@ from ..config import get_settings
 from ..db import SessionLocal
 from .calendar_adapter import read_rsvp_status
 from .draft_engine import apply_rsvp_transition
+from .period import assignments_in_range
 
 logger = logging.getLogger("sessionops.rsvp_poller")
 
-POLL_INTERVAL_SECONDS = 30
+POLL_INTERVAL_SECONDS = 60
 
 WATCHED_STATUSES = {
     models.AssignmentStatus.APPROVED.value,
@@ -33,25 +34,24 @@ WATCHED_STATUSES = {
 }
 
 
-def poll_all_pending_rsvps(db: DbSession, week_start: str | None = None) -> dict:
-    """Checks every assignment (or just one week's, if given) with an
+def poll_all_pending_rsvps(db: DbSession, start_date: str | None = None, end_date: str | None = None) -> dict:
+    """Checks every assignment (or just one date range's, if given) with an
     outstanding or previously-accepted invite for an RSVP change, applying
     whatever's found via the shared apply_rsvp_transition logic. Returns a
     small summary; never raises -- a single bad event lookup shouldn't take
     down the whole poll."""
-    query = db.query(models.Assignment).filter(models.Assignment.status.in_(WATCHED_STATUSES))
-    if week_start:
-        query = query.join(models.Session, models.Assignment.session_id == models.Session.session_id).filter(
-            models.Session.week_start == week_start
-        )
-    rows = query.filter(models.Assignment.calendar_event_id.isnot(None)).all()
+    if start_date and end_date:
+        query = assignments_in_range(db, start_date, end_date)
+    else:
+        query = db.query(models.Assignment)
+    rows = query.filter(models.Assignment.status.in_(WATCHED_STATUSES)).filter(models.Assignment.calendar_event_id.isnot(None)).all()
     updated = []
     for a in rows:
         try:
             sme = db.get(models.Sme, a.sme_id) if a.sme_id else None
             if not sme:
                 continue
-            rsvp = read_rsvp_status(db, a.calendar_event_id, sme.email)
+            rsvp = read_rsvp_status(db, a.calendar_event_id, sme)
             if rsvp and rsvp != a.rsvp_status and rsvp != "PENDING":
                 apply_rsvp_transition(db, a, rsvp)
                 updated.append(a.assignment_id)

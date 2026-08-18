@@ -38,6 +38,7 @@ export default function SmeDetailPage() {
             <div className="rounded border border-slate-200 bg-white p-5 shadow-subtle lg:col-span-1">
               <h2 className="mb-3 text-[13px] font-semibold uppercase tracking-wide text-slate-500">Profile</h2>
               <dl className="space-y-2.5 text-[13px]">
+                <Row label="Email" value={sme.email || "—"} />
                 <Row label="Status" value={sme.status} />
                 <Row label="Timezone" value={sme.timezone} />
                 <Row label="Base Location" value={sme.base_location} />
@@ -47,6 +48,16 @@ export default function SmeDetailPage() {
                 <Row label="Primary Skills" value={sme.primary_skills.join(", ") || "—"} />
                 <Row label="Secondary Skills" value={sme.secondary_skills.join(", ") || "—"} />
               </dl>
+
+              {sme.calendar_recipient_email && sme.calendar_recipient_email !== sme.email && (
+                <div className="mt-3 rounded border border-dashed border-slate-300 bg-slate-50 px-3 py-2.5">
+                  <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">Demo invite recipient</p>
+                  <p className="mt-0.5 font-mono text-[12.5px] text-slate-700">{sme.calendar_recipient_email}</p>
+                  <p className="mt-1 text-[11.5px] text-slate-500">
+                    Demo mode is on -- real Calendar invites for this SME are redirected here instead of their listed email.
+                  </p>
+                </div>
+              )}
 
               {sme.preferences && (
                 <>

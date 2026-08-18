@@ -11,12 +11,14 @@ import type { FinalReviewOut } from "@/lib/types";
 export function FinalReviewModal({
   open,
   onClose,
-  weekStart,
+  startDate,
+  endDate,
   onFinalized,
 }: {
   open: boolean;
   onClose: () => void;
-  weekStart: string;
+  startDate: string;
+  endDate: string;
   onFinalized: () => void;
 }) {
   const { push } = useToast();
@@ -29,16 +31,14 @@ export function FinalReviewModal({
       setConfirmException(false);
       return;
     }
-    api.finalReview(weekStart).then(setData).catch(() => push("error", "Could not load final review"));
-  }, [open, weekStart, push]);
-
-  const unresolved = data ? data.pending + data.unfilled : 0;
+    api.finalReview(startDate, endDate).then(setData).catch(() => push("error", "Could not load final review"));
+  }, [open, startDate, endDate, push]);
 
   async function finalize(force: boolean) {
     setLoading(true);
     try {
-      await api.finalize(weekStart, force);
-      push("success", "Schedule finalized", `Week of ${weekStart} has been finalized.`);
+      await api.finalize(startDate, endDate, force);
+      push("success", "Schedule finalized", `${startDate} → ${endDate} has been finalized.`);
       onFinalized();
       onClose();
     } catch (err) {
