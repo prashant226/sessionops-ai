@@ -130,6 +130,12 @@ export const api = {
   sme: (id: string) => request<SmeDetailOut>(`/smes/${id}`),
 
   search: (q: string) => request<SearchResult[]>(`/search?q=${encodeURIComponent(q)}`),
+
+  googleStatus: () => request<{ connected: boolean; account_email: string | null }>("/auth/google/status"),
+  googleLogin: () => request<{ auth_url: string }>("/auth/google/login"),
+  googleDisconnect: () => request<{ status: string }>("/auth/google/disconnect", { method: "POST" }),
+  syncRsvp: (week_start: string) =>
+    request<{ status: string; checked: number; updated: string[] }>(`/schedule/sync-rsvp?week_start=${week_start}`, { method: "POST" }),
 };
 
 export const CURRENT_WEEK = "2026-08-24";

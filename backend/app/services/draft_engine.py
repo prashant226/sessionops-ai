@@ -76,6 +76,42 @@ def sessions_needing_draft(db: DbSession, week_start: str) -> list[models.Sessio
     return [s for s in sessions if s.session_id not in existing_ids]
 
 
+def apply_rsvp_transition(db: DbSession, assignment: models.Assignment, rsvp: str) -> models.Assignment:
+    """Shared RSVP business logic used by both the demo simulate control and
+    real Google Calendar RSVP polling (see routers/schedule.py and
+    services/calendar_adapter.py) -- one source of truth for what an
+    accepted/tentative/declined response does to an assignment."""
+    sme = db.get(models.Sme, assignment.sme_id)
+
+    if rsvp == "ACCEPTED":
+        assignment.rsvp_status = models.RsvpStatus.ACCEPTED.value
+        assignment.status = models.AssignmentStatus.CONFIRMED.value
+        assignment.flags = [f for f in (assignment.flags or []) if f != "tentative_rsvp"]
+        db.commit()
+        log(db, assignment.assignment_id, "System", f"{sme.name} accepted the invitation")
+    elif rsvp == "TENTATIVE":
+        assignment.rsvp_status = models.RsvpStatus.TENTATIVE.value
+        assignment.flags = list(set((assignment.flags or []) + ["tentative_rsvp"]))
+        db.commit()
+        log(db, assignment.assignment_id, "System", f"{sme.name} responded Tentative")
+    elif rsvp == "DECLINED":
+        assignment.rsvp_status = models.RsvpStatus.DECLINED.value
+        db.commit()
+        log(db, assignment.assignment_id, "System", f"{sme.name} declined the invitation")
+        if assignment.replacement_attempt_count >= MAX_REPLACEMENT_ATTEMPTS:
+            assignment.status = models.AssignmentStatus.UNFILLED.value
+            assignment.flags = ["no_replacement_accepted"]
+            assignment.sme_id = None
+            assignment.reason = f"{MAX_REPLACEMENT_ATTEMPTS} replacement invitation(s) sent, none accepted. No qualified SME remains available."
+            db.commit()
+            log(db, assignment.assignment_id, "System", "Maximum replacement attempts reached. No replacement accepted.")
+        else:
+            run_reassignment(db, assignment, sme.sme_id)
+
+    db.refresh(assignment)
+    return assignment
+
+
 def run_reassignment(db: DbSession, assignment: models.Assignment, declining_sme_id: str) -> models.Assignment:
     """Called when an SME declines or Ops reports a dropout. Clears the SME,
     marks the assignment for reassignment, and re-runs matching (excluding

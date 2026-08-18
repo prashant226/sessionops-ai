@@ -47,19 +47,63 @@ def _mock_boost(topic: str, primary_skills: list[str], secondary_skills: list[st
     return 0.0, None
 
 
+_client = None
+_live_boost_cache: dict[tuple, tuple[float, str | None]] = {}
+
+
+def _openai_client():
+    global _client
+    if _client is None:
+        from openai import OpenAI
+
+        _client = OpenAI(api_key=get_settings().openai_api_key)
+    return _client
+
+
 def _live_boost(topic: str, primary_skills: list[str], secondary_skills: list[str]) -> tuple[float, str | None]:
-    """Placeholder for the real OpenAI call. Wire up once OPENAI_API_KEY is
-    supplied: send topic + skills, ask for a 0-6 semantic closeness score and
-    a <=8 word reason, clamp the result, and never let this raise -- fall back
-    to the mock heuristic on any error so scheduling never depends on the
-    LLM being reachable (see spec section 57)."""
+    """Asks OpenAI for a bounded 0-6 semantic-closeness nudge and a short
+    reason phrase when a SME's skills aren't an exact string match to the
+    session topic. Never raises -- any failure (network, quota, malformed
+    response) falls back to the local heuristic so core scheduling never
+    depends on the LLM being reachable (spec section 57). Cached per
+    (topic, skill set) for the life of the process -- the same SME/topic
+    combination recurs across many sessions in a single draft generation
+    run, and there's no reason to re-ask the model the same question."""
+    cache_key = (topic.lower(), tuple(sorted(s.lower() for s in primary_skills + secondary_skills)))
+    if cache_key in _live_boost_cache:
+        return _live_boost_cache[cache_key]
     try:
-        # from openai import OpenAI
-        # client = OpenAI(api_key=get_settings().openai_api_key)
-        # ... structured call producing {boost: 0-6, reason: str} ...
-        raise NotImplementedError
+        client = _openai_client()
+        skills = ", ".join(primary_skills + secondary_skills) or "none listed"
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You score how semantically close a subject-matter expert's skills are to a "
+                        "session topic, for adjacent (non-exact-match) expertise only. Respond with "
+                        "compact JSON: {\"boost\": <integer 0-6>, \"reason\": \"<8 words or fewer>\"}. "
+                        "boost=0 if there is no meaningful semantic relationship. Never invent facts "
+                        "about the SME; only reason about the topic/skill names given."
+                    ),
+                },
+                {"role": "user", "content": f"Session topic: {topic}\nSME skills: {skills}"},
+            ],
+            response_format={"type": "json_object"},
+            max_tokens=60,
+            timeout=6,
+        )
+        import json as _json
+
+        parsed = _json.loads(response.choices[0].message.content)
+        boost = max(0.0, min(MAX_SEMANTIC_BOOST, float(parsed.get("boost", 0))))
+        reason = str(parsed.get("reason") or "").strip()[:80] or None
+        result = (0.0, None) if boost <= 0 else (boost, reason)
     except Exception:
-        return _mock_boost(topic, primary_skills, secondary_skills)
+        result = _mock_boost(topic, primary_skills, secondary_skills)
+    _live_boost_cache[cache_key] = result
+    return result
 
 
 def explain_recommendation(topic: str, class_type: str, sme_name: str, reasons: list[str]) -> str:

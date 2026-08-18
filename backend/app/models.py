@@ -146,6 +146,24 @@ class Assignment(Base):
     )
 
 
+class GoogleAuthToken(Base):
+    """Single-row table holding the Ops team's connected Google account
+    (OAuth token). The organizer's calendar is used to create events and
+    invite SMEs as attendees -- SMEs themselves never need their own OAuth
+    connection, they just receive and respond to a normal Calendar invite."""
+
+    __tablename__ = "google_auth_token"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default="default")
+    account_email: Mapped[str] = mapped_column(String, nullable=True)
+    access_token: Mapped[str] = mapped_column(Text, nullable=True)
+    refresh_token: Mapped[str] = mapped_column(Text, nullable=True)
+    token_uri: Mapped[str] = mapped_column(String, nullable=True)
+    scopes: Mapped[list] = mapped_column(JSON, default=list)
+    expiry: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
+    connected_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
+
+
 class WeekMeta(Base):
     __tablename__ = "week_meta"
 

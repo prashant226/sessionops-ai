@@ -17,6 +17,14 @@ class Settings:
 
     openai_api_key: str = os.getenv("OPENAI_API_KEY", "")
 
+    # Testing aid for live mode: the synthetic dataset's SME emails aren't
+    # real inboxes, so real invites would go nowhere. When set, every real
+    # Calendar invite's attendee is redirected to this address instead of
+    # the SME's own email, so you can actually receive and RSVP to invites
+    # while trying the app. Leave blank to use each SME's real email once
+    # you're using real SME accounts.
+    google_test_attendee_email: str = os.getenv("GOOGLE_TEST_ATTENDEE_EMAIL", "")
+
     demo_ops_id: str = os.getenv("DEMO_OPS_ID", "ops")
     demo_ops_password: str = os.getenv("DEMO_OPS_PASSWORD", "sessionops")
 

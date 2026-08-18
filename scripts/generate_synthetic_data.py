@@ -653,6 +653,10 @@ def write_json(name: str, data) -> str:
 
 
 def write_csv(name: str, rows: list[dict]) -> str:
+    """List-valued fields (skills, preferred topics, ...) are written as a
+    plain '; '-joined string, not JSON -- this is what ends up in a Google
+    Sheets cell after import, and it's what services/sheets_adapter.py's
+    _split_list() expects when reading a live Sheet back."""
     path = os.path.join(OUT_DIR, f"{name}.csv")
     if not rows:
         return path
@@ -661,7 +665,7 @@ def write_csv(name: str, rows: list[dict]) -> str:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for r in rows:
-            row = {k: (json.dumps(v) if isinstance(v, (list, dict)) else v) for k, v in r.items()}
+            row = {k: ("; ".join(v) if isinstance(v, list) else v) for k, v in r.items()}
             writer.writerow(row)
     return path
 

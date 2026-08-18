@@ -56,6 +56,16 @@ function SchedulePageInner() {
     load();
   }, [load]);
 
+  // Quietly re-pull every 30s (no spinner, no error toast) so RSVP changes
+  // picked up by the backend's background poller (live mode) show up
+  // without anyone clicking a button. Harmless no-op in mock mode.
+  useEffect(() => {
+    const interval = setInterval(() => {
+      api.listSessions(weekStart).then(setRows).catch(() => {});
+    }, 30000);
+    return () => clearInterval(interval);
+  }, [weekStart]);
+
   useEffect(() => {
     const sessionParam = searchParams.get("session");
     if (!sessionParam || rows.length === 0) return;
@@ -84,6 +94,10 @@ function SchedulePageInner() {
   async function onRecheck() {
     setRechecking(true);
     try {
+      const rsvp = await api.syncRsvp(weekStart).catch(() => null);
+      if (rsvp && rsvp.updated.length > 0) {
+        push("info", "RSVP updates found", `${rsvp.updated.length} SME(s) responded since last check.`);
+      }
       const res = await api.recheckAvailability(weekStart);
       if (res.new_conflicts.length > 0) {
         push("warning", "New conflicts found", `${res.new_conflicts.length} assignment(s) now have a calendar conflict.`);

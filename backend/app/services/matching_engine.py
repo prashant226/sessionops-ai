@@ -280,10 +280,19 @@ def evaluate_candidates(
         available_count += 1
 
         # ---- Soft scoring ----
-        expertise_score = 28 if topic_key in primary else 20
+        is_exact_primary_match = topic_key in primary
+        expertise_score = 28 if is_exact_primary_match else 20
         if level_ok and LEVEL_ORDER.get(sme.expertise_level, 0) > required_level_rank:
             expertise_score += 4
-        semantic_bonus, semantic_note = semantic_expertise_boost(session.topic, sme.primary_skills, sme.secondary_skills)
+        # The semantic nudge is only meaningful for a secondary-skill (less
+        # certain) match -- an exact primary match already has full credit,
+        # so skip it there. This also matters a lot for cost/latency in live
+        # mode: it keeps real OpenAI calls down to a small fraction of
+        # candidates instead of one per eligible candidate per session.
+        if is_exact_primary_match:
+            semantic_bonus, semantic_note = 0.0, None
+        else:
+            semantic_bonus, semantic_note = semantic_expertise_boost(session.topic, sme.primary_skills, sme.secondary_skills)
         expertise_score = min(WEIGHTS["expertise"], expertise_score + semantic_bonus)
         reasons.append(f"{session.topic} expertise" if topic_key in primary else f"Related expertise in {session.topic}")
         if semantic_note:

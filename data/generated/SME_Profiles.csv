@@ -1,101 +1,101 @@
 sme_id,name,email,primary_skills,secondary_skills,expertise_level,timezone,base_location,status,max_sessions_per_day
-SME001,Aarav Iyer,aarav.iyer@sessionops-demo.com,"[""Resume Review""]","[""Behavioral Interviews""]",Advanced,Asia/Kolkata,Bangalore,Active,3
-SME002,Ananya Rao,ananya.rao@sessionops-demo.com,"[""Resume Review""]","[""Data Structures & Algorithms"", ""SQL""]",Advanced,Asia/Kolkata,Bangalore,Active,3
-SME003,Rohan Malhotra,rohan.malhotra@sessionops-demo.com,"[""Cloud Computing""]","[""Data Structures & Algorithms""]",Beginner,Asia/Kolkata,Delhi,Inactive,3
-SME004,Priya Jones,priya.jones@sessionops-demo.com,"[""Behavioral Interviews""]","[""Statistics""]",Advanced,Asia/Kolkata,Bangalore,Active,3
-SME005,Vikram Thomas,vikram.thomas@sessionops-demo.com,"[""Behavioral Interviews""]",[],Advanced,Asia/Kolkata,Bangalore,Active,2
-SME006,Neha Young,neha.young@sessionops-demo.com,"[""Aptitude""]",[],Advanced,Asia/Kolkata,Bangalore,Active,1
-SME007,Karan Huang,karan.huang@sessionops-demo.com,"[""Product Management""]",[],Advanced,Asia/Singapore,Bangalore,Active,2
-SME008,Divya Hernandez,divya.hernandez@sessionops-demo.com,"[""Data Analytics"", ""Product Strategy""]","[""SQL""]",Advanced,America/Los_Angeles,Hyderabad,Active,2
-SME009,Ishaan Flores,ishaan.flores@sessionops-demo.com,"[""Career Coaching""]",[],Advanced,Asia/Kolkata,Mumbai,Active,3
-SME010,Meera Saleh,meera.saleh@sessionops-demo.com,"[""JavaScript""]",[],Intermediate,Asia/Kolkata,Mumbai,On Leave,2
-SME011,Arjun Osei,arjun.osei@sessionops-demo.com,"[""DevOps""]",[],Intermediate,Asia/Kolkata,Bangalore,Active,2
-SME012,Sneha Larsen,sneha.larsen@sessionops-demo.com,"[""JavaScript""]","[""Product Management""]",Intermediate,Asia/Singapore,Pune,Active,2
-SME013,Aditi Karlsson,aditi.karlsson@sessionops-demo.com,"[""Python""]","[""Java""]",Intermediate,Asia/Kolkata,Dubai,Active,2
-SME014,Rahul Romano,rahul.romano@sessionops-demo.com,"[""Python"", ""Product Management""]","[""SQL"", ""Statistics""]",Intermediate,Europe/London,Bangalore,Active,2
-SME015,Kavya Verma,kavya.verma@sessionops-demo.com,"[""Python"", ""Mock Interviews"", ""Resume Review""]",[],Intermediate,America/New_York,Hyderabad,Active,2
-SME016,Nikhil Krishnan,nikhil.krishnan@sessionops-demo.com,"[""Machine Learning"", ""Java""]","[""Resume Review""]",Beginner,Asia/Singapore,Bangalore,Active,2
-SME017,Pooja Pillai,pooja.pillai@sessionops-demo.com,"[""Product Strategy"", ""Data Analytics"", ""DevOps""]","[""Mock Interviews""]",Intermediate,America/New_York,Hyderabad,Active,2
-SME018,Siddharth Williams,siddharth.williams@sessionops-demo.com,"[""Product Management""]",[],Beginner,Asia/Kolkata,Bangalore,Inactive,2
-SME019,Riya Taylor,riya.taylor@sessionops-demo.com,"[""Mock Interviews"", ""Python""]",[],Beginner,Asia/Singapore,Delhi,Active,5
-SME020,Varun Walker,varun.walker@sessionops-demo.com,"[""Python"", ""SQL""]","[""Cloud Computing""]",Intermediate,Asia/Kolkata,Mumbai,Active,3
-SME021,Liam Liu,liam.liu@sessionops-demo.com,"[""SQL""]","[""JavaScript""]",Intermediate,Asia/Singapore,Dubai,Active,2
-SME022,Emma Rodriguez,emma.rodriguez@sessionops-demo.com,"[""Python"", ""System Design""]","[""Machine Learning""]",Intermediate,Asia/Kolkata,Bangalore,Active,2
-SME023,Noah Ramirez,noah.ramirez@sessionops-demo.com,"[""React""]",[],Intermediate,Asia/Dubai,Singapore,Active,3
-SME024,Olivia Aziz,olivia.aziz@sessionops-demo.com,"[""Behavioral Interviews"", ""Python""]","[""Statistics"", ""Resume Review""]",Intermediate,America/New_York,Bangalore,Inactive,2
-SME025,Ethan Mensah,ethan.mensah@sessionops-demo.com,"[""Cloud Computing""]",[],Intermediate,Europe/London,Dubai,On Leave,2
-SME026,Sophia Adeyemi,sophia.adeyemi@sessionops-demo.com,"[""Python"", ""Data Structures & Algorithms""]",[],Intermediate,Asia/Dubai,Bangalore,Active,3
-SME027,Mason Berg,mason.berg@sessionops-demo.com,"[""SQL"", ""Aptitude""]","[""Machine Learning""]",Advanced,Asia/Kolkata,Delhi,On Leave,3
-SME028,Ava Esposito,ava.esposito@sessionops-demo.com,"[""Resume Review""]","[""Mock Interviews""]",Beginner,Asia/Singapore,Bangalore,Active,2
-SME029,Lucas Bruno,lucas.bruno@sessionops-demo.com,"[""Resume Review"", ""Data Structures & Algorithms""]","[""SQL""]",Beginner,Asia/Singapore,Dubai,On Leave,2
-SME030,Mia Mehta,mia.mehta@sessionops-demo.com,"[""Product Management""]",[],Advanced,Asia/Singapore,Singapore,Active,4
-SME031,James Bhatt,james.bhatt@sessionops-demo.com,"[""Product Strategy""]",[],Advanced,Asia/Singapore,Singapore,Active,2
-SME032,Charlotte Smith,charlotte.smith@sessionops-demo.com,"[""Data Analytics"", ""Mock Interviews""]",[],Advanced,Asia/Kolkata,Bangalore,Active,2
-SME033,Benjamin Garcia,benjamin.garcia@sessionops-demo.com,"[""Data Analytics"", ""Cloud Computing"", ""Data Structures & Algorithms""]","[""React"", ""Aptitude""]",Intermediate,Asia/Kolkata,New York,Active,2
-SME034,Amelia Clark,amelia.clark@sessionops-demo.com,"[""SQL""]","[""Product Management""]",Advanced,Asia/Kolkata,Pune,Active,3
-SME035,William Wang,william.wang@sessionops-demo.com,"[""Machine Learning"", ""Product Management""]",[],Intermediate,Asia/Singapore,Hyderabad,Active,4
-SME036,Isabella Kim,isabella.kim@sessionops-demo.com,"[""Data Structures & Algorithms"", ""Python""]","[""Java""]",Advanced,Asia/Kolkata,Singapore,Active,4
-SME037,Henry Perez,henry.perez@sessionops-demo.com,"[""Data Structures & Algorithms""]","[""Data Analytics""]",Intermediate,Asia/Kolkata,Delhi,Inactive,2
-SME038,Grace Khalid,grace.khalid@sessionops-demo.com,"[""React""]",[],Intermediate,Asia/Kolkata,Delhi,Active,3
-SME039,Daniel Yousef,daniel.yousef@sessionops-demo.com,"[""Java"", ""Machine Learning""]","[""Behavioral Interviews""]",Intermediate,America/Los_Angeles,Bangalore,On Leave,3
-SME040,Chloe Kamau,chloe.kamau@sessionops-demo.com,"[""Machine Learning"", ""Statistics"", ""Mock Interviews""]",[],Beginner,Asia/Kolkata,New York,Active,3
-SME041,Wei Nilsson,wei.nilsson@sessionops-demo.com,"[""React""]","[""Data Structures & Algorithms""]",Advanced,Asia/Kolkata,Bangalore,Active,3
-SME042,Mei Rossi,mei.rossi@sessionops-demo.com,"[""Resume Review"", ""Product Management"", ""Machine Learning""]","[""Cloud Computing"", ""Java""]",Intermediate,Europe/London,Dubai,Active,2
-SME043,Hiroshi Marino,hiroshi.marino@sessionops-demo.com,"[""React"", ""System Design""]",[],Beginner,America/Los_Angeles,Delhi,Active,4
-SME044,Yuki Reddy,yuki.reddy@sessionops-demo.com,"[""Python""]","[""SQL""]",Advanced,Asia/Singapore,Delhi,Active,4
-SME045,Jin Singh,jin.singh@sessionops-demo.com,"[""Product Strategy""]","[""Machine Learning""]",Advanced,Asia/Kolkata,London,Active,2
-SME046,Sooyoung Chawla,sooyoung.chawla@sessionops-demo.com,"[""Python"", ""Machine Learning"", ""JavaScript""]",[],Intermediate,Asia/Kolkata,Delhi,Active,2
-SME047,Ling Miller,ling.miller@sessionops-demo.com,"[""Mock Interviews""]","[""DevOps""]",Intermediate,Asia/Singapore,Bangalore,Active,4
-SME048,Tao Moore,tao.moore@sessionops-demo.com,"[""Aptitude"", ""Data Analytics""]","[""Resume Review""]",Intermediate,America/Los_Angeles,Hyderabad,Active,4
-SME049,Kenji King,kenji.king@sessionops-demo.com,"[""JavaScript"", ""Machine Learning"", ""React""]","[""Product Management""]",Advanced,America/Los_Angeles,London,Active,4
-SME050,Aiko Tanaka,aiko.tanaka@sessionops-demo.com,"[""React"", ""System Design""]","[""Python""]",Advanced,Asia/Kolkata,Dubai,Active,2
-SME051,Carlos Lopez,carlos.lopez@sessionops-demo.com,"[""Java""]",[],Intermediate,Asia/Singapore,Mumbai,Inactive,3
-SME052,Sofia Al-Farsi,sofia.al-farsi@sessionops-demo.com,"[""Python""]","[""Career Coaching""]",Intermediate,Asia/Kolkata,London,Active,4
-SME053,Mateo Karim,mateo.karim@sessionops-demo.com,"[""Aptitude"", ""SQL""]",[],Intermediate,Asia/Kolkata,Bangalore,Active,3
-SME054,Valentina Abara,valentina.abara@sessionops-demo.com,"[""DevOps""]","[""SQL""]",Intermediate,America/New_York,London,Active,2
-SME055,Diego Johansson,diego.johansson@sessionops-demo.com,"[""SQL"", ""Python"", ""Java""]","[""Communication Skills""]",Advanced,Asia/Kolkata,London,Active,2
-SME056,Camila Hansen,camila.hansen@sessionops-demo.com,"[""Python"", ""Mock Interviews""]","[""System Design"", ""SQL""]",Advanced,Asia/Dubai,Singapore,Active,2
-SME057,Javier Colombo,javier.colombo@sessionops-demo.com,"[""JavaScript""]",[],Intermediate,America/Los_Angeles,Singapore,Active,2
-SME058,Elena Nair,elena.nair@sessionops-demo.com,"[""Mock Interviews"", ""Cloud Computing""]","[""DevOps""]",Intermediate,Asia/Dubai,Mumbai,Active,4
-SME059,Andres Das,andres.das@sessionops-demo.com,"[""Java"", ""Product Management""]",[],Intermediate,Asia/Singapore,Singapore,Active,2
-SME060,Lucia Joshi,lucia.joshi@sessionops-demo.com,"[""Java""]","[""Data Structures & Algorithms""]",Advanced,Asia/Kolkata,Singapore,Active,2
-SME061,Omar Brown,omar.brown@sessionops-demo.com,"[""Statistics"", ""Resume Review""]","[""Machine Learning""]",Beginner,Asia/Kolkata,New York,Active,2
-SME062,Layla Anderson,layla.anderson@sessionops-demo.com,"[""Product Management"", ""Cloud Computing""]","[""Java""]",Intermediate,America/Los_Angeles,Bangalore,Active,2
-SME063,Yusuf Hall,yusuf.hall@sessionops-demo.com,"[""System Design""]","[""JavaScript""]",Advanced,Asia/Kolkata,London,Active,2
-SME064,Amara Yang,amara.yang@sessionops-demo.com,"[""Machine Learning""]",[],Advanced,Asia/Kolkata,Bangalore,Active,3
-SME065,Karim Martinez,karim.martinez@sessionops-demo.com,"[""Machine Learning""]","[""Product Management""]",Advanced,Asia/Dubai,Hyderabad,On Leave,2
-SME066,Zainab Torres,zainab.torres@sessionops-demo.com,"[""Data Structures & Algorithms""]",[],Advanced,America/New_York,Bangalore,Active,2
-SME067,Hassan Mansour,hassan.mansour@sessionops-demo.com,"[""Aptitude""]","[""Product Management""]",Beginner,Asia/Kolkata,Bangalore,On Leave,3
-SME068,Farah Diallo,farah.diallo@sessionops-demo.com,"[""Python""]","[""React"", ""Mock Interviews""]",Intermediate,Asia/Kolkata,Bangalore,Active,3
-SME069,Tariq Balewa,tariq.balewa@sessionops-demo.com,"[""System Design""]",[],Beginner,Asia/Dubai,Bangalore,On Leave,2
-SME070,Noor Lindqvist,noor.lindqvist@sessionops-demo.com,"[""Python""]",[],Advanced,Europe/London,Delhi,Active,3
-SME071,Kwame Bianchi,kwame.bianchi@sessionops-demo.com,"[""Python"", ""Product Strategy"", ""Cloud Computing""]",[],Beginner,Asia/Kolkata,Mumbai,Active,3
-SME072,Amina Sharma,amina.sharma@sessionops-demo.com,"[""DevOps""]","[""Python""]",Beginner,Asia/Kolkata,Mumbai,Inactive,2
-SME073,Chidi Kapoor,chidi.kapoor@sessionops-demo.com,"[""Product Strategy"", ""System Design"", ""Cloud Computing""]","[""Data Structures & Algorithms"", ""JavaScript""]",Intermediate,America/New_York,Dubai,Active,4
-SME074,Zola Menon,zola.menon@sessionops-demo.com,"[""Data Analytics""]","[""System Design""]",Beginner,Asia/Kolkata,Bangalore,Inactive,3
-SME075,Femi Johnson,femi.johnson@sessionops-demo.com,"[""JavaScript"", ""Python""]",[],Advanced,Asia/Kolkata,Mumbai,Active,2
-SME076,Aisha Wilson,aisha.wilson@sessionops-demo.com,"[""Mock Interviews"", ""React"", ""Aptitude""]","[""System Design"", ""Machine Learning""]",Beginner,Asia/Kolkata,London,On Leave,3
-SME077,Kofi Lewis,kofi.lewis@sessionops-demo.com,"[""System Design""]","[""Java""]",Advanced,Asia/Kolkata,Mumbai,Active,2
-SME078,Nia Zhang,nia.zhang@sessionops-demo.com,"[""Statistics"", ""DevOps"", ""Data Analytics""]","[""Mock Interviews"", ""React""]",Advanced,Europe/London,Mumbai,Active,2
-SME079,Tunde Park,tunde.park@sessionops-demo.com,"[""JavaScript""]","[""Cloud Computing"", ""React""]",Intermediate,Asia/Kolkata,Bangalore,On Leave,3
-SME080,Imani Sanchez,imani.sanchez@sessionops-demo.com,"[""Machine Learning"", ""System Design""]","[""Java"", ""Product Management""]",Intermediate,Asia/Kolkata,New York,Active,3
-SME081,Erik Rahman,erik.rahman@sessionops-demo.com,"[""React""]","[""Python""]",Intermediate,Asia/Dubai,Dubai,Active,3
-SME082,Freya Okafor,freya.okafor@sessionops-demo.com,"[""JavaScript"", ""Product Management""]","[""Machine Learning""]",Beginner,America/Los_Angeles,New York,Active,2
-SME083,Lars Mwangi,lars.mwangi@sessionops-demo.com,"[""Behavioral Interviews""]","[""Mock Interviews""]",Intermediate,Asia/Singapore,Mumbai,Active,4
-SME084,Astrid Andersen,astrid.andersen@sessionops-demo.com,"[""JavaScript"", ""Mock Interviews"", ""Machine Learning""]",[],Intermediate,Europe/London,New York,On Leave,2
-SME085,Magnus Ferrari,magnus.ferrari@sessionops-demo.com,"[""Statistics"", ""Product Strategy""]","[""Aptitude""]",Intermediate,Asia/Singapore,New York,Inactive,3
-SME086,Ingrid Greco,ingrid.greco@sessionops-demo.com,"[""Python"", ""Product Strategy""]","[""Mock Interviews""]",Intermediate,Asia/Kolkata,London,Active,4
-SME087,Sven Gupta,sven.gupta@sessionops-demo.com,"[""Python"", ""React""]",[],Advanced,Asia/Singapore,Delhi,Active,3
-SME088,Elin Chatterjee,elin.chatterjee@sessionops-demo.com,"[""Data Structures & Algorithms"", ""Cloud Computing""]",[],Intermediate,Europe/London,New York,Active,2
-SME089,Anders Bose,anders.bose@sessionops-demo.com,"[""Mock Interviews"", ""Product Strategy""]","[""Statistics"", ""Data Analytics""]",Advanced,America/New_York,London,Active,4
-SME090,Sigrid Davis,sigrid.davis@sessionops-demo.com,"[""Cloud Computing""]","[""Career Coaching"", ""Product Management""]",Beginner,Asia/Kolkata,Bangalore,Active,3
-SME091,Marco Martin,marco.martin@sessionops-demo.com,"[""DevOps""]","[""Python"", ""Mock Interviews""]",Advanced,Asia/Kolkata,Delhi,On Leave,3
-SME092,Giulia Chen,giulia.chen@sessionops-demo.com,"[""SQL"", ""Python""]","[""DevOps"", ""Data Structures & Algorithms""]",Intermediate,Asia/Singapore,Bangalore,Active,3
-SME093,Luca Suzuki,luca.suzuki@sessionops-demo.com,"[""Python""]","[""Behavioral Interviews"", ""DevOps""]",Intermediate,Asia/Kolkata,Delhi,Active,2
-SME094,Chiara Gonzalez,chiara.gonzalez@sessionops-demo.com,"[""Java"", ""Machine Learning""]","[""SQL"", ""JavaScript""]",Intermediate,Europe/London,Mumbai,Active,3
-SME095,Matteo Hassan,matteo.hassan@sessionops-demo.com,"[""Data Analytics"", ""Communication Skills"", ""Cloud Computing""]",[],Intermediate,Europe/London,London,Active,4
-SME096,Alessia Nasser,alessia.nasser@sessionops-demo.com,"[""JavaScript"", ""Behavioral Interviews""]",[],Beginner,America/Los_Angeles,Pune,Active,3
-SME097,Paolo Nwosu,paolo.nwosu@sessionops-demo.com,"[""DevOps"", ""Product Management""]","[""Mock Interviews""]",Intermediate,America/New_York,Dubai,Inactive,3
-SME098,Bianca Eriksson,bianca.eriksson@sessionops-demo.com,"[""Data Structures & Algorithms""]",[],Advanced,Asia/Singapore,Mumbai,Active,3
-SME099,Fabio Olsen,fabio.olsen@sessionops-demo.com,"[""Resume Review"", ""Data Structures & Algorithms""]","[""Machine Learning""]",Beginner,Asia/Kolkata,Dubai,Active,5
-SME100,Rosa Ricci,rosa.ricci@sessionops-demo.com,"[""Mock Interviews""]","[""Java"", ""Python""]",Advanced,America/Los_Angeles,Mumbai,On Leave,3
+SME001,Aarav Iyer,aarav.iyer@sessionops-demo.com,Resume Review,Behavioral Interviews,Advanced,Asia/Kolkata,Bangalore,Active,3
+SME002,Ananya Rao,ananya.rao@sessionops-demo.com,Resume Review,Data Structures & Algorithms; SQL,Advanced,Asia/Kolkata,Bangalore,Active,3
+SME003,Rohan Malhotra,rohan.malhotra@sessionops-demo.com,Cloud Computing,Data Structures & Algorithms,Beginner,Asia/Kolkata,Delhi,Inactive,3
+SME004,Priya Jones,priya.jones@sessionops-demo.com,Behavioral Interviews,Statistics,Advanced,Asia/Kolkata,Bangalore,Active,3
+SME005,Vikram Thomas,vikram.thomas@sessionops-demo.com,Behavioral Interviews,,Advanced,Asia/Kolkata,Bangalore,Active,2
+SME006,Neha Young,neha.young@sessionops-demo.com,Aptitude,,Advanced,Asia/Kolkata,Bangalore,Active,1
+SME007,Karan Huang,karan.huang@sessionops-demo.com,Product Management,,Advanced,Asia/Singapore,Bangalore,Active,2
+SME008,Divya Hernandez,divya.hernandez@sessionops-demo.com,Data Analytics; Product Strategy,SQL,Advanced,America/Los_Angeles,Hyderabad,Active,2
+SME009,Ishaan Flores,ishaan.flores@sessionops-demo.com,Career Coaching,,Advanced,Asia/Kolkata,Mumbai,Active,3
+SME010,Meera Saleh,meera.saleh@sessionops-demo.com,JavaScript,,Intermediate,Asia/Kolkata,Mumbai,On Leave,2
+SME011,Arjun Osei,arjun.osei@sessionops-demo.com,DevOps,,Intermediate,Asia/Kolkata,Bangalore,Active,2
+SME012,Sneha Larsen,sneha.larsen@sessionops-demo.com,JavaScript,Product Management,Intermediate,Asia/Singapore,Pune,Active,2
+SME013,Aditi Karlsson,aditi.karlsson@sessionops-demo.com,Python,Java,Intermediate,Asia/Kolkata,Dubai,Active,2
+SME014,Rahul Romano,rahul.romano@sessionops-demo.com,Python; Product Management,SQL; Statistics,Intermediate,Europe/London,Bangalore,Active,2
+SME015,Kavya Verma,kavya.verma@sessionops-demo.com,Python; Mock Interviews; Resume Review,,Intermediate,America/New_York,Hyderabad,Active,2
+SME016,Nikhil Krishnan,nikhil.krishnan@sessionops-demo.com,Machine Learning; Java,Resume Review,Beginner,Asia/Singapore,Bangalore,Active,2
+SME017,Pooja Pillai,pooja.pillai@sessionops-demo.com,Product Strategy; Data Analytics; DevOps,Mock Interviews,Intermediate,America/New_York,Hyderabad,Active,2
+SME018,Siddharth Williams,siddharth.williams@sessionops-demo.com,Product Management,,Beginner,Asia/Kolkata,Bangalore,Inactive,2
+SME019,Riya Taylor,riya.taylor@sessionops-demo.com,Mock Interviews; Python,,Beginner,Asia/Singapore,Delhi,Active,5
+SME020,Varun Walker,varun.walker@sessionops-demo.com,Python; SQL,Cloud Computing,Intermediate,Asia/Kolkata,Mumbai,Active,3
+SME021,Liam Liu,liam.liu@sessionops-demo.com,SQL,JavaScript,Intermediate,Asia/Singapore,Dubai,Active,2
+SME022,Emma Rodriguez,emma.rodriguez@sessionops-demo.com,Python; System Design,Machine Learning,Intermediate,Asia/Kolkata,Bangalore,Active,2
+SME023,Noah Ramirez,noah.ramirez@sessionops-demo.com,React,,Intermediate,Asia/Dubai,Singapore,Active,3
+SME024,Olivia Aziz,olivia.aziz@sessionops-demo.com,Behavioral Interviews; Python,Statistics; Resume Review,Intermediate,America/New_York,Bangalore,Inactive,2
+SME025,Ethan Mensah,ethan.mensah@sessionops-demo.com,Cloud Computing,,Intermediate,Europe/London,Dubai,On Leave,2
+SME026,Sophia Adeyemi,sophia.adeyemi@sessionops-demo.com,Python; Data Structures & Algorithms,,Intermediate,Asia/Dubai,Bangalore,Active,3
+SME027,Mason Berg,mason.berg@sessionops-demo.com,SQL; Aptitude,Machine Learning,Advanced,Asia/Kolkata,Delhi,On Leave,3
+SME028,Ava Esposito,ava.esposito@sessionops-demo.com,Resume Review,Mock Interviews,Beginner,Asia/Singapore,Bangalore,Active,2
+SME029,Lucas Bruno,lucas.bruno@sessionops-demo.com,Resume Review; Data Structures & Algorithms,SQL,Beginner,Asia/Singapore,Dubai,On Leave,2
+SME030,Mia Mehta,mia.mehta@sessionops-demo.com,Product Management,,Advanced,Asia/Singapore,Singapore,Active,4
+SME031,James Bhatt,james.bhatt@sessionops-demo.com,Product Strategy,,Advanced,Asia/Singapore,Singapore,Active,2
+SME032,Charlotte Smith,charlotte.smith@sessionops-demo.com,Data Analytics; Mock Interviews,,Advanced,Asia/Kolkata,Bangalore,Active,2
+SME033,Benjamin Garcia,benjamin.garcia@sessionops-demo.com,Data Analytics; Cloud Computing; Data Structures & Algorithms,React; Aptitude,Intermediate,Asia/Kolkata,New York,Active,2
+SME034,Amelia Clark,amelia.clark@sessionops-demo.com,SQL,Product Management,Advanced,Asia/Kolkata,Pune,Active,3
+SME035,William Wang,william.wang@sessionops-demo.com,Machine Learning; Product Management,,Intermediate,Asia/Singapore,Hyderabad,Active,4
+SME036,Isabella Kim,isabella.kim@sessionops-demo.com,Data Structures & Algorithms; Python,Java,Advanced,Asia/Kolkata,Singapore,Active,4
+SME037,Henry Perez,henry.perez@sessionops-demo.com,Data Structures & Algorithms,Data Analytics,Intermediate,Asia/Kolkata,Delhi,Inactive,2
+SME038,Grace Khalid,grace.khalid@sessionops-demo.com,React,,Intermediate,Asia/Kolkata,Delhi,Active,3
+SME039,Daniel Yousef,daniel.yousef@sessionops-demo.com,Java; Machine Learning,Behavioral Interviews,Intermediate,America/Los_Angeles,Bangalore,On Leave,3
+SME040,Chloe Kamau,chloe.kamau@sessionops-demo.com,Machine Learning; Statistics; Mock Interviews,,Beginner,Asia/Kolkata,New York,Active,3
+SME041,Wei Nilsson,wei.nilsson@sessionops-demo.com,React,Data Structures & Algorithms,Advanced,Asia/Kolkata,Bangalore,Active,3
+SME042,Mei Rossi,mei.rossi@sessionops-demo.com,Resume Review; Product Management; Machine Learning,Cloud Computing; Java,Intermediate,Europe/London,Dubai,Active,2
+SME043,Hiroshi Marino,hiroshi.marino@sessionops-demo.com,React; System Design,,Beginner,America/Los_Angeles,Delhi,Active,4
+SME044,Yuki Reddy,yuki.reddy@sessionops-demo.com,Python,SQL,Advanced,Asia/Singapore,Delhi,Active,4
+SME045,Jin Singh,jin.singh@sessionops-demo.com,Product Strategy,Machine Learning,Advanced,Asia/Kolkata,London,Active,2
+SME046,Sooyoung Chawla,sooyoung.chawla@sessionops-demo.com,Python; Machine Learning; JavaScript,,Intermediate,Asia/Kolkata,Delhi,Active,2
+SME047,Ling Miller,ling.miller@sessionops-demo.com,Mock Interviews,DevOps,Intermediate,Asia/Singapore,Bangalore,Active,4
+SME048,Tao Moore,tao.moore@sessionops-demo.com,Aptitude; Data Analytics,Resume Review,Intermediate,America/Los_Angeles,Hyderabad,Active,4
+SME049,Kenji King,kenji.king@sessionops-demo.com,JavaScript; Machine Learning; React,Product Management,Advanced,America/Los_Angeles,London,Active,4
+SME050,Aiko Tanaka,aiko.tanaka@sessionops-demo.com,React; System Design,Python,Advanced,Asia/Kolkata,Dubai,Active,2
+SME051,Carlos Lopez,carlos.lopez@sessionops-demo.com,Java,,Intermediate,Asia/Singapore,Mumbai,Inactive,3
+SME052,Sofia Al-Farsi,sofia.al-farsi@sessionops-demo.com,Python,Career Coaching,Intermediate,Asia/Kolkata,London,Active,4
+SME053,Mateo Karim,mateo.karim@sessionops-demo.com,Aptitude; SQL,,Intermediate,Asia/Kolkata,Bangalore,Active,3
+SME054,Valentina Abara,valentina.abara@sessionops-demo.com,DevOps,SQL,Intermediate,America/New_York,London,Active,2
+SME055,Diego Johansson,diego.johansson@sessionops-demo.com,SQL; Python; Java,Communication Skills,Advanced,Asia/Kolkata,London,Active,2
+SME056,Camila Hansen,camila.hansen@sessionops-demo.com,Python; Mock Interviews,System Design; SQL,Advanced,Asia/Dubai,Singapore,Active,2
+SME057,Javier Colombo,javier.colombo@sessionops-demo.com,JavaScript,,Intermediate,America/Los_Angeles,Singapore,Active,2
+SME058,Elena Nair,elena.nair@sessionops-demo.com,Mock Interviews; Cloud Computing,DevOps,Intermediate,Asia/Dubai,Mumbai,Active,4
+SME059,Andres Das,andres.das@sessionops-demo.com,Java; Product Management,,Intermediate,Asia/Singapore,Singapore,Active,2
+SME060,Lucia Joshi,lucia.joshi@sessionops-demo.com,Java,Data Structures & Algorithms,Advanced,Asia/Kolkata,Singapore,Active,2
+SME061,Omar Brown,omar.brown@sessionops-demo.com,Statistics; Resume Review,Machine Learning,Beginner,Asia/Kolkata,New York,Active,2
+SME062,Layla Anderson,layla.anderson@sessionops-demo.com,Product Management; Cloud Computing,Java,Intermediate,America/Los_Angeles,Bangalore,Active,2
+SME063,Yusuf Hall,yusuf.hall@sessionops-demo.com,System Design,JavaScript,Advanced,Asia/Kolkata,London,Active,2
+SME064,Amara Yang,amara.yang@sessionops-demo.com,Machine Learning,,Advanced,Asia/Kolkata,Bangalore,Active,3
+SME065,Karim Martinez,karim.martinez@sessionops-demo.com,Machine Learning,Product Management,Advanced,Asia/Dubai,Hyderabad,On Leave,2
+SME066,Zainab Torres,zainab.torres@sessionops-demo.com,Data Structures & Algorithms,,Advanced,America/New_York,Bangalore,Active,2
+SME067,Hassan Mansour,hassan.mansour@sessionops-demo.com,Aptitude,Product Management,Beginner,Asia/Kolkata,Bangalore,On Leave,3
+SME068,Farah Diallo,farah.diallo@sessionops-demo.com,Python,React; Mock Interviews,Intermediate,Asia/Kolkata,Bangalore,Active,3
+SME069,Tariq Balewa,tariq.balewa@sessionops-demo.com,System Design,,Beginner,Asia/Dubai,Bangalore,On Leave,2
+SME070,Noor Lindqvist,noor.lindqvist@sessionops-demo.com,Python,,Advanced,Europe/London,Delhi,Active,3
+SME071,Kwame Bianchi,kwame.bianchi@sessionops-demo.com,Python; Product Strategy; Cloud Computing,,Beginner,Asia/Kolkata,Mumbai,Active,3
+SME072,Amina Sharma,amina.sharma@sessionops-demo.com,DevOps,Python,Beginner,Asia/Kolkata,Mumbai,Inactive,2
+SME073,Chidi Kapoor,chidi.kapoor@sessionops-demo.com,Product Strategy; System Design; Cloud Computing,Data Structures & Algorithms; JavaScript,Intermediate,America/New_York,Dubai,Active,4
+SME074,Zola Menon,zola.menon@sessionops-demo.com,Data Analytics,System Design,Beginner,Asia/Kolkata,Bangalore,Inactive,3
+SME075,Femi Johnson,femi.johnson@sessionops-demo.com,JavaScript; Python,,Advanced,Asia/Kolkata,Mumbai,Active,2
+SME076,Aisha Wilson,aisha.wilson@sessionops-demo.com,Mock Interviews; React; Aptitude,System Design; Machine Learning,Beginner,Asia/Kolkata,London,On Leave,3
+SME077,Kofi Lewis,kofi.lewis@sessionops-demo.com,System Design,Java,Advanced,Asia/Kolkata,Mumbai,Active,2
+SME078,Nia Zhang,nia.zhang@sessionops-demo.com,Statistics; DevOps; Data Analytics,Mock Interviews; React,Advanced,Europe/London,Mumbai,Active,2
+SME079,Tunde Park,tunde.park@sessionops-demo.com,JavaScript,Cloud Computing; React,Intermediate,Asia/Kolkata,Bangalore,On Leave,3
+SME080,Imani Sanchez,imani.sanchez@sessionops-demo.com,Machine Learning; System Design,Java; Product Management,Intermediate,Asia/Kolkata,New York,Active,3
+SME081,Erik Rahman,erik.rahman@sessionops-demo.com,React,Python,Intermediate,Asia/Dubai,Dubai,Active,3
+SME082,Freya Okafor,freya.okafor@sessionops-demo.com,JavaScript; Product Management,Machine Learning,Beginner,America/Los_Angeles,New York,Active,2
+SME083,Lars Mwangi,lars.mwangi@sessionops-demo.com,Behavioral Interviews,Mock Interviews,Intermediate,Asia/Singapore,Mumbai,Active,4
+SME084,Astrid Andersen,astrid.andersen@sessionops-demo.com,JavaScript; Mock Interviews; Machine Learning,,Intermediate,Europe/London,New York,On Leave,2
+SME085,Magnus Ferrari,magnus.ferrari@sessionops-demo.com,Statistics; Product Strategy,Aptitude,Intermediate,Asia/Singapore,New York,Inactive,3
+SME086,Ingrid Greco,ingrid.greco@sessionops-demo.com,Python; Product Strategy,Mock Interviews,Intermediate,Asia/Kolkata,London,Active,4
+SME087,Sven Gupta,sven.gupta@sessionops-demo.com,Python; React,,Advanced,Asia/Singapore,Delhi,Active,3
+SME088,Elin Chatterjee,elin.chatterjee@sessionops-demo.com,Data Structures & Algorithms; Cloud Computing,,Intermediate,Europe/London,New York,Active,2
+SME089,Anders Bose,anders.bose@sessionops-demo.com,Mock Interviews; Product Strategy,Statistics; Data Analytics,Advanced,America/New_York,London,Active,4
+SME090,Sigrid Davis,sigrid.davis@sessionops-demo.com,Cloud Computing,Career Coaching; Product Management,Beginner,Asia/Kolkata,Bangalore,Active,3
+SME091,Marco Martin,marco.martin@sessionops-demo.com,DevOps,Python; Mock Interviews,Advanced,Asia/Kolkata,Delhi,On Leave,3
+SME092,Giulia Chen,giulia.chen@sessionops-demo.com,SQL; Python,DevOps; Data Structures & Algorithms,Intermediate,Asia/Singapore,Bangalore,Active,3
+SME093,Luca Suzuki,luca.suzuki@sessionops-demo.com,Python,Behavioral Interviews; DevOps,Intermediate,Asia/Kolkata,Delhi,Active,2
+SME094,Chiara Gonzalez,chiara.gonzalez@sessionops-demo.com,Java; Machine Learning,SQL; JavaScript,Intermediate,Europe/London,Mumbai,Active,3
+SME095,Matteo Hassan,matteo.hassan@sessionops-demo.com,Data Analytics; Communication Skills; Cloud Computing,,Intermediate,Europe/London,London,Active,4
+SME096,Alessia Nasser,alessia.nasser@sessionops-demo.com,JavaScript; Behavioral Interviews,,Beginner,America/Los_Angeles,Pune,Active,3
+SME097,Paolo Nwosu,paolo.nwosu@sessionops-demo.com,DevOps; Product Management,Mock Interviews,Intermediate,America/New_York,Dubai,Inactive,3
+SME098,Bianca Eriksson,bianca.eriksson@sessionops-demo.com,Data Structures & Algorithms,,Advanced,Asia/Singapore,Mumbai,Active,3
+SME099,Fabio Olsen,fabio.olsen@sessionops-demo.com,Resume Review; Data Structures & Algorithms,Machine Learning,Beginner,Asia/Kolkata,Dubai,Active,5
+SME100,Rosa Ricci,rosa.ricci@sessionops-demo.com,Mock Interviews,Java; Python,Advanced,America/Los_Angeles,Mumbai,On Leave,3

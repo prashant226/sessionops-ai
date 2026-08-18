@@ -7,11 +7,13 @@ from fastapi.responses import StreamingResponse
 from sqlalchemy.orm import Session as DbSession
 
 from .. import models, schemas
+from ..config import get_settings
 from ..db import get_db
 from ..services import draft_engine
 from ..services.activity_log import log
-from ..services.calendar_adapter import create_event_and_invite
+from ..services.calendar_adapter import create_event_and_invite, CalendarNotConnectedError
 from ..services.matching_engine import evaluate_candidates
+from ..services.rsvp_poller import poll_all_pending_rsvps
 from ..services.serialize import serialize_assignment
 
 router = APIRouter(prefix="/schedule", tags=["schedule"])
@@ -100,7 +102,14 @@ def approve_assignment(assignment_id: str, db: DbSession = Depends(get_db)):
     sme = db.get(models.Sme, a.sme_id)
     session = a.session or db.get(models.Session, a.session_id)
 
-    result = create_event_and_invite(session.topic, sme.email, session.start_datetime, session.start_datetime)
+    try:
+        result = create_event_and_invite(
+            db, session.topic,
+            f"{session.class_type} · {session.required_level} · scheduled via SessionOps AI",
+            sme.email, session.start_datetime, session.duration_mins, session.timezone,
+        )
+    except CalendarNotConnectedError as e:
+        raise HTTPException(status_code=503, detail=str(e))
     a.calendar_event_id = result.calendar_event_id
     a.status = models.AssignmentStatus.APPROVED.value
     a.rsvp_status = models.RsvpStatus.PENDING.value
@@ -168,41 +177,29 @@ def reject_recommendation(assignment_id: str, payload: schemas.RejectRequest, db
 @router.post("/assignments/{assignment_id}/rsvp/simulate", response_model=schemas.AssignmentOut)
 def simulate_rsvp(assignment_id: str, payload: schemas.RsvpSimulateRequest, db: DbSession = Depends(get_db)):
     """Demo-only control standing in for a real Calendar RSVP webhook/poll.
-    See services/calendar_adapter.py."""
+    See services/calendar_adapter.py and POST /sync-rsvp for the live-mode
+    equivalent."""
     a = _get_assignment(db, assignment_id)
     if payload.rsvp not in ("ACCEPTED", "TENTATIVE", "DECLINED"):
         raise HTTPException(status_code=400, detail="Invalid RSVP value.")
     if not a.sme_id:
         raise HTTPException(status_code=409, detail="No SME currently invited on this assignment.")
-    sme = db.get(models.Sme, a.sme_id)
+    return serialize_assignment(db, draft_engine.apply_rsvp_transition(db, a, payload.rsvp))
 
-    if payload.rsvp == "ACCEPTED":
-        a.rsvp_status = models.RsvpStatus.ACCEPTED.value
-        a.status = models.AssignmentStatus.CONFIRMED.value
-        a.flags = [f for f in (a.flags or []) if f != "tentative_rsvp"]
-        db.commit()
-        log(db, a.assignment_id, "System", f"{sme.name} accepted the invitation")
-    elif payload.rsvp == "TENTATIVE":
-        a.rsvp_status = models.RsvpStatus.TENTATIVE.value
-        a.flags = list(set((a.flags or []) + ["tentative_rsvp"]))
-        db.commit()
-        log(db, a.assignment_id, "System", f"{sme.name} responded Tentative")
-    else:
-        a.rsvp_status = models.RsvpStatus.DECLINED.value
-        db.commit()
-        log(db, a.assignment_id, "System", f"{sme.name} declined the invitation")
-        if a.replacement_attempt_count >= MAX_REPLACEMENT_ATTEMPTS:
-            a.status = models.AssignmentStatus.UNFILLED.value
-            a.flags = ["no_replacement_accepted"]
-            a.sme_id = None
-            a.reason = f"{MAX_REPLACEMENT_ATTEMPTS} replacement invitation(s) sent, none accepted. No qualified SME remains available."
-            db.commit()
-            log(db, a.assignment_id, "System", "Maximum replacement attempts reached. No replacement accepted.")
-        else:
-            draft_engine.run_reassignment(db, a, sme.sme_id)
 
-    db.refresh(a)
-    return serialize_assignment(db, a)
+@router.post("/sync-rsvp")
+def sync_rsvp(week_start: str, db: DbSession = Depends(get_db)):
+    """Live mode only: polls Google Calendar for every outstanding or
+    previously-accepted invite in this week and applies any RSVP change
+    found. A background loop (see services/rsvp_poller.py) also does this
+    automatically every 30s while the server is running -- this endpoint is
+    for an immediate manual check (the Re-check Availability button). In
+    mock mode this is a no-op -- use the drawer's simulate control instead."""
+    settings = get_settings()
+    if not settings.is_live:
+        return {"status": "skipped", "reason": "INTEGRATION_MODE is mock; use the RSVP simulate control instead.", "updated": []}
+    result = poll_all_pending_rsvps(db, week_start=week_start)
+    return {"status": "ok", **result}
 
 
 @router.post("/assignments/{assignment_id}/dropout", response_model=schemas.AssignmentOut)
@@ -235,7 +232,14 @@ def send_replacement_invite(assignment_id: str, payload: schemas.EditRequest, db
         if not payload.override_hard_constraint:
             raise HTTPException(status_code=409, detail=f"This assignment conflicts with a hard constraint. {reason}")
 
-    result = create_event_and_invite(session.topic, sme.email, session.start_datetime, session.start_datetime)
+    try:
+        result = create_event_and_invite(
+            db, session.topic,
+            f"{session.class_type} · {session.required_level} · replacement invite via SessionOps AI",
+            sme.email, session.start_datetime, session.duration_mins, session.timezone,
+        )
+    except CalendarNotConnectedError as e:
+        raise HTTPException(status_code=503, detail=str(e))
     a.sme_id = sme.sme_id
     a.match_score = candidate.total_score if candidate else None
     a.status = models.AssignmentStatus.REASSIGNED.value

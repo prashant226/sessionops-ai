@@ -43,6 +43,20 @@ export default function OverviewPage() {
     load();
   }, [load]);
 
+  // Quietly re-pull every 30s so RSVP changes picked up by the backend's
+  // background poller (live mode) show up without a manual refresh.
+  useEffect(() => {
+    const interval = setInterval(() => {
+      Promise.all([api.kpis(weekStart), api.needsAttention(weekStart)])
+        .then(([k, a]) => {
+          setKpis(k);
+          setAttention(a);
+        })
+        .catch(() => {});
+    }, 30000);
+    return () => clearInterval(interval);
+  }, [weekStart]);
+
   async function onSync() {
     setSyncing(true);
     try {

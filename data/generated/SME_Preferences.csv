@@ -1,101 +1,101 @@
 sme_id,preferred_topics,preferred_class_types,preferred_start_time,preferred_end_time
-SME001,"[""Resume Review"", ""Behavioral Interviews""]","[""Workshop"", ""Cohort Class"", ""Office Hours""]",09:00,19:00
-SME002,"[""Resume Review""]","[""Doubt Clearing""]",10:00,14:00
-SME003,"[""Cloud Computing""]","[""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
-SME004,"[""Behavioral Interviews""]","[""Mock Interview""]",14:00,18:00
-SME005,"[""Behavioral Interviews""]","[""Doubt Clearing"", ""Mock Interview""]",09:00,19:00
-SME006,"[""Aptitude""]","[""Assessment Review""]",14:00,18:00
-SME007,"[""Product Management""]","[""Cohort Class"", ""Office Hours"", ""Assessment Review""]",09:00,19:00
-SME008,"[""Data Analytics""]","[""Workshop""]",10:00,18:00
-SME009,"[""Career Coaching""]","[""Office Hours""]",09:00,13:00
-SME010,"[""JavaScript""]","[""Office Hours""]",14:00,18:00
-SME011,"[""DevOps""]","[""Mock Interview""]",09:00,13:00
-SME012,"[""JavaScript""]","[""Assessment Review""]",10:00,14:00
-SME013,"[""Python""]","[""Mock Interview""]",10:00,14:00
-SME014,"[""Python""]","[""Workshop""]",14:00,18:00
-SME015,"[""Python""]","[""Assessment Review""]",09:00,13:00
-SME016,"[""Machine Learning""]","[""Doubt Clearing""]",10:00,14:00
-SME017,"[""Product Strategy""]","[""Mock Interview""]",14:00,18:00
-SME018,"[""Product Management""]","[""Assessment Review""]",09:00,13:00
-SME019,"[""Mock Interviews""]","[""Cohort Class""]",10:00,14:00
-SME020,"[""Python""]","[""Assessment Review""]",14:00,18:00
-SME021,"[""SQL""]","[""Doubt Clearing"", ""Workshop""]",09:00,19:00
-SME022,"[""Python"", ""System Design"", ""Machine Learning""]","[""Office Hours"", ""Doubt Clearing"", ""Workshop""]",09:00,19:00
-SME023,"[""React""]","[""Office Hours""]",14:00,18:00
-SME024,"[""Behavioral Interviews""]","[""Doubt Clearing""]",09:00,13:00
-SME025,"[""Cloud Computing""]","[""Cohort Class""]",10:00,14:00
-SME026,"[""Python""]","[""Assessment Review""]",09:00,13:00
-SME027,"[""SQL"", ""Aptitude""]","[""Office Hours"", ""Assessment Review"", ""Mock Interview""]",09:00,19:00
-SME028,"[""Resume Review""]","[""Cohort Class""]",10:00,14:00
-SME029,"[""Resume Review""]","[""Mock Interview""]",09:00,13:00
-SME030,"[""Product Management""]","[""Assessment Review"", ""Office Hours""]",09:00,19:00
-SME031,"[""Product Strategy""]","[""Office Hours"", ""Cohort Class"", ""Assessment Review""]",09:00,19:00
-SME032,"[""Data Analytics""]","[""Assessment Review""]",10:00,14:00
-SME033,"[""Data Analytics"", ""Cloud Computing"", ""Data Structures & Algorithms""]","[""Assessment Review"", ""Office Hours""]",09:00,19:00
-SME034,"[""SQL"", ""Product Management""]","[""Mock Interview"", ""Office Hours""]",09:00,19:00
-SME035,"[""Machine Learning"", ""Product Management""]","[""Office Hours"", ""Workshop"", ""Mock Interview""]",09:00,19:00
-SME036,"[""Data Structures & Algorithms""]","[""Mock Interview""]",14:00,18:00
-SME037,"[""Data Structures & Algorithms""]","[""Assessment Review""]",10:00,14:00
-SME038,"[""React""]","[""Assessment Review"", ""Workshop""]",09:00,19:00
-SME039,"[""Java"", ""Machine Learning"", ""Behavioral Interviews""]","[""Assessment Review"", ""Mock Interview""]",09:00,19:00
-SME040,"[""Machine Learning"", ""Statistics"", ""Mock Interviews""]","[""Mock Interview"", ""Workshop""]",09:00,19:00
-SME041,"[""React""]","[""Office Hours""]",09:00,13:00
-SME042,"[""Resume Review"", ""Product Management""]","[""Doubt Clearing"", ""Office Hours"", ""Mock Interview""]",09:00,19:00
-SME043,"[""React""]","[""Mock Interview""]",09:00,13:00
-SME044,"[""Python""]","[""Assessment Review"", ""Workshop""]",09:00,19:00
-SME045,"[""Product Strategy""]","[""Doubt Clearing""]",14:00,18:00
-SME046,"[""Python""]","[""Doubt Clearing"", ""Office Hours"", ""Cohort Class""]",09:00,19:00
-SME047,"[""Mock Interviews""]","[""Cohort Class""]",09:00,13:00
-SME048,"[""Aptitude""]","[""Workshop"", ""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
-SME049,"[""JavaScript"", ""Machine Learning"", ""React""]","[""Doubt Clearing"", ""Office Hours""]",09:00,19:00
-SME050,"[""React"", ""System Design""]","[""Assessment Review"", ""Mock Interview""]",09:00,19:00
-SME051,"[""Java""]","[""Doubt Clearing"", ""Workshop""]",09:00,19:00
-SME052,"[""Python""]","[""Mock Interview""]",14:00,18:00
-SME053,"[""Aptitude""]","[""Assessment Review"", ""Workshop"", ""Office Hours""]",09:00,19:00
-SME054,"[""DevOps""]","[""Office Hours""]",14:00,18:00
-SME055,"[""SQL""]","[""Workshop""]",14:00,18:00
-SME056,"[""Python"", ""Mock Interviews"", ""System Design""]","[""Cohort Class"", ""Office Hours""]",09:00,19:00
-SME057,"[""JavaScript""]","[""Mock Interview"", ""Assessment Review"", ""Office Hours""]",09:00,19:00
-SME058,"[""Mock Interviews"", ""Cloud Computing""]","[""Workshop"", ""Doubt Clearing"", ""Office Hours""]",09:00,19:00
-SME059,"[""Java""]","[""Assessment Review""]",10:00,14:00
-SME060,"[""Java"", ""Data Structures & Algorithms""]","[""Assessment Review"", ""Cohort Class""]",09:00,19:00
-SME061,"[""Statistics""]","[""Cohort Class"", ""Office Hours"", ""Assessment Review""]",09:00,19:00
-SME062,"[""Product Management"", ""Cloud Computing""]","[""Assessment Review"", ""Mock Interview""]",09:00,19:00
-SME063,"[""System Design""]","[""Cohort Class""]",09:00,13:00
-SME064,"[""Machine Learning""]","[""Office Hours"", ""Cohort Class""]",09:00,19:00
-SME065,"[""Machine Learning""]","[""Office Hours"", ""Doubt Clearing""]",09:00,19:00
-SME066,"[""Data Structures & Algorithms""]","[""Assessment Review""]",10:00,14:00
-SME067,"[""Aptitude""]","[""Assessment Review"", ""Doubt Clearing""]",09:00,19:00
-SME068,"[""Python""]","[""Workshop""]",10:00,14:00
-SME069,"[""System Design""]","[""Workshop"", ""Mock Interview"", ""Office Hours""]",09:00,19:00
-SME070,"[""Python""]","[""Cohort Class""]",14:00,18:00
-SME071,"[""Python"", ""Product Strategy""]","[""Mock Interview"", ""Cohort Class"", ""Assessment Review""]",09:00,19:00
-SME072,"[""DevOps"", ""Python""]","[""Workshop"", ""Cohort Class""]",09:00,19:00
-SME073,"[""Product Strategy""]","[""Doubt Clearing""]",10:00,14:00
-SME074,"[""Data Analytics""]","[""Assessment Review""]",14:00,18:00
-SME075,"[""JavaScript""]","[""Office Hours""]",14:00,18:00
-SME076,"[""Mock Interviews""]","[""Assessment Review""]",09:00,13:00
-SME077,"[""System Design"", ""Java""]","[""Cohort Class"", ""Assessment Review""]",09:00,19:00
-SME078,"[""Statistics""]","[""Assessment Review""]",14:00,18:00
-SME079,"[""JavaScript""]","[""Doubt Clearing"", ""Cohort Class"", ""Office Hours""]",09:00,19:00
-SME080,"[""Machine Learning"", ""System Design""]","[""Assessment Review"", ""Mock Interview""]",09:00,19:00
-SME081,"[""React""]","[""Workshop"", ""Assessment Review"", ""Office Hours""]",09:00,19:00
-SME082,"[""JavaScript""]","[""Cohort Class"", ""Workshop""]",09:00,19:00
-SME083,"[""Behavioral Interviews"", ""Mock Interviews""]","[""Office Hours"", ""Assessment Review""]",09:00,19:00
-SME084,"[""JavaScript"", ""Mock Interviews""]","[""Assessment Review"", ""Mock Interview"", ""Workshop""]",09:00,19:00
-SME085,"[""Statistics""]","[""Assessment Review""]",09:00,13:00
-SME086,"[""Python""]","[""Mock Interview""]",09:00,13:00
-SME087,"[""Python"", ""React""]","[""Doubt Clearing"", ""Office Hours""]",09:00,19:00
-SME088,"[""Data Structures & Algorithms""]","[""Workshop""]",10:00,14:00
-SME089,"[""Mock Interviews""]","[""Assessment Review""]",14:00,18:00
-SME090,"[""Cloud Computing"", ""Career Coaching"", ""Product Management""]","[""Workshop"", ""Cohort Class"", ""Assessment Review""]",09:00,19:00
-SME091,"[""DevOps""]","[""Doubt Clearing"", ""Cohort Class""]",09:00,19:00
-SME092,"[""SQL"", ""Python"", ""DevOps""]","[""Workshop"", ""Assessment Review""]",09:00,19:00
-SME093,"[""Python""]","[""Office Hours""]",10:00,14:00
-SME094,"[""Java""]","[""Office Hours""]",14:00,18:00
-SME095,"[""Data Analytics""]","[""Mock Interview"", ""Cohort Class""]",09:00,19:00
-SME096,"[""JavaScript""]","[""Assessment Review""]",09:00,13:00
-SME097,"[""DevOps""]","[""Doubt Clearing""]",10:00,14:00
-SME098,"[""Data Structures & Algorithms""]","[""Assessment Review"", ""Office Hours""]",09:00,19:00
-SME099,"[""Resume Review""]","[""Cohort Class""]",09:00,13:00
-SME100,"[""Mock Interviews"", ""Java""]","[""Workshop"", ""Office Hours""]",09:00,19:00
+SME001,Resume Review; Behavioral Interviews,Workshop; Cohort Class; Office Hours,09:00,19:00
+SME002,Resume Review,Doubt Clearing,10:00,14:00
+SME003,Cloud Computing,Assessment Review; Doubt Clearing,09:00,19:00
+SME004,Behavioral Interviews,Mock Interview,14:00,18:00
+SME005,Behavioral Interviews,Doubt Clearing; Mock Interview,09:00,19:00
+SME006,Aptitude,Assessment Review,14:00,18:00
+SME007,Product Management,Cohort Class; Office Hours; Assessment Review,09:00,19:00
+SME008,Data Analytics,Workshop,10:00,18:00
+SME009,Career Coaching,Office Hours,09:00,13:00
+SME010,JavaScript,Office Hours,14:00,18:00
+SME011,DevOps,Mock Interview,09:00,13:00
+SME012,JavaScript,Assessment Review,10:00,14:00
+SME013,Python,Mock Interview,10:00,14:00
+SME014,Python,Workshop,14:00,18:00
+SME015,Python,Assessment Review,09:00,13:00
+SME016,Machine Learning,Doubt Clearing,10:00,14:00
+SME017,Product Strategy,Mock Interview,14:00,18:00
+SME018,Product Management,Assessment Review,09:00,13:00
+SME019,Mock Interviews,Cohort Class,10:00,14:00
+SME020,Python,Assessment Review,14:00,18:00
+SME021,SQL,Doubt Clearing; Workshop,09:00,19:00
+SME022,Python; System Design; Machine Learning,Office Hours; Doubt Clearing; Workshop,09:00,19:00
+SME023,React,Office Hours,14:00,18:00
+SME024,Behavioral Interviews,Doubt Clearing,09:00,13:00
+SME025,Cloud Computing,Cohort Class,10:00,14:00
+SME026,Python,Assessment Review,09:00,13:00
+SME027,SQL; Aptitude,Office Hours; Assessment Review; Mock Interview,09:00,19:00
+SME028,Resume Review,Cohort Class,10:00,14:00
+SME029,Resume Review,Mock Interview,09:00,13:00
+SME030,Product Management,Assessment Review; Office Hours,09:00,19:00
+SME031,Product Strategy,Office Hours; Cohort Class; Assessment Review,09:00,19:00
+SME032,Data Analytics,Assessment Review,10:00,14:00
+SME033,Data Analytics; Cloud Computing; Data Structures & Algorithms,Assessment Review; Office Hours,09:00,19:00
+SME034,SQL; Product Management,Mock Interview; Office Hours,09:00,19:00
+SME035,Machine Learning; Product Management,Office Hours; Workshop; Mock Interview,09:00,19:00
+SME036,Data Structures & Algorithms,Mock Interview,14:00,18:00
+SME037,Data Structures & Algorithms,Assessment Review,10:00,14:00
+SME038,React,Assessment Review; Workshop,09:00,19:00
+SME039,Java; Machine Learning; Behavioral Interviews,Assessment Review; Mock Interview,09:00,19:00
+SME040,Machine Learning; Statistics; Mock Interviews,Mock Interview; Workshop,09:00,19:00
+SME041,React,Office Hours,09:00,13:00
+SME042,Resume Review; Product Management,Doubt Clearing; Office Hours; Mock Interview,09:00,19:00
+SME043,React,Mock Interview,09:00,13:00
+SME044,Python,Assessment Review; Workshop,09:00,19:00
+SME045,Product Strategy,Doubt Clearing,14:00,18:00
+SME046,Python,Doubt Clearing; Office Hours; Cohort Class,09:00,19:00
+SME047,Mock Interviews,Cohort Class,09:00,13:00
+SME048,Aptitude,Workshop; Assessment Review; Doubt Clearing,09:00,19:00
+SME049,JavaScript; Machine Learning; React,Doubt Clearing; Office Hours,09:00,19:00
+SME050,React; System Design,Assessment Review; Mock Interview,09:00,19:00
+SME051,Java,Doubt Clearing; Workshop,09:00,19:00
+SME052,Python,Mock Interview,14:00,18:00
+SME053,Aptitude,Assessment Review; Workshop; Office Hours,09:00,19:00
+SME054,DevOps,Office Hours,14:00,18:00
+SME055,SQL,Workshop,14:00,18:00
+SME056,Python; Mock Interviews; System Design,Cohort Class; Office Hours,09:00,19:00
+SME057,JavaScript,Mock Interview; Assessment Review; Office Hours,09:00,19:00
+SME058,Mock Interviews; Cloud Computing,Workshop; Doubt Clearing; Office Hours,09:00,19:00
+SME059,Java,Assessment Review,10:00,14:00
+SME060,Java; Data Structures & Algorithms,Assessment Review; Cohort Class,09:00,19:00
+SME061,Statistics,Cohort Class; Office Hours; Assessment Review,09:00,19:00
+SME062,Product Management; Cloud Computing,Assessment Review; Mock Interview,09:00,19:00
+SME063,System Design,Cohort Class,09:00,13:00
+SME064,Machine Learning,Office Hours; Cohort Class,09:00,19:00
+SME065,Machine Learning,Office Hours; Doubt Clearing,09:00,19:00
+SME066,Data Structures & Algorithms,Assessment Review,10:00,14:00
+SME067,Aptitude,Assessment Review; Doubt Clearing,09:00,19:00
+SME068,Python,Workshop,10:00,14:00
+SME069,System Design,Workshop; Mock Interview; Office Hours,09:00,19:00
+SME070,Python,Cohort Class,14:00,18:00
+SME071,Python; Product Strategy,Mock Interview; Cohort Class; Assessment Review,09:00,19:00
+SME072,DevOps; Python,Workshop; Cohort Class,09:00,19:00
+SME073,Product Strategy,Doubt Clearing,10:00,14:00
+SME074,Data Analytics,Assessment Review,14:00,18:00
+SME075,JavaScript,Office Hours,14:00,18:00
+SME076,Mock Interviews,Assessment Review,09:00,13:00
+SME077,System Design; Java,Cohort Class; Assessment Review,09:00,19:00
+SME078,Statistics,Assessment Review,14:00,18:00
+SME079,JavaScript,Doubt Clearing; Cohort Class; Office Hours,09:00,19:00
+SME080,Machine Learning; System Design,Assessment Review; Mock Interview,09:00,19:00
+SME081,React,Workshop; Assessment Review; Office Hours,09:00,19:00
+SME082,JavaScript,Cohort Class; Workshop,09:00,19:00
+SME083,Behavioral Interviews; Mock Interviews,Office Hours; Assessment Review,09:00,19:00
+SME084,JavaScript; Mock Interviews,Assessment Review; Mock Interview; Workshop,09:00,19:00
+SME085,Statistics,Assessment Review,09:00,13:00
+SME086,Python,Mock Interview,09:00,13:00
+SME087,Python; React,Doubt Clearing; Office Hours,09:00,19:00
+SME088,Data Structures & Algorithms,Workshop,10:00,14:00
+SME089,Mock Interviews,Assessment Review,14:00,18:00
+SME090,Cloud Computing; Career Coaching; Product Management,Workshop; Cohort Class; Assessment Review,09:00,19:00
+SME091,DevOps,Doubt Clearing; Cohort Class,09:00,19:00
+SME092,SQL; Python; DevOps,Workshop; Assessment Review,09:00,19:00
+SME093,Python,Office Hours,10:00,14:00
+SME094,Java,Office Hours,14:00,18:00
+SME095,Data Analytics,Mock Interview; Cohort Class,09:00,19:00
+SME096,JavaScript,Assessment Review,09:00,13:00
+SME097,DevOps,Doubt Clearing,10:00,14:00
+SME098,Data Structures & Algorithms,Assessment Review; Office Hours,09:00,19:00
+SME099,Resume Review,Cohort Class,09:00,13:00
+SME100,Mock Interviews; Java,Workshop; Office Hours,09:00,19:00
