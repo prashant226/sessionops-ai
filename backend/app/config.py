@@ -29,6 +29,18 @@ class Settings:
     demo_ops_id: str = os.getenv("DEMO_OPS_ID", "ops")
     demo_ops_password: str = os.getenv("DEMO_OPS_PASSWORD", "sessionops")
 
+    # Comma-separated list of allowed frontend origins for CORS. Always
+    # includes local dev; add the deployed frontend's origin via this env
+    # var rather than hardcoding it, so the same backend works whether it's
+    # being hit from localhost or a deployed Vercel URL.
+    _extra_origins: str = os.getenv("CORS_ORIGINS", "")
+
+    @property
+    def cors_origins(self) -> list[str]:
+        defaults = ["http://localhost:3000"]
+        extra = [o.strip() for o in self._extra_origins.split(",") if o.strip()]
+        return defaults + extra
+
     @property
     def is_live(self) -> bool:
         return self.integration_mode == "live"

@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: sessionops-ai-backend
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: INTEGRATION_MODE
+        value: mock
+      - key: DATABASE_URL
+        value: sqlite:///./sessionops.db
+      - key: DEMO_OPS_ID
+        value: ops
+      - key: DEMO_OPS_PASSWORD
+        value: sessionops
+      - key: DEMO_MODE
+        value: "true"
+      - key: CORS_ORIGINS
+        value: https://sessionops-ai.vercel.app
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: GOOGLE_REDIRECT_URI
+        sync: false
+      - key: GOOGLE_SHEETS_SPREADSHEET_ID
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: DEMO_CALENDAR_EMAIL
+        sync: false
