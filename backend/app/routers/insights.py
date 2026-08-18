@@ -54,12 +54,19 @@ def get_insights(start_date: str, end_date: str, db: DbSession = Depends(get_db)
     recommended = [a for a in rows if a.candidates_snapshot]
     decided = [a for a in rows if a.status not in (models.AssignmentStatus.PENDING_REVIEW.value, models.AssignmentStatus.DRAFT.value)]
 
+    def was_edited_or_exception(a: models.Assignment) -> bool:
+        return any(act.actor == "Ops" and ("Ops selected" in act.message or "requested an exception" in act.message) for act in a.activity)
+
     accepted_as_is = sum(
         1 for a in recommended
         if a.status in (models.AssignmentStatus.APPROVED.value, models.AssignmentStatus.CONFIRMED.value, models.AssignmentStatus.FINALIZED.value)
-        and not any(act.actor == "Ops" and ("changed" in act.message or "overrode" in act.message) for act in a.activity)
+        and not was_edited_or_exception(a)
     )
-    overridden = sum(1 for a in rows if a.status == models.AssignmentStatus.OVERRIDDEN.value)
+    # "Override" here means Ops ever picked a different candidate or
+    # requested an exception -- tracked via activity, not current status,
+    # since an edited assignment moves on to APPROVED/CONFIRMED once
+    # approved and the status alone would no longer show it was edited.
+    overridden = sum(1 for a in rows if was_edited_or_exception(a))
     ever_reassigned = sum(1 for a in rows if a.original_sme_id or a.status in (models.AssignmentStatus.REASSIGNMENT_REQUIRED.value, models.AssignmentStatus.REASSIGNED.value))
     unfilled = sum(1 for a in rows if a.status == models.AssignmentStatus.UNFILLED.value)
     conflicts = sum(1 for a in rows if set(a.flags or []) & {"qualified_but_unavailable", "new_conflict"})
@@ -71,7 +78,7 @@ def get_insights(start_date: str, end_date: str, db: DbSession = Depends(get_db)
     for a in rows:
         acts = sorted(a.activity, key=lambda x: x.timestamp)
         rec_ts = next((x.timestamp for x in acts if x.actor == "AI" and "recommended" in x.message), None)
-        decision_ts = next((x.timestamp for x in acts if x.actor == "Ops" and any(w in x.message for w in ("approved", "changed", "rejected", "overrode"))), None)
+        decision_ts = next((x.timestamp for x in acts if x.actor == "Ops" and any(w in x.message for w in ("approved", "Ops selected", "rejected", "requested an exception"))), None)
         resolved_ts = next((x.timestamp for x in reversed(acts) if "accepted the invitation" in x.message or x.actor == "System" and "Calendar invitation sent" in x.message), None)
         if rec_ts and decision_ts:
             review_times.append(_minutes_between(rec_ts, decision_ts))
@@ -104,8 +111,8 @@ def get_insights(start_date: str, end_date: str, db: DbSession = Depends(get_db)
                calculation="Approved recommendations / Total recommendations.",
                why_it_matters="Higher acceptance suggests stronger recommendation quality."),
         Metric(key="override_rate", label="Override Rate", value=_pct(overridden, total), unit="percent",
-               definition="Percentage of assignments where Ops assigned an SME who violated a hard constraint.",
-               calculation="Overridden assignments / Total sessions.",
+               definition="Percentage of assignments where Ops selected a different SME than the AI recommendation, or requested a constraint exception.",
+               calculation="Edited or exception assignments / Total sessions.",
                why_it_matters="A rising override rate can mean the matching rules are too strict, or data quality issues are forcing exceptions."),
         Metric(key="reassignment_rate", label="Reassignment Rate", value=_pct(ever_reassigned, total), unit="percent",
                definition="Percentage of sessions that required at least one reassignment after the original SME declined or dropped out.",

@@ -34,7 +34,7 @@ EXCEPTION_RULES = {
     "fairness_warning": ("Warning", "fairness"),
     "tentative_rsvp": ("Warning", "rsvp"),
     "new_conflict": ("Critical", "availability"),
-    "hard_override": ("Warning", "expertise"),
+    "exception_pending": ("Warning", "expertise"),
 }
 
 
@@ -84,6 +84,15 @@ def serialize_assignment(db: DbSession, a: models.Assignment, include_candidates
                 fairness=b.get("fairness", 0), preference=b.get("preference", 0),
             )
 
+    ai_recommended_sme_name = None
+    if a.ai_recommended_sme_id:
+        snapshot_match = next((c for c in snapshot if c["sme_id"] == a.ai_recommended_sme_id), None)
+        if snapshot_match:
+            ai_recommended_sme_name = snapshot_match["name"]
+        else:
+            ai_sme = db.get(models.Sme, a.ai_recommended_sme_id)
+            ai_recommended_sme_name = ai_sme.name if ai_sme else a.ai_recommended_sme_id
+
     severity, category = _exception_info(a.flags)
 
     exception_detail = None
@@ -106,6 +115,10 @@ def serialize_assignment(db: DbSession, a: models.Assignment, include_candidates
         replacement_attempt_count=a.replacement_attempt_count,
         calendar_event_id=a.calendar_event_id,
         calendar_recipient_email=calendar_recipient_email,
+        ai_recommended_sme_id=a.ai_recommended_sme_id,
+        ai_recommended_sme_name=ai_recommended_sme_name,
+        ai_recommended_score=a.ai_recommended_score,
+        exception_reason=a.exception_reason,
         breakdown=breakdown,
         candidates=candidates if include_candidates else [],
         activity=[schemas.ActivityOut.model_validate(x) for x in a.activity],

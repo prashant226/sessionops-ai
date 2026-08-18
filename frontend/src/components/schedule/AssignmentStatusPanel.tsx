@@ -9,9 +9,11 @@ import { api, ApiError } from "@/lib/api";
 import { useToast } from "@/lib/toast-context";
 import type { AssignmentOut } from "@/lib/types";
 
-const DECIDED_STATUSES = new Set([
-  "APPROVED", "CONFIRMED", "EDITED", "OVERRIDDEN", "REASSIGNED", "FINALIZED",
-]);
+// Only these are truly final decisions with a real (or once-real) Calendar
+// invite. EDITED_PENDING_APPROVAL / EXCEPTION_PENDING_APPROVAL are
+// deliberately excluded -- they are not approved yet, so this panel (and
+// its Calendar/RSVP claims) must not show for them.
+const DECIDED_STATUSES = new Set(["APPROVED", "CONFIRMED", "REASSIGNED", "FINALIZED"]);
 
 /** The prominent "what's the current state" block shown once an assignment
  * has moved past a bare AI recommendation -- deliberately louder than the

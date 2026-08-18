@@ -102,11 +102,12 @@ export const api = {
   resendInvite: (assignmentId: string) =>
     request<AssignmentOut>(`/schedule/assignments/${assignmentId}/resend-invite`, { method: "POST" }),
   eventLink: (assignmentId: string) => request<{ url: string }>(`/schedule/assignments/${assignmentId}/event-link`),
-  edit: (assignmentId: string, sme_id: string, override_hard_constraint = false) =>
+  edit: (assignmentId: string, sme_id: string, exception_reason?: string) =>
     request<AssignmentOut>(`/schedule/assignments/${assignmentId}/edit`, {
       method: "POST",
-      body: JSON.stringify({ sme_id, override_hard_constraint }),
+      body: JSON.stringify({ sme_id, exception_reason }),
     }),
+  revert: (assignmentId: string) => request<AssignmentOut>(`/schedule/assignments/${assignmentId}/revert`, { method: "POST" }),
   reject: (assignmentId: string, reason: string) =>
     request<AssignmentOut>(`/schedule/assignments/${assignmentId}/reject`, {
       method: "POST",
@@ -122,10 +123,10 @@ export const api = {
       method: "POST",
       body: JSON.stringify({ note }),
     }),
-  sendReplacement: (assignmentId: string, sme_id: string, override_hard_constraint = false) =>
+  sendReplacement: (assignmentId: string, sme_id: string) =>
     request<AssignmentOut>(`/schedule/assignments/${assignmentId}/replacement/send`, {
       method: "POST",
-      body: JSON.stringify({ sme_id, override_hard_constraint }),
+      body: JSON.stringify({ sme_id }),
     }),
   recheckAvailability: (start_date: string, end_date: string) =>
     request<{ checked: number; new_conflicts: string[] }>(`/schedule/recheck-availability?${rangeQS(start_date, end_date)}`, {

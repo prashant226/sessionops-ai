@@ -8,6 +8,7 @@ from . import models
 from .config import get_settings
 from .db import Base, SessionLocal, engine
 from .routers import auth, config as config_router, exceptions, google_auth, insights, overview, schedule, search, smes, sync
+from .services.migrate import add_missing_columns
 from .services.rsvp_poller import rsvp_polling_loop
 from .services.seed import seed_source_data
 
@@ -15,6 +16,7 @@ from .services.seed import seed_source_data
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     Base.metadata.create_all(bind=engine)
+    add_missing_columns(engine, Base)
     settings = get_settings()
     db = SessionLocal()
     try:

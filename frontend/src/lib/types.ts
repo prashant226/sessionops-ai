@@ -43,10 +43,10 @@ export interface ActivityOut {
 export type AssignmentStatus =
   | "DRAFT"
   | "PENDING_REVIEW"
+  | "EDITED_PENDING_APPROVAL"
+  | "EXCEPTION_PENDING_APPROVAL"
   | "APPROVED"
   | "CONFIRMED"
-  | "EDITED"
-  | "OVERRIDDEN"
   | "REASSIGNMENT_REQUIRED"
   | "REASSIGNED"
   | "UNFILLED"
@@ -68,6 +68,10 @@ export interface AssignmentOut {
   replacement_attempt_count: number;
   calendar_event_id: string | null;
   calendar_recipient_email: string | null;
+  ai_recommended_sme_id: string | null;
+  ai_recommended_sme_name: string | null;
+  ai_recommended_score: number | null;
+  exception_reason: string | null;
   breakdown: ScoreBreakdown | null;
   candidates: CandidateOut[];
   activity: ActivityOut[];

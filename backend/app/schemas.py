@@ -86,6 +86,10 @@ class AssignmentOut(BaseModel):
     replacement_attempt_count: int = 0
     calendar_event_id: Optional[str] = None
     calendar_recipient_email: Optional[str] = None
+    ai_recommended_sme_id: Optional[str] = None
+    ai_recommended_sme_name: Optional[str] = None
+    ai_recommended_score: Optional[float] = None
+    exception_reason: Optional[str] = None
     breakdown: Optional[ScoreBreakdown] = None
     candidates: list[CandidateOut] = []
     activity: list[ActivityOut] = []
@@ -100,7 +104,13 @@ class ApproveRequest(BaseModel):
 
 class EditRequest(BaseModel):
     sme_id: str
-    override_hard_constraint: bool = False
+    # Only used for the narrow exception-eligible constraint set (currently:
+    # daily capacity exceeded). A required, non-empty reason is what turns a
+    # blocked capacity pick into an EXCEPTION_PENDING_APPROVAL request --
+    # hard constraints outside that set (inactive, missing expertise, wrong
+    # level, calendar conflict, offline location) have no override path at
+    # all, regardless of this field.
+    exception_reason: Optional[str] = None
 
 
 class RejectRequest(BaseModel):

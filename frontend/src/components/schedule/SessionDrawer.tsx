@@ -1,14 +1,14 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { X, AlertCircle, AlertTriangle, MapPin, Video } from "lucide-react";
+import { X, AlertCircle, AlertTriangle, MapPin, Video, Undo2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { StatusPill } from "@/components/ui/StatusPill";
 import { ScoreBreakdown } from "./ScoreBreakdown";
 import { CandidateCard } from "./CandidateCard";
 import { ActivityTimeline } from "./ActivityTimeline";
 import { ApprovalModal } from "./ApprovalModal";
-import { EditAssignmentModal } from "./EditAssignmentModal";
+import { EditAssignmentModal, type EditConflict } from "./EditAssignmentModal";
 import { RejectRecommendationModal } from "./RejectRecommendationModal";
 import { ReplacementPanel } from "./ReplacementPanel";
 import { AssignmentStatusPanel } from "./AssignmentStatusPanel";
@@ -18,7 +18,18 @@ import { formatDate, formatTime } from "@/lib/utils";
 import { useToast } from "@/lib/toast-context";
 import type { AssignmentOut } from "@/lib/types";
 
-const DECIDED_STATUSES = new Set(["APPROVED", "CONFIRMED", "EDITED", "OVERRIDDEN", "REASSIGNED", "FINALIZED"]);
+// Truly final decisions with a real (or once-real) Calendar invite.
+const DECIDED_STATUSES = new Set(["APPROVED", "CONFIRMED", "REASSIGNED", "FINALIZED"]);
+// Awaiting an Ops approval decision -- covers the original AI recommendation
+// and any not-yet-approved edit/exception.
+const AWAITING_APPROVAL_STATUSES = new Set(["PENDING_REVIEW", "EDITED_PENDING_APPROVAL", "EXCEPTION_PENDING_APPROVAL"]);
+
+function parseEditError(err: unknown): EditConflict | { message: string } {
+  const message = err instanceof ApiError ? err.message : "Could not update this assignment.";
+  if (message.startsWith("blocked::")) return { kind: "blocked", reason: message.slice("blocked::".length) };
+  if (message.startsWith("exception_reason_required::")) return { kind: "exception_required", reason: message.slice("exception_reason_required::".length) };
+  return { message };
+}
 
 export function SessionDrawer({
   assignmentId,
@@ -38,7 +49,7 @@ export function SessionDrawer({
   const [editOpen, setEditOpen] = useState(false);
   const [rejectOpen, setRejectOpen] = useState(false);
   const [dropoutOpen, setDropoutOpen] = useState(false);
-  const [conflictMessage, setConflictMessage] = useState<string | null>(null);
+  const [conflict, setConflict] = useState<EditConflict | null>(null);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -75,7 +86,7 @@ export function SessionDrawer({
     try {
       const a = await api.approve(assignment.assignment_id);
       refreshAfterAction(a);
-      push("success", "Assignment approved", "Calendar invitation sent. RSVP: Pending.");
+      push("success", "Assignment approved", `Calendar invitation sent${a.calendar_recipient_email ? ` to ${a.calendar_recipient_email}` : ""}.`);
       setApproveOpen(false);
     } catch (err) {
       push("error", "Could not approve this assignment", err instanceof ApiError ? err.message : undefined);
@@ -84,21 +95,36 @@ export function SessionDrawer({
     }
   }
 
-  async function doEdit(smeId: string, override: boolean) {
+  async function doEdit(smeId: string, exceptionReason?: string) {
     if (!assignment) return;
     setBusy(true);
     try {
-      const a = await api.edit(assignment.assignment_id, smeId, override);
+      const a = await api.edit(assignment.assignment_id, smeId, exceptionReason);
       refreshAfterAction(a);
       setEditOpen(false);
-      setConflictMessage(null);
-      push("success", override ? "Assignment overridden" : "Assignment updated");
+      setConflict(null);
+      push("success", exceptionReason ? "Exception requested — pending approval" : "Candidate selected — pending approval", "No Calendar invite has been sent yet.");
     } catch (err) {
-      if (err instanceof ApiError && err.status === 409) {
-        setConflictMessage(err.message.replace("This assignment conflicts with a hard constraint.", "").trim());
+      const parsed = parseEditError(err);
+      if ("kind" in parsed) {
+        setConflict(parsed);
       } else {
-        push("error", "Could not update this assignment", err instanceof ApiError ? err.message : undefined);
+        push("error", "Could not update this assignment", parsed.message);
       }
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function doRevert() {
+    if (!assignment) return;
+    setBusy(true);
+    try {
+      const a = await api.revert(assignment.assignment_id);
+      refreshAfterAction(a);
+      push("info", "Reverted to AI recommendation");
+    } catch (err) {
+      push("error", "Could not revert this assignment", err instanceof ApiError ? err.message : undefined);
     } finally {
       setBusy(false);
     }
@@ -165,6 +191,9 @@ export function SessionDrawer({
   }
 
   const isDecided = assignment ? DECIDED_STATUSES.has(assignment.status) : false;
+  const isEdited = assignment?.status === "EDITED_PENDING_APPROVAL" || assignment?.status === "EXCEPTION_PENDING_APPROVAL";
+  const isAwaitingApproval = assignment ? AWAITING_APPROVAL_STATUSES.has(assignment.status) : false;
+  const hasAiAlternative = assignment?.ai_recommended_sme_id && assignment.ai_recommended_sme_id !== assignment.sme_id;
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end bg-slate-900/30" role="presentation" onClick={onClose}>
@@ -214,6 +243,47 @@ export function SessionDrawer({
 
               {/* ASSIGNMENT / RSVP / CALENDAR STATE -- prominent once decided */}
               <AssignmentStatusPanel assignment={assignment} onChanged={load} />
+
+              {isEdited && assignment.sme_id && (
+                <div className="mt-3 rounded border border-violet-200 bg-violet-50 p-4">
+                  <div className="flex items-start justify-between">
+                    <div>
+                      <p className="text-[11px] font-semibold uppercase tracking-wide text-violet-700">Assignment</p>
+                      <p className="text-[16px] font-semibold text-slate-900">{assignment.sme_name}</p>
+                    </div>
+                    <StatusPill status={assignment.status} />
+                  </div>
+
+                  {hasAiAlternative && (
+                    <div className="mt-3 space-y-1.5 border-t border-violet-200 pt-3 text-[13px]">
+                      <div className="flex justify-between">
+                        <span className="text-slate-500">AI recommendation</span>
+                        <span className="font-medium text-slate-700">
+                          {assignment.ai_recommended_sme_name} · {assignment.ai_recommended_score}
+                        </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-slate-500">Ops selected</span>
+                        <span className="font-medium text-slate-900">
+                          {assignment.sme_name}
+                          {assignment.match_score !== null ? ` · ${assignment.match_score}` : ""}
+                        </span>
+                      </div>
+                    </div>
+                  )}
+
+                  {assignment.status === "EXCEPTION_PENDING_APPROVAL" && assignment.exception_reason && (
+                    <div className="mt-3 border-t border-violet-200 pt-3 text-[13px]">
+                      <p className="font-medium text-amber-800">Exception reason</p>
+                      <p className="mt-0.5 text-slate-700">{assignment.exception_reason}</p>
+                    </div>
+                  )}
+
+                  <div className="mt-3 border-t border-violet-200 pt-3 text-[13px] text-slate-600">
+                    <p>Calendar: No invitation sent</p>
+                  </div>
+                </div>
+              )}
 
               {assignment.rsvp_status === "TENTATIVE" && (
                 <div className="mt-3 rounded border border-amber-200 bg-amber-50 p-3.5 text-[13px] text-amber-800">
@@ -275,25 +345,34 @@ export function SessionDrawer({
                 </div>
               )}
 
-              {/* AI RECOMMENDATION -- primary focus pre-decision, secondary once decided */}
-              {assignment.sme_id && assignment.status !== "REASSIGNMENT_REQUIRED" && (
-                <div className={`mt-4 rounded border p-4 ${assignment.status === "OVERRIDDEN" ? "border-amber-200 bg-amber-50" : isDecided ? "border-slate-200 bg-white" : "border-brand-200 bg-brand-50"}`}>
-                  <p className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : isDecided ? "text-slate-400" : "text-brand-700"}`}>
-                    {assignment.status === "OVERRIDDEN" || assignment.status === "EDITED" ? "Assignment Reason (Ops-selected)" : "AI Recommendation"}
+              {/* AI RECOMMENDATION pre-edit, or a plain "Assignment Detail" once
+                  approved -- the comparison card above already covers the
+                  live edited-pending-approval state, and once approved this
+                  must never re-claim to be an unmodified AI pick. */}
+              {assignment.sme_id && assignment.status !== "REASSIGNMENT_REQUIRED" && !isEdited && (
+                <div className={`mt-4 rounded border p-4 ${isDecided ? "border-slate-200 bg-white" : "border-brand-200 bg-brand-50"}`}>
+                  <p className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${isDecided ? "text-slate-400" : "text-brand-700"}`}>
+                    {hasAiAlternative ? "Assignment Detail" : "AI Recommendation"}
                   </p>
                   <div className="flex items-baseline justify-between">
                     <p className={`font-semibold text-slate-900 ${isDecided ? "text-[14px]" : "text-[17px]"}`}>{assignment.sme_name}</p>
                     {assignment.match_score !== null && (
-                      <p className={`font-semibold ${isDecided ? "text-[13px] text-slate-500" : "text-[15px]"} ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : !isDecided ? "text-brand-700" : ""}`}>
-                        {assignment.match_score}<span className="text-[12px] font-normal opacity-70">/100</span>
+                      <p className={`font-semibold ${isDecided ? "text-[13px] text-slate-500" : "text-[15px] text-brand-700"}`}>
+                        {assignment.match_score}
+                        <span className="text-[12px] font-normal opacity-70">/100</span>
                       </p>
                     )}
                   </div>
+                  {hasAiAlternative && (
+                    <p className="mt-1 text-[12px] text-slate-500">
+                      AI had recommended {assignment.ai_recommended_sme_name} · {assignment.ai_recommended_score}/100
+                    </p>
+                  )}
                   {assignment.reason && <p className="mt-1.5 text-[13px] leading-relaxed text-slate-700">{assignment.reason}</p>}
                 </div>
               )}
 
-              {assignment.breakdown && (
+              {assignment.breakdown && assignment.match_score !== null && (
                 <div className="mt-4">
                   <p className="mb-2 text-[12.5px] font-semibold uppercase tracking-wide text-slate-500">Fit Breakdown</p>
                   <ScoreBreakdown breakdown={assignment.breakdown} />
@@ -348,17 +427,23 @@ export function SessionDrawer({
             </div>
 
             <div className="shrink-0 space-y-2 border-t border-slate-200 px-5 py-4">
-              {assignment.status === "PENDING_REVIEW" && assignment.sme_id && (
+              {isAwaitingApproval && assignment.sme_id && (
                 <>
                   <Button className="w-full" onClick={() => setApproveOpen(true)}>
-                    Approve
+                    {isEdited ? "Approve & Send Invite" : "Approve"}
                   </Button>
                   <Button variant="secondary" className="w-full" onClick={() => setEditOpen(true)}>
                     Edit Assignment
                   </Button>
-                  <Button variant="outline-danger" className="w-full" onClick={() => setRejectOpen(true)}>
-                    Reject Recommendation
-                  </Button>
+                  {isEdited && hasAiAlternative ? (
+                    <Button variant="ghost" className="w-full" onClick={doRevert} disabled={busy}>
+                      <Undo2 size={14} /> Revert to AI Recommendation
+                    </Button>
+                  ) : (
+                    <Button variant="outline-danger" className="w-full" onClick={() => setRejectOpen(true)}>
+                      Reject Recommendation
+                    </Button>
+                  )}
                 </>
               )}
               {(assignment.status === "APPROVED" || assignment.status === "CONFIRMED" || assignment.status === "REASSIGNED") && assignment.sme_id && (
@@ -386,13 +471,13 @@ export function SessionDrawer({
             open={editOpen}
             onClose={() => {
               setEditOpen(false);
-              setConflictMessage(null);
+              setConflict(null);
             }}
             onConfirm={doEdit}
             candidates={assignment.candidates}
             loading={busy}
-            conflictMessage={conflictMessage}
-            onDismissConflict={() => setConflictMessage(null)}
+            conflict={conflict}
+            onDismissConflict={() => setConflict(null)}
           />
           <RejectRecommendationModal open={rejectOpen} onClose={() => setRejectOpen(false)} onSubmit={doReject} loading={busy} />
           <ConfirmModal

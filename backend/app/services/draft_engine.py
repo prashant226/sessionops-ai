@@ -32,6 +32,8 @@ def apply_draft_to_assignment(db: DbSession, session: models.Session, match: Mat
     if top:
         assignment.sme_id = top.sme_id
         assignment.match_score = top.total_score
+        assignment.ai_recommended_sme_id = top.sme_id
+        assignment.ai_recommended_score = top.total_score
         assignment.status = models.AssignmentStatus.PENDING_REVIEW.value
         assignment.reason = explain_recommendation(session.topic, session.class_type, top.name, top.reasons)
         flags = []
@@ -82,6 +84,26 @@ def sessions_needing_draft(db: DbSession, start_date: str, end_date: str) -> lis
         .all()
     }
     return [s for s in sessions if s.session_id not in existing_ids]
+
+
+def revert_to_ai_recommendation(db: DbSession, assignment: models.Assignment) -> models.Assignment:
+    """Undoes an Ops edit/exception that hasn't been approved yet, restoring
+    the assignment to the AI's own recommendation and back to
+    PENDING_REVIEW. Only meaningful before approval -- once an invite has
+    gone out this isn't offered in the UI."""
+    if not assignment.ai_recommended_sme_id:
+        raise ValueError("No AI recommendation on record for this assignment.")
+    sme = db.get(models.Sme, assignment.ai_recommended_sme_id)
+    assignment.sme_id = assignment.ai_recommended_sme_id
+    assignment.match_score = assignment.ai_recommended_score
+    assignment.status = models.AssignmentStatus.PENDING_REVIEW.value
+    assignment.exception_reason = None
+    assignment.flags = [f for f in (assignment.flags or []) if f not in ("fairness_warning", "exception_pending")]
+    db.commit()
+    log(db, assignment.assignment_id, "Ops", f"Ops reverted to the AI recommendation ({sme.name if sme else assignment.ai_recommended_sme_id})")
+    db.commit()
+    db.refresh(assignment)
+    return assignment
 
 
 def apply_rsvp_transition(db: DbSession, assignment: models.Assignment, rsvp: str) -> models.Assignment:

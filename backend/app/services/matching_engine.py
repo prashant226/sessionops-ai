@@ -164,8 +164,8 @@ ACTIVE_ASSIGNMENT_STATUSES = {
     models.AssignmentStatus.PENDING_REVIEW.value,
     models.AssignmentStatus.APPROVED.value,
     models.AssignmentStatus.CONFIRMED.value,
-    models.AssignmentStatus.EDITED.value,
-    models.AssignmentStatus.OVERRIDDEN.value,
+    models.AssignmentStatus.EDITED_PENDING_APPROVAL.value,
+    models.AssignmentStatus.EXCEPTION_PENDING_APPROVAL.value,
     models.AssignmentStatus.REASSIGNED.value,
     models.AssignmentStatus.FINALIZED.value,
 }

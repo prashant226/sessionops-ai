@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { RefreshCw, Sparkles, ArrowRight, RotateCcw } from "lucide-react";
+import { RefreshCw, ArrowRight, RotateCcw, CalendarCheck } from "lucide-react";
 import { Topbar } from "@/components/shell/Topbar";
 import { Button } from "@/components/ui/Button";
 import { KpiCard } from "@/components/ui/KpiCard";
@@ -10,13 +10,11 @@ import { ProgressBar } from "@/components/ui/ProgressBar";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { SeverityBadge } from "@/components/ui/SeverityBadge";
 import { ConfirmModal } from "@/components/ui/ConfirmModal";
-import { GenerateDraftModal } from "@/components/schedule/GenerateDraftModal";
 import { SchedulePeriodBar } from "@/components/schedule/SchedulePeriodBar";
 import { api, ApiError } from "@/lib/api";
 import { useApp } from "@/lib/app-context";
 import { useToast } from "@/lib/toast-context";
 import type { KpiOut, NeedsAttentionItem } from "@/lib/types";
-import { CalendarCheck } from "lucide-react";
 
 export default function OverviewPage() {
   const { periodStart, periodEnd, opsName } = useApp();
@@ -26,7 +24,6 @@ export default function OverviewPage() {
   const [attention, setAttention] = useState<NeedsAttentionItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [syncing, setSyncing] = useState(false);
-  const [genOpen, setGenOpen] = useState(false);
   const [resetOpen, setResetOpen] = useState(false);
   const [resetting, setResetting] = useState(false);
 
@@ -65,7 +62,7 @@ export default function OverviewPage() {
     setResetting(true);
     try {
       const res = await api.resetPeriod(periodStart, periodEnd);
-      push("success", "Period reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0 -- run Generate Draft to repopulate.`);
+      push("success", "Period reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0 -- run Generate Draft on the Schedule page to repopulate.`);
       setResetOpen(false);
       await load();
     } catch (err) {
@@ -103,9 +100,6 @@ export default function OverviewPage() {
             <Button variant="secondary" size="sm" onClick={onSync} loading={syncing}>
               <RefreshCw size={14} /> Sync Data
             </Button>
-            <Button size="sm" onClick={() => setGenOpen(true)}>
-              <Sparkles size={14} /> Generate Draft
-            </Button>
             {kpis && kpis.total_sessions > 0 && (
               <Button variant="outline-danger" size="sm" onClick={() => setResetOpen(true)}>
                 <RotateCcw size={14} /> Reset
@@ -127,11 +121,14 @@ export default function OverviewPage() {
           <EmptyState
             icon={CalendarCheck}
             title="No sessions found for this period"
-            description="Sync your session data, then Generate Draft for this date range."
+            description="Sync your session data, then go to Schedule to generate a draft for this date range."
             action={
-              <Button onClick={onSync} loading={syncing}>
-                <RefreshCw size={14} /> Sync Data
-              </Button>
+              <div className="flex gap-2">
+                <Button variant="secondary" onClick={onSync} loading={syncing}>
+                  <RefreshCw size={14} /> Sync Data
+                </Button>
+                <Button onClick={() => router.push("/schedule")}>Go to Schedule</Button>
+              </div>
             }
           />
         ) : (
@@ -188,9 +185,7 @@ export default function OverviewPage() {
                 {kpis.confirmed} Confirmed · {kpis.pending_review} Pending · {kpis.need_attention} Exceptions
               </p>
               <div className="mt-4 flex gap-2">
-                <Button onClick={() => setGenOpen(true)}>
-                  <Sparkles size={14} /> Generate Draft
-                </Button>
+                <Button onClick={() => router.push("/schedule")}>Go to Schedule</Button>
                 <Button variant="secondary" onClick={() => router.push("/exceptions")}>
                   Review Exceptions
                 </Button>
@@ -199,7 +194,6 @@ export default function OverviewPage() {
           </>
         )}
       </div>
-      <GenerateDraftModal open={genOpen} onClose={() => setGenOpen(false)} startDate={periodStart} endDate={periodEnd} onComplete={load} />
       <ConfirmModal
         open={resetOpen}
         onClose={() => setResetOpen(false)}
@@ -211,7 +205,7 @@ export default function OverviewPage() {
         description={
           <>
             This clears every assignment for this period back to a blank slate -- all counts go to 0, and
-            you&apos;ll need to run Generate Draft again to repopulate the schedule.
+            you&apos;ll need to run Generate Draft on the Schedule page again to repopulate it.
             <br />
             <br />
             Session, SME, and performance data is not affected. If any invites were already sent to a real

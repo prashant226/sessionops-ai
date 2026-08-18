@@ -25,10 +25,16 @@ class SmeStatus(str, enum.Enum):
 class AssignmentStatus(str, enum.Enum):
     DRAFT = "DRAFT"
     PENDING_REVIEW = "PENDING_REVIEW"
+    # Ops picked a different, hard-constraint-valid SME than the AI
+    # recommendation. NOT a final decision -- no Calendar invite exists yet.
+    # Only "Approve & Send Invite" moves this to APPROVED.
+    EDITED_PENDING_APPROVAL = "EDITED_PENDING_APPROVAL"
+    # Ops picked a SME who fails a specifically exception-eligible soft/
+    # policy constraint (currently: daily capacity only) and gave a reason.
+    # Still not final -- still requires explicit approval before any invite.
+    EXCEPTION_PENDING_APPROVAL = "EXCEPTION_PENDING_APPROVAL"
     APPROVED = "APPROVED"
     CONFIRMED = "CONFIRMED"
-    EDITED = "EDITED"
-    OVERRIDDEN = "OVERRIDDEN"
     REASSIGNMENT_REQUIRED = "REASSIGNMENT_REQUIRED"
     REASSIGNED = "REASSIGNED"
     UNFILLED = "UNFILLED"
@@ -135,6 +141,17 @@ class Assignment(Base):
     replacement_attempt_count: Mapped[int] = mapped_column(Integer, default=0)
     calendar_event_id: Mapped[str] = mapped_column(String, nullable=True)
     candidates_snapshot: Mapped[list] = mapped_column(JSON, default=list)
+    # The AI's own recommendation, preserved independently of whatever Ops
+    # later edits sme_id/match_score to -- lets the drawer show "AI
+    # recommendation" and "Ops selected" side by side, and lets Revert to AI
+    # Recommendation restore it. Set whenever a fresh AI recommendation is
+    # produced (draft generation, reject-and-find-alternatives); never
+    # touched by an Ops edit.
+    ai_recommended_sme_id: Mapped[str] = mapped_column(String, nullable=True)
+    ai_recommended_score: Mapped[float] = mapped_column(Float, nullable=True)
+    # Required free-text reason when Ops requests an exception (currently:
+    # only for daily-capacity-exceeded). Cleared on revert.
+    exception_reason: Mapped[str] = mapped_column(Text, nullable=True)
     qualified_count: Mapped[int] = mapped_column(Integer, nullable=True)
     available_count: Mapped[int] = mapped_column(Integer, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)

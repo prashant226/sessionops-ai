@@ -159,6 +159,19 @@ def approve_assignment(assignment_id: str, db: DbSession = Depends(get_db)):
     a.calendar_event_id = result.calendar_event_id
     a.status = models.AssignmentStatus.APPROVED.value
     a.rsvp_status = models.RsvpStatus.PENDING.value
+    # Refresh the display reason so it no longer reads "pending approval"
+    # now that it's actually approved, and clear the now-resolved
+    # exception_pending flag (a fairness_warning, if any, is still useful
+    # context and stays).
+    if a.sme_id != a.ai_recommended_sme_id and a.ai_recommended_sme_id:
+        ai_sme = db.get(models.Sme, a.ai_recommended_sme_id)
+        a.reason = (
+            f"Ops selected {sme.name} over the AI recommendation "
+            f"({ai_sme.name if ai_sme else 'unknown'} · {a.ai_recommended_score}). Approved and invited."
+        )
+    else:
+        a.reason = f"{sme.name} approved and invited."
+    a.flags = [f for f in (a.flags or []) if f != "exception_pending"]
     db.commit()
 
     from ..services.calendar_adapter import get_calendar_recipient
@@ -193,9 +206,25 @@ def get_event_link(assignment_id: str, db: DbSession = Depends(get_db)):
     return {"url": event_link(a.calendar_event_id)}
 
 
+EXCEPTION_ELIGIBLE_MARKERS = ("daily capacity",)  # substring match against elimination_reason, case-insensitive
+
+
 @router.post("/assignments/{assignment_id}/edit", response_model=schemas.AssignmentOut)
 def edit_assignment(assignment_id: str, payload: schemas.EditRequest, db: DbSession = Depends(get_db)):
+    """Editing an assignment is never itself an approval. A valid candidate
+    lands in EDITED_PENDING_APPROVAL; a capacity-blocked one can become
+    EXCEPTION_PENDING_APPROVAL if Ops gives a reason. Every other hard
+    constraint (inactive, missing expertise, wrong level, calendar conflict,
+    offline location mismatch, ...) has no override path at all -- this
+    endpoint always 409s for those, and the assignment's stored state is
+    left untouched so Ops just picks someone else."""
     a = _get_assignment(db, assignment_id)
+    if a.status in (models.AssignmentStatus.APPROVED.value, models.AssignmentStatus.CONFIRMED.value,
+                    models.AssignmentStatus.REASSIGNED.value, models.AssignmentStatus.FINALIZED.value):
+        raise HTTPException(
+            status_code=409,
+            detail="blocked::This assignment is already approved with an active Calendar invite. Report SME Dropout to change the assignee instead.",
+        )
     session = a.session or db.get(models.Session, a.session_id)
     sme = db.get(models.Sme, payload.sme_id)
     if not sme:
@@ -203,32 +232,49 @@ def edit_assignment(assignment_id: str, payload: schemas.EditRequest, db: DbSess
 
     match = evaluate_candidates(db, session)
     candidate = next((c for c in match.candidates if c.sme_id == payload.sme_id), None)
+    from ..services.draft_engine import _snapshot
 
     if candidate is None or not candidate.eligible:
         reason = candidate.elimination_reason if candidate else "Not eligible for this session."
-        if not payload.override_hard_constraint:
-            raise HTTPException(status_code=409, detail=f"This assignment conflicts with a hard constraint. {reason}")
+        exception_eligible = any(marker in reason.lower() for marker in EXCEPTION_ELIGIBLE_MARKERS)
+
+        if not exception_eligible:
+            raise HTTPException(status_code=409, detail=f"blocked::{reason}")
+
+        if not (payload.exception_reason and payload.exception_reason.strip()):
+            raise HTTPException(status_code=409, detail=f"exception_reason_required::{reason}")
+
         a.sme_id = sme.sme_id
         a.match_score = None
-        a.status = models.AssignmentStatus.OVERRIDDEN.value
-        a.reason = f"Manually overridden by Ops despite a hard constraint conflict: {reason}"
-        a.flags = ["hard_override"]
+        a.status = models.AssignmentStatus.EXCEPTION_PENDING_APPROVAL.value
+        a.exception_reason = payload.exception_reason.strip()
+        a.reason = f"Ops requested an exception to assign {sme.name} despite: {reason}"
+        a.flags = ["exception_pending"]
+        a.candidates_snapshot = _snapshot(match)
         db.commit()
-        log(db, a.assignment_id, "Ops", f"Ops overrode a hard constraint to assign {sme.name} ({reason})")
+        log(db, a.assignment_id, "Ops", f"Ops requested an exception for {sme.name} ({reason}): {payload.exception_reason.strip()}")
     else:
         a.sme_id = candidate.sme_id
         a.match_score = candidate.total_score
-        a.status = models.AssignmentStatus.EDITED.value
-        a.reason = f"Manually selected by Ops. {sme.name} scored {candidate.total_score}/100."
+        a.status = models.AssignmentStatus.EDITED_PENDING_APPROVAL.value
+        a.exception_reason = None
+        a.reason = f"Ops selected {sme.name}, pending approval. {sme.name} scored {candidate.total_score}/100."
         a.flags = ["fairness_warning"] if any("workload" in w.lower() for w in candidate.warnings) else []
+        a.candidates_snapshot = _snapshot(match)
         db.commit()
-        log(db, a.assignment_id, "Ops", f"Ops changed the assignment to {sme.name} ({candidate.total_score}/100)")
+        log(db, a.assignment_id, "Ops", f"Ops selected {sme.name} ({candidate.total_score}/100) -- pending approval")
 
-    from ..services.draft_engine import _snapshot
-    a.candidates_snapshot = _snapshot(match)
     db.commit()
     db.refresh(a)
     return serialize_assignment(db, a)
+
+
+@router.post("/assignments/{assignment_id}/revert", response_model=schemas.AssignmentOut)
+def revert_assignment(assignment_id: str, db: DbSession = Depends(get_db)):
+    a = _get_assignment(db, assignment_id)
+    if not a.ai_recommended_sme_id:
+        raise HTTPException(status_code=409, detail="No AI recommendation on record for this assignment.")
+    return serialize_assignment(db, draft_engine.revert_to_ai_recommendation(db, a))
 
 
 @router.post("/assignments/{assignment_id}/reject", response_model=schemas.AssignmentOut)
@@ -302,8 +348,7 @@ def send_replacement_invite(assignment_id: str, payload: schemas.EditRequest, db
     candidate = next((c for c in match.candidates if c.sme_id == payload.sme_id), None)
     if candidate is None or not candidate.eligible:
         reason = candidate.elimination_reason if candidate else "Not eligible for this session."
-        if not payload.override_hard_constraint:
-            raise HTTPException(status_code=409, detail=f"This assignment conflicts with a hard constraint. {reason}")
+        raise HTTPException(status_code=409, detail=f"blocked::{reason}")
 
     # A replacement is a fresh invite for a (now different) SME -- clear the
     # prior event id first so create_event_and_invite's idempotency check
@@ -332,10 +377,12 @@ def send_replacement_invite(assignment_id: str, payload: schemas.EditRequest, db
 
 @router.post("/recheck-availability")
 def recheck_availability(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
+    # Only assignments that have actually been approved (real invite sent /
+    # commitment made) are worth re-checking -- an EDITED/EXCEPTION pending
+    # approval hasn't been committed to yet.
     active_statuses = {
         models.AssignmentStatus.APPROVED.value, models.AssignmentStatus.CONFIRMED.value,
-        models.AssignmentStatus.EDITED.value, models.AssignmentStatus.REASSIGNED.value,
-        models.AssignmentStatus.OVERRIDDEN.value,
+        models.AssignmentStatus.REASSIGNED.value,
     }
     rows = period.assignments_in_range(db, start_date, end_date).filter(models.Assignment.status.in_(active_statuses)).all()
     new_conflicts = []
@@ -377,7 +424,13 @@ def simulate_new_conflict(assignment_id: str, db: DbSession = Depends(get_db)):
 def final_review(start_date: str, end_date: str, db: DbSession = Depends(get_db)):
     rows = period.assignments_in_range(db, start_date, end_date).all()
     confirmed = sum(1 for a in rows if a.status in (models.AssignmentStatus.CONFIRMED.value, models.AssignmentStatus.FINALIZED.value))
-    edited = sum(1 for a in rows if a.status in (models.AssignmentStatus.EDITED.value, models.AssignmentStatus.OVERRIDDEN.value))
+    # "Edited" here means still sitting unapproved after an Ops edit/
+    # exception request -- once approved it's indistinguishable in status
+    # from a non-edited approval (see insights.py's activity-based override
+    # tracking for the all-time rate instead).
+    edited = sum(1 for a in rows if a.status in (
+        models.AssignmentStatus.EDITED_PENDING_APPROVAL.value, models.AssignmentStatus.EXCEPTION_PENDING_APPROVAL.value,
+    ))
     pending = sum(1 for a in rows if a.status in (
         models.AssignmentStatus.PENDING_REVIEW.value, models.AssignmentStatus.APPROVED.value,
         models.AssignmentStatus.REASSIGNMENT_REQUIRED.value, models.AssignmentStatus.REASSIGNED.value,
@@ -403,7 +456,8 @@ def finalize_period(start_date: str, end_date: str, payload: schemas.FinalizeReq
     rows = period.assignments_in_range(db, start_date, end_date).all()
     unresolved = [a for a in rows if a.status in (
         models.AssignmentStatus.PENDING_REVIEW.value, models.AssignmentStatus.REASSIGNMENT_REQUIRED.value,
-        models.AssignmentStatus.UNFILLED.value,
+        models.AssignmentStatus.UNFILLED.value, models.AssignmentStatus.EDITED_PENDING_APPROVAL.value,
+        models.AssignmentStatus.EXCEPTION_PENDING_APPROVAL.value,
     )]
     if unresolved and not payload.force:
         raise HTTPException(status_code=409, detail=f"This schedule contains {len(unresolved)} unresolved exception(s). Finalize with exception to proceed anyway.")

@@ -12,7 +12,7 @@ router = APIRouter(prefix="/exceptions", tags=["exceptions"])
 
 FILTER_FLAG_MAP = {
     "Availability": {"qualified_but_unavailable", "new_conflict"},
-    "Expertise": {"no_qualified_sme", "hard_override"},
+    "Expertise": {"no_qualified_sme", "exception_pending"},
     "Fairness": {"fairness_warning"},
     "RSVP": {"tentative_rsvp", "reassignment_required"},
     "Unfilled": {"no_replacement_accepted"},
