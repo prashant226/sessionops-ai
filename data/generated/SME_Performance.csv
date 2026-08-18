@@ -371,131 +371,131 @@ SME001,Resume Review,Mock Interview,14,4.6,87.0,93.0
 SME002,Resume Review,Mock Interview,14,4.6,87.0,93.0
 SME004,Behavioral Interviews,Cohort Class,32,4.9,95.0,97.0
 SME005,Behavioral Interviews,Cohort Class,9,4.5,84.0,90.0
-SME001,Resume Review,Mock Interview,8,4.22,73.9,88.9
-SME002,Resume Review,Doubt Clearing,9,3.76,86.1,89.3
-SME003,Cloud Computing,Cohort Class,9,4.32,87.9,88.4
-SME004,Behavioral Interviews,Cohort Class,9,3.84,89.7,87.7
-SME005,Behavioral Interviews,Mock Interview,7,3.79,87.0,91.2
-SME006,Aptitude,Doubt Clearing,8,4.15,72.0,84.5
-SME007,Product Management,Assessment Review,4,4.6,87.7,89.1
-SME008,Data Analytics,Office Hours,3,4.08,73.9,95.1
-SME009,Career Coaching,Assessment Review,8,4.72,70.9,91.7
-SME010,JavaScript,Cohort Class,5,3.98,70.9,81.7
-SME011,DevOps,Workshop,8,4.69,89.4,78.7
-SME012,JavaScript,Cohort Class,9,4.32,76.0,91.4
-SME013,Python,Workshop,7,3.97,84.4,93.0
-SME014,Product Management,Workshop,4,4.17,77.8,93.6
-SME015,Mock Interviews,Workshop,10,3.51,89.4,85.9
-SME016,Machine Learning,Cohort Class,9,4.34,74.7,81.4
-SME017,Data Analytics,Office Hours,2,4.36,79.1,83.9
-SME018,Product Management,Workshop,8,4.12,83.0,89.7
-SME019,Python,Cohort Class,4,3.56,82.6,80.9
-SME020,Python,Office Hours,3,3.57,75.7,81.2
-SME021,SQL,Office Hours,10,4.33,89.3,91.1
-SME022,System Design,Cohort Class,4,4.08,91.8,93.6
-SME023,React,Doubt Clearing,7,4.28,87.5,92.8
-SME024,Behavioral Interviews,Office Hours,9,3.84,85.9,84.2
-SME025,Cloud Computing,Office Hours,10,3.59,78.3,80.4
-SME026,Python,Doubt Clearing,9,4.62,81.1,85.6
-SME027,SQL,Office Hours,2,3.73,89.8,88.8
-SME028,Resume Review,Cohort Class,8,4.36,89.8,87.7
-SME029,Resume Review,Assessment Review,7,4.18,78.1,78.8
-SME030,Product Management,Doubt Clearing,8,4.53,78.4,88.6
-SME031,Product Strategy,Workshop,3,3.83,86.8,94.4
-SME032,Data Analytics,Mock Interview,10,4.64,79.0,81.4
-SME033,Data Structures & Algorithms,Assessment Review,1,4.25,72.6,78.1
-SME034,SQL,Assessment Review,6,4.03,72.3,85.7
-SME035,Product Management,Mock Interview,9,4.05,78.0,83.0
-SME036,Python,Doubt Clearing,7,4.22,82.3,81.2
-SME037,Data Structures & Algorithms,Mock Interview,5,4.25,87.0,85.2
-SME038,React,Assessment Review,2,4.47,79.8,90.6
-SME039,Java,Cohort Class,4,4.16,87.3,92.4
-SME040,Mock Interviews,Assessment Review,1,3.71,91.2,78.1
-SME041,React,Doubt Clearing,8,4.7,79.6,79.2
-SME042,Resume Review,Mock Interview,2,4.29,85.9,94.8
-SME043,System Design,Office Hours,9,3.87,91.2,79.0
-SME044,Python,Assessment Review,8,4.07,74.4,89.8
-SME045,Product Strategy,Doubt Clearing,1,4.52,81.2,90.6
-SME046,JavaScript,Doubt Clearing,1,3.97,84.4,95.6
-SME047,Mock Interviews,Mock Interview,7,3.96,78.7,88.5
-SME048,Aptitude,Assessment Review,2,4.69,82.1,91.1
-SME049,React,Office Hours,6,3.95,87.9,82.1
-SME050,React,Workshop,7,4.25,75.7,85.3
-SME051,Java,Office Hours,2,4.15,77.5,80.1
-SME052,Python,Office Hours,10,3.83,79.7,84.8
-SME053,SQL,Doubt Clearing,6,4.75,80.1,86.3
-SME054,DevOps,Workshop,2,3.84,78.4,92.2
-SME055,SQL,Assessment Review,4,4.54,79.1,84.4
-SME056,Python,Assessment Review,5,3.82,72.0,90.1
-SME057,JavaScript,Cohort Class,9,4.71,80.5,84.4
-SME058,Cloud Computing,Doubt Clearing,4,4.15,74.4,91.2
-SME059,Product Management,Doubt Clearing,4,3.76,75.5,89.1
-SME060,Java,Cohort Class,2,4.7,84.9,89.9
-SME061,Statistics,Office Hours,1,4.6,78.2,83.7
-SME062,Cloud Computing,Workshop,3,4.78,90.2,83.0
-SME063,System Design,Office Hours,3,3.57,87.6,86.6
-SME064,Machine Learning,Office Hours,6,4.01,85.1,81.1
-SME065,Machine Learning,Assessment Review,9,4.1,85.2,78.2
-SME066,Data Structures & Algorithms,Workshop,10,3.63,78.0,93.5
-SME067,Aptitude,Office Hours,5,3.81,80.4,89.0
-SME068,Python,Doubt Clearing,8,4.05,79.2,91.5
-SME069,System Design,Workshop,5,4.09,82.6,95.6
-SME070,Python,Cohort Class,5,4.55,82.2,93.4
-SME071,Python,Doubt Clearing,3,4.11,70.2,85.6
-SME072,DevOps,Assessment Review,9,4.19,76.9,86.8
-SME073,System Design,Office Hours,10,3.56,72.2,80.9
-SME074,Data Analytics,Mock Interview,8,4.59,72.1,91.4
-SME075,Python,Mock Interview,6,4.23,90.5,82.6
-SME076,Mock Interviews,Workshop,2,3.96,85.0,88.9
-SME077,System Design,Mock Interview,6,3.92,81.2,91.9
-SME078,DevOps,Cohort Class,7,4.3,80.2,95.2
-SME079,JavaScript,Assessment Review,6,4.05,83.5,85.3
-SME080,Machine Learning,Cohort Class,3,3.95,76.9,89.8
-SME081,React,Office Hours,7,3.85,79.8,93.5
-SME082,Product Management,Assessment Review,10,4.18,79.9,81.0
-SME083,Behavioral Interviews,Doubt Clearing,4,4.36,90.7,90.6
-SME084,JavaScript,Doubt Clearing,3,4.02,72.1,94.9
-SME085,Product Strategy,Office Hours,1,3.53,78.7,91.8
-SME086,Python,Cohort Class,5,4.3,71.9,94.8
-SME087,React,Mock Interview,4,3.82,76.3,89.3
-SME088,Data Structures & Algorithms,Office Hours,3,3.54,84.6,93.5
-SME089,Product Strategy,Workshop,8,4.77,81.9,82.9
-SME090,Cloud Computing,Doubt Clearing,9,3.73,83.1,89.4
-SME091,DevOps,Office Hours,9,3.9,77.6,87.7
-SME092,SQL,Workshop,5,3.98,75.7,83.5
-SME093,Python,Office Hours,3,3.95,80.3,78.1
-SME094,Machine Learning,Workshop,5,3.51,79.5,83.3
-SME095,Data Analytics,Cohort Class,9,3.99,79.1,88.1
-SME096,Behavioral Interviews,Doubt Clearing,3,4.43,84.2,92.9
-SME097,DevOps,Mock Interview,2,4.05,75.3,91.8
-SME098,Data Structures & Algorithms,Mock Interview,9,4.55,79.1,93.4
-SME099,Resume Review,Doubt Clearing,5,3.64,80.0,86.1
-SME100,Mock Interviews,Doubt Clearing,6,3.53,71.1,87.6
-SME001,Resume Review,Cohort Class,5,3.85,85.7,91.1
-SME002,Resume Review,Cohort Class,3,3.52,74.8,85.6
-SME003,Cloud Computing,Mock Interview,8,4.41,70.7,79.4
-SME004,Behavioral Interviews,Cohort Class,5,4.51,71.6,86.5
-SME005,Behavioral Interviews,Mock Interview,7,4.58,72.7,91.8
-SME006,Aptitude,Workshop,8,3.82,91.9,81.6
-SME007,Product Management,Office Hours,4,4.11,85.0,83.6
-SME008,Product Strategy,Doubt Clearing,1,4.47,82.1,80.2
-SME009,Career Coaching,Assessment Review,5,3.76,89.5,93.5
-SME010,JavaScript,Cohort Class,4,4.32,77.1,81.0
-SME011,DevOps,Office Hours,2,4.01,75.3,95.4
-SME012,JavaScript,Assessment Review,10,3.7,87.0,82.5
-SME013,Python,Cohort Class,10,3.94,91.3,91.7
-SME014,Python,Cohort Class,6,4.34,85.4,92.2
-SME015,Python,Workshop,4,3.91,82.3,89.6
-SME016,Java,Workshop,4,3.53,78.3,91.0
-SME017,Data Analytics,Cohort Class,8,4.42,82.3,87.8
-SME018,Product Management,Doubt Clearing,10,3.74,77.6,91.2
-SME019,Python,Office Hours,9,3.71,81.7,86.1
-SME020,SQL,Office Hours,6,4.09,87.1,87.1
-SME021,SQL,Cohort Class,10,4.61,87.1,82.3
-SME022,Python,Assessment Review,9,4.56,74.2,90.3
-SME023,React,Office Hours,5,3.92,84.1,80.0
-SME024,Behavioral Interviews,Cohort Class,3,3.73,70.7,79.9
-SME025,Cloud Computing,Cohort Class,1,4.24,88.4,89.8
-SME026,Data Structures & Algorithms,Cohort Class,6,3.79,85.8,78.2
-SME027,SQL,Assessment Review,8,4.71,88.3,86.4
-SME028,Resume Review,Mock Interview,9,4.47,89.6,92.8
+SME002,Resume Review,Office Hours,2,3.73,83.3,93.2
+SME003,Cloud Computing,Office Hours,4,3.84,89.5,79.4
+SME007,Product Management,Cohort Class,9,3.84,89.7,87.7
+SME009,Career Coaching,Doubt Clearing,10,4.45,76.4,86.4
+SME010,JavaScript,Workshop,6,4.15,84.6,93.3
+SME012,JavaScript,Workshop,3,3.73,90.9,89.9
+SME013,Python,Assessment Review,8,4.72,70.9,91.7
+SME015,Mock Interviews,Mock Interview,4,3.56,74.5,94.3
+SME017,Data Analytics,Workshop,1,3.55,84.3,79.9
+SME020,Python,Workshop,7,3.97,84.4,93.0
+SME022,Python,Office Hours,7,3.96,89.1,86.8
+SME023,React,Office Hours,1,4.15,73.1,81.0
+SME024,Behavioral Interviews,Office Hours,5,3.77,74.1,84.5
+SME025,Cloud Computing,Assessment Review,4,4.04,77.3,80.0
+SME027,SQL,Office Hours,3,4.34,79.0,82.4
+SME028,Resume Review,Office Hours,10,3.71,83.8,78.7
+SME030,Product Management,Mock Interview,3,4.17,78.9,95.4
+SME031,Product Strategy,Assessment Review,5,4.73,74.8,88.9
+SME032,Mock Interviews,Workshop,3,3.79,79.0,80.6
+SME036,Data Structures & Algorithms,Doubt Clearing,7,4.0,72.4,81.6
+SME038,React,Doubt Clearing,8,4.67,83.2,93.8
+SME041,React,Office Hours,9,4.58,89.7,91.9
+SME042,Machine Learning,Workshop,9,4.05,89.2,90.6
+SME043,System Design,Doubt Clearing,8,4.53,78.4,88.6
+SME044,Python,Workshop,3,3.83,86.8,94.4
+SME045,Product Strategy,Mock Interview,10,4.64,79.0,81.4
+SME046,JavaScript,Assessment Review,1,4.25,72.6,78.1
+SME049,Machine Learning,Cohort Class,3,4.05,82.9,82.7
+SME050,System Design,Office Hours,6,4.3,91.8,85.2
+SME052,Python,Doubt Clearing,6,4.23,80.6,95.8
+SME053,SQL,Assessment Review,7,4.46,88.8,89.9
+SME054,DevOps,Workshop,3,3.63,81.2,92.1
+SME055,Java,Office Hours,1,3.71,91.2,78.1
+SME056,Python,Doubt Clearing,8,4.7,79.6,79.2
+SME057,JavaScript,Mock Interview,2,4.29,85.9,94.8
+SME058,Cloud Computing,Office Hours,9,3.87,91.2,79.0
+SME059,Java,Assessment Review,8,4.07,74.4,89.8
+SME060,Java,Doubt Clearing,1,4.52,81.2,90.6
+SME061,Statistics,Assessment Review,1,3.97,84.4,95.6
+SME063,System Design,Mock Interview,7,4.03,74.4,78.3
+SME065,Machine Learning,Assessment Review,9,4.69,77.7,95.3
+SME066,Data Structures & Algorithms,Doubt Clearing,10,4.75,80.0,85.3
+SME067,Aptitude,Mock Interview,3,4.03,72.3,79.3
+SME071,Cloud Computing,Mock Interview,8,4.76,82.4,91.9
+SME072,DevOps,Workshop,8,4.67,89.0,86.7
+SME073,System Design,Cohort Class,7,4.32,91.9,90.2
+SME074,Data Analytics,Mock Interview,7,4.74,81.4,78.2
+SME075,Python,Doubt Clearing,5,3.62,84.8,92.8
+SME076,Mock Interviews,Office Hours,3,4.12,77.8,94.1
+SME077,System Design,Doubt Clearing,4,4.15,74.4,91.2
+SME080,Machine Learning,Office Hours,6,3.7,72.3,94.6
+SME081,React,Office Hours,1,4.49,81.9,78.8
+SME082,Product Management,Mock Interview,10,3.91,89.8,93.9
+SME083,Behavioral Interviews,Workshop,3,4.78,90.2,83.0
+SME084,JavaScript,Office Hours,3,3.57,87.6,86.6
+SME085,Statistics,Office Hours,6,4.01,85.1,81.1
+SME089,Mock Interviews,Workshop,10,3.63,78.0,93.5
+SME090,Cloud Computing,Office Hours,5,3.81,80.4,89.0
+SME092,Python,Workshop,4,4.04,86.5,84.6
+SME093,Python,Mock Interview,8,3.73,72.9,88.4
+SME094,Java,Cohort Class,5,4.55,82.2,93.4
+SME095,Data Analytics,Doubt Clearing,3,4.11,70.2,85.6
+SME096,JavaScript,Assessment Review,9,4.19,76.9,86.8
+SME097,Product Management,Office Hours,10,3.56,72.2,80.9
+SME005,Behavioral Interviews,Mock Interview,10,3.76,82.7,89.7
+SME006,Aptitude,Mock Interview,6,3.92,81.2,91.9
+SME008,Product Strategy,Office Hours,5,4.1,91.0,93.6
+SME009,Career Coaching,Workshop,10,4.24,88.7,79.3
+SME010,JavaScript,Mock Interview,4,3.91,84.4,90.8
+SME011,DevOps,Mock Interview,8,4.52,90.7,91.5
+SME013,Python,Doubt Clearing,1,3.66,75.2,82.5
+SME014,Python,Doubt Clearing,3,4.02,72.1,94.9
+SME016,Machine Learning,Cohort Class,7,4.18,91.9,79.9
+SME017,DevOps,Doubt Clearing,2,4.35,89.5,83.6
+SME019,Python,Workshop,3,3.67,88.4,78.5
+SME020,SQL,Mock Interview,8,4.11,89.2,94.8
+SME021,SQL,Doubt Clearing,9,3.73,83.1,89.4
+SME022,System Design,Office Hours,9,3.9,77.6,87.7
+SME023,React,Workshop,5,3.98,75.7,83.5
+SME027,SQL,Assessment Review,8,4.73,80.5,78.2
+SME028,Resume Review,Mock Interview,10,3.8,70.2,84.7
+SME029,Data Structures & Algorithms,Office Hours,7,4.01,73.6,91.3
+SME031,Product Strategy,Mock Interview,2,4.05,75.3,91.8
+SME033,Data Structures & Algorithms,Assessment Review,9,4.55,79.1,93.4
+SME035,Product Management,Cohort Class,8,4.3,76.0,89.2
+SME036,Data Structures & Algorithms,Mock Interview,1,3.7,91.3,78.4
+SME037,Data Structures & Algorithms,Mock Interview,5,3.66,79.6,78.1
+SME039,Java,Workshop,4,3.94,76.9,92.4
+SME041,React,Mock Interview,2,4.6,90.9,79.0
+SME045,Product Strategy,Cohort Class,2,4.77,85.7,84.9
+SME046,Machine Learning,Doubt Clearing,1,3.76,86.2,79.7
+SME048,Data Analytics,Assessment Review,5,4.72,73.5,91.1
+SME049,React,Office Hours,9,3.66,80.6,83.4
+SME051,Java,Cohort Class,4,4.32,77.1,81.0
+SME052,Python,Office Hours,2,4.01,75.3,95.4
+SME054,DevOps,Mock Interview,2,3.82,81.0,90.3
+SME055,Python,Assessment Review,1,3.58,84.2,90.6
+SME057,JavaScript,Doubt Clearing,6,4.78,87.3,91.6
+SME058,Cloud Computing,Assessment Review,4,3.53,78.3,91.0
+SME059,Product Management,Cohort Class,8,4.42,82.3,87.8
+SME061,Statistics,Office Hours,6,3.92,80.3,93.6
+SME064,Machine Learning,Mock Interview,9,3.98,70.0,89.5
+SME066,Data Structures & Algorithms,Cohort Class,10,4.61,87.1,82.3
+SME067,Aptitude,Assessment Review,9,4.56,74.2,90.3
+SME069,System Design,Mock Interview,7,4.33,72.4,87.4
+SME070,Python,Cohort Class,3,3.73,70.7,79.9
+SME071,Python,Cohort Class,1,4.24,88.4,89.8
+SME073,System Design,Doubt Clearing,10,4.43,70.3,94.6
+SME074,Data Analytics,Cohort Class,8,4.54,71.3,88.0
+SME075,Python,Mock Interview,1,4.57,75.8,78.7
+SME076,Mock Interviews,Mock Interview,2,4.73,91.1,79.7
+SME077,System Design,Office Hours,7,3.75,81.6,82.5
+SME078,Data Analytics,Doubt Clearing,9,4.47,79.1,79.9
+SME079,JavaScript,Assessment Review,8,4.41,79.4,79.9
+SME082,Product Management,Assessment Review,3,4.19,83.2,94.8
+SME083,Behavioral Interviews,Office Hours,6,4.6,79.1,89.4
+SME084,Machine Learning,Mock Interview,10,3.81,82.0,84.8
+SME085,Product Strategy,Mock Interview,8,4.08,78.7,91.1
+SME086,Product Strategy,Office Hours,1,4.17,91.9,83.4
+SME087,React,Doubt Clearing,4,4.61,70.5,92.8
+SME088,Cloud Computing,Office Hours,9,4.22,90.4,80.8
+SME091,DevOps,Mock Interview,6,4.66,75.5,82.6
+SME092,Python,Cohort Class,10,4.02,90.2,91.2
+SME093,Python,Workshop,3,4.13,89.8,90.7
+SME094,Java,Office Hours,5,3.55,87.8,84.9
+SME095,Data Analytics,Mock Interview,6,4.64,79.6,94.7
+SME099,Data Structures & Algorithms,Office Hours,1,3.92,82.4,83.9
+SME100,Mock Interviews,Doubt Clearing,1,4.38,91.9,95.5

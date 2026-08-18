@@ -212,6 +212,7 @@ def report_dropout(assignment_id: str, payload: schemas.DropoutRequest, db: DbSe
         raise HTTPException(status_code=409, detail="No SME currently assigned to report a dropout for.")
     sme = db.get(models.Sme, a.sme_id)
     note = f" ({payload.note})" if payload.note else ""
+    a.rsvp_status = models.RsvpStatus.DECLINED.value
     log(db, a.assignment_id, "Ops", f"Ops reported a dropout for {sme.name}{note}")
     db.commit()
     draft_engine.run_reassignment(db, a, sme.sme_id)

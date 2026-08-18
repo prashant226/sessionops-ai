@@ -2,3764 +2,3813 @@
   {
     "event_id": "EVT0001",
     "sme_id": "SME001",
-    "title": "Training",
-    "start_datetime": "2026-08-29T10:00:00",
-    "end_datetime": "2026-08-29T11:30:00"
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T13:30:00",
+    "end_datetime": "2026-08-25T14:00:00"
   },
   {
     "event_id": "EVT0002",
     "sme_id": "SME001",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T04:30:00",
-    "end_datetime": "2026-08-26T05:30:00"
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T03:00:00",
+    "end_datetime": "2026-08-29T03:30:00"
   },
   {
     "event_id": "EVT0003",
     "sme_id": "SME001",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T09:00:00",
-    "end_datetime": "2026-08-27T09:30:00"
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T04:30:00",
+    "end_datetime": "2026-08-28T05:00:00"
   },
   {
     "event_id": "EVT0004",
     "sme_id": "SME002",
     "title": "Interview Panel",
-    "start_datetime": "2026-08-25T09:30:00",
-    "end_datetime": "2026-08-25T11:00:00"
+    "start_datetime": "2026-08-28T11:30:00",
+    "end_datetime": "2026-08-28T12:00:00"
   },
   {
     "event_id": "EVT0005",
     "sme_id": "SME002",
     "title": "Client Session",
-    "start_datetime": "2026-08-28T08:30:00",
-    "end_datetime": "2026-08-28T10:00:00"
+    "start_datetime": "2026-08-27T08:00:00",
+    "end_datetime": "2026-08-27T09:00:00"
   },
   {
     "event_id": "EVT0006",
     "sme_id": "SME002",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-25T11:00:00",
-    "end_datetime": "2026-08-25T11:45:00"
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T11:30:00",
+    "end_datetime": "2026-08-29T12:30:00"
   },
   {
     "event_id": "EVT0007",
     "sme_id": "SME002",
     "title": "Client Session",
-    "start_datetime": "2026-08-29T04:00:00",
-    "end_datetime": "2026-08-29T05:00:00"
+    "start_datetime": "2026-08-24T11:30:00",
+    "end_datetime": "2026-08-24T12:30:00"
   },
   {
     "event_id": "EVT0008",
     "sme_id": "SME002",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T03:30:00",
-    "end_datetime": "2026-08-24T04:30:00"
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T06:30:00",
+    "end_datetime": "2026-08-24T08:00:00"
   },
   {
     "event_id": "EVT0009",
-    "sme_id": "SME003",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-27T04:30:00",
-    "end_datetime": "2026-08-27T05:00:00"
+    "sme_id": "SME002",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T07:30:00",
+    "end_datetime": "2026-08-29T09:00:00"
   },
   {
     "event_id": "EVT0010",
     "sme_id": "SME003",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T05:00:00",
-    "end_datetime": "2026-08-26T06:30:00"
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T04:30:00",
+    "end_datetime": "2026-08-24T06:00:00"
   },
   {
     "event_id": "EVT0011",
     "sme_id": "SME003",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T11:00:00",
-    "end_datetime": "2026-08-24T12:30:00"
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-24T09:30:00",
+    "end_datetime": "2026-08-24T10:00:00"
   },
   {
     "event_id": "EVT0012",
-    "sme_id": "SME004",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-29T03:30:00",
-    "end_datetime": "2026-08-29T04:00:00"
+    "sme_id": "SME003",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T04:00:00",
+    "end_datetime": "2026-08-25T05:30:00"
   },
   {
     "event_id": "EVT0013",
-    "sme_id": "SME004",
-    "title": "Training",
-    "start_datetime": "2026-08-29T09:30:00",
-    "end_datetime": "2026-08-29T10:30:00"
+    "sme_id": "SME003",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T04:30:00",
+    "end_datetime": "2026-08-29T05:15:00"
   },
   {
     "event_id": "EVT0014",
-    "sme_id": "SME004",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T07:00:00",
-    "end_datetime": "2026-08-29T07:30:00"
+    "sme_id": "SME003",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-28T10:00:00",
+    "end_datetime": "2026-08-28T10:45:00"
   },
   {
     "event_id": "EVT0015",
-    "sme_id": "SME004",
+    "sme_id": "SME003",
     "title": "Office Hours",
-    "start_datetime": "2026-08-26T11:00:00",
-    "end_datetime": "2026-08-26T11:30:00"
+    "start_datetime": "2026-08-28T13:30:00",
+    "end_datetime": "2026-08-28T14:15:00"
   },
   {
     "event_id": "EVT0016",
-    "sme_id": "SME004",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:15:00"
+    "sme_id": "SME003",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T04:00:00",
+    "end_datetime": "2026-08-28T05:00:00"
   },
   {
     "event_id": "EVT0017",
     "sme_id": "SME004",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T08:30:00",
-    "end_datetime": "2026-08-24T09:30:00"
-  },
-  {
-    "event_id": "EVT0018",
-    "sme_id": "SME005",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T14:00:00",
-    "end_datetime": "2026-08-29T15:30:00"
-  },
-  {
-    "event_id": "EVT0019",
-    "sme_id": "SME005",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-29T09:30:00",
-    "end_datetime": "2026-08-29T10:15:00"
-  },
-  {
-    "event_id": "EVT0020",
-    "sme_id": "SME005",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T02:30:00",
-    "end_datetime": "2026-08-25T04:00:00"
-  },
-  {
-    "event_id": "EVT0021",
-    "sme_id": "SME006",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-28T13:00:00",
-    "end_datetime": "2026-08-28T14:30:00"
-  },
-  {
-    "event_id": "EVT0022",
-    "sme_id": "SME006",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T02:30:00",
-    "end_datetime": "2026-08-27T03:30:00"
-  },
-  {
-    "event_id": "EVT0023",
-    "sme_id": "SME006",
-    "title": "Client Session",
-    "start_datetime": "2026-08-26T13:30:00",
-    "end_datetime": "2026-08-26T15:00:00"
-  },
-  {
-    "event_id": "EVT0024",
-    "sme_id": "SME007",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T10:30:00",
-    "end_datetime": "2026-08-29T11:15:00"
-  },
-  {
-    "event_id": "EVT0025",
-    "sme_id": "SME007",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T01:00:00",
-    "end_datetime": "2026-08-25T01:45:00"
-  },
-  {
-    "event_id": "EVT0026",
-    "sme_id": "SME007",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T00:30:00",
-    "end_datetime": "2026-08-29T01:00:00"
-  },
-  {
-    "event_id": "EVT0027",
-    "sme_id": "SME007",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T10:00:00",
-    "end_datetime": "2026-08-25T11:00:00"
-  },
-  {
-    "event_id": "EVT0028",
-    "sme_id": "SME008",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T17:00:00",
-    "end_datetime": "2026-08-28T17:30:00"
-  },
-  {
-    "event_id": "EVT0029",
-    "sme_id": "SME008",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-28T00:00:00",
-    "end_datetime": "2026-08-28T00:30:00"
-  },
-  {
-    "event_id": "EVT0030",
-    "sme_id": "SME008",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T20:30:00",
-    "end_datetime": "2026-08-27T21:30:00"
-  },
-  {
-    "event_id": "EVT0031",
-    "sme_id": "SME008",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-30T00:00:00",
-    "end_datetime": "2026-08-30T01:00:00"
-  },
-  {
-    "event_id": "EVT0032",
-    "sme_id": "SME008",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T00:00:00",
-    "end_datetime": "2026-08-25T01:00:00"
-  },
-  {
-    "event_id": "EVT0033",
-    "sme_id": "SME008",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T19:00:00",
-    "end_datetime": "2026-08-24T20:30:00"
-  },
-  {
-    "event_id": "EVT0034",
-    "sme_id": "SME009",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-26T10:30:00",
-    "end_datetime": "2026-08-26T12:00:00"
-  },
-  {
-    "event_id": "EVT0035",
-    "sme_id": "SME009",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T03:00:00"
-  },
-  {
-    "event_id": "EVT0036",
-    "sme_id": "SME009",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T04:30:00",
-    "end_datetime": "2026-08-27T06:00:00"
-  },
-  {
-    "event_id": "EVT0037",
-    "sme_id": "SME009",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-24T02:30:00",
-    "end_datetime": "2026-08-24T03:00:00"
-  },
-  {
-    "event_id": "EVT0038",
-    "sme_id": "SME009",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-26T09:00:00",
-    "end_datetime": "2026-08-26T09:45:00"
-  },
-  {
-    "event_id": "EVT0039",
-    "sme_id": "SME009",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T13:00:00",
-    "end_datetime": "2026-08-25T14:30:00"
-  },
-  {
-    "event_id": "EVT0040",
-    "sme_id": "SME009",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T04:30:00",
-    "end_datetime": "2026-08-25T05:15:00"
-  },
-  {
-    "event_id": "EVT0042",
-    "sme_id": "SME010",
     "title": "1:1 Sync",
     "start_datetime": "2026-08-28T05:30:00",
     "end_datetime": "2026-08-28T06:00:00"
   },
   {
-    "event_id": "EVT0043",
-    "sme_id": "SME010",
+    "event_id": "EVT0018",
+    "sme_id": "SME004",
     "title": "Office Hours",
     "start_datetime": "2026-08-24T12:00:00",
     "end_datetime": "2026-08-24T12:45:00"
   },
   {
-    "event_id": "EVT0044",
-    "sme_id": "SME010",
+    "event_id": "EVT0019",
+    "sme_id": "SME004",
     "title": "Team Meeting",
     "start_datetime": "2026-08-29T12:30:00",
     "end_datetime": "2026-08-29T13:30:00"
   },
   {
-    "event_id": "EVT0045",
-    "sme_id": "SME011",
+    "event_id": "EVT0020",
+    "sme_id": "SME005",
     "title": "Cohort Class",
     "start_datetime": "2026-08-24T05:00:00",
     "end_datetime": "2026-08-24T06:30:00"
   },
   {
-    "event_id": "EVT0046",
-    "sme_id": "SME011",
+    "event_id": "EVT0021",
+    "sme_id": "SME005",
     "title": "Training",
     "start_datetime": "2026-08-25T12:30:00",
     "end_datetime": "2026-08-25T13:00:00"
   },
   {
-    "event_id": "EVT0047",
-    "sme_id": "SME011",
+    "event_id": "EVT0022",
+    "sme_id": "SME005",
     "title": "Training",
     "start_datetime": "2026-08-26T06:00:00",
     "end_datetime": "2026-08-26T07:00:00"
   },
   {
-    "event_id": "EVT0048",
-    "sme_id": "SME011",
+    "event_id": "EVT0023",
+    "sme_id": "SME005",
     "title": "Team Meeting",
     "start_datetime": "2026-08-28T09:30:00",
     "end_datetime": "2026-08-28T10:00:00"
   },
   {
-    "event_id": "EVT0049",
-    "sme_id": "SME012",
+    "event_id": "EVT0024",
+    "sme_id": "SME006",
     "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T02:00:00",
-    "end_datetime": "2026-08-25T03:30:00"
+    "start_datetime": "2026-08-25T04:30:00",
+    "end_datetime": "2026-08-25T06:00:00"
   },
   {
-    "event_id": "EVT0050",
-    "sme_id": "SME012",
+    "event_id": "EVT0025",
+    "sme_id": "SME006",
     "title": "Planning Session",
-    "start_datetime": "2026-08-24T01:00:00",
-    "end_datetime": "2026-08-24T02:30:00"
-  },
-  {
-    "event_id": "EVT0051",
-    "sme_id": "SME012",
-    "title": "Training",
-    "start_datetime": "2026-08-28T05:30:00",
-    "end_datetime": "2026-08-28T06:15:00"
-  },
-  {
-    "event_id": "EVT0052",
-    "sme_id": "SME012",
-    "title": "Curriculum Review",
     "start_datetime": "2026-08-24T03:30:00",
-    "end_datetime": "2026-08-24T04:15:00"
+    "end_datetime": "2026-08-24T05:00:00"
   },
   {
-    "event_id": "EVT0053",
-    "sme_id": "SME012",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-24T06:00:00",
-    "end_datetime": "2026-08-24T06:45:00"
-  },
-  {
-    "event_id": "EVT0054",
-    "sme_id": "SME012",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-27T02:30:00",
-    "end_datetime": "2026-08-27T03:30:00"
-  },
-  {
-    "event_id": "EVT0055",
-    "sme_id": "SME012",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T11:00:00",
-    "end_datetime": "2026-08-27T12:00:00"
-  },
-  {
-    "event_id": "EVT0056",
-    "sme_id": "SME013",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-26T04:30:00",
-    "end_datetime": "2026-08-26T05:00:00"
-  },
-  {
-    "event_id": "EVT0057",
-    "sme_id": "SME013",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T04:00:00",
-    "end_datetime": "2026-08-25T05:30:00"
-  },
-  {
-    "event_id": "EVT0058",
-    "sme_id": "SME013",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-25T07:30:00",
-    "end_datetime": "2026-08-25T08:30:00"
-  },
-  {
-    "event_id": "EVT0059",
-    "sme_id": "SME013",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T12:30:00",
-    "end_datetime": "2026-08-25T13:15:00"
-  },
-  {
-    "event_id": "EVT0060",
-    "sme_id": "SME014",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T14:00:00",
-    "end_datetime": "2026-08-28T15:30:00"
-  },
-  {
-    "event_id": "EVT0061",
-    "sme_id": "SME014",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-26T07:30:00",
-    "end_datetime": "2026-08-26T08:15:00"
-  },
-  {
-    "event_id": "EVT0062",
-    "sme_id": "SME014",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T13:00:00",
-    "end_datetime": "2026-08-26T13:45:00"
-  },
-  {
-    "event_id": "EVT0063",
-    "sme_id": "SME014",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T13:00:00",
-    "end_datetime": "2026-08-24T13:30:00"
-  },
-  {
-    "event_id": "EVT0064",
-    "sme_id": "SME014",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-29T15:00:00",
-    "end_datetime": "2026-08-29T16:30:00"
-  },
-  {
-    "event_id": "EVT0065",
-    "sme_id": "SME014",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-27T14:00:00",
-    "end_datetime": "2026-08-27T15:30:00"
-  },
-  {
-    "event_id": "EVT0066",
-    "sme_id": "SME015",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-24T20:00:00",
-    "end_datetime": "2026-08-24T21:30:00"
-  },
-  {
-    "event_id": "EVT0067",
-    "sme_id": "SME015",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T17:30:00",
-    "end_datetime": "2026-08-25T18:15:00"
-  },
-  {
-    "event_id": "EVT0068",
-    "sme_id": "SME015",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T19:00:00",
-    "end_datetime": "2026-08-29T20:30:00"
-  },
-  {
-    "event_id": "EVT0069",
-    "sme_id": "SME015",
+    "event_id": "EVT0026",
+    "sme_id": "SME006",
     "title": "Training",
-    "start_datetime": "2026-08-25T23:30:00",
-    "end_datetime": "2026-08-26T00:15:00"
+    "start_datetime": "2026-08-28T08:00:00",
+    "end_datetime": "2026-08-28T08:45:00"
   },
   {
-    "event_id": "EVT0070",
-    "sme_id": "SME016",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-27T11:00:00",
-    "end_datetime": "2026-08-27T11:30:00"
-  },
-  {
-    "event_id": "EVT0071",
-    "sme_id": "SME016",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-29T05:00:00",
-    "end_datetime": "2026-08-29T06:00:00"
-  },
-  {
-    "event_id": "EVT0072",
-    "sme_id": "SME016",
+    "event_id": "EVT0028",
+    "sme_id": "SME006",
     "title": "Planning Session",
-    "start_datetime": "2026-08-26T11:00:00",
-    "end_datetime": "2026-08-26T11:30:00"
-  },
-  {
-    "event_id": "EVT0073",
-    "sme_id": "SME016",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T01:30:00",
-    "end_datetime": "2026-08-24T02:30:00"
-  },
-  {
-    "event_id": "EVT0074",
-    "sme_id": "SME016",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-28T00:30:00",
-    "end_datetime": "2026-08-28T01:30:00"
-  },
-  {
-    "event_id": "EVT0075",
-    "sme_id": "SME016",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T08:00:00",
-    "end_datetime": "2026-08-29T08:45:00"
-  },
-  {
-    "event_id": "EVT0076",
-    "sme_id": "SME016",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T03:00:00",
-    "end_datetime": "2026-08-26T04:30:00"
-  },
-  {
-    "event_id": "EVT0077",
-    "sme_id": "SME016",
-    "title": "Training",
-    "start_datetime": "2026-08-29T03:00:00",
-    "end_datetime": "2026-08-29T04:00:00"
-  },
-  {
-    "event_id": "EVT0078",
-    "sme_id": "SME017",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-28T22:30:00",
-    "end_datetime": "2026-08-28T23:30:00"
-  },
-  {
-    "event_id": "EVT0079",
-    "sme_id": "SME017",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T17:30:00",
-    "end_datetime": "2026-08-24T19:00:00"
-  },
-  {
-    "event_id": "EVT0080",
-    "sme_id": "SME017",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-28T20:00:00",
-    "end_datetime": "2026-08-28T21:30:00"
-  },
-  {
-    "event_id": "EVT0081",
-    "sme_id": "SME017",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T20:30:00",
-    "end_datetime": "2026-08-29T22:00:00"
-  },
-  {
-    "event_id": "EVT0082",
-    "sme_id": "SME017",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T22:00:00",
-    "end_datetime": "2026-08-26T22:45:00"
-  },
-  {
-    "event_id": "EVT0083",
-    "sme_id": "SME018",
-    "title": "Client Session",
     "start_datetime": "2026-08-24T08:30:00",
-    "end_datetime": "2026-08-24T09:30:00"
+    "end_datetime": "2026-08-24T09:15:00"
   },
   {
-    "event_id": "EVT0084",
-    "sme_id": "SME018",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T05:00:00",
-    "end_datetime": "2026-08-24T05:30:00"
-  },
-  {
-    "event_id": "EVT0085",
-    "sme_id": "SME018",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T04:30:00",
-    "end_datetime": "2026-08-27T05:00:00"
-  },
-  {
-    "event_id": "EVT0086",
-    "sme_id": "SME019",
-    "title": "Training",
-    "start_datetime": "2026-08-29T08:00:00",
-    "end_datetime": "2026-08-29T09:30:00"
-  },
-  {
-    "event_id": "EVT0087",
-    "sme_id": "SME019",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T07:00:00",
-    "end_datetime": "2026-08-27T08:00:00"
-  },
-  {
-    "event_id": "EVT0088",
-    "sme_id": "SME019",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T00:00:00",
-    "end_datetime": "2026-08-24T01:00:00"
-  },
-  {
-    "event_id": "EVT0089",
-    "sme_id": "SME019",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T05:30:00",
-    "end_datetime": "2026-08-28T07:00:00"
-  },
-  {
-    "event_id": "EVT0090",
-    "sme_id": "SME019",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-29T11:30:00",
-    "end_datetime": "2026-08-29T13:00:00"
-  },
-  {
-    "event_id": "EVT0091",
-    "sme_id": "SME019",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T03:15:00"
-  },
-  {
-    "event_id": "EVT0092",
-    "sme_id": "SME020",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-27T08:00:00",
-    "end_datetime": "2026-08-27T08:30:00"
-  },
-  {
-    "event_id": "EVT0093",
-    "sme_id": "SME020",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T07:00:00",
-    "end_datetime": "2026-08-26T07:45:00"
-  },
-  {
-    "event_id": "EVT0094",
-    "sme_id": "SME020",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-25T14:00:00",
-    "end_datetime": "2026-08-25T14:45:00"
-  },
-  {
-    "event_id": "EVT0095",
-    "sme_id": "SME020",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T13:30:00",
-    "end_datetime": "2026-08-29T14:15:00"
-  },
-  {
-    "event_id": "EVT0096",
-    "sme_id": "SME021",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T05:00:00",
-    "end_datetime": "2026-08-24T06:30:00"
-  },
-  {
-    "event_id": "EVT0097",
-    "sme_id": "SME021",
-    "title": "Training",
-    "start_datetime": "2026-08-26T02:00:00",
-    "end_datetime": "2026-08-26T02:30:00"
-  },
-  {
-    "event_id": "EVT0098",
-    "sme_id": "SME021",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T03:00:00"
-  },
-  {
-    "event_id": "EVT0099",
-    "sme_id": "SME022",
+    "event_id": "EVT0029",
+    "sme_id": "SME006",
     "title": "Cohort Class",
     "start_datetime": "2026-08-27T05:00:00",
     "end_datetime": "2026-08-27T06:00:00"
   },
   {
-    "event_id": "EVT0100",
-    "sme_id": "SME022",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T14:00:00",
-    "end_datetime": "2026-08-24T15:00:00"
-  },
-  {
-    "event_id": "EVT0101",
-    "sme_id": "SME022",
-    "title": "Training",
-    "start_datetime": "2026-08-26T11:30:00",
-    "end_datetime": "2026-08-26T13:00:00"
-  },
-  {
-    "event_id": "EVT0102",
-    "sme_id": "SME022",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T04:00:00",
-    "end_datetime": "2026-08-29T04:30:00"
-  },
-  {
-    "event_id": "EVT0103",
-    "sme_id": "SME022",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-29T10:30:00",
-    "end_datetime": "2026-08-29T11:30:00"
-  },
-  {
-    "event_id": "EVT0104",
-    "sme_id": "SME022",
-    "title": "Training",
-    "start_datetime": "2026-08-27T11:30:00",
-    "end_datetime": "2026-08-27T13:00:00"
-  },
-  {
-    "event_id": "EVT0105",
-    "sme_id": "SME023",
+    "event_id": "EVT0030",
+    "sme_id": "SME006",
     "title": "Personal Block",
-    "start_datetime": "2026-08-26T04:00:00",
-    "end_datetime": "2026-08-26T04:45:00"
-  },
-  {
-    "event_id": "EVT0106",
-    "sme_id": "SME023",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T04:00:00",
-    "end_datetime": "2026-08-25T05:30:00"
-  },
-  {
-    "event_id": "EVT0107",
-    "sme_id": "SME023",
-    "title": "Training",
-    "start_datetime": "2026-08-28T10:00:00",
-    "end_datetime": "2026-08-28T11:30:00"
-  },
-  {
-    "event_id": "EVT0108",
-    "sme_id": "SME024",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-28T20:00:00",
-    "end_datetime": "2026-08-28T21:00:00"
-  },
-  {
-    "event_id": "EVT0109",
-    "sme_id": "SME024",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T23:30:00",
-    "end_datetime": "2026-08-26T00:30:00"
-  },
-  {
-    "event_id": "EVT0110",
-    "sme_id": "SME024",
-    "title": "Training",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:30:00"
-  },
-  {
-    "event_id": "EVT0111",
-    "sme_id": "SME024",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T19:00:00",
-    "end_datetime": "2026-08-26T19:45:00"
-  },
-  {
-    "event_id": "EVT0112",
-    "sme_id": "SME024",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T18:30:00",
-    "end_datetime": "2026-08-29T19:30:00"
-  },
-  {
-    "event_id": "EVT0113",
-    "sme_id": "SME024",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-28T21:00:00",
-    "end_datetime": "2026-08-28T21:45:00"
-  },
-  {
-    "event_id": "EVT0114",
-    "sme_id": "SME024",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-28T18:00:00",
-    "end_datetime": "2026-08-28T18:30:00"
-  },
-  {
-    "event_id": "EVT0115",
-    "sme_id": "SME025",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T13:00:00",
-    "end_datetime": "2026-08-26T14:30:00"
-  },
-  {
-    "event_id": "EVT0116",
-    "sme_id": "SME025",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T10:00:00",
-    "end_datetime": "2026-08-25T11:30:00"
-  },
-  {
-    "event_id": "EVT0117",
-    "sme_id": "SME025",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T14:00:00",
-    "end_datetime": "2026-08-28T15:00:00"
-  },
-  {
-    "event_id": "EVT0118",
-    "sme_id": "SME025",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T14:30:00",
-    "end_datetime": "2026-08-26T15:15:00"
-  },
-  {
-    "event_id": "EVT0119",
-    "sme_id": "SME025",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T09:30:00",
-    "end_datetime": "2026-08-24T10:30:00"
-  },
-  {
-    "event_id": "EVT0120",
-    "sme_id": "SME025",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T17:30:00",
-    "end_datetime": "2026-08-24T19:00:00"
-  },
-  {
-    "event_id": "EVT0121",
-    "sme_id": "SME025",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T18:00:00",
-    "end_datetime": "2026-08-27T18:30:00"
-  },
-  {
-    "event_id": "EVT0122",
-    "sme_id": "SME025",
-    "title": "Training",
-    "start_datetime": "2026-08-29T17:30:00",
-    "end_datetime": "2026-08-29T18:00:00"
-  },
-  {
-    "event_id": "EVT0123",
-    "sme_id": "SME026",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T13:00:00",
-    "end_datetime": "2026-08-29T14:00:00"
-  },
-  {
-    "event_id": "EVT0124",
-    "sme_id": "SME026",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T04:00:00",
-    "end_datetime": "2026-08-28T05:00:00"
-  },
-  {
-    "event_id": "EVT0125",
-    "sme_id": "SME026",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-29T06:30:00",
-    "end_datetime": "2026-08-29T07:15:00"
-  },
-  {
-    "event_id": "EVT0126",
-    "sme_id": "SME026",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T09:30:00",
-    "end_datetime": "2026-08-26T10:30:00"
-  },
-  {
-    "event_id": "EVT0127",
-    "sme_id": "SME026",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-26T08:00:00",
-    "end_datetime": "2026-08-26T08:45:00"
-  },
-  {
-    "event_id": "EVT0128",
-    "sme_id": "SME026",
-    "title": "Training",
-    "start_datetime": "2026-08-24T13:00:00",
-    "end_datetime": "2026-08-24T14:00:00"
-  },
-  {
-    "event_id": "EVT0129",
-    "sme_id": "SME026",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T08:30:00",
-    "end_datetime": "2026-08-29T09:30:00"
-  },
-  {
-    "event_id": "EVT0130",
-    "sme_id": "SME027",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-28T07:30:00",
-    "end_datetime": "2026-08-28T08:00:00"
-  },
-  {
-    "event_id": "EVT0131",
-    "sme_id": "SME027",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T07:30:00",
-    "end_datetime": "2026-08-27T08:00:00"
-  },
-  {
-    "event_id": "EVT0132",
-    "sme_id": "SME027",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T10:30:00",
-    "end_datetime": "2026-08-25T11:15:00"
-  },
-  {
-    "event_id": "EVT0133",
-    "sme_id": "SME027",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T13:30:00",
-    "end_datetime": "2026-08-28T15:00:00"
-  },
-  {
-    "event_id": "EVT0134",
-    "sme_id": "SME027",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T03:30:00",
-    "end_datetime": "2026-08-24T04:00:00"
-  },
-  {
-    "event_id": "EVT0135",
-    "sme_id": "SME027",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T07:00:00",
-    "end_datetime": "2026-08-26T07:45:00"
-  },
-  {
-    "event_id": "EVT0136",
-    "sme_id": "SME027",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T11:00:00",
-    "end_datetime": "2026-08-28T11:45:00"
-  },
-  {
-    "event_id": "EVT0137",
-    "sme_id": "SME028",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T01:00:00",
-    "end_datetime": "2026-08-29T01:45:00"
-  },
-  {
-    "event_id": "EVT0138",
-    "sme_id": "SME028",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T03:30:00",
-    "end_datetime": "2026-08-29T04:15:00"
-  },
-  {
-    "event_id": "EVT0139",
-    "sme_id": "SME028",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T01:30:00",
-    "end_datetime": "2026-08-25T02:00:00"
-  },
-  {
-    "event_id": "EVT0140",
-    "sme_id": "SME029",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T06:00:00",
-    "end_datetime": "2026-08-27T06:45:00"
-  },
-  {
-    "event_id": "EVT0141",
-    "sme_id": "SME029",
-    "title": "Client Session",
-    "start_datetime": "2026-08-24T10:00:00",
-    "end_datetime": "2026-08-24T11:30:00"
-  },
-  {
-    "event_id": "EVT0142",
-    "sme_id": "SME029",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T00:00:00",
-    "end_datetime": "2026-08-26T01:00:00"
-  },
-  {
-    "event_id": "EVT0143",
-    "sme_id": "SME030",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T09:00:00",
-    "end_datetime": "2026-08-24T09:45:00"
-  },
-  {
-    "event_id": "EVT0144",
-    "sme_id": "SME030",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T05:00:00",
-    "end_datetime": "2026-08-29T05:30:00"
-  },
-  {
-    "event_id": "EVT0145",
-    "sme_id": "SME030",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T08:00:00",
-    "end_datetime": "2026-08-25T08:30:00"
-  },
-  {
-    "event_id": "EVT0146",
-    "sme_id": "SME031",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T08:00:00",
-    "end_datetime": "2026-08-24T08:45:00"
-  },
-  {
-    "event_id": "EVT0147",
-    "sme_id": "SME031",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-25T08:00:00",
-    "end_datetime": "2026-08-25T08:30:00"
-  },
-  {
-    "event_id": "EVT0148",
-    "sme_id": "SME031",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T11:30:00",
-    "end_datetime": "2026-08-28T12:30:00"
-  },
-  {
-    "event_id": "EVT0149",
-    "sme_id": "SME031",
-    "title": "Training",
-    "start_datetime": "2026-08-25T07:00:00",
-    "end_datetime": "2026-08-25T07:45:00"
-  },
-  {
-    "event_id": "EVT0150",
-    "sme_id": "SME031",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-27T06:00:00",
-    "end_datetime": "2026-08-27T06:45:00"
-  },
-  {
-    "event_id": "EVT0151",
-    "sme_id": "SME031",
-    "title": "Client Session",
-    "start_datetime": "2026-08-24T05:00:00",
-    "end_datetime": "2026-08-24T06:30:00"
-  },
-  {
-    "event_id": "EVT0152",
-    "sme_id": "SME031",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T03:30:00"
-  },
-  {
-    "event_id": "EVT0153",
-    "sme_id": "SME032",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T02:30:00",
-    "end_datetime": "2026-08-29T03:30:00"
-  },
-  {
-    "event_id": "EVT0154",
-    "sme_id": "SME032",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-24T09:00:00",
-    "end_datetime": "2026-08-24T10:30:00"
-  },
-  {
-    "event_id": "EVT0155",
-    "sme_id": "SME032",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-29T07:00:00",
-    "end_datetime": "2026-08-29T07:45:00"
-  },
-  {
-    "event_id": "EVT0156",
-    "sme_id": "SME032",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T07:00:00",
-    "end_datetime": "2026-08-27T07:45:00"
-  },
-  {
-    "event_id": "EVT0157",
-    "sme_id": "SME032",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T13:00:00",
-    "end_datetime": "2026-08-27T13:45:00"
-  },
-  {
-    "event_id": "EVT0158",
-    "sme_id": "SME032",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T09:30:00",
-    "end_datetime": "2026-08-29T11:00:00"
-  },
-  {
-    "event_id": "EVT0159",
-    "sme_id": "SME032",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-28T12:30:00",
-    "end_datetime": "2026-08-28T13:00:00"
-  },
-  {
-    "event_id": "EVT0160",
-    "sme_id": "SME033",
-    "title": "Client Session",
     "start_datetime": "2026-08-27T13:30:00",
-    "end_datetime": "2026-08-27T14:15:00"
-  },
-  {
-    "event_id": "EVT0161",
-    "sme_id": "SME033",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T06:00:00",
-    "end_datetime": "2026-08-26T06:45:00"
-  },
-  {
-    "event_id": "EVT0162",
-    "sme_id": "SME033",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-27T03:30:00",
-    "end_datetime": "2026-08-27T05:00:00"
-  },
-  {
-    "event_id": "EVT0163",
-    "sme_id": "SME033",
-    "title": "Training",
-    "start_datetime": "2026-08-26T14:00:00",
-    "end_datetime": "2026-08-26T15:30:00"
-  },
-  {
-    "event_id": "EVT0164",
-    "sme_id": "SME033",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T06:30:00",
-    "end_datetime": "2026-08-28T08:00:00"
-  },
-  {
-    "event_id": "EVT0165",
-    "sme_id": "SME033",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-24T07:00:00",
-    "end_datetime": "2026-08-24T08:30:00"
-  },
-  {
-    "event_id": "EVT0166",
-    "sme_id": "SME034",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T02:30:00",
-    "end_datetime": "2026-08-25T03:00:00"
-  },
-  {
-    "event_id": "EVT0167",
-    "sme_id": "SME034",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-27T12:30:00",
-    "end_datetime": "2026-08-27T13:15:00"
-  },
-  {
-    "event_id": "EVT0168",
-    "sme_id": "SME034",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T13:00:00",
-    "end_datetime": "2026-08-28T13:45:00"
-  },
-  {
-    "event_id": "EVT0169",
-    "sme_id": "SME034",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-28T11:30:00",
-    "end_datetime": "2026-08-28T12:00:00"
-  },
-  {
-    "event_id": "EVT0170",
-    "sme_id": "SME034",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-27T09:30:00",
-    "end_datetime": "2026-08-27T10:30:00"
-  },
-  {
-    "event_id": "EVT0171",
-    "sme_id": "SME034",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-27T11:00:00",
-    "end_datetime": "2026-08-27T12:00:00"
-  },
-  {
-    "event_id": "EVT0172",
-    "sme_id": "SME034",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T04:00:00"
-  },
-  {
-    "event_id": "EVT0173",
-    "sme_id": "SME034",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T11:00:00",
-    "end_datetime": "2026-08-25T11:45:00"
-  },
-  {
-    "event_id": "EVT0174",
-    "sme_id": "SME035",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T04:30:00",
-    "end_datetime": "2026-08-25T06:00:00"
-  },
-  {
-    "event_id": "EVT0175",
-    "sme_id": "SME035",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T10:30:00",
-    "end_datetime": "2026-08-28T12:00:00"
-  },
-  {
-    "event_id": "EVT0176",
-    "sme_id": "SME035",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T02:00:00",
-    "end_datetime": "2026-08-28T03:30:00"
-  },
-  {
-    "event_id": "EVT0177",
-    "sme_id": "SME035",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T09:30:00",
-    "end_datetime": "2026-08-27T10:30:00"
-  },
-  {
-    "event_id": "EVT0178",
-    "sme_id": "SME035",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-26T00:00:00",
-    "end_datetime": "2026-08-26T00:30:00"
-  },
-  {
-    "event_id": "EVT0179",
-    "sme_id": "SME035",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-26T05:00:00",
-    "end_datetime": "2026-08-26T06:00:00"
-  },
-  {
-    "event_id": "EVT0180",
-    "sme_id": "SME036",
-    "title": "Training",
-    "start_datetime": "2026-08-27T08:00:00",
-    "end_datetime": "2026-08-27T09:30:00"
-  },
-  {
-    "event_id": "EVT0181",
-    "sme_id": "SME036",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-24T12:30:00",
-    "end_datetime": "2026-08-24T13:15:00"
-  },
-  {
-    "event_id": "EVT0182",
-    "sme_id": "SME036",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-29T06:30:00",
-    "end_datetime": "2026-08-29T07:00:00"
-  },
-  {
-    "event_id": "EVT0183",
-    "sme_id": "SME037",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T04:30:00",
-    "end_datetime": "2026-08-26T05:30:00"
-  },
-  {
-    "event_id": "EVT0184",
-    "sme_id": "SME037",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T13:00:00",
     "end_datetime": "2026-08-27T14:30:00"
   },
   {
-    "event_id": "EVT0185",
-    "sme_id": "SME037",
-    "title": "Training",
-    "start_datetime": "2026-08-24T14:00:00",
-    "end_datetime": "2026-08-24T14:30:00"
-  },
-  {
-    "event_id": "EVT0186",
-    "sme_id": "SME038",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T09:00:00",
-    "end_datetime": "2026-08-28T09:30:00"
-  },
-  {
-    "event_id": "EVT0187",
-    "sme_id": "SME038",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T13:30:00",
-    "end_datetime": "2026-08-24T14:30:00"
-  },
-  {
-    "event_id": "EVT0188",
-    "sme_id": "SME038",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T13:00:00",
-    "end_datetime": "2026-08-28T13:45:00"
-  },
-  {
-    "event_id": "EVT0189",
-    "sme_id": "SME038",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T08:00:00",
-    "end_datetime": "2026-08-26T08:45:00"
-  },
-  {
-    "event_id": "EVT0190",
-    "sme_id": "SME038",
+    "event_id": "EVT0031",
+    "sme_id": "SME007",
     "title": "Personal Block",
-    "start_datetime": "2026-08-29T03:30:00",
-    "end_datetime": "2026-08-29T04:30:00"
+    "start_datetime": "2026-08-26T02:00:00",
+    "end_datetime": "2026-08-26T02:30:00"
   },
   {
-    "event_id": "EVT0191",
-    "sme_id": "SME038",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-24T07:00:00",
-    "end_datetime": "2026-08-24T07:45:00"
-  },
-  {
-    "event_id": "EVT0192",
-    "sme_id": "SME039",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T02:00:00",
+    "event_id": "EVT0032",
+    "sme_id": "SME007",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T01:30:00",
     "end_datetime": "2026-08-25T03:00:00"
   },
   {
-    "event_id": "EVT0193",
-    "sme_id": "SME039",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-25T00:30:00",
-    "end_datetime": "2026-08-25T02:00:00"
-  },
-  {
-    "event_id": "EVT0194",
-    "sme_id": "SME039",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-26T16:30:00",
-    "end_datetime": "2026-08-26T17:30:00"
-  },
-  {
-    "event_id": "EVT0195",
-    "sme_id": "SME039",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-29T23:30:00",
-    "end_datetime": "2026-08-30T00:15:00"
-  },
-  {
-    "event_id": "EVT0196",
-    "sme_id": "SME039",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T19:30:00",
-    "end_datetime": "2026-08-27T20:15:00"
-  },
-  {
-    "event_id": "EVT0197",
-    "sme_id": "SME039",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-30T02:00:00",
-    "end_datetime": "2026-08-30T03:30:00"
-  },
-  {
-    "event_id": "EVT0198",
-    "sme_id": "SME039",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-28T18:30:00",
-    "end_datetime": "2026-08-28T20:00:00"
-  },
-  {
-    "event_id": "EVT0199",
-    "sme_id": "SME039",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T17:30:00",
-    "end_datetime": "2026-08-25T19:00:00"
-  },
-  {
-    "event_id": "EVT0200",
-    "sme_id": "SME040",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T12:30:00",
-    "end_datetime": "2026-08-24T14:00:00"
-  },
-  {
-    "event_id": "EVT0201",
-    "sme_id": "SME040",
+    "event_id": "EVT0033",
+    "sme_id": "SME007",
     "title": "Planning Session",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:30:00"
+    "start_datetime": "2026-08-25T05:00:00",
+    "end_datetime": "2026-08-25T06:00:00"
   },
   {
-    "event_id": "EVT0202",
-    "sme_id": "SME040",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-25T08:30:00",
-    "end_datetime": "2026-08-25T09:00:00"
-  },
-  {
-    "event_id": "EVT0203",
-    "sme_id": "SME040",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T02:30:00",
-    "end_datetime": "2026-08-25T03:30:00"
-  },
-  {
-    "event_id": "EVT0204",
-    "sme_id": "SME040",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T11:00:00",
-    "end_datetime": "2026-08-27T12:30:00"
-  },
-  {
-    "event_id": "EVT0205",
-    "sme_id": "SME041",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T06:30:00",
-    "end_datetime": "2026-08-25T07:00:00"
-  },
-  {
-    "event_id": "EVT0206",
-    "sme_id": "SME041",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:00:00"
-  },
-  {
-    "event_id": "EVT0207",
-    "sme_id": "SME041",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-24T02:30:00",
-    "end_datetime": "2026-08-24T03:30:00"
-  },
-  {
-    "event_id": "EVT0208",
-    "sme_id": "SME041",
+    "event_id": "EVT0034",
+    "sme_id": "SME007",
     "title": "Client Session",
-    "start_datetime": "2026-08-26T04:00:00",
-    "end_datetime": "2026-08-26T05:00:00"
+    "start_datetime": "2026-08-25T10:00:00",
+    "end_datetime": "2026-08-25T10:45:00"
   },
   {
-    "event_id": "EVT0209",
-    "sme_id": "SME042",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T09:00:00",
-    "end_datetime": "2026-08-29T09:30:00"
-  },
-  {
-    "event_id": "EVT0210",
-    "sme_id": "SME042",
+    "event_id": "EVT0035",
+    "sme_id": "SME008",
     "title": "Office Hours",
-    "start_datetime": "2026-08-29T15:00:00",
-    "end_datetime": "2026-08-29T16:00:00"
-  },
-  {
-    "event_id": "EVT0211",
-    "sme_id": "SME042",
-    "title": "Training",
-    "start_datetime": "2026-08-24T10:00:00",
-    "end_datetime": "2026-08-24T11:00:00"
-  },
-  {
-    "event_id": "EVT0212",
-    "sme_id": "SME042",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-28T18:30:00",
-    "end_datetime": "2026-08-28T19:15:00"
-  },
-  {
-    "event_id": "EVT0213",
-    "sme_id": "SME042",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-25T09:00:00",
-    "end_datetime": "2026-08-25T09:45:00"
-  },
-  {
-    "event_id": "EVT0214",
-    "sme_id": "SME042",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T14:30:00",
-    "end_datetime": "2026-08-26T15:30:00"
-  },
-  {
-    "event_id": "EVT0215",
-    "sme_id": "SME043",
-    "title": "Training",
-    "start_datetime": "2026-08-27T23:30:00",
-    "end_datetime": "2026-08-28T00:00:00"
-  },
-  {
-    "event_id": "EVT0216",
-    "sme_id": "SME043",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T21:30:00",
-    "end_datetime": "2026-08-28T22:15:00"
-  },
-  {
-    "event_id": "EVT0217",
-    "sme_id": "SME043",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T20:30:00",
-    "end_datetime": "2026-08-25T21:30:00"
-  },
-  {
-    "event_id": "EVT0218",
-    "sme_id": "SME044",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T09:00:00",
-    "end_datetime": "2026-08-29T09:30:00"
-  },
-  {
-    "event_id": "EVT0219",
-    "sme_id": "SME044",
-    "title": "Training",
-    "start_datetime": "2026-08-26T08:30:00",
-    "end_datetime": "2026-08-26T09:30:00"
-  },
-  {
-    "event_id": "EVT0220",
-    "sme_id": "SME044",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-29T01:00:00",
-    "end_datetime": "2026-08-29T02:30:00"
-  },
-  {
-    "event_id": "EVT0221",
-    "sme_id": "SME045",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T07:00:00",
-    "end_datetime": "2026-08-27T07:30:00"
-  },
-  {
-    "event_id": "EVT0222",
-    "sme_id": "SME045",
-    "title": "Training",
-    "start_datetime": "2026-08-26T05:30:00",
-    "end_datetime": "2026-08-26T07:00:00"
-  },
-  {
-    "event_id": "EVT0223",
-    "sme_id": "SME045",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T08:30:00",
-    "end_datetime": "2026-08-29T09:30:00"
-  },
-  {
-    "event_id": "EVT0224",
-    "sme_id": "SME046",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-27T14:00:00",
-    "end_datetime": "2026-08-27T15:00:00"
-  },
-  {
-    "event_id": "EVT0225",
-    "sme_id": "SME046",
-    "title": "Training",
-    "start_datetime": "2026-08-24T05:00:00",
-    "end_datetime": "2026-08-24T05:30:00"
-  },
-  {
-    "event_id": "EVT0226",
-    "sme_id": "SME046",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T12:00:00",
-    "end_datetime": "2026-08-27T13:30:00"
-  },
-  {
-    "event_id": "EVT0227",
-    "sme_id": "SME046",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T12:30:00",
-    "end_datetime": "2026-08-24T14:00:00"
-  },
-  {
-    "event_id": "EVT0228",
-    "sme_id": "SME046",
-    "title": "Training",
-    "start_datetime": "2026-08-24T08:30:00",
-    "end_datetime": "2026-08-24T09:30:00"
-  },
-  {
-    "event_id": "EVT0229",
-    "sme_id": "SME046",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-28T03:30:00",
-    "end_datetime": "2026-08-28T04:15:00"
-  },
-  {
-    "event_id": "EVT0230",
-    "sme_id": "SME047",
-    "title": "Training",
-    "start_datetime": "2026-08-29T10:00:00",
-    "end_datetime": "2026-08-29T11:30:00"
-  },
-  {
-    "event_id": "EVT0231",
-    "sme_id": "SME047",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-27T07:00:00",
-    "end_datetime": "2026-08-27T08:00:00"
-  },
-  {
-    "event_id": "EVT0232",
-    "sme_id": "SME047",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-25T01:30:00",
-    "end_datetime": "2026-08-25T02:30:00"
-  },
-  {
-    "event_id": "EVT0233",
-    "sme_id": "SME047",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T06:00:00",
-    "end_datetime": "2026-08-27T06:30:00"
-  },
-  {
-    "event_id": "EVT0234",
-    "sme_id": "SME047",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T10:00:00",
-    "end_datetime": "2026-08-28T10:30:00"
-  },
-  {
-    "event_id": "EVT0235",
-    "sme_id": "SME047",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T04:00:00",
-    "end_datetime": "2026-08-25T04:30:00"
-  },
-  {
-    "event_id": "EVT0236",
-    "sme_id": "SME047",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T06:30:00",
-    "end_datetime": "2026-08-28T07:15:00"
-  },
-  {
-    "event_id": "EVT0237",
-    "sme_id": "SME048",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T00:00:00",
-    "end_datetime": "2026-08-26T00:30:00"
-  },
-  {
-    "event_id": "EVT0238",
-    "sme_id": "SME048",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T22:30:00",
-    "end_datetime": "2026-08-27T23:00:00"
-  },
-  {
-    "event_id": "EVT0239",
-    "sme_id": "SME048",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-29T18:00:00",
-    "end_datetime": "2026-08-29T19:00:00"
-  },
-  {
-    "event_id": "EVT0240",
-    "sme_id": "SME048",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-29T22:30:00",
-    "end_datetime": "2026-08-29T23:15:00"
-  },
-  {
-    "event_id": "EVT0241",
-    "sme_id": "SME048",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-30T01:00:00",
-    "end_datetime": "2026-08-30T02:30:00"
-  },
-  {
-    "event_id": "EVT0242",
-    "sme_id": "SME049",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-25T15:30:00",
-    "end_datetime": "2026-08-25T16:30:00"
-  },
-  {
-    "event_id": "EVT0243",
-    "sme_id": "SME049",
-    "title": "Planning Session",
     "start_datetime": "2026-08-28T22:00:00",
-    "end_datetime": "2026-08-28T23:00:00"
+    "end_datetime": "2026-08-28T23:30:00"
   },
   {
-    "event_id": "EVT0244",
-    "sme_id": "SME049",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-30T01:30:00",
-    "end_datetime": "2026-08-30T02:00:00"
-  },
-  {
-    "event_id": "EVT0245",
-    "sme_id": "SME049",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T17:30:00",
-    "end_datetime": "2026-08-27T19:00:00"
-  },
-  {
-    "event_id": "EVT0246",
-    "sme_id": "SME049",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T21:30:00",
-    "end_datetime": "2026-08-29T22:30:00"
-  },
-  {
-    "event_id": "EVT0247",
-    "sme_id": "SME049",
-    "title": "Training",
-    "start_datetime": "2026-08-24T23:00:00",
-    "end_datetime": "2026-08-24T23:30:00"
-  },
-  {
-    "event_id": "EVT0248",
-    "sme_id": "SME050",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T07:30:00",
-    "end_datetime": "2026-08-27T08:00:00"
-  },
-  {
-    "event_id": "EVT0249",
-    "sme_id": "SME050",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-28T12:00:00",
-    "end_datetime": "2026-08-28T13:00:00"
-  },
-  {
-    "event_id": "EVT0250",
-    "sme_id": "SME050",
+    "event_id": "EVT0037",
+    "sme_id": "SME008",
     "title": "Planning Session",
-    "start_datetime": "2026-08-29T07:30:00",
-    "end_datetime": "2026-08-29T08:00:00"
+    "start_datetime": "2026-08-26T21:00:00",
+    "end_datetime": "2026-08-26T21:45:00"
   },
   {
-    "event_id": "EVT0251",
-    "sme_id": "SME050",
-    "title": "Training",
-    "start_datetime": "2026-08-25T06:30:00",
-    "end_datetime": "2026-08-25T08:00:00"
-  },
-  {
-    "event_id": "EVT0252",
-    "sme_id": "SME051",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-25T01:30:00",
-    "end_datetime": "2026-08-25T03:00:00"
-  },
-  {
-    "event_id": "EVT0253",
-    "sme_id": "SME051",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-26T01:30:00",
-    "end_datetime": "2026-08-26T02:00:00"
-  },
-  {
-    "event_id": "EVT0254",
-    "sme_id": "SME051",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T04:30:00",
-    "end_datetime": "2026-08-27T06:00:00"
-  },
-  {
-    "event_id": "EVT0255",
-    "sme_id": "SME051",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-26T09:30:00",
-    "end_datetime": "2026-08-26T10:30:00"
-  },
-  {
-    "event_id": "EVT0256",
-    "sme_id": "SME051",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T05:30:00",
-    "end_datetime": "2026-08-25T06:15:00"
-  },
-  {
-    "event_id": "EVT0257",
-    "sme_id": "SME051",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T10:30:00",
-    "end_datetime": "2026-08-29T11:00:00"
-  },
-  {
-    "event_id": "EVT0258",
-    "sme_id": "SME052",
+    "event_id": "EVT0038",
+    "sme_id": "SME008",
     "title": "Office Hours",
-    "start_datetime": "2026-08-24T05:30:00",
-    "end_datetime": "2026-08-24T06:00:00"
+    "start_datetime": "2026-08-24T21:00:00",
+    "end_datetime": "2026-08-24T21:30:00"
   },
   {
-    "event_id": "EVT0259",
-    "sme_id": "SME052",
-    "title": "Client Session",
-    "start_datetime": "2026-08-26T05:00:00",
-    "end_datetime": "2026-08-26T06:30:00"
-  },
-  {
-    "event_id": "EVT0260",
-    "sme_id": "SME052",
+    "event_id": "EVT0039",
+    "sme_id": "SME008",
     "title": "1:1 Sync",
-    "start_datetime": "2026-08-27T03:00:00",
-    "end_datetime": "2026-08-27T04:00:00"
+    "start_datetime": "2026-08-29T23:00:00",
+    "end_datetime": "2026-08-30T00:30:00"
   },
   {
-    "event_id": "EVT0261",
-    "sme_id": "SME052",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-27T10:00:00",
-    "end_datetime": "2026-08-27T10:30:00"
+    "event_id": "EVT0040",
+    "sme_id": "SME008",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T22:00:00",
+    "end_datetime": "2026-08-27T23:30:00"
   },
   {
-    "event_id": "EVT0262",
-    "sme_id": "SME053",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-26T03:30:00",
-    "end_datetime": "2026-08-26T04:30:00"
-  },
-  {
-    "event_id": "EVT0263",
-    "sme_id": "SME053",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-25T14:00:00",
-    "end_datetime": "2026-08-25T14:45:00"
-  },
-  {
-    "event_id": "EVT0264",
-    "sme_id": "SME053",
-    "title": "Client Session",
+    "event_id": "EVT0041",
+    "sme_id": "SME009",
+    "title": "Interview Panel",
     "start_datetime": "2026-08-24T10:30:00",
     "end_datetime": "2026-08-24T12:00:00"
   },
   {
-    "event_id": "EVT0265",
-    "sme_id": "SME054",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T22:00:00",
-    "end_datetime": "2026-08-27T23:00:00"
-  },
-  {
-    "event_id": "EVT0266",
-    "sme_id": "SME054",
-    "title": "Training",
-    "start_datetime": "2026-08-26T22:00:00",
-    "end_datetime": "2026-08-26T23:30:00"
-  },
-  {
-    "event_id": "EVT0267",
-    "sme_id": "SME054",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-28T13:30:00",
-    "end_datetime": "2026-08-28T14:15:00"
-  },
-  {
-    "event_id": "EVT0268",
-    "sme_id": "SME054",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T19:30:00",
-    "end_datetime": "2026-08-24T21:00:00"
-  },
-  {
-    "event_id": "EVT0269",
-    "sme_id": "SME055",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T03:00:00",
-    "end_datetime": "2026-08-29T03:30:00"
-  },
-  {
-    "event_id": "EVT0270",
-    "sme_id": "SME055",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T07:30:00",
-    "end_datetime": "2026-08-27T08:15:00"
-  },
-  {
-    "event_id": "EVT0271",
-    "sme_id": "SME055",
+    "event_id": "EVT0042",
+    "sme_id": "SME009",
     "title": "Client Session",
-    "start_datetime": "2026-08-29T07:00:00",
-    "end_datetime": "2026-08-29T07:30:00"
+    "start_datetime": "2026-08-25T08:00:00",
+    "end_datetime": "2026-08-25T08:45:00"
   },
   {
-    "event_id": "EVT0272",
-    "sme_id": "SME055",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-28T12:00:00",
-    "end_datetime": "2026-08-28T12:30:00"
-  },
-  {
-    "event_id": "EVT0273",
-    "sme_id": "SME055",
-    "title": "Client Session",
-    "start_datetime": "2026-08-26T04:30:00",
-    "end_datetime": "2026-08-26T06:00:00"
-  },
-  {
-    "event_id": "EVT0274",
-    "sme_id": "SME055",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T05:30:00",
-    "end_datetime": "2026-08-24T07:00:00"
-  },
-  {
-    "event_id": "EVT0275",
-    "sme_id": "SME055",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:00:00"
-  },
-  {
-    "event_id": "EVT0276",
-    "sme_id": "SME056",
-    "title": "Training",
-    "start_datetime": "2026-08-27T15:30:00",
-    "end_datetime": "2026-08-27T16:15:00"
-  },
-  {
-    "event_id": "EVT0277",
-    "sme_id": "SME056",
+    "event_id": "EVT0043",
+    "sme_id": "SME009",
     "title": "Office Hours",
-    "start_datetime": "2026-08-29T05:30:00",
-    "end_datetime": "2026-08-29T06:15:00"
-  },
-  {
-    "event_id": "EVT0278",
-    "sme_id": "SME056",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T10:30:00",
-    "end_datetime": "2026-08-27T11:30:00"
-  },
-  {
-    "event_id": "EVT0279",
-    "sme_id": "SME056",
-    "title": "Training",
-    "start_datetime": "2026-08-28T10:00:00",
-    "end_datetime": "2026-08-28T11:30:00"
-  },
-  {
-    "event_id": "EVT0280",
-    "sme_id": "SME056",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T06:30:00",
-    "end_datetime": "2026-08-28T08:00:00"
-  },
-  {
-    "event_id": "EVT0281",
-    "sme_id": "SME056",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-24T12:30:00",
-    "end_datetime": "2026-08-24T14:00:00"
-  },
-  {
-    "event_id": "EVT0282",
-    "sme_id": "SME057",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-30T02:00:00",
-    "end_datetime": "2026-08-30T03:30:00"
-  },
-  {
-    "event_id": "EVT0283",
-    "sme_id": "SME057",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T21:00:00",
-    "end_datetime": "2026-08-27T22:30:00"
-  },
-  {
-    "event_id": "EVT0284",
-    "sme_id": "SME057",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T17:30:00",
-    "end_datetime": "2026-08-25T18:15:00"
-  },
-  {
-    "event_id": "EVT0285",
-    "sme_id": "SME057",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T19:00:00",
-    "end_datetime": "2026-08-27T19:30:00"
-  },
-  {
-    "event_id": "EVT0286",
-    "sme_id": "SME057",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T16:30:00",
-    "end_datetime": "2026-08-28T18:00:00"
-  },
-  {
-    "event_id": "EVT0287",
-    "sme_id": "SME057",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T01:30:00",
-    "end_datetime": "2026-08-28T02:30:00"
-  },
-  {
-    "event_id": "EVT0288",
-    "sme_id": "SME057",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T21:00:00",
-    "end_datetime": "2026-08-25T21:30:00"
-  },
-  {
-    "event_id": "EVT0289",
-    "sme_id": "SME057",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T19:30:00",
-    "end_datetime": "2026-08-29T21:00:00"
-  },
-  {
-    "event_id": "EVT0290",
-    "sme_id": "SME058",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-26T09:00:00",
-    "end_datetime": "2026-08-26T09:45:00"
-  },
-  {
-    "event_id": "EVT0291",
-    "sme_id": "SME058",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T15:30:00",
-    "end_datetime": "2026-08-24T16:00:00"
-  },
-  {
-    "event_id": "EVT0292",
-    "sme_id": "SME058",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T04:00:00",
-    "end_datetime": "2026-08-28T05:30:00"
-  },
-  {
-    "event_id": "EVT0293",
-    "sme_id": "SME058",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T06:30:00",
-    "end_datetime": "2026-08-24T08:00:00"
-  },
-  {
-    "event_id": "EVT0294",
-    "sme_id": "SME058",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T15:30:00",
-    "end_datetime": "2026-08-29T16:30:00"
-  },
-  {
-    "event_id": "EVT0295",
-    "sme_id": "SME058",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T09:30:00",
-    "end_datetime": "2026-08-28T10:30:00"
-  },
-  {
-    "event_id": "EVT0296",
-    "sme_id": "SME058",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T06:00:00",
-    "end_datetime": "2026-08-25T06:45:00"
-  },
-  {
-    "event_id": "EVT0297",
-    "sme_id": "SME059",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T03:00:00",
-    "end_datetime": "2026-08-29T03:45:00"
-  },
-  {
-    "event_id": "EVT0298",
-    "sme_id": "SME059",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-29T08:00:00",
-    "end_datetime": "2026-08-29T08:30:00"
-  },
-  {
-    "event_id": "EVT0299",
-    "sme_id": "SME059",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T02:30:00",
-    "end_datetime": "2026-08-27T04:00:00"
-  },
-  {
-    "event_id": "EVT0300",
-    "sme_id": "SME060",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T05:00:00",
-    "end_datetime": "2026-08-25T06:30:00"
-  },
-  {
-    "event_id": "EVT0301",
-    "sme_id": "SME060",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T09:30:00",
-    "end_datetime": "2026-08-24T10:15:00"
-  },
-  {
-    "event_id": "EVT0302",
-    "sme_id": "SME060",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-28T08:30:00",
-    "end_datetime": "2026-08-28T09:30:00"
-  },
-  {
-    "event_id": "EVT0303",
-    "sme_id": "SME061",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T14:00:00",
-    "end_datetime": "2026-08-29T15:30:00"
-  },
-  {
-    "event_id": "EVT0304",
-    "sme_id": "SME061",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T12:00:00",
-    "end_datetime": "2026-08-29T12:30:00"
-  },
-  {
-    "event_id": "EVT0305",
-    "sme_id": "SME061",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T10:00:00",
-    "end_datetime": "2026-08-27T10:45:00"
-  },
-  {
-    "event_id": "EVT0306",
-    "sme_id": "SME062",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T21:30:00",
-    "end_datetime": "2026-08-24T22:00:00"
-  },
-  {
-    "event_id": "EVT0307",
-    "sme_id": "SME062",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T21:30:00",
-    "end_datetime": "2026-08-29T22:00:00"
-  },
-  {
-    "event_id": "EVT0308",
-    "sme_id": "SME062",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-29T01:30:00",
-    "end_datetime": "2026-08-29T03:00:00"
-  },
-  {
-    "event_id": "EVT0309",
-    "sme_id": "SME062",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T17:30:00",
-    "end_datetime": "2026-08-24T18:15:00"
-  },
-  {
-    "event_id": "EVT0310",
-    "sme_id": "SME062",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T22:00:00",
-    "end_datetime": "2026-08-26T22:45:00"
-  },
-  {
-    "event_id": "EVT0311",
-    "sme_id": "SME062",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-29T20:30:00",
-    "end_datetime": "2026-08-29T21:15:00"
-  },
-  {
-    "event_id": "EVT0312",
-    "sme_id": "SME062",
-    "title": "Training",
-    "start_datetime": "2026-08-30T02:30:00",
-    "end_datetime": "2026-08-30T04:00:00"
-  },
-  {
-    "event_id": "EVT0313",
-    "sme_id": "SME063",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T11:30:00",
-    "end_datetime": "2026-08-25T12:30:00"
-  },
-  {
-    "event_id": "EVT0314",
-    "sme_id": "SME063",
-    "title": "Interview Panel",
     "start_datetime": "2026-08-29T09:30:00",
-    "end_datetime": "2026-08-29T10:15:00"
-  },
-  {
-    "event_id": "EVT0315",
-    "sme_id": "SME063",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T10:00:00",
-    "end_datetime": "2026-08-27T10:45:00"
-  },
-  {
-    "event_id": "EVT0316",
-    "sme_id": "SME063",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T03:30:00"
-  },
-  {
-    "event_id": "EVT0317",
-    "sme_id": "SME063",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:15:00"
-  },
-  {
-    "event_id": "EVT0318",
-    "sme_id": "SME063",
-    "title": "Client Session",
-    "start_datetime": "2026-08-24T04:00:00",
-    "end_datetime": "2026-08-24T05:30:00"
-  },
-  {
-    "event_id": "EVT0319",
-    "sme_id": "SME064",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T03:30:00",
-    "end_datetime": "2026-08-25T05:00:00"
-  },
-  {
-    "event_id": "EVT0320",
-    "sme_id": "SME064",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-26T07:30:00",
-    "end_datetime": "2026-08-26T08:30:00"
-  },
-  {
-    "event_id": "EVT0321",
-    "sme_id": "SME064",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T10:30:00",
     "end_datetime": "2026-08-29T11:00:00"
   },
   {
-    "event_id": "EVT0322",
-    "sme_id": "SME064",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-27T03:30:00",
-    "end_datetime": "2026-08-27T04:00:00"
-  },
-  {
-    "event_id": "EVT0323",
-    "sme_id": "SME064",
-    "title": "Client Session",
-    "start_datetime": "2026-08-24T10:30:00",
-    "end_datetime": "2026-08-24T11:15:00"
-  },
-  {
-    "event_id": "EVT0324",
-    "sme_id": "SME064",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T07:30:00",
-    "end_datetime": "2026-08-25T08:30:00"
-  },
-  {
-    "event_id": "EVT0325",
-    "sme_id": "SME064",
+    "event_id": "EVT0044",
+    "sme_id": "SME009",
     "title": "Training",
-    "start_datetime": "2026-08-28T09:30:00",
-    "end_datetime": "2026-08-28T10:15:00"
+    "start_datetime": "2026-08-25T14:00:00",
+    "end_datetime": "2026-08-25T14:45:00"
   },
   {
-    "event_id": "EVT0326",
-    "sme_id": "SME065",
+    "event_id": "EVT0045",
+    "sme_id": "SME010",
     "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T05:00:00",
-    "end_datetime": "2026-08-25T06:30:00"
+    "start_datetime": "2026-08-27T13:30:00",
+    "end_datetime": "2026-08-27T14:00:00"
   },
   {
-    "event_id": "EVT0327",
-    "sme_id": "SME065",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T07:30:00",
-    "end_datetime": "2026-08-24T08:30:00"
+    "event_id": "EVT0046",
+    "sme_id": "SME010",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T07:30:00",
+    "end_datetime": "2026-08-29T08:30:00"
   },
   {
-    "event_id": "EVT0328",
-    "sme_id": "SME065",
-    "title": "Training",
-    "start_datetime": "2026-08-28T06:00:00",
-    "end_datetime": "2026-08-28T07:00:00"
+    "event_id": "EVT0047",
+    "sme_id": "SME010",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T13:30:00",
+    "end_datetime": "2026-08-26T14:00:00"
   },
   {
-    "event_id": "EVT0329",
-    "sme_id": "SME065",
+    "event_id": "EVT0048",
+    "sme_id": "SME010",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T04:00:00",
+    "end_datetime": "2026-08-24T05:00:00"
+  },
+  {
+    "event_id": "EVT0049",
+    "sme_id": "SME010",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-28T03:00:00",
+    "end_datetime": "2026-08-28T04:00:00"
+  },
+  {
+    "event_id": "EVT0050",
+    "sme_id": "SME010",
     "title": "Cohort Class",
     "start_datetime": "2026-08-29T10:30:00",
     "end_datetime": "2026-08-29T11:15:00"
   },
   {
-    "event_id": "EVT0330",
-    "sme_id": "SME065",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-28T10:00:00",
-    "end_datetime": "2026-08-28T10:45:00"
+    "event_id": "EVT0051",
+    "sme_id": "SME010",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T05:30:00",
+    "end_datetime": "2026-08-26T07:00:00"
   },
   {
-    "event_id": "EVT0331",
-    "sme_id": "SME066",
+    "event_id": "EVT0052",
+    "sme_id": "SME010",
+    "title": "Training",
+    "start_datetime": "2026-08-29T05:30:00",
+    "end_datetime": "2026-08-29T06:30:00"
+  },
+  {
+    "event_id": "EVT0053",
+    "sme_id": "SME011",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T13:00:00",
+    "end_datetime": "2026-08-28T14:00:00"
+  },
+  {
+    "event_id": "EVT0054",
+    "sme_id": "SME011",
     "title": "Office Hours",
+    "start_datetime": "2026-08-24T08:00:00",
+    "end_datetime": "2026-08-24T09:30:00"
+  },
+  {
+    "event_id": "EVT0055",
+    "sme_id": "SME011",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-28T10:30:00",
+    "end_datetime": "2026-08-28T12:00:00"
+  },
+  {
+    "event_id": "EVT0056",
+    "sme_id": "SME011",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T11:00:00",
+    "end_datetime": "2026-08-29T12:30:00"
+  },
+  {
+    "event_id": "EVT0057",
+    "sme_id": "SME011",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T12:30:00",
+    "end_datetime": "2026-08-26T13:15:00"
+  },
+  {
+    "event_id": "EVT0058",
+    "sme_id": "SME012",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T06:00:00",
+    "end_datetime": "2026-08-24T07:00:00"
+  },
+  {
+    "event_id": "EVT0059",
+    "sme_id": "SME012",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T02:30:00",
+    "end_datetime": "2026-08-24T03:00:00"
+  },
+  {
+    "event_id": "EVT0060",
+    "sme_id": "SME012",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T02:00:00",
+    "end_datetime": "2026-08-27T02:30:00"
+  },
+  {
+    "event_id": "EVT0061",
+    "sme_id": "SME013",
+    "title": "Training",
+    "start_datetime": "2026-08-29T10:30:00",
+    "end_datetime": "2026-08-29T12:00:00"
+  },
+  {
+    "event_id": "EVT0062",
+    "sme_id": "SME013",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T09:30:00",
+    "end_datetime": "2026-08-27T10:30:00"
+  },
+  {
+    "event_id": "EVT0063",
+    "sme_id": "SME013",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T02:30:00",
+    "end_datetime": "2026-08-24T03:30:00"
+  },
+  {
+    "event_id": "EVT0064",
+    "sme_id": "SME013",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T08:00:00",
+    "end_datetime": "2026-08-28T09:30:00"
+  },
+  {
+    "event_id": "EVT0065",
+    "sme_id": "SME013",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T14:00:00",
+    "end_datetime": "2026-08-29T15:30:00"
+  },
+  {
+    "event_id": "EVT0066",
+    "sme_id": "SME013",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T05:00:00",
+    "end_datetime": "2026-08-28T05:45:00"
+  },
+  {
+    "event_id": "EVT0067",
+    "sme_id": "SME014",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-27T12:30:00",
+    "end_datetime": "2026-08-27T13:00:00"
+  },
+  {
+    "event_id": "EVT0068",
+    "sme_id": "SME014",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T11:30:00",
+    "end_datetime": "2026-08-26T12:15:00"
+  },
+  {
+    "event_id": "EVT0069",
+    "sme_id": "SME014",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T18:30:00",
+    "end_datetime": "2026-08-25T19:15:00"
+  },
+  {
+    "event_id": "EVT0070",
+    "sme_id": "SME014",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T18:00:00",
+    "end_datetime": "2026-08-29T18:45:00"
+  },
+  {
+    "event_id": "EVT0071",
+    "sme_id": "SME015",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T17:00:00",
+    "end_datetime": "2026-08-24T18:30:00"
+  },
+  {
+    "event_id": "EVT0072",
+    "sme_id": "SME015",
+    "title": "Training",
+    "start_datetime": "2026-08-26T14:00:00",
+    "end_datetime": "2026-08-26T14:30:00"
+  },
+  {
+    "event_id": "EVT0073",
+    "sme_id": "SME015",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T14:30:00",
+    "end_datetime": "2026-08-28T15:00:00"
+  },
+  {
+    "event_id": "EVT0074",
+    "sme_id": "SME016",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-27T02:30:00",
+    "end_datetime": "2026-08-27T03:30:00"
+  },
+  {
+    "event_id": "EVT0075",
+    "sme_id": "SME016",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T11:30:00",
+    "end_datetime": "2026-08-24T12:30:00"
+  },
+  {
+    "event_id": "EVT0076",
+    "sme_id": "SME016",
+    "title": "Training",
+    "start_datetime": "2026-08-26T09:00:00",
+    "end_datetime": "2026-08-26T10:30:00"
+  },
+  {
+    "event_id": "EVT0077",
+    "sme_id": "SME016",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T01:30:00",
+    "end_datetime": "2026-08-29T02:00:00"
+  },
+  {
+    "event_id": "EVT0078",
+    "sme_id": "SME016",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T08:00:00",
+    "end_datetime": "2026-08-29T09:00:00"
+  },
+  {
+    "event_id": "EVT0079",
+    "sme_id": "SME016",
+    "title": "Training",
+    "start_datetime": "2026-08-27T09:00:00",
+    "end_datetime": "2026-08-27T10:30:00"
+  },
+  {
+    "event_id": "EVT0080",
+    "sme_id": "SME017",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-26T12:00:00",
+    "end_datetime": "2026-08-26T12:45:00"
+  },
+  {
+    "event_id": "EVT0081",
+    "sme_id": "SME017",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T12:00:00",
+    "end_datetime": "2026-08-25T13:30:00"
+  },
+  {
+    "event_id": "EVT0082",
+    "sme_id": "SME017",
+    "title": "Training",
+    "start_datetime": "2026-08-28T18:00:00",
+    "end_datetime": "2026-08-28T19:30:00"
+  },
+  {
+    "event_id": "EVT0083",
+    "sme_id": "SME018",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T10:30:00",
+    "end_datetime": "2026-08-28T11:30:00"
+  },
+  {
+    "event_id": "EVT0084",
+    "sme_id": "SME018",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T14:00:00",
+    "end_datetime": "2026-08-25T15:00:00"
+  },
+  {
+    "event_id": "EVT0085",
+    "sme_id": "SME018",
+    "title": "Training",
+    "start_datetime": "2026-08-26T03:00:00",
+    "end_datetime": "2026-08-26T04:00:00"
+  },
+  {
+    "event_id": "EVT0086",
+    "sme_id": "SME018",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T09:30:00",
+    "end_datetime": "2026-08-26T10:15:00"
+  },
+  {
+    "event_id": "EVT0087",
+    "sme_id": "SME018",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T09:00:00",
+    "end_datetime": "2026-08-29T10:00:00"
+  },
+  {
+    "event_id": "EVT0088",
+    "sme_id": "SME018",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-28T11:30:00",
+    "end_datetime": "2026-08-28T12:15:00"
+  },
+  {
+    "event_id": "EVT0089",
+    "sme_id": "SME018",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T08:30:00",
+    "end_datetime": "2026-08-28T09:00:00"
+  },
+  {
+    "event_id": "EVT0090",
+    "sme_id": "SME019",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T06:00:00",
+    "end_datetime": "2026-08-26T07:30:00"
+  },
+  {
+    "event_id": "EVT0091",
+    "sme_id": "SME019",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-25T03:00:00",
+    "end_datetime": "2026-08-25T04:30:00"
+  },
+  {
+    "event_id": "EVT0092",
+    "sme_id": "SME019",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T07:00:00",
+    "end_datetime": "2026-08-28T08:00:00"
+  },
+  {
+    "event_id": "EVT0093",
+    "sme_id": "SME019",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T07:30:00",
+    "end_datetime": "2026-08-26T08:15:00"
+  },
+  {
+    "event_id": "EVT0094",
+    "sme_id": "SME019",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T02:30:00",
+    "end_datetime": "2026-08-24T03:30:00"
+  },
+  {
+    "event_id": "EVT0095",
+    "sme_id": "SME019",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T10:30:00",
+    "end_datetime": "2026-08-24T12:00:00"
+  },
+  {
+    "event_id": "EVT0096",
+    "sme_id": "SME019",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T11:00:00",
+    "end_datetime": "2026-08-27T11:30:00"
+  },
+  {
+    "event_id": "EVT0097",
+    "sme_id": "SME019",
+    "title": "Training",
+    "start_datetime": "2026-08-29T10:30:00",
+    "end_datetime": "2026-08-29T11:00:00"
+  },
+  {
+    "event_id": "EVT0098",
+    "sme_id": "SME020",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T11:30:00",
+    "end_datetime": "2026-08-29T12:30:00"
+  },
+  {
+    "event_id": "EVT0099",
+    "sme_id": "SME020",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T02:30:00",
+    "end_datetime": "2026-08-28T03:30:00"
+  },
+  {
+    "event_id": "EVT0100",
+    "sme_id": "SME020",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T05:00:00",
+    "end_datetime": "2026-08-29T05:45:00"
+  },
+  {
+    "event_id": "EVT0101",
+    "sme_id": "SME020",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T08:00:00",
+    "end_datetime": "2026-08-26T09:00:00"
+  },
+  {
+    "event_id": "EVT0102",
+    "sme_id": "SME020",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-26T06:30:00",
+    "end_datetime": "2026-08-26T07:15:00"
+  },
+  {
+    "event_id": "EVT0103",
+    "sme_id": "SME020",
+    "title": "Training",
+    "start_datetime": "2026-08-24T11:30:00",
+    "end_datetime": "2026-08-24T12:30:00"
+  },
+  {
+    "event_id": "EVT0104",
+    "sme_id": "SME020",
+    "title": "Client Session",
+    "start_datetime": "2026-08-29T07:00:00",
+    "end_datetime": "2026-08-29T08:00:00"
+  },
+  {
+    "event_id": "EVT0105",
+    "sme_id": "SME021",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-28T05:00:00",
+    "end_datetime": "2026-08-28T05:30:00"
+  },
+  {
+    "event_id": "EVT0106",
+    "sme_id": "SME021",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T05:00:00",
+    "end_datetime": "2026-08-27T05:30:00"
+  },
+  {
+    "event_id": "EVT0107",
+    "sme_id": "SME021",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T08:00:00",
+    "end_datetime": "2026-08-25T08:45:00"
+  },
+  {
+    "event_id": "EVT0108",
+    "sme_id": "SME021",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T11:00:00",
+    "end_datetime": "2026-08-28T12:30:00"
+  },
+  {
+    "event_id": "EVT0109",
+    "sme_id": "SME021",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T01:00:00",
+    "end_datetime": "2026-08-24T01:30:00"
+  },
+  {
+    "event_id": "EVT0110",
+    "sme_id": "SME021",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T04:30:00",
+    "end_datetime": "2026-08-26T05:15:00"
+  },
+  {
+    "event_id": "EVT0111",
+    "sme_id": "SME021",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T08:30:00",
+    "end_datetime": "2026-08-28T09:15:00"
+  },
+  {
+    "event_id": "EVT0112",
+    "sme_id": "SME022",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T03:30:00",
+    "end_datetime": "2026-08-29T04:15:00"
+  },
+  {
+    "event_id": "EVT0113",
+    "sme_id": "SME022",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T06:00:00",
+    "end_datetime": "2026-08-29T06:45:00"
+  },
+  {
+    "event_id": "EVT0114",
+    "sme_id": "SME022",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T04:00:00",
+    "end_datetime": "2026-08-25T04:30:00"
+  },
+  {
+    "event_id": "EVT0115",
+    "sme_id": "SME023",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T10:00:00",
+    "end_datetime": "2026-08-27T10:45:00"
+  },
+  {
+    "event_id": "EVT0116",
+    "sme_id": "SME023",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T14:00:00",
+    "end_datetime": "2026-08-24T15:30:00"
+  },
+  {
+    "event_id": "EVT0117",
+    "sme_id": "SME023",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T04:00:00",
+    "end_datetime": "2026-08-26T05:00:00"
+  },
+  {
+    "event_id": "EVT0118",
+    "sme_id": "SME024",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T21:00:00",
+    "end_datetime": "2026-08-24T21:45:00"
+  },
+  {
+    "event_id": "EVT0119",
+    "sme_id": "SME024",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T17:00:00",
+    "end_datetime": "2026-08-29T17:30:00"
+  },
+  {
+    "event_id": "EVT0120",
+    "sme_id": "SME024",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T20:00:00",
+    "end_datetime": "2026-08-25T20:30:00"
+  },
+  {
+    "event_id": "EVT0121",
+    "sme_id": "SME025",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T15:00:00",
+    "end_datetime": "2026-08-24T15:45:00"
+  },
+  {
+    "event_id": "EVT0122",
+    "sme_id": "SME025",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-25T15:00:00",
+    "end_datetime": "2026-08-25T15:30:00"
+  },
+  {
+    "event_id": "EVT0123",
+    "sme_id": "SME025",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T18:30:00",
+    "end_datetime": "2026-08-28T19:30:00"
+  },
+  {
+    "event_id": "EVT0124",
+    "sme_id": "SME025",
+    "title": "Training",
+    "start_datetime": "2026-08-25T14:00:00",
+    "end_datetime": "2026-08-25T14:45:00"
+  },
+  {
+    "event_id": "EVT0125",
+    "sme_id": "SME025",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-27T13:00:00",
+    "end_datetime": "2026-08-27T13:45:00"
+  },
+  {
+    "event_id": "EVT0126",
+    "sme_id": "SME025",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T12:00:00",
+    "end_datetime": "2026-08-24T13:30:00"
+  },
+  {
+    "event_id": "EVT0127",
+    "sme_id": "SME025",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T09:30:00",
+    "end_datetime": "2026-08-28T10:30:00"
+  },
+  {
+    "event_id": "EVT0128",
+    "sme_id": "SME026",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T04:00:00",
+    "end_datetime": "2026-08-29T05:00:00"
+  },
+  {
+    "event_id": "EVT0129",
+    "sme_id": "SME026",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-24T10:30:00",
+    "end_datetime": "2026-08-24T12:00:00"
+  },
+  {
+    "event_id": "EVT0130",
+    "sme_id": "SME026",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-29T08:30:00",
+    "end_datetime": "2026-08-29T09:15:00"
+  },
+  {
+    "event_id": "EVT0131",
+    "sme_id": "SME026",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T08:30:00",
+    "end_datetime": "2026-08-27T09:15:00"
+  },
+  {
+    "event_id": "EVT0132",
+    "sme_id": "SME026",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T14:30:00",
+    "end_datetime": "2026-08-27T15:15:00"
+  },
+  {
+    "event_id": "EVT0133",
+    "sme_id": "SME026",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T11:00:00",
+    "end_datetime": "2026-08-29T12:30:00"
+  },
+  {
+    "event_id": "EVT0134",
+    "sme_id": "SME026",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T14:30:00"
+  },
+  {
+    "event_id": "EVT0135",
+    "sme_id": "SME027",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T13:30:00",
+    "end_datetime": "2026-08-27T14:15:00"
+  },
+  {
+    "event_id": "EVT0136",
+    "sme_id": "SME027",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T06:00:00",
+    "end_datetime": "2026-08-26T06:45:00"
+  },
+  {
+    "event_id": "EVT0137",
+    "sme_id": "SME027",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T03:30:00",
+    "end_datetime": "2026-08-27T05:00:00"
+  },
+  {
+    "event_id": "EVT0138",
+    "sme_id": "SME027",
+    "title": "Training",
+    "start_datetime": "2026-08-26T14:00:00",
+    "end_datetime": "2026-08-26T15:30:00"
+  },
+  {
+    "event_id": "EVT0139",
+    "sme_id": "SME027",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T06:30:00",
+    "end_datetime": "2026-08-28T08:00:00"
+  },
+  {
+    "event_id": "EVT0140",
+    "sme_id": "SME027",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-24T07:00:00",
+    "end_datetime": "2026-08-24T08:30:00"
+  },
+  {
+    "event_id": "EVT0141",
+    "sme_id": "SME028",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T00:00:00",
+    "end_datetime": "2026-08-25T00:30:00"
+  },
+  {
+    "event_id": "EVT0142",
+    "sme_id": "SME028",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-27T10:00:00",
+    "end_datetime": "2026-08-27T10:45:00"
+  },
+  {
+    "event_id": "EVT0143",
+    "sme_id": "SME028",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T10:30:00",
+    "end_datetime": "2026-08-28T11:15:00"
+  },
+  {
+    "event_id": "EVT0144",
+    "sme_id": "SME028",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-28T09:00:00",
+    "end_datetime": "2026-08-28T09:30:00"
+  },
+  {
+    "event_id": "EVT0145",
+    "sme_id": "SME028",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T07:00:00",
+    "end_datetime": "2026-08-27T08:00:00"
+  },
+  {
+    "event_id": "EVT0146",
+    "sme_id": "SME028",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T08:30:00",
+    "end_datetime": "2026-08-27T09:30:00"
+  },
+  {
+    "event_id": "EVT0147",
+    "sme_id": "SME028",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T00:00:00",
+    "end_datetime": "2026-08-28T01:30:00"
+  },
+  {
+    "event_id": "EVT0148",
+    "sme_id": "SME028",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T08:30:00",
+    "end_datetime": "2026-08-25T09:15:00"
+  },
+  {
+    "event_id": "EVT0149",
+    "sme_id": "SME029",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T04:30:00",
+    "end_datetime": "2026-08-25T06:00:00"
+  },
+  {
+    "event_id": "EVT0150",
+    "sme_id": "SME029",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T10:30:00",
+    "end_datetime": "2026-08-28T12:00:00"
+  },
+  {
+    "event_id": "EVT0151",
+    "sme_id": "SME029",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T02:00:00",
+    "end_datetime": "2026-08-28T03:30:00"
+  },
+  {
+    "event_id": "EVT0152",
+    "sme_id": "SME029",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T09:30:00",
+    "end_datetime": "2026-08-27T10:30:00"
+  },
+  {
+    "event_id": "EVT0153",
+    "sme_id": "SME029",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-26T00:00:00",
+    "end_datetime": "2026-08-26T00:30:00"
+  },
+  {
+    "event_id": "EVT0154",
+    "sme_id": "SME029",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-26T05:00:00",
+    "end_datetime": "2026-08-26T06:00:00"
+  },
+  {
+    "event_id": "EVT0155",
+    "sme_id": "SME030",
+    "title": "Training",
+    "start_datetime": "2026-08-27T05:30:00",
+    "end_datetime": "2026-08-27T07:00:00"
+  },
+  {
+    "event_id": "EVT0156",
+    "sme_id": "SME030",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-24T10:00:00",
+    "end_datetime": "2026-08-24T10:45:00"
+  },
+  {
+    "event_id": "EVT0157",
+    "sme_id": "SME030",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T04:00:00",
+    "end_datetime": "2026-08-29T04:30:00"
+  },
+  {
+    "event_id": "EVT0158",
+    "sme_id": "SME031",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T02:00:00",
+    "end_datetime": "2026-08-26T03:00:00"
+  },
+  {
+    "event_id": "EVT0159",
+    "sme_id": "SME031",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T10:30:00",
+    "end_datetime": "2026-08-27T12:00:00"
+  },
+  {
+    "event_id": "EVT0160",
+    "sme_id": "SME031",
+    "title": "Training",
+    "start_datetime": "2026-08-24T11:30:00",
+    "end_datetime": "2026-08-24T12:00:00"
+  },
+  {
+    "event_id": "EVT0161",
+    "sme_id": "SME032",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T09:00:00",
+    "end_datetime": "2026-08-28T09:30:00"
+  },
+  {
+    "event_id": "EVT0162",
+    "sme_id": "SME032",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T13:30:00",
+    "end_datetime": "2026-08-24T14:30:00"
+  },
+  {
+    "event_id": "EVT0163",
+    "sme_id": "SME032",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T13:00:00",
+    "end_datetime": "2026-08-28T13:45:00"
+  },
+  {
+    "event_id": "EVT0164",
+    "sme_id": "SME032",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T08:00:00",
+    "end_datetime": "2026-08-26T08:45:00"
+  },
+  {
+    "event_id": "EVT0165",
+    "sme_id": "SME032",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T03:30:00",
+    "end_datetime": "2026-08-29T04:30:00"
+  },
+  {
+    "event_id": "EVT0166",
+    "sme_id": "SME032",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-24T07:00:00",
+    "end_datetime": "2026-08-24T07:45:00"
+  },
+  {
+    "event_id": "EVT0167",
+    "sme_id": "SME033",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T13:30:00",
+    "end_datetime": "2026-08-24T14:30:00"
+  },
+  {
+    "event_id": "EVT0168",
+    "sme_id": "SME033",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-24T12:00:00",
+    "end_datetime": "2026-08-24T13:30:00"
+  },
+  {
+    "event_id": "EVT0169",
+    "sme_id": "SME033",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-26T04:00:00",
+    "end_datetime": "2026-08-26T05:00:00"
+  },
+  {
+    "event_id": "EVT0170",
+    "sme_id": "SME033",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T11:00:00",
+    "end_datetime": "2026-08-29T11:45:00"
+  },
+  {
+    "event_id": "EVT0171",
+    "sme_id": "SME033",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T07:00:00",
+    "end_datetime": "2026-08-27T07:45:00"
+  },
+  {
+    "event_id": "EVT0172",
+    "sme_id": "SME033",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T13:30:00",
+    "end_datetime": "2026-08-29T15:00:00"
+  },
+  {
+    "event_id": "EVT0173",
+    "sme_id": "SME033",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-28T06:00:00",
+    "end_datetime": "2026-08-28T07:30:00"
+  },
+  {
+    "event_id": "EVT0174",
+    "sme_id": "SME033",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T05:00:00",
+    "end_datetime": "2026-08-25T06:30:00"
+  },
+  {
+    "event_id": "EVT0175",
+    "sme_id": "SME034",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T12:30:00",
+    "end_datetime": "2026-08-24T14:00:00"
+  },
+  {
+    "event_id": "EVT0176",
+    "sme_id": "SME034",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T12:30:00",
+    "end_datetime": "2026-08-26T13:30:00"
+  },
+  {
+    "event_id": "EVT0177",
+    "sme_id": "SME034",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T08:30:00",
+    "end_datetime": "2026-08-25T09:00:00"
+  },
+  {
+    "event_id": "EVT0178",
+    "sme_id": "SME034",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T02:30:00",
+    "end_datetime": "2026-08-25T03:30:00"
+  },
+  {
+    "event_id": "EVT0179",
+    "sme_id": "SME034",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T11:00:00",
+    "end_datetime": "2026-08-27T12:30:00"
+  },
+  {
+    "event_id": "EVT0180",
+    "sme_id": "SME035",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-25T04:00:00",
+    "end_datetime": "2026-08-25T04:30:00"
+  },
+  {
+    "event_id": "EVT0181",
+    "sme_id": "SME035",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T10:00:00",
+    "end_datetime": "2026-08-26T10:30:00"
+  },
+  {
+    "event_id": "EVT0182",
+    "sme_id": "SME035",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-24T00:00:00",
+    "end_datetime": "2026-08-24T01:00:00"
+  },
+  {
+    "event_id": "EVT0183",
+    "sme_id": "SME035",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T01:30:00",
+    "end_datetime": "2026-08-26T02:30:00"
+  },
+  {
+    "event_id": "EVT0184",
+    "sme_id": "SME036",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T04:30:00",
+    "end_datetime": "2026-08-29T05:00:00"
+  },
+  {
+    "event_id": "EVT0185",
+    "sme_id": "SME036",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T10:30:00",
+    "end_datetime": "2026-08-29T11:30:00"
+  },
+  {
+    "event_id": "EVT0186",
+    "sme_id": "SME036",
+    "title": "Training",
+    "start_datetime": "2026-08-24T05:30:00",
+    "end_datetime": "2026-08-24T06:30:00"
+  },
+  {
+    "event_id": "EVT0187",
+    "sme_id": "SME036",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T14:45:00"
+  },
+  {
+    "event_id": "EVT0188",
+    "sme_id": "SME036",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-25T04:30:00",
+    "end_datetime": "2026-08-25T05:15:00"
+  },
+  {
+    "event_id": "EVT0189",
+    "sme_id": "SME036",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T10:00:00",
+    "end_datetime": "2026-08-26T11:00:00"
+  },
+  {
+    "event_id": "EVT0190",
+    "sme_id": "SME037",
+    "title": "Training",
+    "start_datetime": "2026-08-27T11:00:00",
+    "end_datetime": "2026-08-27T11:30:00"
+  },
+  {
+    "event_id": "EVT0191",
+    "sme_id": "SME037",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T09:00:00",
+    "end_datetime": "2026-08-28T09:45:00"
+  },
+  {
+    "event_id": "EVT0192",
+    "sme_id": "SME037",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-25T08:00:00",
+    "end_datetime": "2026-08-25T09:00:00"
+  },
+  {
+    "event_id": "EVT0193",
+    "sme_id": "SME038",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T11:30:00",
+    "end_datetime": "2026-08-29T12:00:00"
+  },
+  {
+    "event_id": "EVT0194",
+    "sme_id": "SME038",
+    "title": "Training",
+    "start_datetime": "2026-08-26T11:00:00",
+    "end_datetime": "2026-08-26T12:00:00"
+  },
+  {
+    "event_id": "EVT0195",
+    "sme_id": "SME038",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T03:30:00",
+    "end_datetime": "2026-08-29T05:00:00"
+  },
+  {
+    "event_id": "EVT0196",
+    "sme_id": "SME039",
+    "title": "Interview Panel",
     "start_datetime": "2026-08-27T19:30:00",
     "end_datetime": "2026-08-27T20:00:00"
   },
   {
-    "event_id": "EVT0332",
-    "sme_id": "SME066",
+    "event_id": "EVT0197",
+    "sme_id": "SME039",
     "title": "Training",
-    "start_datetime": "2026-08-25T12:00:00",
-    "end_datetime": "2026-08-25T12:30:00"
+    "start_datetime": "2026-08-26T18:00:00",
+    "end_datetime": "2026-08-26T19:30:00"
+  },
+  {
+    "event_id": "EVT0198",
+    "sme_id": "SME039",
+    "title": "Client Session",
+    "start_datetime": "2026-08-29T21:00:00",
+    "end_datetime": "2026-08-29T22:00:00"
+  },
+  {
+    "event_id": "EVT0199",
+    "sme_id": "SME040",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-27T14:00:00",
+    "end_datetime": "2026-08-27T15:00:00"
+  },
+  {
+    "event_id": "EVT0200",
+    "sme_id": "SME040",
+    "title": "Training",
+    "start_datetime": "2026-08-24T05:00:00",
+    "end_datetime": "2026-08-24T05:30:00"
+  },
+  {
+    "event_id": "EVT0201",
+    "sme_id": "SME040",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T12:00:00",
+    "end_datetime": "2026-08-27T13:30:00"
+  },
+  {
+    "event_id": "EVT0202",
+    "sme_id": "SME040",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T12:30:00",
+    "end_datetime": "2026-08-24T14:00:00"
+  },
+  {
+    "event_id": "EVT0203",
+    "sme_id": "SME040",
+    "title": "Training",
+    "start_datetime": "2026-08-24T08:30:00",
+    "end_datetime": "2026-08-24T09:30:00"
+  },
+  {
+    "event_id": "EVT0204",
+    "sme_id": "SME040",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-28T03:30:00",
+    "end_datetime": "2026-08-28T04:15:00"
+  },
+  {
+    "event_id": "EVT0205",
+    "sme_id": "SME041",
+    "title": "Training",
+    "start_datetime": "2026-08-29T12:30:00",
+    "end_datetime": "2026-08-29T14:00:00"
+  },
+  {
+    "event_id": "EVT0206",
+    "sme_id": "SME041",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-27T09:30:00",
+    "end_datetime": "2026-08-27T10:30:00"
+  },
+  {
+    "event_id": "EVT0207",
+    "sme_id": "SME041",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T04:00:00",
+    "end_datetime": "2026-08-25T05:00:00"
+  },
+  {
+    "event_id": "EVT0208",
+    "sme_id": "SME041",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T08:30:00",
+    "end_datetime": "2026-08-27T09:00:00"
+  },
+  {
+    "event_id": "EVT0209",
+    "sme_id": "SME041",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T12:30:00",
+    "end_datetime": "2026-08-28T13:00:00"
+  },
+  {
+    "event_id": "EVT0210",
+    "sme_id": "SME041",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T06:30:00",
+    "end_datetime": "2026-08-25T07:00:00"
+  },
+  {
+    "event_id": "EVT0211",
+    "sme_id": "SME041",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T09:00:00",
+    "end_datetime": "2026-08-28T09:45:00"
+  },
+  {
+    "event_id": "EVT0212",
+    "sme_id": "SME042",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T16:00:00",
+    "end_datetime": "2026-08-25T16:30:00"
+  },
+  {
+    "event_id": "EVT0213",
+    "sme_id": "SME042",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T14:30:00",
+    "end_datetime": "2026-08-27T15:00:00"
+  },
+  {
+    "event_id": "EVT0214",
+    "sme_id": "SME042",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T10:00:00",
+    "end_datetime": "2026-08-29T11:00:00"
+  },
+  {
+    "event_id": "EVT0215",
+    "sme_id": "SME042",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T14:30:00",
+    "end_datetime": "2026-08-29T15:15:00"
+  },
+  {
+    "event_id": "EVT0216",
+    "sme_id": "SME042",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T17:00:00",
+    "end_datetime": "2026-08-29T18:30:00"
+  },
+  {
+    "event_id": "EVT0217",
+    "sme_id": "SME043",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-25T15:30:00",
+    "end_datetime": "2026-08-25T16:30:00"
+  },
+  {
+    "event_id": "EVT0218",
+    "sme_id": "SME043",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T22:00:00",
+    "end_datetime": "2026-08-28T23:00:00"
+  },
+  {
+    "event_id": "EVT0219",
+    "sme_id": "SME043",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-30T01:30:00",
+    "end_datetime": "2026-08-30T02:00:00"
+  },
+  {
+    "event_id": "EVT0220",
+    "sme_id": "SME043",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T17:30:00",
+    "end_datetime": "2026-08-27T19:00:00"
+  },
+  {
+    "event_id": "EVT0221",
+    "sme_id": "SME043",
+    "title": "Client Session",
+    "start_datetime": "2026-08-29T21:30:00",
+    "end_datetime": "2026-08-29T22:30:00"
+  },
+  {
+    "event_id": "EVT0222",
+    "sme_id": "SME043",
+    "title": "Training",
+    "start_datetime": "2026-08-24T23:00:00",
+    "end_datetime": "2026-08-24T23:30:00"
+  },
+  {
+    "event_id": "EVT0223",
+    "sme_id": "SME044",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T05:00:00",
+    "end_datetime": "2026-08-27T05:30:00"
+  },
+  {
+    "event_id": "EVT0224",
+    "sme_id": "SME044",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T09:30:00",
+    "end_datetime": "2026-08-28T10:30:00"
+  },
+  {
+    "event_id": "EVT0225",
+    "sme_id": "SME044",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T05:00:00",
+    "end_datetime": "2026-08-29T05:30:00"
+  },
+  {
+    "event_id": "EVT0226",
+    "sme_id": "SME044",
+    "title": "Training",
+    "start_datetime": "2026-08-25T04:00:00",
+    "end_datetime": "2026-08-25T05:30:00"
+  },
+  {
+    "event_id": "EVT0227",
+    "sme_id": "SME045",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T04:00:00",
+    "end_datetime": "2026-08-25T05:30:00"
+  },
+  {
+    "event_id": "EVT0228",
+    "sme_id": "SME045",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-26T04:00:00",
+    "end_datetime": "2026-08-26T04:30:00"
+  },
+  {
+    "event_id": "EVT0229",
+    "sme_id": "SME045",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T07:00:00",
+    "end_datetime": "2026-08-27T08:30:00"
+  },
+  {
+    "event_id": "EVT0230",
+    "sme_id": "SME045",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-26T12:00:00",
+    "end_datetime": "2026-08-26T13:00:00"
+  },
+  {
+    "event_id": "EVT0231",
+    "sme_id": "SME045",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T08:00:00",
+    "end_datetime": "2026-08-25T08:45:00"
+  },
+  {
+    "event_id": "EVT0232",
+    "sme_id": "SME045",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T13:00:00",
+    "end_datetime": "2026-08-29T13:30:00"
+  },
+  {
+    "event_id": "EVT0233",
+    "sme_id": "SME046",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T05:30:00",
+    "end_datetime": "2026-08-24T06:00:00"
+  },
+  {
+    "event_id": "EVT0234",
+    "sme_id": "SME046",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T05:00:00",
+    "end_datetime": "2026-08-26T06:30:00"
+  },
+  {
+    "event_id": "EVT0235",
+    "sme_id": "SME046",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T03:00:00",
+    "end_datetime": "2026-08-27T04:00:00"
+  },
+  {
+    "event_id": "EVT0236",
+    "sme_id": "SME046",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-27T10:00:00",
+    "end_datetime": "2026-08-27T10:30:00"
+  },
+  {
+    "event_id": "EVT0237",
+    "sme_id": "SME047",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-26T01:00:00",
+    "end_datetime": "2026-08-26T02:00:00"
+  },
+  {
+    "event_id": "EVT0238",
+    "sme_id": "SME047",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-25T11:30:00",
+    "end_datetime": "2026-08-25T12:15:00"
+  },
+  {
+    "event_id": "EVT0239",
+    "sme_id": "SME047",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T08:00:00",
+    "end_datetime": "2026-08-24T09:30:00"
+  },
+  {
+    "event_id": "EVT0240",
+    "sme_id": "SME048",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T01:00:00",
+    "end_datetime": "2026-08-28T02:00:00"
+  },
+  {
+    "event_id": "EVT0241",
+    "sme_id": "SME048",
+    "title": "Training",
+    "start_datetime": "2026-08-27T01:00:00",
+    "end_datetime": "2026-08-27T02:30:00"
+  },
+  {
+    "event_id": "EVT0242",
+    "sme_id": "SME048",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T16:30:00",
+    "end_datetime": "2026-08-28T17:15:00"
+  },
+  {
+    "event_id": "EVT0243",
+    "sme_id": "SME048",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T22:30:00",
+    "end_datetime": "2026-08-25T00:00:00"
+  },
+  {
+    "event_id": "EVT0244",
+    "sme_id": "SME049",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T15:30:00",
+    "end_datetime": "2026-08-29T16:00:00"
+  },
+  {
+    "event_id": "EVT0245",
+    "sme_id": "SME049",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T20:00:00",
+    "end_datetime": "2026-08-27T20:45:00"
+  },
+  {
+    "event_id": "EVT0246",
+    "sme_id": "SME049",
+    "title": "Client Session",
+    "start_datetime": "2026-08-29T19:30:00",
+    "end_datetime": "2026-08-29T20:00:00"
+  },
+  {
+    "event_id": "EVT0247",
+    "sme_id": "SME049",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T00:30:00",
+    "end_datetime": "2026-08-29T01:00:00"
+  },
+  {
+    "event_id": "EVT0248",
+    "sme_id": "SME049",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T17:00:00",
+    "end_datetime": "2026-08-26T18:30:00"
+  },
+  {
+    "event_id": "EVT0249",
+    "sme_id": "SME049",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T18:00:00",
+    "end_datetime": "2026-08-24T19:30:00"
+  },
+  {
+    "event_id": "EVT0250",
+    "sme_id": "SME049",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T01:00:00",
+    "end_datetime": "2026-08-27T01:30:00"
+  },
+  {
+    "event_id": "EVT0251",
+    "sme_id": "SME050",
+    "title": "Training",
+    "start_datetime": "2026-08-27T14:00:00",
+    "end_datetime": "2026-08-27T14:45:00"
+  },
+  {
+    "event_id": "EVT0252",
+    "sme_id": "SME050",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T04:00:00",
+    "end_datetime": "2026-08-29T04:45:00"
+  },
+  {
+    "event_id": "EVT0253",
+    "sme_id": "SME050",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T09:00:00",
+    "end_datetime": "2026-08-27T10:00:00"
+  },
+  {
+    "event_id": "EVT0254",
+    "sme_id": "SME050",
+    "title": "Training",
+    "start_datetime": "2026-08-28T08:30:00",
+    "end_datetime": "2026-08-28T10:00:00"
+  },
+  {
+    "event_id": "EVT0255",
+    "sme_id": "SME050",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T05:00:00",
+    "end_datetime": "2026-08-28T06:30:00"
+  },
+  {
+    "event_id": "EVT0256",
+    "sme_id": "SME050",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-24T11:00:00",
+    "end_datetime": "2026-08-24T12:30:00"
+  },
+  {
+    "event_id": "EVT0257",
+    "sme_id": "SME051",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-29T11:00:00",
+    "end_datetime": "2026-08-29T12:30:00"
+  },
+  {
+    "event_id": "EVT0258",
+    "sme_id": "SME051",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T06:00:00",
+    "end_datetime": "2026-08-27T07:30:00"
+  },
+  {
+    "event_id": "EVT0259",
+    "sme_id": "SME051",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T02:30:00",
+    "end_datetime": "2026-08-25T03:15:00"
+  },
+  {
+    "event_id": "EVT0260",
+    "sme_id": "SME051",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T04:00:00",
+    "end_datetime": "2026-08-27T04:30:00"
+  },
+  {
+    "event_id": "EVT0261",
+    "sme_id": "SME051",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T01:30:00",
+    "end_datetime": "2026-08-28T03:00:00"
+  },
+  {
+    "event_id": "EVT0262",
+    "sme_id": "SME051",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T10:30:00",
+    "end_datetime": "2026-08-27T11:30:00"
+  },
+  {
+    "event_id": "EVT0263",
+    "sme_id": "SME051",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T06:00:00",
+    "end_datetime": "2026-08-25T06:30:00"
+  },
+  {
+    "event_id": "EVT0264",
+    "sme_id": "SME051",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T04:30:00",
+    "end_datetime": "2026-08-29T06:00:00"
+  },
+  {
+    "event_id": "EVT0265",
+    "sme_id": "SME052",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-26T07:30:00",
+    "end_datetime": "2026-08-26T08:15:00"
+  },
+  {
+    "event_id": "EVT0266",
+    "sme_id": "SME052",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T14:00:00",
+    "end_datetime": "2026-08-24T14:30:00"
+  },
+  {
+    "event_id": "EVT0267",
+    "sme_id": "SME052",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T02:30:00",
+    "end_datetime": "2026-08-28T04:00:00"
+  },
+  {
+    "event_id": "EVT0268",
+    "sme_id": "SME052",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T05:00:00",
+    "end_datetime": "2026-08-24T06:30:00"
+  },
+  {
+    "event_id": "EVT0269",
+    "sme_id": "SME052",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T14:00:00",
+    "end_datetime": "2026-08-29T15:00:00"
+  },
+  {
+    "event_id": "EVT0270",
+    "sme_id": "SME052",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T08:00:00",
+    "end_datetime": "2026-08-28T09:00:00"
+  },
+  {
+    "event_id": "EVT0271",
+    "sme_id": "SME052",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T04:30:00",
+    "end_datetime": "2026-08-25T05:15:00"
+  },
+  {
+    "event_id": "EVT0272",
+    "sme_id": "SME053",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T05:30:00",
+    "end_datetime": "2026-08-29T06:15:00"
+  },
+  {
+    "event_id": "EVT0273",
+    "sme_id": "SME053",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T10:30:00",
+    "end_datetime": "2026-08-29T11:00:00"
+  },
+  {
+    "event_id": "EVT0274",
+    "sme_id": "SME053",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T05:00:00",
+    "end_datetime": "2026-08-27T06:30:00"
+  },
+  {
+    "event_id": "EVT0275",
+    "sme_id": "SME054",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T14:30:00",
+    "end_datetime": "2026-08-25T16:00:00"
+  },
+  {
+    "event_id": "EVT0276",
+    "sme_id": "SME054",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T19:00:00",
+    "end_datetime": "2026-08-24T19:45:00"
+  },
+  {
+    "event_id": "EVT0277",
+    "sme_id": "SME054",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T18:00:00",
+    "end_datetime": "2026-08-28T19:00:00"
+  },
+  {
+    "event_id": "EVT0278",
+    "sme_id": "SME055",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T14:00:00",
+    "end_datetime": "2026-08-29T15:30:00"
+  },
+  {
+    "event_id": "EVT0279",
+    "sme_id": "SME055",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T12:00:00",
+    "end_datetime": "2026-08-29T12:30:00"
+  },
+  {
+    "event_id": "EVT0280",
+    "sme_id": "SME055",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T10:00:00",
+    "end_datetime": "2026-08-27T10:45:00"
+  },
+  {
+    "event_id": "EVT0281",
+    "sme_id": "SME056",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T10:30:00",
+    "end_datetime": "2026-08-24T11:00:00"
+  },
+  {
+    "event_id": "EVT0282",
+    "sme_id": "SME056",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T10:30:00",
+    "end_datetime": "2026-08-29T11:00:00"
+  },
+  {
+    "event_id": "EVT0283",
+    "sme_id": "SME056",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T14:30:00",
+    "end_datetime": "2026-08-28T16:00:00"
+  },
+  {
+    "event_id": "EVT0284",
+    "sme_id": "SME056",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T06:30:00",
+    "end_datetime": "2026-08-24T07:15:00"
+  },
+  {
+    "event_id": "EVT0285",
+    "sme_id": "SME056",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T11:00:00",
+    "end_datetime": "2026-08-26T11:45:00"
+  },
+  {
+    "event_id": "EVT0286",
+    "sme_id": "SME056",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T09:30:00",
+    "end_datetime": "2026-08-29T10:15:00"
+  },
+  {
+    "event_id": "EVT0287",
+    "sme_id": "SME056",
+    "title": "Training",
+    "start_datetime": "2026-08-29T15:30:00",
+    "end_datetime": "2026-08-29T17:00:00"
+  },
+  {
+    "event_id": "EVT0288",
+    "sme_id": "SME057",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T00:00:00",
+    "end_datetime": "2026-08-26T01:00:00"
+  },
+  {
+    "event_id": "EVT0289",
+    "sme_id": "SME057",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T22:00:00",
+    "end_datetime": "2026-08-29T22:45:00"
+  },
+  {
+    "event_id": "EVT0290",
+    "sme_id": "SME057",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T22:30:00",
+    "end_datetime": "2026-08-27T23:15:00"
+  },
+  {
+    "event_id": "EVT0291",
+    "sme_id": "SME057",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T15:00:00",
+    "end_datetime": "2026-08-28T16:00:00"
+  },
+  {
+    "event_id": "EVT0292",
+    "sme_id": "SME057",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T01:00:00",
+    "end_datetime": "2026-08-27T01:45:00"
+  },
+  {
+    "event_id": "EVT0293",
+    "sme_id": "SME057",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T16:30:00",
+    "end_datetime": "2026-08-24T18:00:00"
+  },
+  {
+    "event_id": "EVT0294",
+    "sme_id": "SME058",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-25T05:00:00",
+    "end_datetime": "2026-08-25T06:30:00"
+  },
+  {
+    "event_id": "EVT0295",
+    "sme_id": "SME058",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-26T09:00:00",
+    "end_datetime": "2026-08-26T10:00:00"
+  },
+  {
+    "event_id": "EVT0296",
+    "sme_id": "SME058",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T12:00:00",
+    "end_datetime": "2026-08-29T12:30:00"
+  },
+  {
+    "event_id": "EVT0297",
+    "sme_id": "SME058",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T05:00:00",
+    "end_datetime": "2026-08-27T05:30:00"
+  },
+  {
+    "event_id": "EVT0298",
+    "sme_id": "SME058",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T12:00:00",
+    "end_datetime": "2026-08-24T12:45:00"
+  },
+  {
+    "event_id": "EVT0299",
+    "sme_id": "SME058",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T09:00:00",
+    "end_datetime": "2026-08-25T10:00:00"
+  },
+  {
+    "event_id": "EVT0300",
+    "sme_id": "SME058",
+    "title": "Training",
+    "start_datetime": "2026-08-28T11:00:00",
+    "end_datetime": "2026-08-28T11:45:00"
+  },
+  {
+    "event_id": "EVT0301",
+    "sme_id": "SME059",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T01:00:00",
+    "end_datetime": "2026-08-25T02:30:00"
+  },
+  {
+    "event_id": "EVT0302",
+    "sme_id": "SME059",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T03:30:00",
+    "end_datetime": "2026-08-24T04:30:00"
+  },
+  {
+    "event_id": "EVT0303",
+    "sme_id": "SME059",
+    "title": "Training",
+    "start_datetime": "2026-08-28T02:00:00",
+    "end_datetime": "2026-08-28T03:00:00"
+  },
+  {
+    "event_id": "EVT0304",
+    "sme_id": "SME059",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T06:30:00",
+    "end_datetime": "2026-08-29T07:15:00"
+  },
+  {
+    "event_id": "EVT0305",
+    "sme_id": "SME059",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T06:00:00",
+    "end_datetime": "2026-08-28T06:45:00"
+  },
+  {
+    "event_id": "EVT0306",
+    "sme_id": "SME060",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T10:00:00",
+    "end_datetime": "2026-08-27T10:30:00"
+  },
+  {
+    "event_id": "EVT0307",
+    "sme_id": "SME060",
+    "title": "Training",
+    "start_datetime": "2026-08-25T02:30:00",
+    "end_datetime": "2026-08-25T03:00:00"
+  },
+  {
+    "event_id": "EVT0308",
+    "sme_id": "SME060",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T08:30:00",
+    "end_datetime": "2026-08-26T10:00:00"
+  },
+  {
+    "event_id": "EVT0309",
+    "sme_id": "SME060",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T02:30:00",
+    "end_datetime": "2026-08-27T03:00:00"
+  },
+  {
+    "event_id": "EVT0310",
+    "sme_id": "SME060",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T14:00:00",
+    "end_datetime": "2026-08-29T15:00:00"
+  },
+  {
+    "event_id": "EVT0311",
+    "sme_id": "SME060",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T10:30:00",
+    "end_datetime": "2026-08-26T12:00:00"
+  },
+  {
+    "event_id": "EVT0312",
+    "sme_id": "SME061",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T11:00:00",
+    "end_datetime": "2026-08-25T12:00:00"
+  },
+  {
+    "event_id": "EVT0313",
+    "sme_id": "SME061",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T06:30:00",
+    "end_datetime": "2026-08-25T07:00:00"
+  },
+  {
+    "event_id": "EVT0314",
+    "sme_id": "SME061",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-26T08:30:00",
+    "end_datetime": "2026-08-26T09:30:00"
+  },
+  {
+    "event_id": "EVT0315",
+    "sme_id": "SME061",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T11:00:00",
+    "end_datetime": "2026-08-24T12:00:00"
+  },
+  {
+    "event_id": "EVT0316",
+    "sme_id": "SME061",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T03:00:00",
+    "end_datetime": "2026-08-24T03:45:00"
+  },
+  {
+    "event_id": "EVT0317",
+    "sme_id": "SME061",
+    "title": "Training",
+    "start_datetime": "2026-08-29T08:30:00",
+    "end_datetime": "2026-08-29T09:00:00"
+  },
+  {
+    "event_id": "EVT0318",
+    "sme_id": "SME061",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T13:00:00",
+    "end_datetime": "2026-08-26T13:30:00"
+  },
+  {
+    "event_id": "EVT0319",
+    "sme_id": "SME061",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T04:00:00",
+    "end_datetime": "2026-08-29T05:00:00"
+  },
+  {
+    "event_id": "EVT0320",
+    "sme_id": "SME062",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-24T22:30:00",
+    "end_datetime": "2026-08-24T23:15:00"
+  },
+  {
+    "event_id": "EVT0321",
+    "sme_id": "SME062",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-29T02:00:00",
+    "end_datetime": "2026-08-29T03:00:00"
+  },
+  {
+    "event_id": "EVT0322",
+    "sme_id": "SME062",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T01:00:00",
+    "end_datetime": "2026-08-27T02:30:00"
+  },
+  {
+    "event_id": "EVT0323",
+    "sme_id": "SME062",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-29T18:00:00",
+    "end_datetime": "2026-08-29T19:00:00"
+  },
+  {
+    "event_id": "EVT0324",
+    "sme_id": "SME062",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T18:30:00",
+    "end_datetime": "2026-08-28T20:00:00"
+  },
+  {
+    "event_id": "EVT0325",
+    "sme_id": "SME062",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T02:30:00",
+    "end_datetime": "2026-08-26T04:00:00"
+  },
+  {
+    "event_id": "EVT0326",
+    "sme_id": "SME062",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T15:30:00",
+    "end_datetime": "2026-08-24T16:15:00"
+  },
+  {
+    "event_id": "EVT0327",
+    "sme_id": "SME062",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T22:00:00",
+    "end_datetime": "2026-08-25T23:00:00"
+  },
+  {
+    "event_id": "EVT0328",
+    "sme_id": "SME063",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T11:00:00",
+    "end_datetime": "2026-08-28T12:00:00"
+  },
+  {
+    "event_id": "EVT0329",
+    "sme_id": "SME063",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T13:00:00",
+    "end_datetime": "2026-08-27T14:30:00"
+  },
+  {
+    "event_id": "EVT0330",
+    "sme_id": "SME063",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-29T08:30:00",
+    "end_datetime": "2026-08-29T09:15:00"
+  },
+  {
+    "event_id": "EVT0331",
+    "sme_id": "SME063",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T10:00:00",
+    "end_datetime": "2026-08-25T10:45:00"
+  },
+  {
+    "event_id": "EVT0332",
+    "sme_id": "SME063",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T03:30:00",
+    "end_datetime": "2026-08-28T05:00:00"
   },
   {
     "event_id": "EVT0333",
+    "sme_id": "SME063",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T13:30:00",
+    "end_datetime": "2026-08-24T14:30:00"
+  },
+  {
+    "event_id": "EVT0334",
+    "sme_id": "SME064",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T03:30:00",
+    "end_datetime": "2026-08-27T04:30:00"
+  },
+  {
+    "event_id": "EVT0335",
+    "sme_id": "SME064",
+    "title": "Training",
+    "start_datetime": "2026-08-26T02:30:00",
+    "end_datetime": "2026-08-26T03:00:00"
+  },
+  {
+    "event_id": "EVT0336",
+    "sme_id": "SME064",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T08:00:00",
+    "end_datetime": "2026-08-26T09:00:00"
+  },
+  {
+    "event_id": "EVT0337",
+    "sme_id": "SME064",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-24T04:30:00",
+    "end_datetime": "2026-08-24T06:00:00"
+  },
+  {
+    "event_id": "EVT0338",
+    "sme_id": "SME064",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T06:30:00",
+    "end_datetime": "2026-08-26T07:15:00"
+  },
+  {
+    "event_id": "EVT0339",
+    "sme_id": "SME064",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-24T09:00:00",
+    "end_datetime": "2026-08-24T10:00:00"
+  },
+  {
+    "event_id": "EVT0340",
+    "sme_id": "SME064",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T08:00:00",
+    "end_datetime": "2026-08-27T09:30:00"
+  },
+  {
+    "event_id": "EVT0341",
+    "sme_id": "SME065",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T12:30:00",
+    "end_datetime": "2026-08-25T14:00:00"
+  },
+  {
+    "event_id": "EVT0342",
+    "sme_id": "SME065",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-25T15:30:00",
+    "end_datetime": "2026-08-25T16:00:00"
+  },
+  {
+    "event_id": "EVT0343",
+    "sme_id": "SME065",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T13:30:00",
+    "end_datetime": "2026-08-29T15:00:00"
+  },
+  {
+    "event_id": "EVT0344",
+    "sme_id": "SME065",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T09:00:00",
+    "end_datetime": "2026-08-27T10:30:00"
+  },
+  {
+    "event_id": "EVT0345",
+    "sme_id": "SME066",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-24T14:00:00",
+    "end_datetime": "2026-08-24T15:00:00"
+  },
+  {
+    "event_id": "EVT0346",
+    "sme_id": "SME066",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T13:00:00",
+    "end_datetime": "2026-08-29T13:45:00"
+  },
+  {
+    "event_id": "EVT0347",
+    "sme_id": "SME066",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T21:00:00",
+    "end_datetime": "2026-08-28T21:45:00"
+  },
+  {
+    "event_id": "EVT0348",
+    "sme_id": "SME066",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T12:00:00",
+    "end_datetime": "2026-08-28T12:45:00"
+  },
+  {
+    "event_id": "EVT0349",
+    "sme_id": "SME066",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T15:00:00",
+    "end_datetime": "2026-08-26T16:30:00"
+  },
+  {
+    "event_id": "EVT0350",
     "sme_id": "SME066",
     "title": "Team Meeting",
     "start_datetime": "2026-08-26T18:00:00",
     "end_datetime": "2026-08-26T19:30:00"
   },
   {
-    "event_id": "EVT0334",
-    "sme_id": "SME066",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-27T12:00:00",
-    "end_datetime": "2026-08-27T12:30:00"
-  },
-  {
-    "event_id": "EVT0335",
-    "sme_id": "SME066",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-29T23:30:00",
-    "end_datetime": "2026-08-30T00:30:00"
-  },
-  {
-    "event_id": "EVT0336",
-    "sme_id": "SME066",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T20:00:00",
-    "end_datetime": "2026-08-26T21:30:00"
-  },
-  {
-    "event_id": "EVT0337",
-    "sme_id": "SME067",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T11:00:00",
-    "end_datetime": "2026-08-25T12:00:00"
-  },
-  {
-    "event_id": "EVT0338",
-    "sme_id": "SME067",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T06:30:00",
-    "end_datetime": "2026-08-25T07:00:00"
-  },
-  {
-    "event_id": "EVT0339",
-    "sme_id": "SME067",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-26T08:30:00",
-    "end_datetime": "2026-08-26T09:30:00"
-  },
-  {
-    "event_id": "EVT0340",
-    "sme_id": "SME067",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T11:00:00",
-    "end_datetime": "2026-08-24T12:00:00"
-  },
-  {
-    "event_id": "EVT0341",
-    "sme_id": "SME067",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-24T03:00:00",
-    "end_datetime": "2026-08-24T03:45:00"
-  },
-  {
-    "event_id": "EVT0342",
-    "sme_id": "SME067",
-    "title": "Training",
-    "start_datetime": "2026-08-29T08:30:00",
-    "end_datetime": "2026-08-29T09:00:00"
-  },
-  {
-    "event_id": "EVT0343",
-    "sme_id": "SME067",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T13:00:00",
-    "end_datetime": "2026-08-26T13:30:00"
-  },
-  {
-    "event_id": "EVT0344",
-    "sme_id": "SME067",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T04:00:00",
-    "end_datetime": "2026-08-29T05:00:00"
-  },
-  {
-    "event_id": "EVT0345",
-    "sme_id": "SME068",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-24T10:00:00",
-    "end_datetime": "2026-08-24T10:45:00"
-  },
-  {
-    "event_id": "EVT0346",
-    "sme_id": "SME068",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T13:30:00",
-    "end_datetime": "2026-08-28T14:30:00"
-  },
-  {
-    "event_id": "EVT0347",
-    "sme_id": "SME068",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T14:00:00"
-  },
-  {
-    "event_id": "EVT0348",
-    "sme_id": "SME068",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-29T05:30:00",
-    "end_datetime": "2026-08-29T06:30:00"
-  },
-  {
-    "event_id": "EVT0349",
-    "sme_id": "SME068",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T06:00:00",
-    "end_datetime": "2026-08-28T07:30:00"
-  },
-  {
-    "event_id": "EVT0350",
-    "sme_id": "SME068",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T14:00:00",
-    "end_datetime": "2026-08-25T15:30:00"
-  },
-  {
     "event_id": "EVT0351",
-    "sme_id": "SME068",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T03:00:00",
-    "end_datetime": "2026-08-24T03:45:00"
+    "sme_id": "SME066",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T17:30:00",
+    "end_datetime": "2026-08-28T18:30:00"
   },
   {
     "event_id": "EVT0352",
-    "sme_id": "SME068",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T09:30:00",
-    "end_datetime": "2026-08-25T10:30:00"
+    "sme_id": "SME066",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T13:00:00",
+    "end_datetime": "2026-08-24T14:00:00"
   },
   {
     "event_id": "EVT0353",
-    "sme_id": "SME069",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T12:30:00",
-    "end_datetime": "2026-08-28T13:30:00"
+    "sme_id": "SME067",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-26T03:30:00",
+    "end_datetime": "2026-08-26T04:30:00"
   },
   {
     "event_id": "EVT0354",
-    "sme_id": "SME069",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-27T14:30:00",
-    "end_datetime": "2026-08-27T16:00:00"
+    "sme_id": "SME067",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T04:30:00",
+    "end_datetime": "2026-08-29T05:30:00"
   },
   {
     "event_id": "EVT0355",
-    "sme_id": "SME069",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-29T10:00:00",
-    "end_datetime": "2026-08-29T10:45:00"
-  },
-  {
-    "event_id": "EVT0356",
-    "sme_id": "SME069",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T11:30:00",
-    "end_datetime": "2026-08-25T12:15:00"
-  },
-  {
-    "event_id": "EVT0357",
-    "sme_id": "SME069",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T05:00:00",
-    "end_datetime": "2026-08-28T06:30:00"
-  },
-  {
-    "event_id": "EVT0358",
-    "sme_id": "SME069",
-    "title": "Client Session",
-    "start_datetime": "2026-08-24T15:00:00",
-    "end_datetime": "2026-08-24T16:00:00"
-  },
-  {
-    "event_id": "EVT0359",
-    "sme_id": "SME070",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T08:00:00",
-    "end_datetime": "2026-08-27T09:00:00"
-  },
-  {
-    "event_id": "EVT0360",
-    "sme_id": "SME070",
-    "title": "Training",
-    "start_datetime": "2026-08-26T07:00:00",
-    "end_datetime": "2026-08-26T07:30:00"
-  },
-  {
-    "event_id": "EVT0361",
-    "sme_id": "SME070",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:30:00"
-  },
-  {
-    "event_id": "EVT0362",
-    "sme_id": "SME070",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-24T09:00:00",
-    "end_datetime": "2026-08-24T10:30:00"
-  },
-  {
-    "event_id": "EVT0363",
-    "sme_id": "SME070",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T11:00:00",
-    "end_datetime": "2026-08-26T11:45:00"
-  },
-  {
-    "event_id": "EVT0364",
-    "sme_id": "SME070",
-    "title": "Planning Session",
+    "sme_id": "SME067",
+    "title": "Curriculum Review",
     "start_datetime": "2026-08-24T13:30:00",
     "end_datetime": "2026-08-24T14:30:00"
   },
   {
-    "event_id": "EVT0365",
-    "sme_id": "SME070",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T12:30:00",
-    "end_datetime": "2026-08-27T14:00:00"
-  },
-  {
-    "event_id": "EVT0366",
-    "sme_id": "SME071",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T11:00:00",
-    "end_datetime": "2026-08-25T12:30:00"
-  },
-  {
-    "event_id": "EVT0367",
-    "sme_id": "SME071",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-25T14:00:00",
-    "end_datetime": "2026-08-25T14:30:00"
-  },
-  {
-    "event_id": "EVT0368",
-    "sme_id": "SME071",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T12:00:00",
-    "end_datetime": "2026-08-29T13:30:00"
-  },
-  {
-    "event_id": "EVT0369",
-    "sme_id": "SME071",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-27T07:30:00",
-    "end_datetime": "2026-08-27T09:00:00"
-  },
-  {
-    "event_id": "EVT0370",
-    "sme_id": "SME072",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-24T04:30:00",
-    "end_datetime": "2026-08-24T05:30:00"
-  },
-  {
-    "event_id": "EVT0371",
-    "sme_id": "SME072",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T03:30:00",
-    "end_datetime": "2026-08-29T04:15:00"
-  },
-  {
-    "event_id": "EVT0372",
-    "sme_id": "SME072",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T11:30:00",
-    "end_datetime": "2026-08-28T12:15:00"
-  },
-  {
-    "event_id": "EVT0373",
-    "sme_id": "SME072",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T03:15:00"
-  },
-  {
-    "event_id": "EVT0374",
-    "sme_id": "SME072",
-    "title": "Client Session",
-    "start_datetime": "2026-08-26T05:30:00",
-    "end_datetime": "2026-08-26T07:00:00"
-  },
-  {
-    "event_id": "EVT0375",
-    "sme_id": "SME072",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T08:30:00",
-    "end_datetime": "2026-08-26T10:00:00"
-  },
-  {
-    "event_id": "EVT0376",
-    "sme_id": "SME072",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T08:00:00",
-    "end_datetime": "2026-08-28T09:00:00"
-  },
-  {
-    "event_id": "EVT0377",
-    "sme_id": "SME072",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T03:30:00",
-    "end_datetime": "2026-08-24T04:30:00"
-  },
-  {
-    "event_id": "EVT0378",
-    "sme_id": "SME073",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-26T13:00:00",
-    "end_datetime": "2026-08-26T14:00:00"
-  },
-  {
-    "event_id": "EVT0379",
-    "sme_id": "SME073",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T14:00:00",
-    "end_datetime": "2026-08-29T15:00:00"
-  },
-  {
-    "event_id": "EVT0380",
-    "sme_id": "SME073",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T23:00:00",
-    "end_datetime": "2026-08-25T00:00:00"
-  },
-  {
-    "event_id": "EVT0381",
-    "sme_id": "SME073",
+    "event_id": "EVT0356",
+    "sme_id": "SME067",
     "title": "Training",
-    "start_datetime": "2026-08-24T17:00:00",
-    "end_datetime": "2026-08-24T18:30:00"
+    "start_datetime": "2026-08-24T07:30:00",
+    "end_datetime": "2026-08-24T09:00:00"
   },
   {
-    "event_id": "EVT0382",
-    "sme_id": "SME074",
+    "event_id": "EVT0357",
+    "sme_id": "SME068",
     "title": "Interview Panel",
     "start_datetime": "2026-08-27T03:30:00",
     "end_datetime": "2026-08-27T04:15:00"
   },
   {
-    "event_id": "EVT0383",
-    "sme_id": "SME074",
+    "event_id": "EVT0358",
+    "sme_id": "SME068",
     "title": "1:1 Sync",
     "start_datetime": "2026-08-28T11:30:00",
     "end_datetime": "2026-08-28T13:00:00"
   },
   {
-    "event_id": "EVT0384",
-    "sme_id": "SME074",
+    "event_id": "EVT0359",
+    "sme_id": "SME068",
     "title": "Team Meeting",
     "start_datetime": "2026-08-28T08:30:00",
     "end_datetime": "2026-08-28T09:30:00"
   },
   {
-    "event_id": "EVT0385",
-    "sme_id": "SME074",
+    "event_id": "EVT0360",
+    "sme_id": "SME068",
     "title": "Office Hours",
     "start_datetime": "2026-08-26T10:00:00",
     "end_datetime": "2026-08-26T10:30:00"
   },
   {
-    "event_id": "EVT0386",
-    "sme_id": "SME074",
+    "event_id": "EVT0361",
+    "sme_id": "SME068",
     "title": "Personal Block",
     "start_datetime": "2026-08-24T08:30:00",
     "end_datetime": "2026-08-24T09:00:00"
   },
   {
-    "event_id": "EVT0387",
-    "sme_id": "SME075",
+    "event_id": "EVT0362",
+    "sme_id": "SME069",
     "title": "1:1 Sync",
-    "start_datetime": "2026-08-28T12:30:00",
-    "end_datetime": "2026-08-28T13:15:00"
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T14:45:00"
   },
   {
-    "event_id": "EVT0388",
-    "sme_id": "SME075",
+    "event_id": "EVT0363",
+    "sme_id": "SME069",
     "title": "Office Hours",
-    "start_datetime": "2026-08-29T05:00:00",
-    "end_datetime": "2026-08-29T06:30:00"
-  },
-  {
-    "event_id": "EVT0389",
-    "sme_id": "SME075",
-    "title": "Training",
-    "start_datetime": "2026-08-24T12:30:00",
-    "end_datetime": "2026-08-24T13:15:00"
-  },
-  {
-    "event_id": "EVT0390",
-    "sme_id": "SME075",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-28T04:30:00",
-    "end_datetime": "2026-08-28T06:00:00"
-  },
-  {
-    "event_id": "EVT0391",
-    "sme_id": "SME075",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T02:30:00",
-    "end_datetime": "2026-08-27T04:00:00"
-  },
-  {
-    "event_id": "EVT0392",
-    "sme_id": "SME075",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T12:30:00",
-    "end_datetime": "2026-08-26T13:00:00"
-  },
-  {
-    "event_id": "EVT0393",
-    "sme_id": "SME075",
-    "title": "Training",
-    "start_datetime": "2026-08-27T07:00:00",
-    "end_datetime": "2026-08-27T08:30:00"
-  },
-  {
-    "event_id": "EVT0394",
-    "sme_id": "SME076",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-25T12:00:00",
-    "end_datetime": "2026-08-25T12:30:00"
-  },
-  {
-    "event_id": "EVT0395",
-    "sme_id": "SME076",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T10:30:00",
-    "end_datetime": "2026-08-29T11:30:00"
-  },
-  {
-    "event_id": "EVT0396",
-    "sme_id": "SME076",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-27T13:30:00",
-    "end_datetime": "2026-08-27T14:15:00"
-  },
-  {
-    "event_id": "EVT0397",
-    "sme_id": "SME076",
-    "title": "Training",
-    "start_datetime": "2026-08-26T08:30:00",
-    "end_datetime": "2026-08-26T09:30:00"
-  },
-  {
-    "event_id": "EVT0398",
-    "sme_id": "SME076",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T07:00:00",
+    "start_datetime": "2026-08-29T06:30:00",
     "end_datetime": "2026-08-29T08:00:00"
   },
   {
-    "event_id": "EVT0399",
-    "sme_id": "SME076",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T08:00:00",
-    "end_datetime": "2026-08-29T08:45:00"
-  },
-  {
-    "event_id": "EVT0400",
-    "sme_id": "SME076",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-28T07:30:00",
-    "end_datetime": "2026-08-28T08:15:00"
-  },
-  {
-    "event_id": "EVT0401",
-    "sme_id": "SME076",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-28T09:30:00",
-    "end_datetime": "2026-08-28T10:00:00"
-  },
-  {
-    "event_id": "EVT0402",
-    "sme_id": "SME077",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-28T14:00:00",
-    "end_datetime": "2026-08-28T15:30:00"
-  },
-  {
-    "event_id": "EVT0403",
-    "sme_id": "SME077",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T12:30:00",
-    "end_datetime": "2026-08-24T13:00:00"
-  },
-  {
-    "event_id": "EVT0404",
-    "sme_id": "SME077",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T04:00:00",
-    "end_datetime": "2026-08-29T05:30:00"
-  },
-  {
-    "event_id": "EVT0405",
-    "sme_id": "SME077",
-    "title": "Client Session",
-    "start_datetime": "2026-08-26T08:30:00",
-    "end_datetime": "2026-08-26T09:00:00"
-  },
-  {
-    "event_id": "EVT0406",
-    "sme_id": "SME077",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T07:30:00",
-    "end_datetime": "2026-08-27T09:00:00"
-  },
-  {
-    "event_id": "EVT0407",
-    "sme_id": "SME077",
+    "event_id": "EVT0364",
+    "sme_id": "SME069",
     "title": "Training",
-    "start_datetime": "2026-08-25T13:30:00",
-    "end_datetime": "2026-08-25T14:30:00"
+    "start_datetime": "2026-08-24T14:00:00",
+    "end_datetime": "2026-08-24T14:45:00"
   },
   {
-    "event_id": "EVT0408",
-    "sme_id": "SME078",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-24T16:30:00",
-    "end_datetime": "2026-08-24T17:15:00"
-  },
-  {
-    "event_id": "EVT0409",
-    "sme_id": "SME078",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-27T12:00:00",
-    "end_datetime": "2026-08-27T13:00:00"
-  },
-  {
-    "event_id": "EVT0410",
-    "sme_id": "SME078",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-29T18:00:00",
-    "end_datetime": "2026-08-29T18:30:00"
-  },
-  {
-    "event_id": "EVT0411",
-    "sme_id": "SME078",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-29T13:00:00",
-    "end_datetime": "2026-08-29T14:00:00"
-  },
-  {
-    "event_id": "EVT0412",
-    "sme_id": "SME079",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T04:30:00",
-    "end_datetime": "2026-08-27T05:15:00"
-  },
-  {
-    "event_id": "EVT0413",
-    "sme_id": "SME079",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T04:30:00",
-    "end_datetime": "2026-08-28T05:15:00"
-  },
-  {
-    "event_id": "EVT0414",
-    "sme_id": "SME079",
-    "title": "Team Meeting",
+    "event_id": "EVT0365",
+    "sme_id": "SME069",
+    "title": "1:1 Sync",
     "start_datetime": "2026-08-28T06:00:00",
-    "end_datetime": "2026-08-28T06:45:00"
+    "end_datetime": "2026-08-28T07:30:00"
   },
   {
-    "event_id": "EVT0415",
-    "sme_id": "SME079",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-29T13:00:00",
-    "end_datetime": "2026-08-29T14:30:00"
-  },
-  {
-    "event_id": "EVT0416",
-    "sme_id": "SME079",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-27T12:30:00",
-    "end_datetime": "2026-08-27T13:30:00"
-  },
-  {
-    "event_id": "EVT0417",
-    "sme_id": "SME079",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-27T06:30:00",
-    "end_datetime": "2026-08-27T08:00:00"
-  },
-  {
-    "event_id": "EVT0418",
-    "sme_id": "SME079",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-26T10:30:00",
-    "end_datetime": "2026-08-26T11:15:00"
-  },
-  {
-    "event_id": "EVT0419",
-    "sme_id": "SME080",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T11:00:00",
-    "end_datetime": "2026-08-27T12:00:00"
-  },
-  {
-    "event_id": "EVT0420",
-    "sme_id": "SME080",
+    "event_id": "EVT0366",
+    "sme_id": "SME069",
     "title": "Planning Session",
-    "start_datetime": "2026-08-27T06:00:00",
-    "end_datetime": "2026-08-27T06:30:00"
+    "start_datetime": "2026-08-27T04:00:00",
+    "end_datetime": "2026-08-27T05:30:00"
   },
   {
-    "event_id": "EVT0421",
-    "sme_id": "SME080",
-    "title": "Client Session",
-    "start_datetime": "2026-08-24T13:30:00",
-    "end_datetime": "2026-08-24T15:00:00"
+    "event_id": "EVT0367",
+    "sme_id": "SME069",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T14:00:00",
+    "end_datetime": "2026-08-26T14:30:00"
   },
   {
-    "event_id": "EVT0422",
-    "sme_id": "SME080",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T05:30:00",
-    "end_datetime": "2026-08-25T06:30:00"
-  },
-  {
-    "event_id": "EVT0423",
-    "sme_id": "SME080",
-    "title": "Personal Block",
+    "event_id": "EVT0368",
+    "sme_id": "SME069",
+    "title": "Training",
     "start_datetime": "2026-08-27T08:30:00",
-    "end_datetime": "2026-08-27T09:30:00"
+    "end_datetime": "2026-08-27T10:00:00"
   },
   {
-    "event_id": "EVT0424",
-    "sme_id": "SME081",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-24T11:00:00",
-    "end_datetime": "2026-08-24T12:00:00"
+    "event_id": "EVT0369",
+    "sme_id": "SME070",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T16:30:00",
+    "end_datetime": "2026-08-25T17:00:00"
   },
   {
-    "event_id": "EVT0425",
-    "sme_id": "SME081",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T12:00:00",
-    "end_datetime": "2026-08-26T12:30:00"
-  },
-  {
-    "event_id": "EVT0426",
-    "sme_id": "SME081",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T11:00:00",
-    "end_datetime": "2026-08-28T12:30:00"
-  },
-  {
-    "event_id": "EVT0427",
-    "sme_id": "SME081",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T05:00:00",
-    "end_datetime": "2026-08-24T05:30:00"
-  },
-  {
-    "event_id": "EVT0428",
-    "sme_id": "SME082",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-29T16:00:00",
-    "end_datetime": "2026-08-29T16:30:00"
-  },
-  {
-    "event_id": "EVT0429",
-    "sme_id": "SME082",
+    "event_id": "EVT0370",
+    "sme_id": "SME070",
     "title": "Client Session",
-    "start_datetime": "2026-08-24T19:30:00",
-    "end_datetime": "2026-08-24T20:00:00"
-  },
-  {
-    "event_id": "EVT0430",
-    "sme_id": "SME082",
-    "title": "Curriculum Review",
     "start_datetime": "2026-08-29T15:00:00",
     "end_datetime": "2026-08-29T16:00:00"
   },
   {
-    "event_id": "EVT0431",
-    "sme_id": "SME082",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T16:30:00",
-    "end_datetime": "2026-08-27T17:15:00"
+    "event_id": "EVT0371",
+    "sme_id": "SME070",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T18:00:00",
+    "end_datetime": "2026-08-27T18:45:00"
   },
   {
-    "event_id": "EVT0432",
-    "sme_id": "SME082",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-30T00:00:00",
-    "end_datetime": "2026-08-30T01:30:00"
-  },
-  {
-    "event_id": "EVT0433",
-    "sme_id": "SME083",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T09:00:00",
-    "end_datetime": "2026-08-27T10:00:00"
-  },
-  {
-    "event_id": "EVT0434",
-    "sme_id": "SME083",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-24T01:00:00",
-    "end_datetime": "2026-08-24T01:30:00"
-  },
-  {
-    "event_id": "EVT0435",
-    "sme_id": "SME083",
+    "event_id": "EVT0372",
+    "sme_id": "SME070",
     "title": "Training",
-    "start_datetime": "2026-08-25T09:00:00",
-    "end_datetime": "2026-08-25T10:00:00"
+    "start_datetime": "2026-08-26T13:00:00",
+    "end_datetime": "2026-08-26T14:00:00"
   },
   {
-    "event_id": "EVT0436",
-    "sme_id": "SME083",
+    "event_id": "EVT0373",
+    "sme_id": "SME070",
     "title": "Interview Panel",
-    "start_datetime": "2026-08-27T07:30:00",
-    "end_datetime": "2026-08-27T08:15:00"
+    "start_datetime": "2026-08-29T11:30:00",
+    "end_datetime": "2026-08-29T12:30:00"
   },
   {
-    "event_id": "EVT0437",
-    "sme_id": "SME083",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T00:00:00",
-    "end_datetime": "2026-08-25T00:45:00"
-  },
-  {
-    "event_id": "EVT0438",
-    "sme_id": "SME083",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T06:30:00",
-    "end_datetime": "2026-08-28T07:30:00"
-  },
-  {
-    "event_id": "EVT0439",
-    "sme_id": "SME084",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-25T09:30:00",
-    "end_datetime": "2026-08-25T10:30:00"
-  },
-  {
-    "event_id": "EVT0440",
-    "sme_id": "SME084",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T11:30:00",
-    "end_datetime": "2026-08-26T12:00:00"
-  },
-  {
-    "event_id": "EVT0441",
-    "sme_id": "SME084",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-28T17:00:00",
-    "end_datetime": "2026-08-28T17:30:00"
-  },
-  {
-    "event_id": "EVT0442",
-    "sme_id": "SME084",
-    "title": "Training",
-    "start_datetime": "2026-08-28T15:00:00",
-    "end_datetime": "2026-08-28T16:30:00"
-  },
-  {
-    "event_id": "EVT0443",
-    "sme_id": "SME084",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-28T18:30:00",
-    "end_datetime": "2026-08-28T19:30:00"
-  },
-  {
-    "event_id": "EVT0444",
-    "sme_id": "SME084",
-    "title": "Client Session",
-    "start_datetime": "2026-08-26T13:30:00",
-    "end_datetime": "2026-08-26T14:15:00"
-  },
-  {
-    "event_id": "EVT0445",
-    "sme_id": "SME084",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T07:30:00",
-    "end_datetime": "2026-08-27T08:15:00"
-  },
-  {
-    "event_id": "EVT0446",
-    "sme_id": "SME085",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-25T11:00:00",
-    "end_datetime": "2026-08-25T12:30:00"
-  },
-  {
-    "event_id": "EVT0447",
-    "sme_id": "SME085",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T03:30:00",
-    "end_datetime": "2026-08-25T04:30:00"
-  },
-  {
-    "event_id": "EVT0448",
-    "sme_id": "SME085",
-    "title": "Training",
-    "start_datetime": "2026-08-25T06:00:00",
-    "end_datetime": "2026-08-25T06:30:00"
-  },
-  {
-    "event_id": "EVT0449",
-    "sme_id": "SME085",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-24T01:30:00",
-    "end_datetime": "2026-08-24T02:00:00"
-  },
-  {
-    "event_id": "EVT0450",
-    "sme_id": "SME085",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T03:00:00",
-    "end_datetime": "2026-08-24T04:00:00"
-  },
-  {
-    "event_id": "EVT0451",
-    "sme_id": "SME085",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-28T03:00:00",
-    "end_datetime": "2026-08-28T03:45:00"
-  },
-  {
-    "event_id": "EVT0452",
-    "sme_id": "SME085",
-    "title": "Training",
-    "start_datetime": "2026-08-29T02:30:00",
-    "end_datetime": "2026-08-29T03:00:00"
-  },
-  {
-    "event_id": "EVT0453",
-    "sme_id": "SME085",
-    "title": "Training",
-    "start_datetime": "2026-08-25T04:30:00",
-    "end_datetime": "2026-08-25T05:15:00"
-  },
-  {
-    "event_id": "EVT0454",
-    "sme_id": "SME086",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T05:00:00",
-    "end_datetime": "2026-08-29T05:30:00"
-  },
-  {
-    "event_id": "EVT0455",
-    "sme_id": "SME086",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-25T04:30:00",
-    "end_datetime": "2026-08-25T05:15:00"
-  },
-  {
-    "event_id": "EVT0456",
-    "sme_id": "SME086",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T14:00:00",
-    "end_datetime": "2026-08-27T15:00:00"
-  },
-  {
-    "event_id": "EVT0457",
-    "sme_id": "SME086",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T12:30:00",
-    "end_datetime": "2026-08-27T13:00:00"
-  },
-  {
-    "event_id": "EVT0458",
-    "sme_id": "SME086",
-    "title": "Training",
-    "start_datetime": "2026-08-28T06:00:00",
-    "end_datetime": "2026-08-28T06:45:00"
-  },
-  {
-    "event_id": "EVT0459",
-    "sme_id": "SME087",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-24T10:30:00",
-    "end_datetime": "2026-08-24T11:15:00"
-  },
-  {
-    "event_id": "EVT0460",
-    "sme_id": "SME087",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T07:00:00",
-    "end_datetime": "2026-08-28T07:30:00"
-  },
-  {
-    "event_id": "EVT0461",
-    "sme_id": "SME087",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-29T09:00:00",
-    "end_datetime": "2026-08-29T09:45:00"
-  },
-  {
-    "event_id": "EVT0462",
-    "sme_id": "SME087",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-27T10:30:00",
-    "end_datetime": "2026-08-27T12:00:00"
-  },
-  {
-    "event_id": "EVT0463",
-    "sme_id": "SME088",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T12:30:00",
-    "end_datetime": "2026-08-25T14:00:00"
-  },
-  {
-    "event_id": "EVT0464",
-    "sme_id": "SME088",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T11:30:00",
-    "end_datetime": "2026-08-27T12:00:00"
-  },
-  {
-    "event_id": "EVT0465",
-    "sme_id": "SME088",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T10:30:00",
-    "end_datetime": "2026-08-25T11:15:00"
-  },
-  {
-    "event_id": "EVT0466",
-    "sme_id": "SME088",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-28T09:30:00",
-    "end_datetime": "2026-08-28T10:30:00"
-  },
-  {
-    "event_id": "EVT0467",
-    "sme_id": "SME088",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T09:00:00",
-    "end_datetime": "2026-08-24T10:00:00"
-  },
-  {
-    "event_id": "EVT0468",
-    "sme_id": "SME088",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T12:00:00",
-    "end_datetime": "2026-08-28T12:30:00"
-  },
-  {
-    "event_id": "EVT0469",
-    "sme_id": "SME089",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-28T17:30:00",
-    "end_datetime": "2026-08-28T19:00:00"
-  },
-  {
-    "event_id": "EVT0470",
-    "sme_id": "SME089",
-    "title": "Training",
-    "start_datetime": "2026-08-27T18:30:00",
-    "end_datetime": "2026-08-27T20:00:00"
-  },
-  {
-    "event_id": "EVT0471",
-    "sme_id": "SME089",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-26T18:00:00",
-    "end_datetime": "2026-08-26T18:45:00"
-  },
-  {
-    "event_id": "EVT0472",
-    "sme_id": "SME089",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T16:00:00",
-    "end_datetime": "2026-08-25T17:00:00"
-  },
-  {
-    "event_id": "EVT0473",
-    "sme_id": "SME089",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-26T20:00:00",
-    "end_datetime": "2026-08-26T21:00:00"
-  },
-  {
-    "event_id": "EVT0474",
-    "sme_id": "SME089",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-24T13:00:00",
-    "end_datetime": "2026-08-24T14:00:00"
-  },
-  {
-    "event_id": "EVT0475",
-    "sme_id": "SME089",
-    "title": "Training",
-    "start_datetime": "2026-08-28T15:30:00",
-    "end_datetime": "2026-08-28T16:15:00"
-  },
-  {
-    "event_id": "EVT0476",
-    "sme_id": "SME090",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T14:00:00",
-    "end_datetime": "2026-08-26T14:45:00"
-  },
-  {
-    "event_id": "EVT0477",
-    "sme_id": "SME090",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-25T14:00:00",
-    "end_datetime": "2026-08-25T14:30:00"
-  },
-  {
-    "event_id": "EVT0478",
-    "sme_id": "SME090",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-26T08:00:00",
-    "end_datetime": "2026-08-26T09:30:00"
-  },
-  {
-    "event_id": "EVT0479",
-    "sme_id": "SME090",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-29T03:00:00",
-    "end_datetime": "2026-08-29T03:45:00"
-  },
-  {
-    "event_id": "EVT0480",
-    "sme_id": "SME090",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-25T05:30:00",
-    "end_datetime": "2026-08-25T07:00:00"
-  },
-  {
-    "event_id": "EVT0481",
-    "sme_id": "SME091",
-    "title": "Training",
-    "start_datetime": "2026-08-28T11:00:00",
-    "end_datetime": "2026-08-28T12:30:00"
-  },
-  {
-    "event_id": "EVT0482",
-    "sme_id": "SME091",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T07:30:00",
-    "end_datetime": "2026-08-24T09:00:00"
-  },
-  {
-    "event_id": "EVT0483",
-    "sme_id": "SME091",
-    "title": "Training",
-    "start_datetime": "2026-08-25T10:00:00",
-    "end_datetime": "2026-08-25T10:30:00"
-  },
-  {
-    "event_id": "EVT0484",
-    "sme_id": "SME091",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-25T11:30:00",
-    "end_datetime": "2026-08-25T12:30:00"
-  },
-  {
-    "event_id": "EVT0485",
-    "sme_id": "SME091",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-27T13:00:00",
-    "end_datetime": "2026-08-27T14:00:00"
-  },
-  {
-    "event_id": "EVT0486",
-    "sme_id": "SME091",
-    "title": "Training",
-    "start_datetime": "2026-08-27T09:00:00",
-    "end_datetime": "2026-08-27T10:00:00"
-  },
-  {
-    "event_id": "EVT0487",
-    "sme_id": "SME091",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-28T02:30:00",
-    "end_datetime": "2026-08-28T03:15:00"
-  },
-  {
-    "event_id": "EVT0488",
-    "sme_id": "SME092",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-28T10:30:00",
-    "end_datetime": "2026-08-28T12:00:00"
-  },
-  {
-    "event_id": "EVT0489",
-    "sme_id": "SME092",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-27T01:30:00",
-    "end_datetime": "2026-08-27T02:15:00"
-  },
-  {
-    "event_id": "EVT0490",
-    "sme_id": "SME092",
-    "title": "Client Session",
-    "start_datetime": "2026-08-24T05:30:00",
-    "end_datetime": "2026-08-24T06:30:00"
-  },
-  {
-    "event_id": "EVT0491",
-    "sme_id": "SME092",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-25T01:00:00",
-    "end_datetime": "2026-08-25T01:30:00"
-  },
-  {
-    "event_id": "EVT0492",
-    "sme_id": "SME092",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T00:00:00",
-    "end_datetime": "2026-08-27T00:45:00"
-  },
-  {
-    "event_id": "EVT0493",
-    "sme_id": "SME093",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T05:30:00",
-    "end_datetime": "2026-08-26T06:30:00"
-  },
-  {
-    "event_id": "EVT0494",
-    "sme_id": "SME093",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-24T09:30:00",
-    "end_datetime": "2026-08-24T10:30:00"
-  },
-  {
-    "event_id": "EVT0495",
-    "sme_id": "SME093",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-24T05:00:00",
-    "end_datetime": "2026-08-24T06:30:00"
-  },
-  {
-    "event_id": "EVT0496",
-    "sme_id": "SME093",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T03:30:00",
-    "end_datetime": "2026-08-25T05:00:00"
-  },
-  {
-    "event_id": "EVT0497",
-    "sme_id": "SME093",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-29T04:00:00",
-    "end_datetime": "2026-08-29T04:45:00"
-  },
-  {
-    "event_id": "EVT0498",
-    "sme_id": "SME093",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-25T07:00:00",
-    "end_datetime": "2026-08-25T08:30:00"
-  },
-  {
-    "event_id": "EVT0499",
-    "sme_id": "SME094",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-28T11:00:00",
-    "end_datetime": "2026-08-28T12:30:00"
-  },
-  {
-    "event_id": "EVT0500",
-    "sme_id": "SME094",
-    "title": "Client Session",
-    "start_datetime": "2026-08-25T07:00:00",
-    "end_datetime": "2026-08-25T08:30:00"
-  },
-  {
-    "event_id": "EVT0501",
-    "sme_id": "SME094",
-    "title": "Planning Session",
-    "start_datetime": "2026-08-27T16:00:00",
-    "end_datetime": "2026-08-27T17:00:00"
-  },
-  {
-    "event_id": "EVT0502",
-    "sme_id": "SME094",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T14:30:00",
-    "end_datetime": "2026-08-27T15:00:00"
-  },
-  {
-    "event_id": "EVT0503",
-    "sme_id": "SME094",
-    "title": "Personal Block",
-    "start_datetime": "2026-08-26T17:30:00",
-    "end_datetime": "2026-08-26T18:30:00"
-  },
-  {
-    "event_id": "EVT0504",
-    "sme_id": "SME094",
-    "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T09:30:00",
-    "end_datetime": "2026-08-25T11:00:00"
-  },
-  {
-    "event_id": "EVT0505",
-    "sme_id": "SME094",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-29T09:00:00",
-    "end_datetime": "2026-08-29T10:30:00"
-  },
-  {
-    "event_id": "EVT0506",
-    "sme_id": "SME095",
-    "title": "Interview Panel",
-    "start_datetime": "2026-08-25T11:30:00",
-    "end_datetime": "2026-08-25T12:00:00"
-  },
-  {
-    "event_id": "EVT0507",
-    "sme_id": "SME095",
-    "title": "Client Session",
-    "start_datetime": "2026-08-27T13:00:00",
-    "end_datetime": "2026-08-27T14:00:00"
-  },
-  {
-    "event_id": "EVT0508",
-    "sme_id": "SME095",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-24T15:30:00",
-    "end_datetime": "2026-08-24T17:00:00"
-  },
-  {
-    "event_id": "EVT0509",
-    "sme_id": "SME095",
-    "title": "Office Hours",
-    "start_datetime": "2026-08-25T11:00:00",
-    "end_datetime": "2026-08-25T11:30:00"
-  },
-  {
-    "event_id": "EVT0510",
-    "sme_id": "SME096",
-    "title": "Training",
-    "start_datetime": "2026-08-25T01:30:00",
-    "end_datetime": "2026-08-25T03:00:00"
-  },
-  {
-    "event_id": "EVT0511",
-    "sme_id": "SME096",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-29T21:00:00",
-    "end_datetime": "2026-08-29T22:30:00"
-  },
-  {
-    "event_id": "EVT0512",
-    "sme_id": "SME096",
-    "title": "Training",
-    "start_datetime": "2026-08-24T19:00:00",
-    "end_datetime": "2026-08-24T19:45:00"
-  },
-  {
-    "event_id": "EVT0513",
-    "sme_id": "SME097",
-    "title": "Client Session",
-    "start_datetime": "2026-08-29T19:30:00",
-    "end_datetime": "2026-08-29T21:00:00"
-  },
-  {
-    "event_id": "EVT0514",
-    "sme_id": "SME097",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-24T20:00:00",
-    "end_datetime": "2026-08-24T21:30:00"
-  },
-  {
-    "event_id": "EVT0515",
-    "sme_id": "SME097",
-    "title": "Team Meeting",
-    "start_datetime": "2026-08-27T16:00:00",
-    "end_datetime": "2026-08-27T16:45:00"
-  },
-  {
-    "event_id": "EVT0516",
-    "sme_id": "SME097",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T13:00:00",
-    "end_datetime": "2026-08-28T14:00:00"
-  },
-  {
-    "event_id": "EVT0517",
-    "sme_id": "SME097",
-    "title": "Client Session",
-    "start_datetime": "2026-08-28T23:30:00",
-    "end_datetime": "2026-08-29T00:15:00"
-  },
-  {
-    "event_id": "EVT0518",
-    "sme_id": "SME097",
+    "event_id": "EVT0374",
+    "sme_id": "SME070",
     "title": "Office Hours",
     "start_datetime": "2026-08-29T12:30:00",
     "end_datetime": "2026-08-29T13:15:00"
   },
   {
-    "event_id": "EVT0519",
-    "sme_id": "SME097",
+    "event_id": "EVT0375",
+    "sme_id": "SME070",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T12:00:00",
+    "end_datetime": "2026-08-28T12:45:00"
+  },
+  {
+    "event_id": "EVT0376",
+    "sme_id": "SME070",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T14:30:00"
+  },
+  {
+    "event_id": "EVT0377",
+    "sme_id": "SME071",
     "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T14:00:00",
-    "end_datetime": "2026-08-26T14:30:00"
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T15:30:00"
   },
   {
-    "event_id": "EVT0520",
-    "sme_id": "SME097",
+    "event_id": "EVT0378",
+    "sme_id": "SME071",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T12:30:00",
+    "end_datetime": "2026-08-24T13:00:00"
+  },
+  {
+    "event_id": "EVT0379",
+    "sme_id": "SME071",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T04:00:00",
+    "end_datetime": "2026-08-29T05:30:00"
+  },
+  {
+    "event_id": "EVT0380",
+    "sme_id": "SME071",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T08:30:00",
+    "end_datetime": "2026-08-26T09:00:00"
+  },
+  {
+    "event_id": "EVT0381",
+    "sme_id": "SME071",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T07:30:00",
+    "end_datetime": "2026-08-27T09:00:00"
+  },
+  {
+    "event_id": "EVT0382",
+    "sme_id": "SME071",
+    "title": "Training",
+    "start_datetime": "2026-08-25T13:30:00",
+    "end_datetime": "2026-08-25T14:30:00"
+  },
+  {
+    "event_id": "EVT0383",
+    "sme_id": "SME072",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-24T12:00:00",
+    "end_datetime": "2026-08-24T12:45:00"
+  },
+  {
+    "event_id": "EVT0384",
+    "sme_id": "SME072",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T07:30:00",
+    "end_datetime": "2026-08-27T08:30:00"
+  },
+  {
+    "event_id": "EVT0385",
+    "sme_id": "SME072",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T13:30:00",
+    "end_datetime": "2026-08-29T14:00:00"
+  },
+  {
+    "event_id": "EVT0386",
+    "sme_id": "SME072",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-29T08:30:00",
+    "end_datetime": "2026-08-29T09:30:00"
+  },
+  {
+    "event_id": "EVT0387",
+    "sme_id": "SME073",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T14:00:00",
+    "end_datetime": "2026-08-27T14:45:00"
+  },
+  {
+    "event_id": "EVT0388",
+    "sme_id": "SME073",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T14:45:00"
+  },
+  {
+    "event_id": "EVT0389",
+    "sme_id": "SME073",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T15:30:00",
+    "end_datetime": "2026-08-28T16:15:00"
+  },
+  {
+    "event_id": "EVT0390",
+    "sme_id": "SME073",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T22:30:00",
+    "end_datetime": "2026-08-30T00:00:00"
+  },
+  {
+    "event_id": "EVT0391",
+    "sme_id": "SME073",
     "title": "Curriculum Review",
-    "start_datetime": "2026-08-25T19:00:00",
-    "end_datetime": "2026-08-25T19:30:00"
+    "start_datetime": "2026-08-27T22:00:00",
+    "end_datetime": "2026-08-27T23:00:00"
   },
   {
-    "event_id": "EVT0521",
-    "sme_id": "SME098",
+    "event_id": "EVT0392",
+    "sme_id": "SME073",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T16:00:00",
+    "end_datetime": "2026-08-27T17:30:00"
+  },
+  {
+    "event_id": "EVT0393",
+    "sme_id": "SME073",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-26T20:00:00",
+    "end_datetime": "2026-08-26T20:45:00"
+  },
+  {
+    "event_id": "EVT0394",
+    "sme_id": "SME074",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T11:00:00",
+    "end_datetime": "2026-08-27T12:00:00"
+  },
+  {
+    "event_id": "EVT0395",
+    "sme_id": "SME074",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T06:00:00",
+    "end_datetime": "2026-08-27T06:30:00"
+  },
+  {
+    "event_id": "EVT0396",
+    "sme_id": "SME074",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T13:30:00",
+    "end_datetime": "2026-08-24T15:00:00"
+  },
+  {
+    "event_id": "EVT0397",
+    "sme_id": "SME074",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-25T05:30:00",
+    "end_datetime": "2026-08-25T06:30:00"
+  },
+  {
+    "event_id": "EVT0398",
+    "sme_id": "SME074",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T08:30:00",
+    "end_datetime": "2026-08-27T09:30:00"
+  },
+  {
+    "event_id": "EVT0399",
+    "sme_id": "SME075",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-24T09:30:00",
+    "end_datetime": "2026-08-24T10:30:00"
+  },
+  {
+    "event_id": "EVT0400",
+    "sme_id": "SME075",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T10:30:00",
+    "end_datetime": "2026-08-26T11:00:00"
+  },
+  {
+    "event_id": "EVT0401",
+    "sme_id": "SME075",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T09:30:00",
+    "end_datetime": "2026-08-28T11:00:00"
+  },
+  {
+    "event_id": "EVT0402",
+    "sme_id": "SME075",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T03:30:00",
+    "end_datetime": "2026-08-24T04:00:00"
+  },
+  {
+    "event_id": "EVT0403",
+    "sme_id": "SME076",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T03:30:00",
+    "end_datetime": "2026-08-29T04:00:00"
+  },
+  {
+    "event_id": "EVT0404",
+    "sme_id": "SME076",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T07:00:00",
+    "end_datetime": "2026-08-24T07:30:00"
+  },
+  {
+    "event_id": "EVT0405",
+    "sme_id": "SME076",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T02:30:00",
+    "end_datetime": "2026-08-29T03:30:00"
+  },
+  {
+    "event_id": "EVT0406",
+    "sme_id": "SME076",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T04:00:00",
+    "end_datetime": "2026-08-27T04:45:00"
+  },
+  {
+    "event_id": "EVT0407",
+    "sme_id": "SME076",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T11:30:00",
+    "end_datetime": "2026-08-29T13:00:00"
+  },
+  {
+    "event_id": "EVT0408",
+    "sme_id": "SME077",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T11:30:00",
+    "end_datetime": "2026-08-27T12:30:00"
+  },
+  {
+    "event_id": "EVT0409",
+    "sme_id": "SME077",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-24T03:30:00",
+    "end_datetime": "2026-08-24T04:00:00"
+  },
+  {
+    "event_id": "EVT0410",
+    "sme_id": "SME077",
+    "title": "Training",
+    "start_datetime": "2026-08-25T11:30:00",
+    "end_datetime": "2026-08-25T12:30:00"
+  },
+  {
+    "event_id": "EVT0411",
+    "sme_id": "SME077",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T10:00:00",
+    "end_datetime": "2026-08-27T10:45:00"
+  },
+  {
+    "event_id": "EVT0412",
+    "sme_id": "SME077",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-25T02:30:00",
+    "end_datetime": "2026-08-25T03:15:00"
+  },
+  {
+    "event_id": "EVT0413",
+    "sme_id": "SME077",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T09:00:00",
+    "end_datetime": "2026-08-28T10:00:00"
+  },
+  {
+    "event_id": "EVT0414",
+    "sme_id": "SME078",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-25T09:30:00",
+    "end_datetime": "2026-08-25T10:30:00"
+  },
+  {
+    "event_id": "EVT0415",
+    "sme_id": "SME078",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-26T11:30:00",
+    "end_datetime": "2026-08-26T12:00:00"
+  },
+  {
+    "event_id": "EVT0416",
+    "sme_id": "SME078",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-28T17:00:00",
+    "end_datetime": "2026-08-28T17:30:00"
+  },
+  {
+    "event_id": "EVT0417",
+    "sme_id": "SME078",
+    "title": "Training",
+    "start_datetime": "2026-08-28T15:00:00",
+    "end_datetime": "2026-08-28T16:30:00"
+  },
+  {
+    "event_id": "EVT0418",
+    "sme_id": "SME078",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T18:30:00",
+    "end_datetime": "2026-08-28T19:30:00"
+  },
+  {
+    "event_id": "EVT0419",
+    "sme_id": "SME078",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T13:30:00",
+    "end_datetime": "2026-08-26T14:15:00"
+  },
+  {
+    "event_id": "EVT0420",
+    "sme_id": "SME078",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T07:30:00",
+    "end_datetime": "2026-08-27T08:15:00"
+  },
+  {
+    "event_id": "EVT0421",
+    "sme_id": "SME079",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-25T13:30:00",
+    "end_datetime": "2026-08-25T15:00:00"
+  },
+  {
+    "event_id": "EVT0422",
+    "sme_id": "SME079",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T06:00:00",
+    "end_datetime": "2026-08-25T07:00:00"
+  },
+  {
+    "event_id": "EVT0423",
+    "sme_id": "SME079",
+    "title": "Training",
+    "start_datetime": "2026-08-25T08:30:00",
+    "end_datetime": "2026-08-25T09:00:00"
+  },
+  {
+    "event_id": "EVT0424",
+    "sme_id": "SME079",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-24T04:00:00",
+    "end_datetime": "2026-08-24T04:30:00"
+  },
+  {
+    "event_id": "EVT0425",
+    "sme_id": "SME079",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T05:30:00",
+    "end_datetime": "2026-08-24T06:30:00"
+  },
+  {
+    "event_id": "EVT0426",
+    "sme_id": "SME079",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-28T05:30:00",
+    "end_datetime": "2026-08-28T06:15:00"
+  },
+  {
+    "event_id": "EVT0427",
+    "sme_id": "SME079",
+    "title": "Training",
+    "start_datetime": "2026-08-29T05:00:00",
+    "end_datetime": "2026-08-29T05:30:00"
+  },
+  {
+    "event_id": "EVT0428",
+    "sme_id": "SME079",
+    "title": "Training",
+    "start_datetime": "2026-08-25T07:00:00",
+    "end_datetime": "2026-08-25T07:45:00"
+  },
+  {
+    "event_id": "EVT0429",
+    "sme_id": "SME080",
+    "title": "Client Session",
+    "start_datetime": "2026-08-29T05:00:00",
+    "end_datetime": "2026-08-29T05:30:00"
+  },
+  {
+    "event_id": "EVT0430",
+    "sme_id": "SME080",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T04:30:00",
+    "end_datetime": "2026-08-25T05:15:00"
+  },
+  {
+    "event_id": "EVT0431",
+    "sme_id": "SME080",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T14:00:00",
+    "end_datetime": "2026-08-27T15:00:00"
+  },
+  {
+    "event_id": "EVT0432",
+    "sme_id": "SME080",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T12:30:00",
+    "end_datetime": "2026-08-27T13:00:00"
+  },
+  {
+    "event_id": "EVT0433",
+    "sme_id": "SME080",
+    "title": "Training",
+    "start_datetime": "2026-08-28T06:00:00",
+    "end_datetime": "2026-08-28T06:45:00"
+  },
+  {
+    "event_id": "EVT0434",
+    "sme_id": "SME081",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-24T14:30:00",
+    "end_datetime": "2026-08-24T15:15:00"
+  },
+  {
+    "event_id": "EVT0435",
+    "sme_id": "SME081",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T11:00:00",
+    "end_datetime": "2026-08-28T11:30:00"
+  },
+  {
+    "event_id": "EVT0436",
+    "sme_id": "SME081",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-29T13:00:00",
+    "end_datetime": "2026-08-29T13:45:00"
+  },
+  {
+    "event_id": "EVT0437",
+    "sme_id": "SME081",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-27T14:30:00",
+    "end_datetime": "2026-08-27T16:00:00"
+  },
+  {
+    "event_id": "EVT0438",
+    "sme_id": "SME082",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T20:30:00",
+    "end_datetime": "2026-08-25T22:00:00"
+  },
+  {
+    "event_id": "EVT0439",
+    "sme_id": "SME082",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T19:30:00",
+    "end_datetime": "2026-08-27T20:00:00"
+  },
+  {
+    "event_id": "EVT0440",
+    "sme_id": "SME082",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T18:30:00",
+    "end_datetime": "2026-08-25T19:15:00"
+  },
+  {
+    "event_id": "EVT0441",
+    "sme_id": "SME082",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-28T17:30:00",
+    "end_datetime": "2026-08-28T18:30:00"
+  },
+  {
+    "event_id": "EVT0442",
+    "sme_id": "SME082",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T17:00:00",
+    "end_datetime": "2026-08-24T18:00:00"
+  },
+  {
+    "event_id": "EVT0443",
+    "sme_id": "SME082",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T20:00:00",
+    "end_datetime": "2026-08-28T20:30:00"
+  },
+  {
+    "event_id": "EVT0444",
+    "sme_id": "SME083",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T05:30:00",
+    "end_datetime": "2026-08-28T07:00:00"
+  },
+  {
+    "event_id": "EVT0445",
+    "sme_id": "SME083",
+    "title": "Training",
+    "start_datetime": "2026-08-27T06:30:00",
+    "end_datetime": "2026-08-27T08:00:00"
+  },
+  {
+    "event_id": "EVT0446",
+    "sme_id": "SME083",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-26T06:00:00",
+    "end_datetime": "2026-08-26T06:45:00"
+  },
+  {
+    "event_id": "EVT0447",
+    "sme_id": "SME083",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T04:00:00",
+    "end_datetime": "2026-08-25T05:00:00"
+  },
+  {
+    "event_id": "EVT0448",
+    "sme_id": "SME083",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-26T08:00:00",
+    "end_datetime": "2026-08-26T09:00:00"
+  },
+  {
+    "event_id": "EVT0449",
+    "sme_id": "SME083",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-24T01:00:00",
+    "end_datetime": "2026-08-24T02:00:00"
+  },
+  {
+    "event_id": "EVT0450",
+    "sme_id": "SME083",
+    "title": "Training",
+    "start_datetime": "2026-08-28T03:30:00",
+    "end_datetime": "2026-08-28T04:15:00"
+  },
+  {
+    "event_id": "EVT0451",
+    "sme_id": "SME084",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T18:30:00",
+    "end_datetime": "2026-08-26T19:15:00"
+  },
+  {
+    "event_id": "EVT0452",
+    "sme_id": "SME084",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-25T18:30:00",
+    "end_datetime": "2026-08-25T19:00:00"
+  },
+  {
+    "event_id": "EVT0453",
+    "sme_id": "SME084",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-26T12:30:00",
+    "end_datetime": "2026-08-26T14:00:00"
+  },
+  {
+    "event_id": "EVT0454",
+    "sme_id": "SME084",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-29T07:30:00",
+    "end_datetime": "2026-08-29T08:15:00"
+  },
+  {
+    "event_id": "EVT0455",
+    "sme_id": "SME084",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-25T10:00:00",
+    "end_datetime": "2026-08-25T11:30:00"
+  },
+  {
+    "event_id": "EVT0456",
+    "sme_id": "SME085",
+    "title": "Training",
+    "start_datetime": "2026-08-28T08:30:00",
+    "end_datetime": "2026-08-28T10:00:00"
+  },
+  {
+    "event_id": "EVT0457",
+    "sme_id": "SME085",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T05:00:00",
+    "end_datetime": "2026-08-24T06:30:00"
+  },
+  {
+    "event_id": "EVT0458",
+    "sme_id": "SME085",
+    "title": "Training",
+    "start_datetime": "2026-08-25T07:30:00",
+    "end_datetime": "2026-08-25T08:00:00"
+  },
+  {
+    "event_id": "EVT0459",
+    "sme_id": "SME085",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-25T09:00:00",
+    "end_datetime": "2026-08-25T10:00:00"
+  },
+  {
+    "event_id": "EVT0460",
+    "sme_id": "SME085",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-27T10:30:00",
+    "end_datetime": "2026-08-27T11:30:00"
+  },
+  {
+    "event_id": "EVT0461",
+    "sme_id": "SME085",
+    "title": "Training",
+    "start_datetime": "2026-08-27T06:30:00",
+    "end_datetime": "2026-08-27T07:30:00"
+  },
+  {
+    "event_id": "EVT0462",
+    "sme_id": "SME085",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-28T00:00:00",
+    "end_datetime": "2026-08-28T00:45:00"
+  },
+  {
+    "event_id": "EVT0463",
+    "sme_id": "SME086",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-28T13:00:00",
+    "end_datetime": "2026-08-28T14:30:00"
+  },
+  {
+    "event_id": "EVT0464",
+    "sme_id": "SME086",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T04:00:00",
+    "end_datetime": "2026-08-27T04:45:00"
+  },
+  {
+    "event_id": "EVT0465",
+    "sme_id": "SME086",
+    "title": "Client Session",
+    "start_datetime": "2026-08-24T08:00:00",
+    "end_datetime": "2026-08-24T09:00:00"
+  },
+  {
+    "event_id": "EVT0466",
+    "sme_id": "SME086",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-25T03:30:00",
+    "end_datetime": "2026-08-25T04:00:00"
+  },
+  {
+    "event_id": "EVT0467",
+    "sme_id": "SME086",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T02:30:00",
+    "end_datetime": "2026-08-27T03:15:00"
+  },
+  {
+    "event_id": "EVT0468",
+    "sme_id": "SME087",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-26T03:00:00",
+    "end_datetime": "2026-08-26T04:00:00"
+  },
+  {
+    "event_id": "EVT0469",
+    "sme_id": "SME087",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-24T07:00:00",
+    "end_datetime": "2026-08-24T08:00:00"
+  },
+  {
+    "event_id": "EVT0470",
+    "sme_id": "SME087",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T02:30:00",
+    "end_datetime": "2026-08-24T04:00:00"
+  },
+  {
+    "event_id": "EVT0471",
+    "sme_id": "SME087",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T01:00:00",
+    "end_datetime": "2026-08-25T02:30:00"
+  },
+  {
+    "event_id": "EVT0472",
+    "sme_id": "SME087",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T01:30:00",
+    "end_datetime": "2026-08-29T02:15:00"
+  },
+  {
+    "event_id": "EVT0473",
+    "sme_id": "SME087",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T04:30:00",
+    "end_datetime": "2026-08-25T06:00:00"
+  },
+  {
+    "event_id": "EVT0474",
+    "sme_id": "SME088",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T11:00:00",
+    "end_datetime": "2026-08-28T12:30:00"
+  },
+  {
+    "event_id": "EVT0475",
+    "sme_id": "SME088",
+    "title": "Client Session",
+    "start_datetime": "2026-08-25T07:00:00",
+    "end_datetime": "2026-08-25T08:30:00"
+  },
+  {
+    "event_id": "EVT0476",
+    "sme_id": "SME088",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T16:00:00",
+    "end_datetime": "2026-08-27T17:00:00"
+  },
+  {
+    "event_id": "EVT0477",
+    "sme_id": "SME088",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T14:30:00",
+    "end_datetime": "2026-08-27T15:00:00"
+  },
+  {
+    "event_id": "EVT0478",
+    "sme_id": "SME088",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-26T17:30:00",
+    "end_datetime": "2026-08-26T18:30:00"
+  },
+  {
+    "event_id": "EVT0479",
+    "sme_id": "SME088",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T09:30:00",
+    "end_datetime": "2026-08-25T11:00:00"
+  },
+  {
+    "event_id": "EVT0480",
+    "sme_id": "SME088",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T09:00:00",
+    "end_datetime": "2026-08-29T10:30:00"
+  },
+  {
+    "event_id": "EVT0481",
+    "sme_id": "SME089",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-25T16:30:00",
+    "end_datetime": "2026-08-25T17:00:00"
+  },
+  {
+    "event_id": "EVT0482",
+    "sme_id": "SME089",
+    "title": "Client Session",
+    "start_datetime": "2026-08-27T18:00:00",
+    "end_datetime": "2026-08-27T19:00:00"
+  },
+  {
+    "event_id": "EVT0483",
+    "sme_id": "SME089",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-24T20:30:00",
+    "end_datetime": "2026-08-24T22:00:00"
+  },
+  {
+    "event_id": "EVT0484",
+    "sme_id": "SME089",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T16:00:00",
+    "end_datetime": "2026-08-25T16:30:00"
+  },
+  {
+    "event_id": "EVT0485",
+    "sme_id": "SME090",
+    "title": "Training",
+    "start_datetime": "2026-08-24T13:00:00",
+    "end_datetime": "2026-08-24T14:30:00"
+  },
+  {
+    "event_id": "EVT0486",
+    "sme_id": "SME090",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T08:30:00",
+    "end_datetime": "2026-08-29T10:00:00"
+  },
+  {
+    "event_id": "EVT0487",
+    "sme_id": "SME090",
+    "title": "Training",
+    "start_datetime": "2026-08-24T06:30:00",
+    "end_datetime": "2026-08-24T07:15:00"
+  },
+  {
+    "event_id": "EVT0488",
+    "sme_id": "SME091",
+    "title": "Client Session",
+    "start_datetime": "2026-08-29T10:00:00",
+    "end_datetime": "2026-08-29T11:30:00"
+  },
+  {
+    "event_id": "EVT0489",
+    "sme_id": "SME091",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T10:30:00",
+    "end_datetime": "2026-08-24T12:00:00"
+  },
+  {
+    "event_id": "EVT0490",
+    "sme_id": "SME091",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T06:30:00",
+    "end_datetime": "2026-08-27T07:15:00"
+  },
+  {
+    "event_id": "EVT0491",
+    "sme_id": "SME091",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T03:30:00",
+    "end_datetime": "2026-08-28T04:30:00"
+  },
+  {
+    "event_id": "EVT0492",
+    "sme_id": "SME091",
+    "title": "Client Session",
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T14:45:00"
+  },
+  {
+    "event_id": "EVT0493",
+    "sme_id": "SME091",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-29T03:00:00",
+    "end_datetime": "2026-08-29T03:45:00"
+  },
+  {
+    "event_id": "EVT0494",
+    "sme_id": "SME091",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-26T04:30:00",
+    "end_datetime": "2026-08-26T05:00:00"
+  },
+  {
+    "event_id": "EVT0495",
+    "sme_id": "SME091",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-25T09:30:00",
+    "end_datetime": "2026-08-25T10:00:00"
+  },
+  {
+    "event_id": "EVT0496",
+    "sme_id": "SME092",
     "title": "Team Meeting",
     "start_datetime": "2026-08-26T07:00:00",
     "end_datetime": "2026-08-26T07:30:00"
   },
   {
-    "event_id": "EVT0522",
-    "sme_id": "SME098",
+    "event_id": "EVT0497",
+    "sme_id": "SME092",
     "title": "Interview Panel",
     "start_datetime": "2026-08-27T03:00:00",
     "end_datetime": "2026-08-27T04:00:00"
   },
   {
-    "event_id": "EVT0523",
-    "sme_id": "SME098",
+    "event_id": "EVT0498",
+    "sme_id": "SME092",
     "title": "Team Meeting",
     "start_datetime": "2026-08-25T01:00:00",
     "end_datetime": "2026-08-25T02:30:00"
   },
   {
-    "event_id": "EVT0524",
-    "sme_id": "SME098",
+    "event_id": "EVT0499",
+    "sme_id": "SME092",
     "title": "Interview Panel",
     "start_datetime": "2026-08-24T05:00:00",
     "end_datetime": "2026-08-24T05:30:00"
   },
   {
-    "event_id": "EVT0525",
-    "sme_id": "SME098",
+    "event_id": "EVT0500",
+    "sme_id": "SME092",
     "title": "Team Meeting",
     "start_datetime": "2026-08-24T10:00:00",
     "end_datetime": "2026-08-24T10:45:00"
   },
   {
-    "event_id": "EVT0526",
-    "sme_id": "SME098",
+    "event_id": "EVT0501",
+    "sme_id": "SME092",
     "title": "Training",
     "start_datetime": "2026-08-27T08:00:00",
     "end_datetime": "2026-08-27T09:00:00"
   },
   {
-    "event_id": "EVT0527",
-    "sme_id": "SME098",
+    "event_id": "EVT0502",
+    "sme_id": "SME092",
     "title": "1:1 Sync",
     "start_datetime": "2026-08-28T10:00:00",
     "end_datetime": "2026-08-28T10:45:00"
   },
   {
-    "event_id": "EVT0528",
-    "sme_id": "SME098",
+    "event_id": "EVT0503",
+    "sme_id": "SME092",
     "title": "Interview Panel",
     "start_datetime": "2026-08-27T06:00:00",
     "end_datetime": "2026-08-27T06:45:00"
   },
   {
-    "event_id": "EVT0529",
-    "sme_id": "SME099",
+    "event_id": "EVT0504",
+    "sme_id": "SME093",
     "title": "Curriculum Review",
     "start_datetime": "2026-08-26T07:30:00",
     "end_datetime": "2026-08-26T08:00:00"
   },
   {
-    "event_id": "EVT0530",
-    "sme_id": "SME099",
+    "event_id": "EVT0505",
+    "sme_id": "SME093",
     "title": "Interview Panel",
     "start_datetime": "2026-08-29T07:30:00",
     "end_datetime": "2026-08-29T09:00:00"
   },
   {
-    "event_id": "EVT0531",
-    "sme_id": "SME099",
+    "event_id": "EVT0506",
+    "sme_id": "SME093",
     "title": "Planning Session",
     "start_datetime": "2026-08-27T05:30:00",
     "end_datetime": "2026-08-27T06:30:00"
   },
   {
-    "event_id": "EVT0532",
-    "sme_id": "SME100",
+    "event_id": "EVT0507",
+    "sme_id": "SME094",
     "title": "Personal Block",
-    "start_datetime": "2026-08-24T16:00:00",
-    "end_datetime": "2026-08-24T17:30:00"
+    "start_datetime": "2026-08-24T08:00:00",
+    "end_datetime": "2026-08-24T09:30:00"
+  },
+  {
+    "event_id": "EVT0508",
+    "sme_id": "SME094",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T14:00:00",
+    "end_datetime": "2026-08-28T14:45:00"
+  },
+  {
+    "event_id": "EVT0509",
+    "sme_id": "SME094",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T16:30:00",
+    "end_datetime": "2026-08-24T18:00:00"
+  },
+  {
+    "event_id": "EVT0510",
+    "sme_id": "SME094",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T09:30:00",
+    "end_datetime": "2026-08-26T11:00:00"
+  },
+  {
+    "event_id": "EVT0511",
+    "sme_id": "SME094",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-26T07:30:00",
+    "end_datetime": "2026-08-26T09:00:00"
+  },
+  {
+    "event_id": "EVT0512",
+    "sme_id": "SME095",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T10:00:00",
+    "end_datetime": "2026-08-29T10:45:00"
+  },
+  {
+    "event_id": "EVT0513",
+    "sme_id": "SME095",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-28T08:30:00",
+    "end_datetime": "2026-08-28T09:15:00"
+  },
+  {
+    "event_id": "EVT0514",
+    "sme_id": "SME095",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T16:00:00",
+    "end_datetime": "2026-08-25T16:30:00"
+  },
+  {
+    "event_id": "EVT0515",
+    "sme_id": "SME095",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-26T14:30:00",
+    "end_datetime": "2026-08-26T15:15:00"
+  },
+  {
+    "event_id": "EVT0516",
+    "sme_id": "SME095",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-27T10:00:00",
+    "end_datetime": "2026-08-27T10:45:00"
+  },
+  {
+    "event_id": "EVT0517",
+    "sme_id": "SME095",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T18:30:00",
+    "end_datetime": "2026-08-27T19:15:00"
+  },
+  {
+    "event_id": "EVT0518",
+    "sme_id": "SME095",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-26T17:00:00",
+    "end_datetime": "2026-08-26T18:30:00"
+  },
+  {
+    "event_id": "EVT0519",
+    "sme_id": "SME095",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-24T10:30:00",
+    "end_datetime": "2026-08-24T11:30:00"
+  },
+  {
+    "event_id": "EVT0520",
+    "sme_id": "SME096",
+    "title": "Planning Session",
+    "start_datetime": "2026-08-28T15:00:00",
+    "end_datetime": "2026-08-28T15:45:00"
+  },
+  {
+    "event_id": "EVT0521",
+    "sme_id": "SME096",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-27T23:30:00",
+    "end_datetime": "2026-08-28T00:15:00"
+  },
+  {
+    "event_id": "EVT0522",
+    "sme_id": "SME096",
+    "title": "Client Session",
+    "start_datetime": "2026-08-29T15:00:00",
+    "end_datetime": "2026-08-29T16:30:00"
+  },
+  {
+    "event_id": "EVT0523",
+    "sme_id": "SME096",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T15:00:00",
+    "end_datetime": "2026-08-25T15:45:00"
+  },
+  {
+    "event_id": "EVT0524",
+    "sme_id": "SME097",
+    "title": "1:1 Sync",
+    "start_datetime": "2026-08-25T21:00:00",
+    "end_datetime": "2026-08-25T21:45:00"
+  },
+  {
+    "event_id": "EVT0525",
+    "sme_id": "SME097",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-24T18:30:00",
+    "end_datetime": "2026-08-24T19:30:00"
+  },
+  {
+    "event_id": "EVT0526",
+    "sme_id": "SME097",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-29T15:00:00",
+    "end_datetime": "2026-08-29T16:30:00"
+  },
+  {
+    "event_id": "EVT0527",
+    "sme_id": "SME098",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-25T04:30:00",
+    "end_datetime": "2026-08-25T06:00:00"
+  },
+  {
+    "event_id": "EVT0528",
+    "sme_id": "SME098",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-26T07:00:00",
+    "end_datetime": "2026-08-26T08:00:00"
+  },
+  {
+    "event_id": "EVT0529",
+    "sme_id": "SME098",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-27T02:30:00",
+    "end_datetime": "2026-08-27T04:00:00"
+  },
+  {
+    "event_id": "EVT0530",
+    "sme_id": "SME098",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-28T09:30:00",
+    "end_datetime": "2026-08-28T10:15:00"
+  },
+  {
+    "event_id": "EVT0531",
+    "sme_id": "SME098",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-24T06:30:00",
+    "end_datetime": "2026-08-24T07:00:00"
+  },
+  {
+    "event_id": "EVT0532",
+    "sme_id": "SME098",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-28T08:00:00",
+    "end_datetime": "2026-08-28T08:45:00"
   },
   {
     "event_id": "EVT0533",
-    "sme_id": "SME100",
+    "sme_id": "SME098",
     "title": "Personal Block",
-    "start_datetime": "2026-08-28T22:00:00",
-    "end_datetime": "2026-08-28T22:45:00"
+    "start_datetime": "2026-08-27T07:30:00",
+    "end_datetime": "2026-08-27T09:00:00"
   },
   {
     "event_id": "EVT0534",
-    "sme_id": "SME100",
-    "title": "Cohort Class",
-    "start_datetime": "2026-08-25T00:30:00",
-    "end_datetime": "2026-08-25T02:00:00"
+    "sme_id": "SME099",
+    "title": "Training",
+    "start_datetime": "2026-08-28T12:00:00",
+    "end_datetime": "2026-08-28T12:30:00"
   },
   {
     "event_id": "EVT0535",
-    "sme_id": "SME100",
-    "title": "Client Session",
-    "start_datetime": "2026-08-26T17:30:00",
-    "end_datetime": "2026-08-26T19:00:00"
+    "sme_id": "SME099",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-25T14:00:00",
+    "end_datetime": "2026-08-25T14:45:00"
   },
   {
     "event_id": "EVT0536",
-    "sme_id": "SME100",
-    "title": "1:1 Sync",
-    "start_datetime": "2026-08-26T15:30:00",
-    "end_datetime": "2026-08-26T17:00:00"
+    "sme_id": "SME099",
+    "title": "Office Hours",
+    "start_datetime": "2026-08-25T02:30:00",
+    "end_datetime": "2026-08-25T03:30:00"
   },
   {
     "event_id": "EVT0537",
+    "sme_id": "SME099",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-27T09:00:00",
+    "end_datetime": "2026-08-27T10:00:00"
+  },
+  {
+    "event_id": "EVT0538",
+    "sme_id": "SME099",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-27T06:30:00",
+    "end_datetime": "2026-08-27T08:00:00"
+  },
+  {
+    "event_id": "EVT0539",
+    "sme_id": "SME099",
+    "title": "Curriculum Review",
+    "start_datetime": "2026-08-24T08:30:00",
+    "end_datetime": "2026-08-24T09:15:00"
+  },
+  {
+    "event_id": "EVT0540",
+    "sme_id": "SME100",
+    "title": "Team Meeting",
+    "start_datetime": "2026-08-29T20:30:00",
+    "end_datetime": "2026-08-29T21:30:00"
+  },
+  {
+    "event_id": "EVT0541",
+    "sme_id": "SME100",
+    "title": "Interview Panel",
+    "start_datetime": "2026-08-29T21:30:00",
+    "end_datetime": "2026-08-29T22:15:00"
+  },
+  {
+    "event_id": "EVT0542",
+    "sme_id": "SME100",
+    "title": "Cohort Class",
+    "start_datetime": "2026-08-27T15:30:00",
+    "end_datetime": "2026-08-27T16:00:00"
+  },
+  {
+    "event_id": "EVT0543",
+    "sme_id": "SME100",
+    "title": "Personal Block",
+    "start_datetime": "2026-08-27T00:30:00",
+    "end_datetime": "2026-08-27T01:15:00"
+  },
+  {
+    "event_id": "EVT0544",
+    "sme_id": "SME100",
+    "title": "Client Session",
+    "start_datetime": "2026-08-26T00:00:00",
+    "end_datetime": "2026-08-26T00:30:00"
+  },
+  {
+    "event_id": "EVT0545",
     "sme_id": "SME036",
     "title": "Interview Panel",
     "start_datetime": "2026-08-24T04:30:00",
     "end_datetime": "2026-08-24T05:30:00"
   },
   {
-    "event_id": "EVT0538",
+    "event_id": "EVT0546",
     "sme_id": "SME015",
     "title": "Cohort Class",
     "start_datetime": "2026-08-26T05:30:00",
     "end_datetime": "2026-08-26T06:15:00"
   },
   {
-    "event_id": "EVT0539",
+    "event_id": "EVT0547",
     "sme_id": "SME009",
     "title": "Client Session",
     "start_datetime": "2026-08-27T09:30:00",

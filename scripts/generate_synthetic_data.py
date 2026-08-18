@@ -404,17 +404,28 @@ def gen_performance(rng: random.Random, smes: list[dict], anchors: dict) -> list
                      "sessions_delivered": 9, "avg_learner_rating": 4.5, "avg_quality_score": 84.0, "reliability_score": 90.0})
 
     # Trim/pad to land in the requested 500-800 range deterministically.
+    # Track existing (sme, topic, class_type) combos so padding never creates
+    # a duplicate row -- a duplicate would make performance lookups order-
+    # dependent and could silently break an engineered scenario (e.g. the
+    # forced exact-tie pair) that relies on exactly one row per combo.
+    seen = {(r["sme_id"], r["topic"], r["class_type"]) for r in records}
     if len(records) > 800:
         records = records[:800]
     elif len(records) < 500:
         i = 0
+        attempts = 0
         active_smes = [s for s in smes if s["primary_skills"]]
-        while len(records) < 500:
+        while len(records) < 500 and attempts < 20000:
+            attempts += 1
             sme = active_smes[i % len(active_smes)]
             topic = rng.choice(sme["primary_skills"])
             class_type = rng.choice(CLASS_TYPES)
-            add_record(sme, topic, class_type, rng.randint(1, 10), rng.uniform(3.5, 4.8), rng.uniform(70, 92), rng.uniform(78, 96))
+            key = (sme["sme_id"], topic, class_type)
             i += 1
+            if key in seen:
+                continue
+            seen.add(key)
+            add_record(sme, topic, class_type, rng.randint(1, 10), rng.uniform(3.5, 4.8), rng.uniform(70, 92), rng.uniform(78, 96))
 
     return records
 
@@ -453,6 +464,16 @@ def gen_history(rng: random.Random, smes: list[dict], anchors: dict) -> list[dic
 
         for week_start, count in zip(PRIOR_WEEKS, weekly):
             records.append({"sme_id": sme["sme_id"], "week_start": week_start, "sessions_assigned": count})
+
+    # Tie scenario: force identical rolling workload for both candidates so
+    # the fairness sub-score matches too, not just performance -- otherwise
+    # an incidental workload gap alone would break the "almost identical
+    # scores" tie the scenario is meant to demonstrate.
+    tie_a, tie_b = anchors["tie_pair"]
+    tie_a_weekly = {r["week_start"]: r["sessions_assigned"] for r in records if r["sme_id"] == tie_a}
+    records = [r for r in records if r["sme_id"] != tie_b]
+    for week_start, count in tie_a_weekly.items():
+        records.append({"sme_id": tie_b, "week_start": week_start, "sessions_assigned": count})
 
     return records
 

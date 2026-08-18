@@ -6,8 +6,9 @@
       "Behavioral Interviews"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Mock Interview"
+      "Workshop",
+      "Cohort Class",
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -18,20 +19,19 @@
       "Resume Review"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Doubt Clearing"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME003",
     "preferred_topics": [
-      "Cloud Computing",
-      "Data Structures & Algorithms"
+      "Cloud Computing"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Mock Interview"
+      "Assessment Review",
+      "Doubt Clearing"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -42,10 +42,10 @@
       "Behavioral Interviews"
     ],
     "preferred_class_types": [
-      "Office Hours"
+      "Mock Interview"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME005",
@@ -53,10 +53,11 @@
       "Behavioral Interviews"
     ],
     "preferred_class_types": [
-      "Doubt Clearing"
+      "Doubt Clearing",
+      "Mock Interview"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME006",
@@ -64,7 +65,7 @@
       "Aptitude"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Assessment Review"
     ],
     "preferred_start_time": "14:00",
     "preferred_end_time": "18:00"
@@ -75,10 +76,12 @@
       "Product Management"
     ],
     "preferred_class_types": [
+      "Cohort Class",
+      "Office Hours",
       "Assessment Review"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME008",
@@ -97,11 +100,10 @@
       "Career Coaching"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Cohort Class"
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME010",
@@ -109,10 +111,10 @@
       "JavaScript"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Office Hours"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "13:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME011",
@@ -120,7 +122,7 @@
       "DevOps"
     ],
     "preferred_class_types": [
-      "Cohort Class"
+      "Mock Interview"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "13:00"
@@ -131,7 +133,7 @@
       "JavaScript"
     ],
     "preferred_class_types": [
-      "Doubt Clearing"
+      "Assessment Review"
     ],
     "preferred_start_time": "10:00",
     "preferred_end_time": "14:00"
@@ -139,30 +141,24 @@
   {
     "sme_id": "SME013",
     "preferred_topics": [
-      "Python",
-      "Java"
+      "Python"
     ],
     "preferred_class_types": [
-      "Mock Interview",
-      "Assessment Review",
-      "Doubt Clearing"
+      "Mock Interview"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME014",
     "preferred_topics": [
-      "Python",
-      "Product Management",
-      "SQL"
+      "Python"
     ],
     "preferred_class_types": [
-      "Workshop",
-      "Office Hours"
+      "Workshop"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME015",
@@ -172,8 +168,8 @@
     "preferred_class_types": [
       "Assessment Review"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME016",
@@ -181,7 +177,7 @@
       "Machine Learning"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Doubt Clearing"
     ],
     "preferred_start_time": "10:00",
     "preferred_end_time": "14:00"
@@ -189,16 +185,13 @@
   {
     "sme_id": "SME017",
     "preferred_topics": [
-      "Product Strategy",
-      "Data Analytics"
+      "Product Strategy"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Assessment Review",
-      "Office Hours"
+      "Mock Interview"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME018",
@@ -206,26 +199,21 @@
       "Product Management"
     ],
     "preferred_class_types": [
-      "Workshop",
-      "Doubt Clearing",
-      "Mock Interview"
+      "Assessment Review"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME019",
     "preferred_topics": [
-      "Mock Interviews",
-      "Python"
+      "Mock Interviews"
     ],
     "preferred_class_types": [
-      "Workshop",
-      "Cohort Class",
-      "Office Hours"
+      "Cohort Class"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME020",
@@ -233,7 +221,7 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Assessment Review"
     ],
     "preferred_start_time": "14:00",
     "preferred_end_time": "18:00"
@@ -244,10 +232,11 @@
       "SQL"
     ],
     "preferred_class_types": [
-      "Doubt Clearing"
+      "Doubt Clearing",
+      "Workshop"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME022",
@@ -258,7 +247,8 @@
     ],
     "preferred_class_types": [
       "Office Hours",
-      "Cohort Class"
+      "Doubt Clearing",
+      "Workshop"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -269,10 +259,10 @@
       "React"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Office Hours"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "13:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME024",
@@ -280,7 +270,7 @@
       "Behavioral Interviews"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Doubt Clearing"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "13:00"
@@ -291,12 +281,10 @@
       "Cloud Computing"
     ],
     "preferred_class_types": [
-      "Office Hours",
-      "Workshop",
-      "Doubt Clearing"
+      "Cohort Class"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME026",
@@ -304,23 +292,24 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Workshop",
-      "Cohort Class",
-      "Mock Interview"
+      "Assessment Review"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME027",
     "preferred_topics": [
-      "SQL"
+      "SQL",
+      "Aptitude"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Office Hours",
+      "Assessment Review",
+      "Mock Interview"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME028",
@@ -328,7 +317,7 @@
       "Resume Review"
     ],
     "preferred_class_types": [
-      "Workshop"
+      "Cohort Class"
     ],
     "preferred_start_time": "10:00",
     "preferred_end_time": "14:00"
@@ -336,16 +325,13 @@
   {
     "sme_id": "SME029",
     "preferred_topics": [
-      "Resume Review",
-      "Data Structures & Algorithms",
-      "SQL"
+      "Resume Review"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Cohort Class"
+      "Mock Interview"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME030",
@@ -353,8 +339,8 @@
       "Product Management"
     ],
     "preferred_class_types": [
-      "Office Hours",
-      "Assessment Review"
+      "Assessment Review",
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -365,10 +351,12 @@
       "Product Strategy"
     ],
     "preferred_class_types": [
-      "Office Hours"
+      "Office Hours",
+      "Cohort Class",
+      "Assessment Review"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "13:00"
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME032",
@@ -376,12 +364,10 @@
       "Data Analytics"
     ],
     "preferred_class_types": [
-      "Workshop",
-      "Cohort Class",
-      "Office Hours"
+      "Assessment Review"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME033",
@@ -391,9 +377,8 @@
       "Data Structures & Algorithms"
     ],
     "preferred_class_types": [
-      "Mock Interview",
-      "Workshop",
-      "Cohort Class"
+      "Assessment Review",
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -401,22 +386,26 @@
   {
     "sme_id": "SME034",
     "preferred_topics": [
-      "SQL"
+      "SQL",
+      "Product Management"
     ],
     "preferred_class_types": [
-      "Doubt Clearing"
+      "Mock Interview",
+      "Office Hours"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME035",
     "preferred_topics": [
-      "Machine Learning"
+      "Machine Learning",
+      "Product Management"
     ],
     "preferred_class_types": [
-      "Assessment Review",
-      "Doubt Clearing"
+      "Office Hours",
+      "Workshop",
+      "Mock Interview"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -435,15 +424,13 @@
   {
     "sme_id": "SME037",
     "preferred_topics": [
-      "Data Structures & Algorithms",
-      "Data Analytics"
+      "Data Structures & Algorithms"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Mock Interview"
+      "Assessment Review"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME038",
@@ -451,21 +438,22 @@
       "React"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Assessment Review",
+      "Workshop"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME039",
     "preferred_topics": [
       "Java",
-      "Machine Learning"
+      "Machine Learning",
+      "Behavioral Interviews"
     ],
     "preferred_class_types": [
-      "Cohort Class",
-      "Office Hours",
-      "Assessment Review"
+      "Assessment Review",
+      "Mock Interview"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -478,9 +466,8 @@
       "Mock Interviews"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
       "Mock Interview",
-      "Cohort Class"
+      "Workshop"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -499,13 +486,16 @@
   {
     "sme_id": "SME042",
     "preferred_topics": [
-      "Resume Review"
+      "Resume Review",
+      "Product Management"
     ],
     "preferred_class_types": [
-      "Office Hours"
+      "Doubt Clearing",
+      "Office Hours",
+      "Mock Interview"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME043",
@@ -524,10 +514,11 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Assessment Review",
+      "Workshop"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME045",
@@ -535,10 +526,10 @@
       "Product Strategy"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Doubt Clearing"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME046",
@@ -546,10 +537,12 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Workshop"
+      "Doubt Clearing",
+      "Office Hours",
+      "Cohort Class"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME047",
@@ -557,7 +550,7 @@
       "Mock Interviews"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Cohort Class"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "13:00"
@@ -568,32 +561,39 @@
       "Aptitude"
     ],
     "preferred_class_types": [
+      "Workshop",
+      "Assessment Review",
       "Doubt Clearing"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME049",
     "preferred_topics": [
-      "JavaScript"
+      "JavaScript",
+      "Machine Learning",
+      "React"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Doubt Clearing",
+      "Office Hours"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME050",
     "preferred_topics": [
-      "React"
+      "React",
+      "System Design"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Assessment Review",
+      "Mock Interview"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "13:00"
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME051",
@@ -601,10 +601,11 @@
       "Java"
     ],
     "preferred_class_types": [
-      "Cohort Class"
+      "Doubt Clearing",
+      "Workshop"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME052",
@@ -612,7 +613,7 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Mock Interview"
     ],
     "preferred_start_time": "14:00",
     "preferred_end_time": "18:00"
@@ -623,8 +624,9 @@
       "Aptitude"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Workshop"
+      "Assessment Review",
+      "Workshop",
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -632,15 +634,13 @@
   {
     "sme_id": "SME054",
     "preferred_topics": [
-      "DevOps",
-      "SQL"
+      "DevOps"
     ],
     "preferred_class_types": [
-      "Workshop",
       "Office Hours"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME055",
@@ -656,13 +656,16 @@
   {
     "sme_id": "SME056",
     "preferred_topics": [
-      "Python"
+      "Python",
+      "Mock Interviews",
+      "System Design"
     ],
     "preferred_class_types": [
-      "Doubt Clearing"
+      "Cohort Class",
+      "Office Hours"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME057",
@@ -670,6 +673,7 @@
       "JavaScript"
     ],
     "preferred_class_types": [
+      "Mock Interview",
       "Assessment Review",
       "Office Hours"
     ],
@@ -679,13 +683,16 @@
   {
     "sme_id": "SME058",
     "preferred_topics": [
-      "Mock Interviews"
+      "Mock Interviews",
+      "Cloud Computing"
     ],
     "preferred_class_types": [
+      "Workshop",
+      "Doubt Clearing",
       "Office Hours"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME059",
@@ -693,7 +700,7 @@
       "Java"
     ],
     "preferred_class_types": [
-      "Cohort Class"
+      "Assessment Review"
     ],
     "preferred_start_time": "10:00",
     "preferred_end_time": "14:00"
@@ -701,24 +708,25 @@
   {
     "sme_id": "SME060",
     "preferred_topics": [
-      "Java"
+      "Java",
+      "Data Structures & Algorithms"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Assessment Review",
+      "Cohort Class"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "13:00"
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME061",
     "preferred_topics": [
-      "Statistics",
-      "Resume Review",
-      "Machine Learning"
+      "Statistics"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Office Hours"
+      "Cohort Class",
+      "Office Hours",
+      "Assessment Review"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -730,9 +738,8 @@
       "Cloud Computing"
     ],
     "preferred_class_types": [
-      "Office Hours",
-      "Cohort Class",
-      "Assessment Review"
+      "Assessment Review",
+      "Mock Interview"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -743,10 +750,10 @@
       "System Design"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Cohort Class"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME064",
@@ -755,8 +762,7 @@
     ],
     "preferred_class_types": [
       "Office Hours",
-      "Cohort Class",
-      "Mock Interview"
+      "Cohort Class"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -767,10 +773,11 @@
       "Machine Learning"
     ],
     "preferred_class_types": [
-      "Cohort Class"
+      "Office Hours",
+      "Doubt Clearing"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME066",
@@ -778,7 +785,7 @@
       "Data Structures & Algorithms"
     ],
     "preferred_class_types": [
-      "Workshop"
+      "Assessment Review"
     ],
     "preferred_start_time": "10:00",
     "preferred_end_time": "14:00"
@@ -786,11 +793,9 @@
   {
     "sme_id": "SME067",
     "preferred_topics": [
-      "Aptitude",
-      "Product Management"
+      "Aptitude"
     ],
     "preferred_class_types": [
-      "Mock Interview",
       "Assessment Review",
       "Doubt Clearing"
     ],
@@ -803,7 +808,7 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Office Hours"
+      "Workshop"
     ],
     "preferred_start_time": "10:00",
     "preferred_end_time": "14:00"
@@ -814,10 +819,12 @@
       "System Design"
     ],
     "preferred_class_types": [
+      "Workshop",
+      "Mock Interview",
       "Office Hours"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME070",
@@ -825,31 +832,34 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Workshop"
+      "Cohort Class"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME071",
     "preferred_topics": [
-      "Python"
+      "Python",
+      "Product Strategy"
     ],
     "preferred_class_types": [
-      "Cohort Class"
+      "Mock Interview",
+      "Cohort Class",
+      "Assessment Review"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME072",
     "preferred_topics": [
-      "DevOps"
+      "DevOps",
+      "Python"
     ],
     "preferred_class_types": [
       "Workshop",
-      "Cohort Class",
-      "Doubt Clearing"
+      "Cohort Class"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -860,10 +870,10 @@
       "Product Strategy"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Doubt Clearing"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME074",
@@ -871,7 +881,7 @@
       "Data Analytics"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Assessment Review"
     ],
     "preferred_start_time": "14:00",
     "preferred_end_time": "18:00"
@@ -882,36 +892,34 @@
       "JavaScript"
     ],
     "preferred_class_types": [
-      "Office Hours",
-      "Doubt Clearing"
+      "Office Hours"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME076",
     "preferred_topics": [
-      "Mock Interviews",
-      "React",
-      "Aptitude"
+      "Mock Interviews"
     ],
     "preferred_class_types": [
-      "Assessment Review",
-      "Workshop"
+      "Assessment Review"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME077",
     "preferred_topics": [
-      "System Design"
+      "System Design",
+      "Java"
     ],
     "preferred_class_types": [
-      "Doubt Clearing"
+      "Cohort Class",
+      "Assessment Review"
     ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME078",
@@ -919,12 +927,10 @@
       "Statistics"
     ],
     "preferred_class_types": [
-      "Doubt Clearing",
-      "Office Hours",
-      "Cohort Class"
+      "Assessment Review"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME079",
@@ -932,20 +938,22 @@
       "JavaScript"
     ],
     "preferred_class_types": [
-      "Cohort Class"
+      "Doubt Clearing",
+      "Cohort Class",
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "13:00"
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME080",
     "preferred_topics": [
-      "Machine Learning"
+      "Machine Learning",
+      "System Design"
     ],
     "preferred_class_types": [
-      "Workshop",
       "Assessment Review",
-      "Doubt Clearing"
+      "Mock Interview"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -956,8 +964,9 @@
       "React"
     ],
     "preferred_class_types": [
-      "Office Hours",
-      "Mock Interview"
+      "Workshop",
+      "Assessment Review",
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -968,46 +977,49 @@
       "JavaScript"
     ],
     "preferred_class_types": [
-      "Mock Interview"
+      "Cohort Class",
+      "Workshop"
     ],
     "preferred_start_time": "09:00",
-    "preferred_end_time": "13:00"
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME083",
     "preferred_topics": [
-      "Behavioral Interviews"
+      "Behavioral Interviews",
+      "Mock Interviews"
     ],
     "preferred_class_types": [
-      "Workshop"
-    ],
-    "preferred_start_time": "14:00",
-    "preferred_end_time": "18:00"
-  },
-  {
-    "sme_id": "SME084",
-    "preferred_topics": [
-      "JavaScript"
-    ],
-    "preferred_class_types": [
-      "Workshop"
-    ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
-  },
-  {
-    "sme_id": "SME085",
-    "preferred_topics": [
-      "Statistics",
-      "Product Strategy",
-      "Aptitude"
-    ],
-    "preferred_class_types": [
-      "Workshop",
+      "Office Hours",
       "Assessment Review"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
+  },
+  {
+    "sme_id": "SME084",
+    "preferred_topics": [
+      "JavaScript",
+      "Mock Interviews"
+    ],
+    "preferred_class_types": [
+      "Assessment Review",
+      "Mock Interview",
+      "Workshop"
+    ],
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
+  },
+  {
+    "sme_id": "SME085",
+    "preferred_topics": [
+      "Statistics"
+    ],
+    "preferred_class_types": [
+      "Assessment Review"
+    ],
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME086",
@@ -1015,20 +1027,20 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Doubt Clearing"
+      "Mock Interview"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "13:00"
   },
   {
     "sme_id": "SME087",
     "preferred_topics": [
-      "Python"
+      "Python",
+      "React"
     ],
     "preferred_class_types": [
-      "Workshop",
-      "Assessment Review",
-      "Mock Interview"
+      "Doubt Clearing",
+      "Office Hours"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -1039,36 +1051,33 @@
       "Data Structures & Algorithms"
     ],
     "preferred_class_types": [
-      "Office Hours",
-      "Mock Interview"
+      "Workshop"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME089",
     "preferred_topics": [
-      "Mock Interviews",
-      "Product Strategy"
+      "Mock Interviews"
     ],
     "preferred_class_types": [
-      "Mock Interview",
-      "Assessment Review",
-      "Office Hours"
+      "Assessment Review"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME090",
     "preferred_topics": [
       "Cloud Computing",
-      "Career Coaching"
+      "Career Coaching",
+      "Product Management"
     ],
     "preferred_class_types": [
       "Workshop",
-      "Doubt Clearing",
-      "Office Hours"
+      "Cohort Class",
+      "Assessment Review"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -1079,20 +1088,22 @@
       "DevOps"
     ],
     "preferred_class_types": [
-      "Assessment Review"
+      "Doubt Clearing",
+      "Cohort Class"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   },
   {
     "sme_id": "SME092",
     "preferred_topics": [
       "SQL",
-      "Python"
+      "Python",
+      "DevOps"
     ],
     "preferred_class_types": [
-      "Assessment Review",
-      "Cohort Class"
+      "Workshop",
+      "Assessment Review"
     ],
     "preferred_start_time": "09:00",
     "preferred_end_time": "19:00"
@@ -1103,30 +1114,72 @@
       "Python"
     ],
     "preferred_class_types": [
-      "Cohort Class",
-      "Office Hours",
-      "Assessment Review"
+      "Office Hours"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
   },
   {
     "sme_id": "SME094",
     "preferred_topics": [
-      "Java",
-      "Machine Learning"
+      "Java"
     ],
     "preferred_class_types": [
-      "Assessment Review",
-      "Mock Interview"
+      "Office Hours"
     ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
+    "preferred_start_time": "14:00",
+    "preferred_end_time": "18:00"
   },
   {
     "sme_id": "SME095",
     "preferred_topics": [
       "Data Analytics"
+    ],
+    "preferred_class_types": [
+      "Mock Interview",
+      "Cohort Class"
+    ],
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
+  },
+  {
+    "sme_id": "SME096",
+    "preferred_topics": [
+      "JavaScript"
+    ],
+    "preferred_class_types": [
+      "Assessment Review"
+    ],
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "13:00"
+  },
+  {
+    "sme_id": "SME097",
+    "preferred_topics": [
+      "DevOps"
+    ],
+    "preferred_class_types": [
+      "Doubt Clearing"
+    ],
+    "preferred_start_time": "10:00",
+    "preferred_end_time": "14:00"
+  },
+  {
+    "sme_id": "SME098",
+    "preferred_topics": [
+      "Data Structures & Algorithms"
+    ],
+    "preferred_class_types": [
+      "Assessment Review",
+      "Office Hours"
+    ],
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
+  },
+  {
+    "sme_id": "SME099",
+    "preferred_topics": [
+      "Resume Review"
     ],
     "preferred_class_types": [
       "Cohort Class"
@@ -1135,61 +1188,16 @@
     "preferred_end_time": "13:00"
   },
   {
-    "sme_id": "SME096",
-    "preferred_topics": [
-      "JavaScript"
-    ],
-    "preferred_class_types": [
-      "Office Hours",
-      "Cohort Class"
-    ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
-  },
-  {
-    "sme_id": "SME097",
-    "preferred_topics": [
-      "DevOps"
-    ],
-    "preferred_class_types": [
-      "Office Hours",
-      "Doubt Clearing"
-    ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
-  },
-  {
-    "sme_id": "SME098",
-    "preferred_topics": [
-      "Data Structures & Algorithms"
-    ],
-    "preferred_class_types": [
-      "Assessment Review"
-    ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
-  },
-  {
-    "sme_id": "SME099",
-    "preferred_topics": [
-      "Resume Review"
-    ],
-    "preferred_class_types": [
-      "Assessment Review",
-      "Doubt Clearing"
-    ],
-    "preferred_start_time": "09:00",
-    "preferred_end_time": "19:00"
-  },
-  {
     "sme_id": "SME100",
     "preferred_topics": [
-      "Mock Interviews"
+      "Mock Interviews",
+      "Java"
     ],
     "preferred_class_types": [
-      "Workshop"
+      "Workshop",
+      "Office Hours"
     ],
-    "preferred_start_time": "10:00",
-    "preferred_end_time": "14:00"
+    "preferred_start_time": "09:00",
+    "preferred_end_time": "19:00"
   }
 ]

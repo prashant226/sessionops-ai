@@ -77,6 +77,9 @@ def validate():
             dt = None
         check(errors, dt is not None, f"{s['session_id']}: unparsable timestamp")
 
+    perf_keys = [(p["sme_id"], p["topic"], p["class_type"]) for p in performance]
+    check(errors, len(perf_keys) == len(set(perf_keys)), "Duplicate (sme, topic, class_type) performance rows found -- lookups would be order-dependent")
+
     for p in performance:
         check(errors, p["sme_id"] in sme_ids, f"Performance record references unknown SME {p['sme_id']}")
         check(errors, 0 <= p["sessions_delivered"], f"Performance record has negative sessions_delivered")
