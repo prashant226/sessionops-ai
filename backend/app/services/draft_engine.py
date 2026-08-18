@@ -26,6 +26,8 @@ def apply_draft_to_assignment(db: DbSession, session: models.Session, match: Mat
         db.flush()
 
     assignment.candidates_snapshot = snapshot
+    assignment.qualified_count = match.qualified_count
+    assignment.available_count = match.available_count
 
     if top:
         assignment.sme_id = top.sme_id
@@ -92,6 +94,8 @@ def run_reassignment(db: DbSession, assignment: models.Assignment, declining_sme
         exclude.add(assignment.original_sme_id)
     match = evaluate_candidates(db, session, exclude_sme_ids=exclude)
     assignment.candidates_snapshot = _snapshot(match)
+    assignment.qualified_count = match.qualified_count
+    assignment.available_count = match.available_count
     db.commit()
     log(db, assignment.assignment_id, "AI", "Reassignment required. Re-running candidate matching.")
     db.commit()

@@ -135,6 +135,8 @@ class Assignment(Base):
     replacement_attempt_count: Mapped[int] = mapped_column(Integer, default=0)
     calendar_event_id: Mapped[str] = mapped_column(String, nullable=True)
     candidates_snapshot: Mapped[list] = mapped_column(JSON, default=list)
+    qualified_count: Mapped[int] = mapped_column(Integer, nullable=True)
+    available_count: Mapped[int] = mapped_column(Integer, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now, onupdate=_now)
 

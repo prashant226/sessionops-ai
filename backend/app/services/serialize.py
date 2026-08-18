@@ -84,10 +84,9 @@ def serialize_assignment(db: DbSession, a: models.Assignment, include_candidates
 
     exception_detail = None
     if "no_qualified_sme" in (a.flags or []):
-        exception_detail = {"required_expertise": session.required_level + " " + session.topic, "qualified_count": 0}
+        exception_detail = {"required_expertise": session.required_level + " " + session.topic, "qualified_count": a.qualified_count or 0}
     elif "qualified_but_unavailable" in (a.flags or []):
-        ineligible_available = [c for c in snapshot if not c.get("eligible", True)]
-        exception_detail = {"qualified_count": len(snapshot), "available_count": 0}
+        exception_detail = {"qualified_count": a.qualified_count or 0, "available_count": a.available_count or 0}
 
     return schemas.AssignmentOut(
         assignment_id=a.assignment_id,

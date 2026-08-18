@@ -259,13 +259,15 @@ export function SessionDrawer({
               )}
 
               {assignment.sme_id && assignment.status !== "REASSIGNMENT_REQUIRED" && (
-                <div className="mt-4 rounded border border-brand-200 bg-brand-50 p-4">
-                  <p className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-brand-700">AI Recommendation</p>
+                <div className={`mt-4 rounded border p-4 ${assignment.status === "OVERRIDDEN" ? "border-amber-200 bg-amber-50" : "border-brand-200 bg-brand-50"}`}>
+                  <p className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : "text-brand-700"}`}>
+                    {assignment.status === "OVERRIDDEN" || assignment.status === "EDITED" ? "Current Assignment (Ops-selected)" : "AI Recommendation"}
+                  </p>
                   <div className="flex items-baseline justify-between">
                     <p className="text-[17px] font-semibold text-slate-900">{assignment.sme_name}</p>
                     {assignment.match_score !== null && (
-                      <p className="text-[15px] font-semibold text-brand-700">
-                        {assignment.match_score}<span className="text-[12px] font-normal text-brand-500">/100</span>
+                      <p className={`text-[15px] font-semibold ${assignment.status === "OVERRIDDEN" ? "text-amber-700" : "text-brand-700"}`}>
+                        {assignment.match_score}<span className="text-[12px] font-normal opacity-70">/100</span>
                       </p>
                     )}
                   </div>
@@ -286,12 +288,12 @@ export function SessionDrawer({
                 </div>
               )}
 
-              {assignment.candidates.filter((c) => c.sme_id !== assignment.sme_id).length > 0 && assignment.status !== "REASSIGNMENT_REQUIRED" && (
+              {assignment.candidates.filter((c) => c.sme_id !== assignment.sme_id && c.eligible).length > 0 && assignment.status !== "REASSIGNMENT_REQUIRED" && (
                 <div className="mt-4">
                   <p className="mb-2 text-[12.5px] font-semibold uppercase tracking-wide text-slate-500">Other Candidates</p>
                   <div className="space-y-2">
                     {assignment.candidates
-                      .filter((c) => c.sme_id !== assignment.sme_id)
+                      .filter((c) => c.sme_id !== assignment.sme_id && c.eligible)
                       .slice(0, 4)
                       .map((c) => (
                         <CandidateCard key={c.sme_id} candidate={c} />
