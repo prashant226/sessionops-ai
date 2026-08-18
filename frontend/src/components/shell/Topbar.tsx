@@ -48,12 +48,12 @@ export function Topbar({ title, subtitle, actions }: { title: string; subtitle?:
   }
 
   return (
-    <header className="flex h-16 shrink-0 items-center justify-between border-b border-slate-200 bg-white px-6">
-      <div>
-        <h1 className="text-[17px] font-semibold text-slate-900">{title}</h1>
-        {subtitle && <p className="text-[12.5px] text-slate-500">{subtitle}</p>}
+    <header className="flex min-h-16 shrink-0 flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-slate-200 bg-white px-6 py-3">
+      <div className="shrink-0">
+        <h1 className="whitespace-nowrap text-[17px] font-semibold text-slate-900">{title}</h1>
+        {subtitle && <p className="whitespace-nowrap text-[12.5px] text-slate-500">{subtitle}</p>}
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center justify-end gap-3">
         <div ref={boxRef} className="relative">
           <div className="flex h-9 w-64 items-center gap-2 rounded border border-slate-300 bg-white px-3 text-slate-400 focus-within:border-brand-500">
             <Search size={15} />
