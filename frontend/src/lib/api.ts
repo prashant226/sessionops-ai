@@ -58,6 +58,8 @@ export const api = {
     request<NeedsAttentionItem[]>(`/overview/needs-attention?week_start=${week_start}`),
 
   listSessions: (week_start: string) => request<AssignmentOut[]>(`/schedule/sessions?week_start=${week_start}`),
+  resetWeek: (week_start: string) =>
+    request<{ status: string; cleared: number }>(`/schedule/reset?week_start=${week_start}`, { method: "POST" }),
   getAssignment: (id: string) => request<AssignmentOut>(`/schedule/assignments/${id}`),
 
   async generateDraft(week_start: string, onEvent: (e: GenerateEvent) => void): Promise<void> {

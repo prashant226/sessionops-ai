@@ -2,10 +2,11 @@
 
 import { Suspense, useCallback, useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { ChevronLeft, ChevronRight, RefreshCw, Sparkles, CalendarSearch, List, LayoutGrid } from "lucide-react";
+import { ChevronLeft, ChevronRight, RefreshCw, Sparkles, CalendarSearch, List, LayoutGrid, RotateCcw } from "lucide-react";
 import { Topbar } from "@/components/shell/Topbar";
 import { Button } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { ConfirmModal } from "@/components/ui/ConfirmModal";
 import { SessionTable } from "@/components/schedule/SessionTable";
 import { CalendarView } from "@/components/schedule/CalendarView";
 import { SessionDrawer } from "@/components/schedule/SessionDrawer";
@@ -38,6 +39,8 @@ function SchedulePageInner() {
   const [rechecking, setRechecking] = useState(false);
   const [genOpen, setGenOpen] = useState(false);
   const [finalReviewOpen, setFinalReviewOpen] = useState(false);
+  const [resetOpen, setResetOpen] = useState(false);
+  const [resetting, setResetting] = useState(false);
   const [openAssignmentId, setOpenAssignmentId] = useState<string | null>(null);
 
   const load = useCallback(async () => {
@@ -76,6 +79,20 @@ function SchedulePageInner() {
   function closeDrawer() {
     setOpenAssignmentId(null);
     router.replace("/schedule");
+  }
+
+  async function onReset() {
+    setResetting(true);
+    try {
+      const res = await api.resetWeek(weekStart);
+      push("success", "Week reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0.`);
+      setResetOpen(false);
+      await load();
+    } catch (err) {
+      push("error", "Could not reset this week", err instanceof ApiError ? err.message : undefined);
+    } finally {
+      setResetting(false);
+    }
   }
 
   async function onSync() {
@@ -130,6 +147,11 @@ function SchedulePageInner() {
             <Button variant="secondary" size="sm" onClick={() => setFinalReviewOpen(true)}>
               <ClipboardCheck size={14} /> Final Review
             </Button>
+            {rows.length > 0 && (
+              <Button variant="outline-danger" size="sm" onClick={() => setResetOpen(true)}>
+                <RotateCcw size={14} /> Reset
+              </Button>
+            )}
           </>
         }
       />
@@ -197,6 +219,22 @@ function SchedulePageInner() {
       )}
       <GenerateDraftModal open={genOpen} onClose={() => setGenOpen(false)} weekStart={weekStart} onComplete={load} />
       <FinalReviewModal open={finalReviewOpen} onClose={() => setFinalReviewOpen(false)} weekStart={weekStart} onFinalized={load} />
+      <ConfirmModal
+        open={resetOpen}
+        onClose={() => setResetOpen(false)}
+        onConfirm={onReset}
+        loading={resetting}
+        danger
+        title="Reset This Week"
+        confirmLabel="Reset to 0"
+        description={
+          <>
+            This clears every assignment for {weekStart} back to a blank slate. Session, SME, and performance
+            data is not affected. Any real Google Calendar invites already sent are not deleted -- only the
+            app&apos;s own record of them is cleared.
+          </>
+        }
+      />
     </>
   );
 }

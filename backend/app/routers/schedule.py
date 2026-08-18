@@ -46,6 +46,35 @@ def list_sessions(week_start: str, db: DbSession = Depends(get_db)):
     return [serialize_assignment(db, a, include_candidates=False) for a in rows]
 
 
+@router.post("/reset")
+def reset_week(week_start: str, db: DbSession = Depends(get_db)):
+    """Wipes every assignment (and its activity log) for the given week back
+    to a blank slate -- KPIs go to 0, the Review List goes empty, and
+    Generate Draft has to be run again to repopulate it. Source data
+    (Sessions, SMEs, performance, history, preferences, calendar busy
+    blocks) is untouched -- this only clears the operational review state,
+    not the underlying dataset. Does NOT delete any real Google Calendar
+    events already created for approved assignments in live mode -- those
+    stay on the calendar; only the app's own record of them is cleared."""
+    rows = (
+        db.query(models.Assignment)
+        .join(models.Session, models.Assignment.session_id == models.Session.session_id)
+        .filter(models.Session.week_start == week_start)
+        .all()
+    )
+    count = len(rows)
+    for a in rows:
+        db.query(models.AssignmentActivity).filter(models.AssignmentActivity.assignment_id == a.assignment_id).delete()
+        db.delete(a)
+
+    meta = db.get(models.WeekMeta, week_start)
+    if meta:
+        db.delete(meta)
+
+    db.commit()
+    return {"status": "ok", "week_start": week_start, "cleared": count}
+
+
 @router.get("/assignments/{assignment_id}", response_model=schemas.AssignmentOut)
 def get_assignment(assignment_id: str, db: DbSession = Depends(get_db)):
     a = _get_assignment(db, assignment_id)

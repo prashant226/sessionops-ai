@@ -2,13 +2,14 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { RefreshCw, Sparkles, ArrowRight } from "lucide-react";
+import { RefreshCw, Sparkles, ArrowRight, RotateCcw } from "lucide-react";
 import { Topbar } from "@/components/shell/Topbar";
 import { Button } from "@/components/ui/Button";
 import { KpiCard } from "@/components/ui/KpiCard";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { SeverityBadge } from "@/components/ui/SeverityBadge";
+import { ConfirmModal } from "@/components/ui/ConfirmModal";
 import { GenerateDraftModal } from "@/components/schedule/GenerateDraftModal";
 import { api, ApiError } from "@/lib/api";
 import { useApp } from "@/lib/app-context";
@@ -25,6 +26,8 @@ export default function OverviewPage() {
   const [loading, setLoading] = useState(true);
   const [syncing, setSyncing] = useState(false);
   const [genOpen, setGenOpen] = useState(false);
+  const [resetOpen, setResetOpen] = useState(false);
+  const [resetting, setResetting] = useState(false);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -56,6 +59,20 @@ export default function OverviewPage() {
     }, 30000);
     return () => clearInterval(interval);
   }, [weekStart]);
+
+  async function onReset() {
+    setResetting(true);
+    try {
+      const res = await api.resetWeek(weekStart);
+      push("success", "Week reset", `Cleared ${res.cleared} assignment(s). Everything is back to 0 -- run Generate Draft to repopulate.`);
+      setResetOpen(false);
+      await load();
+    } catch (err) {
+      push("error", "Could not reset this week", err instanceof ApiError ? err.message : undefined);
+    } finally {
+      setResetting(false);
+    }
+  }
 
   async function onSync() {
     setSyncing(true);
@@ -89,6 +106,11 @@ export default function OverviewPage() {
             <Button size="sm" onClick={() => setGenOpen(true)}>
               <Sparkles size={14} /> Generate Draft
             </Button>
+            {kpis && kpis.total_sessions > 0 && (
+              <Button variant="outline-danger" size="sm" onClick={() => setResetOpen(true)}>
+                <RotateCcw size={14} /> Reset
+              </Button>
+            )}
           </>
         }
       />
@@ -176,6 +198,25 @@ export default function OverviewPage() {
         )}
       </div>
       <GenerateDraftModal open={genOpen} onClose={() => setGenOpen(false)} weekStart={weekStart} onComplete={load} />
+      <ConfirmModal
+        open={resetOpen}
+        onClose={() => setResetOpen(false)}
+        onConfirm={onReset}
+        loading={resetting}
+        danger
+        title="Reset This Week"
+        confirmLabel="Reset to 0"
+        description={
+          <>
+            This clears every assignment for {weekStart} back to a blank slate -- all counts go to 0, and
+            you&apos;ll need to run Generate Draft again to repopulate the schedule.
+            <br />
+            <br />
+            Session, SME, and performance data is not affected. If any invites were already sent to a real
+            Google Calendar, those events are not deleted -- only the app&apos;s own record of them is cleared.
+          </>
+        }
+      />
     </>
   );
 }
